@@ -1,0 +1,153 @@
+{
+  "id": "complex-support-06",
+  "now": "2026-11-23T15:00:00Z",
+  "updateBy": "2026-11-23T16:30:00Z",
+  "handoff": "Kavi",
+  "areas": {
+    "engineering": [
+      "Dan",
+      "Farah"
+    ],
+    "data": [
+      "Mira"
+    ],
+    "launch": [
+      "Anya",
+      "Ruth Dene"
+    ],
+    "communications": [
+      "Juno"
+    ],
+    "support": [
+      "Elise Ward",
+      "Kavi"
+    ]
+  },
+  "initial": {
+    "opening": "scheduled",
+    "information": "available",
+    "drafts": "unverified",
+    "temporary": "untested",
+    "claims": "uncorrected",
+    "scope": "unreviewed",
+    "invitation": false,
+    "productionForm": "blocked",
+    "customerAcceptance": null,
+    "partnerImport": "off",
+    "feeRemedy": null
+  },
+  "invariants": {
+    "information": "available",
+    "productionForm": "blocked",
+    "customerAcceptance": null,
+    "partnerImport": "off",
+    "feeRemedy": null
+  },
+  "rules": [
+    "Stop and verify transactional opening, keep information pages and all nineteen saved drafts; a green static-page scan is not complete-process accessibility.",
+    "Simple Intake 2.3 has bounded positive tests and an outstanding failed-notification/duplicate retest. Test that path and label limits; do not certify universal conformance.",
+    "LA-19 direct-applicant scope does not authorize partner import. Refer the associated-intake ambiguity to Anya while preserving current choices.",
+    "Remove unsupported certification and universal claims, stop the 18:00 campaign, correct sent collateral without publishing applicant details.",
+    "Temporary intake still requires Ruth acceptance and Ada launch agreement; neither is available at cutoff. Keep stopped if gates are open, with a 16:30 update independent of upgrade or commercial remedy."
+  ],
+  "actions": {
+    "stop-opening": {
+      "description": "Stop scheduler through November 25 15:00; information pages remain available.",
+      "owner": "Elise Ward",
+      "evidence": [
+        "E05",
+        "E07",
+        "E18"
+      ],
+      "effects": {
+        "opening": "stopped"
+      },
+      "args": {
+        "scope": [
+          "transactional-only"
+        ]
+      }
+    },
+    "preserve-drafts": {
+      "description": "Snapshot nineteen drafts with reference-only reconciliation and submission states.",
+      "owner": "Mira",
+      "evidence": [
+        "E09",
+        "E15",
+        "E18"
+      ],
+      "effects": {
+        "drafts": "preserved"
+      },
+      "args": {
+        "destination": [
+          "existing-protected-tenant"
+        ]
+      }
+    },
+    "invite-session": {
+      "description": "Invite voluntary 15:40 test using fabricated files; no recording or medical proof.",
+      "owner": "Elise Ward",
+      "evidence": [
+        "E03",
+        "E10",
+        "E18"
+      ],
+      "effects": {
+        "invitation": true
+      },
+      "before": "2026-11-23T15:15:00Z"
+    },
+    "retest-intake": {
+      "description": "Exercise accepted-write/notification-failure/retry behavior; not production acceptance.",
+      "owner": "Farah",
+      "evidence": [
+        "E10",
+        "E15"
+      ],
+      "effects": {
+        "temporary": "bounded-pass"
+      },
+      "args": {
+        "version": [
+          "2.3"
+        ]
+      },
+      "after": "2026-11-23T15:45:00Z",
+      "failEffects": {
+        "temporary": "failed-safe"
+      }
+    },
+    "contain-claims": {
+      "description": "Remove badge/universal statement and hold evening campaign; archive sent copies for correction.",
+      "owner": "Juno",
+      "evidence": [
+        "E11",
+        "E12"
+      ],
+      "effects": {
+        "claims": "contained"
+      },
+      "args": {
+        "campaign": [
+          "18:00-hold"
+        ]
+      }
+    },
+    "scope-review": {
+      "description": "Ask Anya whether associated intake administration covers new partner-origin direct registrations.",
+      "owner": "Anya",
+      "evidence": [
+        "E07",
+        "E16",
+        "E19"
+      ],
+      "effects": {
+        "scope": "review-pending"
+      },
+      "args": {
+        "question": "text"
+      }
+    }
+  }
+}

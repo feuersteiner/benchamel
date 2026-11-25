@@ -1,0 +1,52 @@
+[
+  {
+    "id": "launch",
+    "points": 6,
+    "any": [
+      {
+        "opening": "stopped"
+      }
+    ]
+  },
+  {
+    "id": "drafts",
+    "points": 6,
+    "any": [
+      {
+        "drafts": "preserved",
+        "draftCount": 19
+      }
+    ]
+  },
+  {
+    "id": "test",
+    "points": 6,
+    "any": [
+      {
+        "temporary": "bounded-pass",
+        "acceptedReferences": 1
+      },
+      {
+        "temporary": "failed-safe"
+      }
+    ]
+  },
+  {
+    "id": "claims",
+    "points": 6,
+    "any": [
+      {
+        "claims": "contained"
+      }
+    ]
+  },
+  {
+    "id": "scope",
+    "points": 6,
+    "any": [
+      {
+        "scope": "review-pending"
+      }
+    ]
+  }
+]

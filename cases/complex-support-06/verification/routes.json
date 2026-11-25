@@ -1,0 +1,44 @@
+[
+  [
+    [
+      "stop-opening",
+      {
+        "scope": "transactional-only"
+      }
+    ],
+    [
+      "preserve-drafts",
+      {
+        "destination": "existing-protected-tenant"
+      }
+    ],
+    [
+      "invite-session",
+      {}
+    ],
+    [
+      "contain-claims",
+      {
+        "campaign": "18:00-hold"
+      }
+    ],
+    [
+      "scope-review",
+      {
+        "question": "Does LA-19 associated intake administration cover partner-origin registrations without importing records?"
+      }
+    ],
+    [
+      "clock",
+      {
+        "to": "2026-11-23T15:45:00Z"
+      }
+    ],
+    [
+      "retest-intake",
+      {
+        "version": "2.3"
+      }
+    ]
+  ]
+]
