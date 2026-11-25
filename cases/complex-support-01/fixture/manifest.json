@@ -28,7 +28,8 @@
   "policies/service.json": "01df7097b16484744df987f429753e9d67f2ef9cec5ef8004b1c1f6eaacb0cc4",
   "policies/support.json": "45e73d08e72996a898c640671f639767b0bb525bf68aaa8b2ea6d40cae5c03d3",
   "provenance.json": "1532832f95586c32ffc2a3a74fc50df5e5f82f5e259be9179fb82ed8db4de2aa",
+  "research.json": "75040e36ca7e8658887ff3b2eca0d2d78c40de95f6952fa83324bc59fd572ac8",
   "sources.json": "b44743b44b1a0b36eea2d24f942cc74c2ddc05b8ed790d65ca46c157576d5ad7",
-  "src/cli.ts": "8beed917ff19944c69eadeced692b61e7cec78460c379c26dbf07fa7b0033df1",
+  "src/cli.ts": "69197055f5b8ee89c24a64d3a7bc2a73e8d7d6e63bc2c3ece0d39952382d6b03",
   "src/workflows.ts": "520d43a1476342475b9db7de33f06cbc0ee90c9e5c25368ef89d8e771e502952"
 }

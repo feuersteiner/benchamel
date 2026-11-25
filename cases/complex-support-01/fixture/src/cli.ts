@@ -36,7 +36,7 @@ async function check(runtime: Runtime) {
   async function walk(dir:string) {
     for (const name of await readdir(dir)) {
       const file=join(dir,name), rel=relative(root,file), st=await lstat(file);
-      if (['state','reply.md','plan.md','judge-assessment.json'].includes(rel)) continue;
+      if (['state','.agents','reply.md','plan.md','judge-assessment.json'].includes(rel)) continue;
       if (st.isDirectory()) await walk(file);
       else { if (!st.isFile()) throw new Error(`Not a regular immutable file: ${rel}`); if(rel!=='manifest.json') found.push(rel); }
     }
