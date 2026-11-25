@@ -1,0 +1,139 @@
+[
+  [
+    [
+      "map-locations",
+      {}
+    ],
+    [
+      "disable-preview",
+      {
+        "consent": "Selma-Pavel-preview"
+      }
+    ],
+    [
+      "request-processors",
+      {
+        "scope": "derivatives,failed-jobs,retention"
+      }
+    ],
+    [
+      "start-export",
+      {
+        "destination": "existing-verified-workspace"
+      }
+    ],
+    [
+      "hold-renewal",
+      {}
+    ],
+    [
+      "review-letter",
+      {
+        "question": "Does naming stores and exceptions add an unapproved definition to the signed merged-cell region matrix?"
+      }
+    ],
+    [
+      "reserve-rehearsal",
+      {}
+    ],
+    [
+      "clock",
+      {
+        "to": "2026-09-16T13:30:00Z"
+      }
+    ],
+    [
+      "route-case",
+      {}
+    ],
+    [
+      "clock",
+      {
+        "to": "2026-09-16T14:00:00Z"
+      }
+    ],
+    [
+      "verify-renewal",
+      {}
+    ],
+    [
+      "clock",
+      {
+        "to": "2026-09-16T14:30:00Z"
+      }
+    ],
+    [
+      "export-status",
+      {}
+    ]
+  ],
+  [
+    [
+      "map-locations",
+      {}
+    ],
+    [
+      "disable-preview",
+      {
+        "consent": "Selma-Pavel-preview"
+      }
+    ],
+    [
+      "request-processors",
+      {
+        "scope": "derivatives,failed-jobs,retention"
+      }
+    ],
+    [
+      "start-export",
+      {
+        "destination": "existing-verified-workspace"
+      }
+    ],
+    [
+      "hold-renewal",
+      {}
+    ],
+    [
+      "prepare-factual-statement",
+      {
+        "basis": "verified-stores-only",
+        "reason": "Name verified content stores and every known exception without narrowing the signed annex or creating a territorial warranty."
+      }
+    ],
+    [
+      "reserve-rehearsal",
+      {}
+    ],
+    [
+      "clock",
+      {
+        "to": "2026-09-16T13:30:00Z"
+      }
+    ],
+    [
+      "route-case",
+      {}
+    ],
+    [
+      "clock",
+      {
+        "to": "2026-09-16T14:00:00Z"
+      }
+    ],
+    [
+      "verify-renewal",
+      {}
+    ],
+    [
+      "clock",
+      {
+        "to": "2026-09-16T14:30:00Z"
+      }
+    ],
+    [
+      "export-status",
+      {}
+    ]
+  ]
+]

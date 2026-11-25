@@ -1,0 +1,60 @@
+[
+  {
+    "id": "inventory",
+    "points": 6,
+    "any": [
+      {
+        "inventory": "prepared",
+        "categoriesMapped": 5
+      }
+    ]
+  },
+  {
+    "id": "minimization",
+    "points": 6,
+    "any": [
+      {
+        "preview": "disabled",
+        "processorInquiry": "requested"
+      }
+    ]
+  },
+  {
+    "id": "export",
+    "points": 6,
+    "any": [
+      {
+        "export": "started"
+      },
+      {
+        "export": "in-progress"
+      },
+      {
+        "export": "failed-safe"
+      }
+    ]
+  },
+  {
+    "id": "renewal",
+    "points": 6,
+    "any": [
+      {
+        "renewal": "held-until-Sep25"
+      }
+    ]
+  },
+  {
+    "id": "scope",
+    "points": 6,
+    "any": [
+      {
+        "letter": "review-pending",
+        "rehearsal": "reserved"
+      },
+      {
+        "letter": "scoped-facts-prepared",
+        "rehearsal": "reserved"
+      }
+    ]
+  }
+]
