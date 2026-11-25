@@ -1,0 +1,18 @@
+{
+  "checked": "2026-11-25",
+  "mode": "offline-only",
+  "case": "complex-support-10",
+  "type_safety": "passed",
+  "pristine_seed_and_source_hashes": "passed",
+  "known_good_operational_routes": 1,
+  "cli_success_and_rejection": "passed",
+  "audit_replay_and_state_invariants": "passed",
+  "exact_six_run_definitions": "passed",
+  "skill_installation_prompt_inclusion_and_freeze": "passed",
+  "native_agentests_validate_luna_and_jev": "passed",
+  "agentests_selection_and_feedback_with_injected_engines": "passed",
+  "semantic_model_acceptance": "not-run",
+  "paid_benchmark_runs": 0,
+  "live_model_credentials_and_provider_network": "not-tested",
+  "eval_expectations": "authored-not-model-validated"
+}
