@@ -2,7 +2,8 @@
 
 Each real case uses a lowercase kebab-case directory name.
 
-- [`dummy-case`](dummy-case/CASE.md): simple file edit using Codex GPT-6-Luna.
+- [`dummy-case`](dummy-case/CASE.md): explicit fixture exception: simple file-edit smoke check using Codex GPT-6-Luna.
+- [`complex-support-01`](complex-support-01/CASE.md): runnable offline HarborEdge support repository; 20 evidence records, finance/service workflows, state replay and semantic 0–100 judge.
 
 ```
 <case-id>/
