@@ -2,4 +2,4 @@
 
 Benchamel is a harness for testing harnesses.
 
-It launches a configured agent in a fresh temporary directory, captures its observable steps, and judges each step against manually authored checks.
+It launches a configured agent in a fresh temporary directory, captures execution artifacts, and judges run outcomes against manually authored checks.
