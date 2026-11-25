@@ -1,0 +1,13 @@
+{
+  "name": "benchamel",
+  "licence": "MIT",
+  "type": "module",
+  "scripts": {},
+  "module": "index.ts",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
