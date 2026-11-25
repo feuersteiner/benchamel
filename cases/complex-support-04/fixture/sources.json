@@ -1,0 +1,57 @@
+{
+	"version": "1.0",
+	"licenseStatus": "First-party public company material; no verified open transcript redistribution license. Only original attributed factual paraphrases; no raw pages, screenshots, audio or personal customer identifiers included.",
+	"sources": [
+		{
+			"id": "S01",
+			"url": "https://37signals.com/podcast/rework-live/",
+			"retrievalUrl": "https://37signals.com/podcast/rework-live/",
+			"stableIdentifier": "37signals:rework:season-2-episode-0093:00:53:37",
+			"publicationDate": "2024-01-24",
+			"retrievedDate": "2026-11-23",
+			"updateUncertainty": "First-party transcript of company pricing statements; not customer-level delivery evidence or a contract. Episode publication date verified in page header; later page edits not independently archived.",
+			"reuseBasis": "original factual paraphrase, no transcript license asserted",
+			"quotesWords": 0,
+			"representation": {
+				"documentId": "E01",
+				"paragraphPrefix": "S01:",
+				"sha256": "fe303800ea3572420a78bf88ec1969f8b5644966e44ff67556232cc50febf63c",
+				"hashScope": "UTF-8 bytes of this local authored paragraph only; not an original page hash"
+			}
+		},
+		{
+			"id": "S02",
+			"url": "https://signalvnoise.com/posts/1287-ask-37signals-how-did-you-come-up-with-pricing-for-your-products",
+			"retrievalUrl": "https://signalvnoise.com/posts/1287-ask-37signals-how-did-you-come-up-with-pricing-for-your-products",
+			"stableIdentifier": "signalvnoise:1287",
+			"publicationDate": "2008-10-09",
+			"retrievedDate": "2026-11-23",
+			"updateUncertainty": "Dated first-party pricing commentary, not an account promise or universal notice obligation. No historical version comparison performed.",
+			"reuseBasis": "original factual paraphrase, no transcript license asserted",
+			"quotesWords": 0,
+			"representation": {
+				"documentId": "E01",
+				"paragraphPrefix": "S02:",
+				"sha256": "4a426abdd5b202675810f5b200a0b014fa5b77ae6facccddc0bb26f614a7ebaf",
+				"hashScope": "UTF-8 bytes of this local authored paragraph only; not an original page hash"
+			}
+		},
+		{
+			"id": "S03",
+			"url": "https://37signals.com/policies/terms/",
+			"retrievalUrl": "https://37signals.com/policies/terms/",
+			"stableIdentifier": "37signals:terms:update-2026-11-12",
+			"publicationDate": "2026-11-12",
+			"retrievedDate": "2026-11-23",
+			"updateUncertainty": "Retrieved page displays November 12 2026 update; not evidence of the wording or authority in any earlier year. PublicationDate records the displayed update date, not original publication.",
+			"reuseBasis": "original factual paraphrase, no transcript license asserted",
+			"quotesWords": 0,
+			"representation": {
+				"documentId": "E01",
+				"paragraphPrefix": "S03:",
+				"sha256": "ee8061cb7dd2d522e58dfe8e7790b85844ea20ef036ecae8689f9922516ae513",
+				"hashScope": "UTF-8 bytes of this local authored paragraph only; not an original page hash"
+			}
+		}
+	]
+}
