@@ -24,7 +24,14 @@ Copy `cases/<case-id>/fixture` into a fresh temporary workspace, then run prefli
 
 Scoring rules live in `cases/<case-id>/JUDGE.md`; `judge.ts` exports `judge(workspace)`, returning a score from 0 to 100.
 
-Codex per-call token counts are read from its local session log and preserved in the transcript. Luna cost uses [standard API prices](https://developers.openai.com/api/docs/models/gpt-6-luna), checked 2026-11-25: $0.10 input, $0.01 cached input, $0.125 cache writes, and $0.50 output per million tokens. Long-context multipliers apply above 272,000 input tokens. This is API-equivalent cost, including all reported calls, rather than subscription billing. Unknown models or missing usage remain `null`.
+Codex per-call token counts are read from its local session log and preserved in the transcript. Cost uses standard API prices, checked 2026-11-25. USD per million tokens, listed as input / cached input / cache writes / output:
+
+- [GPT-6 Luna](https://developers.openai.com/api/docs/models/gpt-6-luna): $0.10 / $0.01 / $0.125 / $0.50.
+- [GPT-6.1 Terra](https://developers.openai.com/api/docs/models/gpt-6.1-terra): $1 / $0.05 / $1.25 / $5.
+- [GPT-6.1 Sol](https://developers.openai.com/api/docs/models/gpt-6.1-sol): $2 / $0.10 / $2.50 / $10.
+- [Jev](https://docs.typesafe.ai/models): $0.042 input; output is free. Supports `jev`, `jev-latest`, `jev-preview`, `jev-1.13.0`, and `jev-1.14.0`.
+
+OpenAI cache-write rates use 30-minute retention. Above 272,000 input tokens, OpenAI input/cache rates double and output rates increase by 1.5 times. Jev has no long-context surcharge or caching discount. This is API-equivalent cost, including all reported calls, rather than subscription billing. Unknown models or missing usage remain `null`. Pricing Jev usage is supported by `tokenCost`; collecting Jev API telemetry is not implemented.
 
 On failure, stop subsequent commands, report the failure, and retain logs and the final workspace.
 

@@ -1,9 +1,6 @@
 import { homedir } from "node:os";
 import { join } from "node:path";
-
-// Standard USD per million tokens, checked 2026-11-25:
-// https://developers.openai.com/api/docs/models/gpt-6-luna
-const luna = { input: 0.10, cached: 0.01, write: 0.125, output: 0.50 };
+import { tokenCost } from "./pricing.ts";
 
 export async function codexMetrics(stdout: string) {
   const threads = new Set<string>();
@@ -48,13 +45,9 @@ export async function codexMetrics(stdout: string) {
   let context = 0;
   for (const call of calls) {
     context = Math.max(context, call.input_tokens);
-    if (call.model !== "gpt-6-luna") { priced = false; continue; }
-    const inputMultiplier = call.input_tokens > 272_000 ? 2 : 1;
-    const outputMultiplier = call.input_tokens > 272_000 ? 1.5 : 1;
-    const uncached = call.input_tokens - call.cached_input_tokens - call.cache_write_input_tokens;
-    cost += ((uncached * luna.input + call.cached_input_tokens * luna.cached +
-      call.cache_write_input_tokens * luna.write) * inputMultiplier +
-      call.output_tokens * luna.output * outputMultiplier) / 1_000_000;
+    const amount = tokenCost(call);
+    if (amount === null) priced = false;
+    else cost += amount;
   }
   return {
     cost: priced ? Math.round(cost * 1e12) / 1e12 : null,
