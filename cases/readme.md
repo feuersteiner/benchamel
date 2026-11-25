@@ -18,3 +18,18 @@ Each real case uses a lowercase kebab-case directory name.
       workproduct/ # final workspace
       result.json # time, cost, score, context_length
 ```
+
+## Real comparison (ten cases; six arms each)
+
+- [complex-support-01](complex-support-01/CASE.md): Exceptional usage invoice and continuity.
+- [complex-support-02](complex-support-02/CASE.md): Security incident during enterprise renewal.
+- [complex-support-03](complex-support-03/CASE.md): Data loss and recovery.
+- [complex-support-04](complex-support-04/CASE.md): Grandfathered pricing and disputed notice.
+- [complex-support-05](complex-support-05/CASE.md): Failed enterprise implementation.
+- [complex-support-06](complex-support-06/CASE.md): Accessibility complaint before launch.
+- [complex-support-07](complex-support-07/CASE.md): Marketplace transaction dispute.
+- [complex-support-08](complex-support-08/CASE.md): Account suspension appeal.
+- [complex-support-09](complex-support-09/CASE.md): Data residency commitment.
+- [complex-support-10](complex-support-10/CASE.md): Product retirement and migration.
+
+Each independent case stack starts at the shared foundation. Dummy-case is a separate smoke fixture. No paid runs or aggregate comparison results are claimed.

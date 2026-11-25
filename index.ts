@@ -1,16 +1,10 @@
-import { run } from "./harness/run.ts";
-
+import { run } from './harness/run.ts';
+import { discoverDefinitions } from './harness/discover.ts';
 try {
-  const definitions: string[] = [];
-  const glob = new Bun.Glob("cases/*/runs/*/run.yaml");
-  for await (const path of glob.scan({ cwd: import.meta.dir, absolute: true, onlyFiles: true })) {
-    definitions.push(path);
-  }
-  if (definitions.length === 0) throw new Error("No run definitions found under cases/.");
-  for (const definition of definitions.sort()) {
-    await run(definition);
-  }
-} catch (error) {
-  console.error(error instanceof Error ? error.message : String(error));
-  process.exitCode = 1;
+  const selection=await discoverDefinitions(import.meta.dir,process.argv.slice(2));
+  if(selection.list)console.log(JSON.stringify(selection,null,2));
+  else for(const definition of selection.definitions)await run(definition);
+} catch(error) {
+  console.error(error instanceof Error?error.message:String(error));
+  process.exitCode=1;
 }

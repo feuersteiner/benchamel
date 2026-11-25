@@ -3,13 +3,17 @@
   "licence": "MIT",
   "type": "module",
   "scripts": {
-    "benchamel": "bun index.ts"
+    "benchamel": "bun index.ts",
+    "check": "tsc --noEmit",
+    "verify": "bun harness/verify.ts"
   },
   "module": "index.ts",
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "1.3.3",
+    "typescript": "5.9.3"
   },
-  "peerDependencies": {
-    "typescript": "^5"
+  "packageManager": "bun@1.3.3",
+  "dependencies": {
+    "agentests": "1.0.1"
   }
 }

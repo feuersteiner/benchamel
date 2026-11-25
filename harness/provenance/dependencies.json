@@ -1,0 +1,8 @@
+{
+  "checked": "2026-11-25",
+  "source": {"repository": "https://github.com/feuersteiner/agent-tests", "branch": "benchmark-v2", "commit": "6142590525acb698e473671f2420022f64adfa71"},
+  "agentests": {"package": "agentests", "version": "1.0.1", "inspectedCommit": "22dc3631af68c52efb0bbc691f18ba87864851f9", "integrity": "sha512-P3BbYhLhykqib4cB2EzkCeXnomx7fdoZJUnvaetJstbSn9Nrzf9JFUft9QLyb9F9RR3MYKEvqBbPRZyUMz3UXw==", "inspected": ["README.md", "core/cli/commands/init/presets.ts", "core/cli/commands/run.ts", "core/src/assert/index.ts", "core/src/engines/decide.ts", "core/src/scope/index.ts"]},
+  "runtime": {"bun":"1.3.3", "node": ">=22", "codex": "0.172.0-alpha.2"},
+  "decisions": {"luna": "gpt-6-luna", "jev": "jev-latest", "jevNote":"Exact agentests Jev preset; mutable provider alias recorded intentionally. Live deployment revision is unavailable without inference and must be recorded at run time when reported."},
+  "noPaidRuns": true
+}

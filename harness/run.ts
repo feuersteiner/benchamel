@@ -57,7 +57,7 @@ export async function run(definitionPath: string): Promise<void> {
     const argv = prompt === undefined
       ? ["/bin/sh", "-c", command]
       : ["/bin/sh", "-c", `${command} "$1"`, "benchamel", prompt];
-    const child = Bun.spawn(argv, { cwd: workspace, stdin: "ignore", stdout: "pipe", stderr: "pipe" });
+    const child = Bun.spawn(argv, { cwd: workspace, env: { ...process.env, BENCHAMEL_CASE: caseDirectory, BENCHAMEL_HARNESS: import.meta.dir }, stdin: "ignore", stdout: "pipe", stderr: "pipe" });
 
     async function capture(stream: ReadableStream<Uint8Array>, name: "stdout" | "stderr") {
       const reader = stream.getReader();
@@ -107,8 +107,10 @@ export async function run(definitionPath: string): Promise<void> {
     } finally {
       result.time = (performance.now() - start) / 1000;
       const metrics = await codexMetrics(agentOutput);
-      result.cost = metrics.cost;
-      result.context_length = metrics.context_length;
+      const runtimeGate = definition.agent.includes("terra-agentests-");
+      result.cost = runtimeGate ? null : metrics.cost;
+      result.context_length = runtimeGate ? null : metrics.context_length;
+      if (runtimeGate) record({ type: "measurement_limit", producer_cost: metrics.cost, producer_context_length: metrics.context_length, treatment_cost: null, reason: "Pinned agentests API does not expose decision usage; total includes unmeasured runtime gate calls." });
       for (const call of metrics.calls) record({ type: "usage", ...call });
     }
     const score = await judge(workspace);
