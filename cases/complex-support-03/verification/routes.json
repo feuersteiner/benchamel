@@ -1,0 +1,60 @@
+[
+  [
+    [
+      "inspect-backups",
+      {}
+    ],
+    [
+      "allocate-baseline",
+      {
+        "consent": "Owen-Sera-read-only"
+      }
+    ],
+    [
+      "prepare-discrepancy",
+      {}
+    ],
+    [
+      "refund-request",
+      {
+        "amount": "240000",
+        "method": "original"
+      }
+    ],
+    [
+      "classify-supplier",
+      {
+        "question": "Does Reed fixed-price reconstruction qualify before reservation is incurred?"
+      }
+    ]
+  ],
+  [
+    [
+      "inspect-backups",
+      {}
+    ],
+    [
+      "focus-chain",
+      {
+        "reason": "Retain application engineer for the missing incremental segment and safe event ordering."
+      }
+    ],
+    [
+      "prepare-discrepancy",
+      {}
+    ],
+    [
+      "refund-request",
+      {
+        "amount": "240000",
+        "method": "original"
+      }
+    ],
+    [
+      "classify-supplier",
+      {
+        "question": "Does Reed fixed-price reconstruction qualify before reservation is incurred?"
+      }
+    ]
+  ]
+]

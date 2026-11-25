@@ -1,0 +1,1 @@
+These are trusted deterministic state routes, outside agent inputs. They prove operational solvability and alternatives, not semantic model acceptance. All commands execute against fresh temporary copies. No score/result artifacts represent benchmark inference.
