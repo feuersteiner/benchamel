@@ -1,0 +1,5 @@
+preflight:
+  - "bun \"$BENCHAMEL_HARNESS/treatments/prepare.ts\" terra-agentests-jev-skill"
+  - "bun run check"
+agent: "bun \"$BENCHAMEL_HARNESS/treatments/agent.ts\" terra-agentests-jev-skill"
+starter_prompt: "Read AGENTS.md and README.md, inspect the policies and structured records, and read all twenty docs/evidence records. Advance H-482 through the executable local support workflows as Niko, then write reply.md and plan.md backed by actual simulated state, commitments and handoff. Preserve immutable sources/code/policies; mutate only CLI runtime state and the two outputs. No external actions."
