@@ -1,0 +1,68 @@
+[
+  {
+    "id": "appeal",
+    "points": 6,
+    "any": [
+      {
+        "appeal": "submitted"
+      }
+    ]
+  },
+  {
+    "id": "notice",
+    "points": 6,
+    "any": [
+      {
+        "notice": "corrected"
+      }
+    ]
+  },
+  {
+    "id": "credentials",
+    "points": 6,
+    "any": [
+      {
+        "credentialReview": "scoped"
+      },
+      {
+        "credentialReview": "interpretation-pending"
+      }
+    ]
+  },
+  {
+    "id": "information-route",
+    "points": 6,
+    "any": [
+      {
+        "route": "export",
+        "export": "requested"
+      },
+      {
+        "route": "export",
+        "export": "prepared"
+      },
+      {
+        "route": "export",
+        "export": "failed-safe"
+      },
+      {
+        "route": "restricted-view",
+        "restrictedView": "active-until-Nov13-18"
+      }
+    ]
+  },
+  {
+    "id": "route-safety",
+    "points": 6,
+    "any": [
+      {
+        "route": "export",
+        "exportFieldsVerified": true
+      },
+      {
+        "route": "restricted-view",
+        "gatewayDeniedResearch": true
+      }
+    ]
+  }
+]

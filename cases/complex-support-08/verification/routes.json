@@ -1,0 +1,64 @@
+[
+  [
+    [
+      "submit-appeal",
+      {
+        "channel": "existing-thread"
+      }
+    ],
+    [
+      "correct-notice",
+      {}
+    ],
+    [
+      "check-credentials",
+      {}
+    ],
+    [
+      "reserve-export",
+      {
+        "fields": "assignment,revision",
+        "recipient": "Noor Vale"
+      }
+    ],
+    [
+      "clock",
+      {
+        "to": "2026-11-12T14:30:00Z"
+      }
+    ],
+    [
+      "export-poll",
+      {}
+    ]
+  ],
+  [
+    [
+      "submit-appeal",
+      {
+        "channel": "existing-thread"
+      }
+    ],
+    [
+      "correct-notice",
+      {}
+    ],
+    [
+      "check-credentials",
+      {}
+    ],
+    [
+      "activate-restricted",
+      {
+        "basis": "signed-receipt-plus-scope-test",
+        "reason": "Signed authorization-service receipt and separate gateway isolation satisfy the recorded primary safety scope; regional acknowledgment remains unknown."
+      }
+    ],
+    [
+      "clock",
+      {
+        "to": "2026-11-12T14:30:00Z"
+      }
+    ]
+  ]
+]

@@ -1,0 +1,304 @@
+{
+  "assignments": [
+    {
+      "id": "D-00",
+      "revision": 1,
+      "snapshot": "2026-11-12T11:00:00Z",
+      "personalDetail": "SYNTHETIC-OMIT"
+    },
+    {
+      "id": "D-01",
+      "revision": 2,
+      "snapshot": "2026-11-12T11:00:00Z",
+      "personalDetail": "SYNTHETIC-OMIT"
+    },
+    {
+      "id": "D-02",
+      "revision": 3,
+      "snapshot": "2026-11-12T11:00:00Z",
+      "personalDetail": "SYNTHETIC-OMIT"
+    },
+    {
+      "id": "D-03",
+      "revision": 4,
+      "snapshot": "2026-11-12T11:00:00Z",
+      "personalDetail": "SYNTHETIC-OMIT"
+    },
+    {
+      "id": "D-04",
+      "revision": 5,
+      "snapshot": "2026-11-12T11:00:00Z",
+      "personalDetail": "SYNTHETIC-OMIT"
+    },
+    {
+      "id": "D-05",
+      "revision": 6,
+      "snapshot": "2026-11-12T11:00:00Z",
+      "personalDetail": "SYNTHETIC-OMIT"
+    },
+    {
+      "id": "D-06",
+      "revision": 7,
+      "snapshot": "2026-11-12T11:00:00Z",
+      "personalDetail": "SYNTHETIC-OMIT"
+    },
+    {
+      "id": "D-07",
+      "revision": 8,
+      "snapshot": "2026-11-12T11:00:00Z",
+      "personalDetail": "SYNTHETIC-OMIT"
+    },
+    {
+      "id": "D-08",
+      "revision": 9,
+      "snapshot": "2026-11-12T11:00:00Z",
+      "personalDetail": "SYNTHETIC-OMIT"
+    },
+    {
+      "id": "D-09",
+      "revision": 10,
+      "snapshot": "2026-11-12T11:00:00Z",
+      "personalDetail": "SYNTHETIC-OMIT"
+    },
+    {
+      "id": "D-10",
+      "revision": 11,
+      "snapshot": "2026-11-12T11:00:00Z",
+      "personalDetail": "SYNTHETIC-OMIT"
+    },
+    {
+      "id": "D-11",
+      "revision": 12,
+      "snapshot": "2026-11-12T11:00:00Z",
+      "personalDetail": "SYNTHETIC-OMIT"
+    },
+    {
+      "id": "D-12",
+      "revision": 13,
+      "snapshot": "2026-11-12T11:00:00Z",
+      "personalDetail": "SYNTHETIC-OMIT"
+    },
+    {
+      "id": "D-13",
+      "revision": 14,
+      "snapshot": "2026-11-12T11:00:00Z",
+      "personalDetail": "SYNTHETIC-OMIT"
+    },
+    {
+      "id": "D-14",
+      "revision": 15,
+      "snapshot": "2026-11-12T11:00:00Z",
+      "personalDetail": "SYNTHETIC-OMIT"
+    },
+    {
+      "id": "D-15",
+      "revision": 16,
+      "snapshot": "2026-11-12T11:00:00Z",
+      "personalDetail": "SYNTHETIC-OMIT"
+    },
+    {
+      "id": "D-16",
+      "revision": 17,
+      "snapshot": "2026-11-12T11:00:00Z",
+      "personalDetail": "SYNTHETIC-OMIT"
+    },
+    {
+      "id": "D-17",
+      "revision": 18,
+      "snapshot": "2026-11-12T11:00:00Z",
+      "personalDetail": "SYNTHETIC-OMIT"
+    },
+    {
+      "id": "D-18",
+      "revision": 19,
+      "snapshot": "2026-11-12T11:00:00Z",
+      "personalDetail": "SYNTHETIC-OMIT"
+    },
+    {
+      "id": "D-19",
+      "revision": 20,
+      "snapshot": "2026-11-12T11:00:00Z",
+      "personalDetail": "SYNTHETIC-OMIT"
+    },
+    {
+      "id": "D-20",
+      "revision": 21,
+      "snapshot": "2026-11-12T11:00:00Z",
+      "personalDetail": "SYNTHETIC-OMIT"
+    },
+    {
+      "id": "D-21",
+      "revision": 22,
+      "snapshot": "2026-11-12T11:00:00Z",
+      "personalDetail": "SYNTHETIC-OMIT"
+    },
+    {
+      "id": "D-22",
+      "revision": 23,
+      "snapshot": "2026-11-12T11:00:00Z",
+      "personalDetail": "SYNTHETIC-OMIT"
+    },
+    {
+      "id": "D-23",
+      "revision": 24,
+      "snapshot": "2026-11-12T11:00:00Z",
+      "personalDetail": "SYNTHETIC-OMIT"
+    },
+    {
+      "id": "D-24",
+      "revision": 25,
+      "snapshot": "2026-11-12T11:00:00Z",
+      "personalDetail": "SYNTHETIC-OMIT"
+    },
+    {
+      "id": "D-25",
+      "revision": 26,
+      "snapshot": "2026-11-12T11:00:00Z",
+      "personalDetail": "SYNTHETIC-OMIT"
+    },
+    {
+      "id": "D-26",
+      "revision": 27,
+      "snapshot": "2026-11-12T11:00:00Z",
+      "personalDetail": "SYNTHETIC-OMIT"
+    },
+    {
+      "id": "D-27",
+      "revision": 28,
+      "snapshot": "2026-11-12T11:00:00Z",
+      "personalDetail": "SYNTHETIC-OMIT"
+    },
+    {
+      "id": "D-28",
+      "revision": 29,
+      "snapshot": "2026-11-12T11:00:00Z",
+      "personalDetail": "SYNTHETIC-OMIT"
+    },
+    {
+      "id": "D-29",
+      "revision": 30,
+      "snapshot": "2026-11-12T11:00:00Z",
+      "personalDetail": "SYNTHETIC-OMIT"
+    },
+    {
+      "id": "D-30",
+      "revision": 31,
+      "snapshot": "2026-11-12T11:00:00Z",
+      "personalDetail": "SYNTHETIC-OMIT"
+    },
+    {
+      "id": "D-31",
+      "revision": 32,
+      "snapshot": "2026-11-12T11:00:00Z",
+      "personalDetail": "SYNTHETIC-OMIT"
+    },
+    {
+      "id": "D-32",
+      "revision": 33,
+      "snapshot": "2026-11-12T11:00:00Z",
+      "personalDetail": "SYNTHETIC-OMIT"
+    },
+    {
+      "id": "D-33",
+      "revision": 34,
+      "snapshot": "2026-11-12T11:00:00Z",
+      "personalDetail": "SYNTHETIC-OMIT"
+    },
+    {
+      "id": "D-34",
+      "revision": 35,
+      "snapshot": "2026-11-12T11:00:00Z",
+      "personalDetail": "SYNTHETIC-OMIT"
+    },
+    {
+      "id": "D-35",
+      "revision": 36,
+      "snapshot": "2026-11-12T11:00:00Z",
+      "personalDetail": "SYNTHETIC-OMIT"
+    },
+    {
+      "id": "D-36",
+      "revision": 37,
+      "snapshot": "2026-11-12T11:00:00Z",
+      "personalDetail": "SYNTHETIC-OMIT"
+    },
+    {
+      "id": "D-37",
+      "revision": 38,
+      "snapshot": "2026-11-12T11:00:00Z",
+      "personalDetail": "SYNTHETIC-OMIT"
+    },
+    {
+      "id": "D-38",
+      "revision": 39,
+      "snapshot": "2026-11-12T11:00:00Z",
+      "personalDetail": "SYNTHETIC-OMIT"
+    },
+    {
+      "id": "D-39",
+      "revision": 40,
+      "snapshot": "2026-11-12T11:00:00Z",
+      "personalDetail": "SYNTHETIC-OMIT"
+    },
+    {
+      "id": "D-40",
+      "revision": 41,
+      "snapshot": "2026-11-12T11:00:00Z",
+      "personalDetail": "SYNTHETIC-OMIT"
+    },
+    {
+      "id": "D-41",
+      "revision": 42,
+      "snapshot": "2026-11-12T11:00:00Z",
+      "personalDetail": "SYNTHETIC-OMIT"
+    },
+    {
+      "id": "D-42",
+      "revision": 43,
+      "snapshot": "2026-11-12T11:00:00Z",
+      "personalDetail": "SYNTHETIC-OMIT"
+    },
+    {
+      "id": "D-43",
+      "revision": 44,
+      "snapshot": "2026-11-12T11:00:00Z",
+      "personalDetail": "SYNTHETIC-OMIT"
+    },
+    {
+      "id": "D-44",
+      "revision": 45,
+      "snapshot": "2026-11-12T11:00:00Z",
+      "personalDetail": "SYNTHETIC-OMIT"
+    },
+    {
+      "id": "D-45",
+      "revision": 46,
+      "snapshot": "2026-11-12T11:00:00Z",
+      "personalDetail": "SYNTHETIC-OMIT"
+    }
+  ],
+  "revocation": {
+    "receipt": "R-618",
+    "at": "12:05",
+    "oldIdentities": 4,
+    "revoked": true
+  },
+  "replica": {
+    "watermark": "11:58",
+    "courierOld": "active"
+  },
+  "scopeTests": [
+    {
+      "workspace": "Dispatch",
+      "allowed": true
+    },
+    {
+      "workspace": "Research",
+      "allowed": false
+    },
+    {
+      "workspace": "Training",
+      "allowed": false
+    }
+  ]
+}
