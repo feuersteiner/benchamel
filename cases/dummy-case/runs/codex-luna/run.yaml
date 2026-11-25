@@ -1,0 +1,4 @@
+preflight:
+  - test -f answer.txt
+agent: codex -a never exec --ignore-user-config --model gpt-6-luna --sandbox workspace-write --skip-git-repo-check --json
+starter_prompt: Replace answer.txt with exactly hello, world followed by a newline. Do not modify any other files.

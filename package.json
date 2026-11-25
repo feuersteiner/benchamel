@@ -2,7 +2,9 @@
   "name": "benchamel",
   "licence": "MIT",
   "type": "module",
-  "scripts": {},
+  "scripts": {
+    "benchamel": "bun index.ts"
+  },
   "module": "index.ts",
   "devDependencies": {
     "@types/bun": "latest"
