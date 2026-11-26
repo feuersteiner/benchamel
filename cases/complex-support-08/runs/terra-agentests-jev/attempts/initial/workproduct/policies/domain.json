@@ -1,0 +1,176 @@
+{
+  "id": "complex-support-08",
+  "now": "2026-11-12T13:00:00Z",
+  "updateBy": "2026-11-12T14:30:00Z",
+  "handoff": "Jae Lin",
+  "areas": {
+    "security": [
+      "Arun",
+      "Tomas"
+    ],
+    "appeal": [
+      "Tessa"
+    ],
+    "data": [
+      "Sana"
+    ],
+    "commercial": [
+      "Mira Chen"
+    ],
+    "support": [
+      "Mira Chen",
+      "Jae Lin"
+    ]
+  },
+  "initial": {
+    "appeal": "not-submitted",
+    "notice": "uncorrected",
+    "credentialReview": "none",
+    "route": "unselected",
+    "export": "none",
+    "restrictedView": "off",
+    "ordinaryLogin": "disabled",
+    "integration": "disabled",
+    "publication": "disabled",
+    "externalLinks": "disabled",
+    "research": "quarantined",
+    "merits": "unresolved",
+    "retention": "2026-11-26T18:00:00Z"
+  },
+  "invariants": {
+    "ordinaryLogin": "disabled",
+    "integration": "disabled",
+    "publication": "disabled",
+    "externalLinks": "disabled",
+    "research": "quarantined",
+    "merits": "unresolved",
+    "retention": "2026-11-26T18:00:00Z"
+  },
+  "rules": [
+    "Submit existing authenticated appeal to independent Tessa and correct confirmed-harmful label to precautionary grounds; do not require a new inaccessible form.",
+    "Signed R-618 and passed scope test are current; stale replica watermark is earlier, while regional acknowledgment remains unknown. Keep both evidence limits visible.",
+    "Choose restricted Dispatch view under a reasoned A-882 primary-receipt reading or the separately authorized minimized snapshot export; bounded interpretation is also valid.",
+    "Restricted view means newly challenged Noor/Felix sessions only, expiring November 13 18:00; publication, integration, old signed links and Research remain blocked.",
+    "Export preserves forty-six changed assignments through 11:00 without reactivating distribution. No purchase, admission, full reinstatement or guaranteed appeal outcome."
+  ],
+  "actions": {
+    "submit-appeal": {
+      "description": "Attach existing thread and minimized grounds to Tessa’s 14:00 review.",
+      "owner": "Mira Chen",
+      "evidence": [
+        "E07",
+        "E10",
+        "E11"
+      ],
+      "effects": {
+        "appeal": "submitted"
+      },
+      "args": {
+        "channel": [
+          "existing-thread"
+        ]
+      }
+    },
+    "correct-notice": {
+      "description": "Correct inaccurate confirmed-harmful label and two-hour retired-playbook assurance.",
+      "owner": "Mira Chen",
+      "evidence": [
+        "E05",
+        "E07",
+        "E12"
+      ],
+      "effects": {
+        "notice": "corrected"
+      }
+    },
+    "check-credentials": {
+      "description": "Compare signed receipt and scope test against stale replica and missing regional acknowledgment.",
+      "owner": "Arun",
+      "evidence": [
+        "E08",
+        "E09",
+        "E18"
+      ],
+      "effects": {
+        "credentialReview": "scoped"
+      }
+    },
+    "request-interpretation": {
+      "description": "Ask Elena whether regional acknowledgment is required; do not reenable features while waiting.",
+      "owner": "Arun",
+      "evidence": [
+        "E08",
+        "E18"
+      ],
+      "effects": {
+        "credentialReview": "interpretation-pending"
+      },
+      "args": {
+        "question": "text"
+      }
+    },
+    "reserve-export": {
+      "description": "Reserve 13:15 independent snapshot slot with confirmed fields and recipient.",
+      "owner": "Sana",
+      "evidence": [
+        "E10",
+        "E14",
+        "E16"
+      ],
+      "effects": {
+        "route": "export",
+        "export": "requested"
+      },
+      "args": {
+        "fields": [
+          "assignment,revision"
+        ],
+        "recipient": [
+          "Noor Vale"
+        ]
+      },
+      "before": "2026-11-12T13:05:00Z"
+    },
+    "export-poll": {
+      "description": "Produce independent minimized snapshot artifact, no gateway reactivation.",
+      "owner": "Sana",
+      "evidence": [
+        "E09",
+        "E10",
+        "E16"
+      ],
+      "effects": {
+        "export": "prepared"
+      },
+      "requires": {
+        "export": "requested"
+      },
+      "after": "2026-11-12T14:30:00Z",
+      "failEffects": {
+        "export": "failed-safe"
+      }
+    },
+    "activate-restricted": {
+      "description": "Apply A-882 primary-receipt interpretation to isolated challenged Dispatch view only.",
+      "owner": "Tomas",
+      "evidence": [
+        "E08",
+        "E10",
+        "E18"
+      ],
+      "effects": {
+        "route": "restricted-view",
+        "restrictedView": "active-until-Nov13-18"
+      },
+      "requires": {
+        "credentialReview": "scoped"
+      },
+      "args": {
+        "basis": [
+          "signed-receipt-plus-scope-test"
+        ],
+        "reason": "text"
+      }
+    }
+  }
+}

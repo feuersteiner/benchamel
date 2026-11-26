@@ -1,0 +1,12 @@
+Noor,
+
+The restriction is precautionary while unusual credential use, repeated package retrieval and a Research-package distribution concern are reviewed under the account-security and harmful-distribution policies. The original email incorrectly described a confirmed harmful finding. The case notice has been corrected to state the precautionary grounds; the confirmed correction is recorded in the case. Sorry for that error, the inaccessible appeal form, and the disruption to tomorrow’s contractor briefings. The earlier promise of ordinary read-only access within two hours relied on retired guidance and cannot be honored.
+
+The existing support thread has been submitted to independent reviewer Tessa Venn; no new form, admission or purchase is required. The runner migration and laboratory explanation are part of the review. The available evidence does not yet establish intent or a final violation. Tessa’s initial update is targeted for 16:00 UTC, without a guaranteed decision. Detection rules and the reporter’s identity cannot be shared, but the account-level grounds above can be discussed.
+
+Ordinary login, integrations, publication and external signed links remain disabled, and Research remains quarantined. Restricted Dispatch access is not active: a credential-control question remains under review. The independent Dispatch snapshot has been prepared for the export route. Its inventory contains 46 assignment changes and revision timestamps through 11:00 UTC; it excludes Research, contact details and attachments. It has not been delivered. Privacy review, final validation and confirmation of the fields and secure destination are still needed before delivery. Please confirm whether these fields meet the meeting need and that the existing secure support download channel remains suitable. No credentials are needed. The November 10 local export and manual reconstruction remain a fallback, although that export lacks the 46 changes.
+
+The next written update is due at 14:30 UTC, with a further update by 16:00 even if review remains open. A service-credit request can be considered separately; no credit has been approved. Monthly renewal remains unchanged unless separately authorized. The annual quote offers a named account team and scheduled security-planning sessions; it does not guarantee access or appeal success. An annual purchase is not a condition of review or assistance.
+
+Mira Chen
+Support

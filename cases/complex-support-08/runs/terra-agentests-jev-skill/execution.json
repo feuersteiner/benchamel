@@ -1,0 +1,53 @@
+{
+  "case": "complex-support-08",
+  "arm": "terra-agentests-jev-skill",
+  "pid": 99709,
+  "startedAt": "2026-11-26T05:29:50.265Z",
+  "status": "failed",
+  "attempt": 2,
+  "executionCommit": "c560bd230bd96c6ad13e73fa72bfa73a97b9eea5",
+  "endedAt": "2026-11-26T05:32:52.789Z",
+  "exit": 1,
+  "source_commit": "3191365d2b15c42708fff7b5130d978c38edf6f6",
+  "execution_commit": "c560bd230bd96c6ad13e73fa72bfa73a97b9eea5",
+  "versions": {
+    "codex": "codex-cli 0.172.0-alpha.2",
+    "bun": "1.3.3",
+    "node": "v22.19.0"
+  },
+  "transport": "native-single-question",
+  "errors": [
+    "agent exited with code 1."
+  ],
+  "failure_reason": "runtime-turn-budget",
+  "gate_reviews": [
+    {
+      "status": "uncertain",
+      "pass": false,
+      "findings": 4,
+      "decisions": 75
+    },
+    {
+      "status": "uncertain",
+      "pass": false,
+      "findings": 1,
+      "decisions": 75
+    },
+    {
+      "status": "uncertain",
+      "pass": false,
+      "findings": 2,
+      "decisions": 75
+    },
+    {
+      "status": "uncertain",
+      "pass": false,
+      "findings": 3,
+      "decisions": 75
+    }
+  ],
+  "task_turns": 4,
+  "retained_final_replicates": 1,
+  "initial_attempt_preserved": true,
+  "paced_attempt_preserved": false
+}

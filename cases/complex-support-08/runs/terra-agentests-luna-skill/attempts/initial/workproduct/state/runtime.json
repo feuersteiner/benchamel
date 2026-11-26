@@ -1,0 +1,292 @@
+{
+  "state": {
+    "now": "2026-11-12T13:00:00Z",
+    "domain": {
+      "appeal": "submitted",
+      "notice": "corrected",
+      "credentialReview": "scoped",
+      "route": "restricted-view",
+      "export": "none",
+      "restrictedView": "active-until-Nov13-18",
+      "ordinaryLogin": "disabled",
+      "integration": "disabled",
+      "publication": "disabled",
+      "externalLinks": "disabled",
+      "research": "quarantined",
+      "merits": "unresolved",
+      "retention": "2026-11-26T18:00:00Z",
+      "credentialEvidence": {
+        "signed": {
+          "receipt": "R-618",
+          "at": "12:05",
+          "oldIdentities": 4,
+          "revoked": true
+        },
+        "replica": {
+          "watermark": "11:58",
+          "courierOld": "active"
+        },
+        "regionalAcknowledgment": "unknown"
+      },
+      "gatewayDeniedResearch": true,
+      "challenged": [
+        "Noor Vale",
+        "Felix Rowan"
+      ],
+      "expires": "2026-11-13T18:00:00Z"
+    },
+    "tasks": [
+      {
+        "area": "security",
+        "owner": "Arun",
+        "due": "2026-11-12T14:00:00Z",
+        "action": "Check regional acknowledgment at 13:20 and report scope; keep old credentials and links blocked. Tomas to verify challenged view and expiry."
+      },
+      {
+        "area": "appeal",
+        "owner": "Tessa",
+        "due": "2026-11-12T16:00:00Z",
+        "action": "Review disputed distribution and proportionality independently; report outcome or narrow outstanding questions and next checkpoint."
+      },
+      {
+        "area": "data",
+        "owner": "Sana",
+        "due": "2026-11-12T14:30:00Z",
+        "action": "Stand by for authorized minimized export if restricted view fails; no export requested or delivered."
+      },
+      {
+        "area": "commercial",
+        "owner": "Mira Chen",
+        "due": "2026-11-12T18:00:00Z",
+        "action": "Document impact and route any service-credit request separately; renewal is voluntary."
+      },
+      {
+        "area": "support",
+        "owner": "Mira Chen",
+        "due": "2026-11-12T14:30:00Z",
+        "action": "Update Noor on actual view and challenge, correction and review; hand off to Jae at 18:00."
+      }
+    ],
+    "commitments": {
+      "nextUpdate": "2026-11-12T14:30:00Z",
+      "domain": {
+        "appeal": "submitted",
+        "notice": "corrected",
+        "credentialReview": "scoped",
+        "route": "restricted-view",
+        "export": "none",
+        "restrictedView": "active-until-Nov13-18",
+        "ordinaryLogin": "disabled",
+        "integration": "disabled",
+        "publication": "disabled",
+        "externalLinks": "disabled",
+        "research": "quarantined",
+        "merits": "unresolved",
+        "retention": "2026-11-26T18:00:00Z",
+        "credentialEvidence": {
+          "signed": {
+            "receipt": "R-618",
+            "at": "12:05",
+            "oldIdentities": 4,
+            "revoked": true
+          },
+          "replica": {
+            "watermark": "11:58",
+            "courierOld": "active"
+          },
+          "regionalAcknowledgment": "unknown"
+        },
+        "gatewayDeniedResearch": true,
+        "challenged": [
+          "Noor Vale",
+          "Felix Rowan"
+        ],
+        "expires": "2026-11-13T18:00:00Z"
+      }
+    },
+    "handoff": {
+      "to": "Jae Lin",
+      "note": "Jae Lin takes over at 18:00 UTC. Follow up actual challenged access, Arun regional acknowledgment and 14:00 checkpoint, Tessa 16:00 review, customer updates and reminder before November 13 18:00 expiry. Keep appeal open and blocked features unchanged; export is not requested.",
+      "domain": {
+        "appeal": "submitted",
+        "notice": "corrected",
+        "credentialReview": "scoped",
+        "route": "restricted-view",
+        "export": "none",
+        "restrictedView": "active-until-Nov13-18",
+        "ordinaryLogin": "disabled",
+        "integration": "disabled",
+        "publication": "disabled",
+        "externalLinks": "disabled",
+        "research": "quarantined",
+        "merits": "unresolved",
+        "retention": "2026-11-26T18:00:00Z",
+        "credentialEvidence": {
+          "signed": {
+            "receipt": "R-618",
+            "at": "12:05",
+            "oldIdentities": 4,
+            "revoked": true
+          },
+          "replica": {
+            "watermark": "11:58",
+            "courierOld": "active"
+          },
+          "regionalAcknowledgment": "unknown"
+        },
+        "gatewayDeniedResearch": true,
+        "challenged": [
+          "Noor Vale",
+          "Felix Rowan"
+        ],
+        "expires": "2026-11-13T18:00:00Z"
+      },
+      "tasks": [
+        {
+          "area": "security",
+          "owner": "Arun",
+          "due": "2026-11-12T14:00:00Z",
+          "action": "Check regional acknowledgment at 13:20 and report scope; keep old credentials and links blocked. Tomas to verify challenged view and expiry."
+        },
+        {
+          "area": "appeal",
+          "owner": "Tessa",
+          "due": "2026-11-12T16:00:00Z",
+          "action": "Review disputed distribution and proportionality independently; report outcome or narrow outstanding questions and next checkpoint."
+        },
+        {
+          "area": "data",
+          "owner": "Sana",
+          "due": "2026-11-12T14:30:00Z",
+          "action": "Stand by for authorized minimized export if restricted view fails; no export requested or delivered."
+        },
+        {
+          "area": "commercial",
+          "owner": "Mira Chen",
+          "due": "2026-11-12T18:00:00Z",
+          "action": "Document impact and route any service-credit request separately; renewal is voluntary."
+        },
+        {
+          "area": "support",
+          "owner": "Mira Chen",
+          "due": "2026-11-12T14:30:00Z",
+          "action": "Update Noor on actual view and challenge, correction and review; hand off to Jae at 18:00."
+        }
+      ]
+    }
+  },
+  "audit": [
+    {
+      "seq": 1,
+      "command": "submit-appeal",
+      "args": {
+        "channel": "existing-thread"
+      },
+      "at": "2026-11-12T13:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 2,
+      "command": "correct-notice",
+      "args": {},
+      "at": "2026-11-12T13:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 3,
+      "command": "check-credentials",
+      "args": {},
+      "at": "2026-11-12T13:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 4,
+      "command": "activate-restricted",
+      "args": {
+        "basis": "signed-receipt-plus-scope-test",
+        "reason": "A-882 specifies the signed primary revocation receipt and passed scope test. R-618 postdates the replica watermark; regional acknowledgment remains unknown. The independent challenged Dispatch path is isolated from regional signed-link validation, and external links remain blocked. This is a bounded primary-receipt interpretation, not a claim of global propagation."
+      },
+      "at": "2026-11-12T13:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 5,
+      "command": "task",
+      "args": {
+        "area": "security",
+        "owner": "Arun",
+        "due": "2026-11-12T14:00:00Z",
+        "action": "Check regional acknowledgment at 13:20 and report scope; keep old credentials and links blocked. Tomas to verify challenged view and expiry."
+      },
+      "at": "2026-11-12T13:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 6,
+      "command": "task",
+      "args": {
+        "area": "appeal",
+        "owner": "Tessa",
+        "due": "2026-11-12T16:00:00Z",
+        "action": "Review disputed distribution and proportionality independently; report outcome or narrow outstanding questions and next checkpoint."
+      },
+      "at": "2026-11-12T13:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 7,
+      "command": "task",
+      "args": {
+        "area": "data",
+        "owner": "Sana",
+        "due": "2026-11-12T14:30:00Z",
+        "action": "Stand by for authorized minimized export if restricted view fails; no export requested or delivered."
+      },
+      "at": "2026-11-12T13:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 8,
+      "command": "task",
+      "args": {
+        "area": "commercial",
+        "owner": "Mira Chen",
+        "due": "2026-11-12T18:00:00Z",
+        "action": "Document impact and route any service-credit request separately; renewal is voluntary."
+      },
+      "at": "2026-11-12T13:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 9,
+      "command": "task",
+      "args": {
+        "area": "support",
+        "owner": "Mira Chen",
+        "due": "2026-11-12T14:30:00Z",
+        "action": "Update Noor on actual view and challenge, correction and review; hand off to Jae at 18:00."
+      },
+      "at": "2026-11-12T13:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 10,
+      "command": "commitments",
+      "args": {
+        "next-update": "2026-11-12T14:30:00Z",
+        "snapshot": "{\"appeal\":\"submitted\",\"notice\":\"corrected\",\"credentialReview\":\"scoped\",\"route\":\"restricted-view\",\"export\":\"none\",\"restrictedView\":\"active-until-Nov13-18\",\"ordinaryLogin\":\"disabled\",\"integration\":\"disabled\",\"publication\":\"disabled\",\"externalLinks\":\"disabled\",\"research\":\"quarantined\",\"merits\":\"unresolved\",\"retention\":\"2026-11-26T18:00:00Z\",\"credentialEvidence\":{\"signed\":{\"receipt\":\"R-618\",\"at\":\"12:05\",\"oldIdentities\":4,\"revoked\":true},\"replica\":{\"watermark\":\"11:58\",\"courierOld\":\"active\"},\"regionalAcknowledgment\":\"unknown\"},\"gatewayDeniedResearch\":true,\"challenged\":[\"Noor Vale\",\"Felix Rowan\"],\"expires\":\"2026-11-13T18:00:00Z\"}"
+      },
+      "at": "2026-11-12T13:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 11,
+      "command": "handoff",
+      "args": {
+        "note": "Jae Lin takes over at 18:00 UTC. Follow up actual challenged access, Arun regional acknowledgment and 14:00 checkpoint, Tessa 16:00 review, customer updates and reminder before November 13 18:00 expiry. Keep appeal open and blocked features unchanged; export is not requested."
+      },
+      "at": "2026-11-12T13:00:00Z",
+      "outcome": "confirmed"
+    }
+  ]
+}
