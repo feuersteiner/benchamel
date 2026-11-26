@@ -73,15 +73,19 @@ export async function verifyNativeAssets(root:string) {
     const specimen=JSON.parse(await readFile(join(suite[0]!.source,'evals/safe/review.md'),'utf8'));
     await writeFile(join(workspace,'state/runtime.json'),JSON.stringify({state:specimen.state,audit:specimen.audit}));
     for(const [name,text]of Object.entries(specimen.outputs))await writeFile(join(workspace,name),text as string);
-    for(const decision of ['luna','jev'] as const)for(const item of suite) {
+    for(const decision of ['luna','jev'] as const) {
+      const reviewWorkspace=join(temp,'workspace-'+decision);await cp(workspace,reviewWorkspace,{recursive:true});
+      for(const item of suite) {
       const id=JSON.parse(await readFile(join(item.source,'evals/single-property/specimen.json'),'utf8')).expectedFailingAssertions[0];
-      const result=await gate(root,workspace,decision,input=>{
+      const result=await gate(root,reviewWorkspace,decision,input=>{
         const selected=suite.find(s=>s.domain===input.domain)!;
-        assert.deepEqual(Object.keys(input.packet.evidence).sort(),[...selected.evidence!].sort());
+        const assertion=selected.test.assert.find(a=>a.id===input.assertion)!;const mentioned=[...new Set([assertion.decide!].flat()[0]!.match(/\bE\d{2}\b/g)??[])];
+        assert.deepEqual(Object.keys(input.packet.evidence).sort(),(mentioned.length?mentioned:[...selected.evidence!]).sort());
         return input.assertion===id?0:1;
       });
       assert.equal(result.pass,false);assert.equal(result.offlineDecisionCalls,total);
       assert.deepEqual(result.findings.map(f=>[f.test,f.domain,f.assertion]),[[item.test.id,item.domain,id]]);
+      }
     }
   }finally {process.chdir(previous);await rm(temp,{recursive:true,force:true});}
   console.log(JSON.stringify({case:'complex-support-01',nativeEvalLayout:'passed-with-injected-expectations',evals:evalCount,assertions:Object.fromEntries(suite.map(s=>[s.domain,s.test.assert.length])),semanticValidation:'not-run'}));
