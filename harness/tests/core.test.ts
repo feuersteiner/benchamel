@@ -3,12 +3,12 @@ import { revisionLoop } from '../treatments/agent.ts';
 import { config } from '../treatments/gate.ts';
 import { scoreAssessment } from '../semantic.ts';
 import { initial,transition,replay,canonical,type Policy } from '../fixture-engine.ts';
-test('findings reach the same task session before completion; bounded failures stop',async()=>{
+test('findings reach the same task session without a review-turn cap',async()=>{
   const prompts:string[]=[],threads:(string|undefined)[]=[];let checks=0;
   await revisionLoop(async(p,t)=>{prompts.push(p);threads.push(t);return {thread:'same-session',code:0};},async()=>({pass:++checks===2,findings:[{error:'Remove unsupported guarantee'}]}),'draft');
   expect(prompts).toHaveLength(2);expect(prompts[1]).toContain('Remove unsupported guarantee');expect(threads[1]).toBe('same-session');
   let attempts=0;
-  await expect(revisionLoop(async()=>{attempts++;return {thread:'id',code:0};},async()=>({pass:false,findings:[]}),'draft',4)).rejects.toThrow();expect(attempts).toBe(4);
+  await revisionLoop(async()=>{attempts++;return {thread:'id',code:0};},async()=>({pass:attempts===7,findings:[]}),'draft');expect(attempts).toBe(7);
 });
 test('native decision presets differ only by provider fields',()=>{
   expect(config('luna').decision.model).toBe('gpt-6-luna');expect(config('jev').decision.model).toBe('jev-latest');
