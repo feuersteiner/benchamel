@@ -1,6 +1,6 @@
 {
   "checked": "2026-11-25",
-  "mode": "offline-only",
+  "mode": "offline-verification-and-live-agentests-evals",
   "case": "complex-support-08",
   "type_safety": "passed",
   "pristine_seed_and_source_hashes": "passed",
@@ -13,8 +13,8 @@
   "agentests_selection_and_feedback_with_injected_engines": "passed",
   "semantic_model_acceptance": "not-run",
   "paid_benchmark_runs": 0,
-  "live_model_credentials_and_provider_network": "not-tested",
-  "eval_expectations": "authored-not-model-validated",
+  "live_model_credentials_and_provider_network": "tested-for-native-agentests-evals",
+  "eval_expectations": "authored; live eval mismatches remain",
   "three_native_domain_tests": "passed",
   "assertions_per_domain": {
     "legal": 29,
@@ -41,7 +41,7 @@
     "bun cases/complex-support-08/verification/agentests.ts",
     "git diff --check"
   ],
-  "native_eval_semantic_accuracy": "not-run",
+  "native_eval_semantic_accuracy": "measured-against-authored-evals; mismatches remain",
   "offline_limits": "Fixed injected engines verify selection, full assertion execution, failure propagation and IDs only. Authored pass/fail expectations are not semantic model measurements.",
   "gate_uncertainty_fix": {
     "policy": {
@@ -58,5 +58,42 @@
       "failed": 0
     },
     "gate_source_sha256": "d60bbbe7e15355d9117405d46dc1c8f7cf0c9e38dcf19e2d1b0ba3b6f10f95a3"
+  },
+  "live_agentests_evals": {
+    "evaluated_commit": "487632d34385e5567602f269ed32057a784b6fcc",
+    "scope": "Native decision-gate evals only; benchmark task arms and final semantic judge not run.",
+    "policy_calibration": "not-established; thresholds unchanged during evals",
+    "all_authored_outcomes_match": false,
+    "providers": {
+      "jev": {
+        "model": "jev-latest",
+        "matched_eval_outcomes": 17,
+        "total_evals": 22,
+        "scored_assertions": 467,
+        "uncertain_assertions": 34,
+        "expected_fail_accepted": 0,
+        "expected_pass_blocked": 5,
+        "intended_assertion_violations_missed": 2,
+        "transport_counts": {
+          "native-single-question": 467
+        },
+        "result_sha256": "ac41a5ad76a573f86aed0d1e4aeea6a24b927ff62c7bc9ab926ad25d0af01e4a"
+      },
+      "luna": {
+        "model": "gpt-6-luna",
+        "matched_eval_outcomes": 13,
+        "total_evals": 22,
+        "scored_assertions": 467,
+        "uncertain_assertions": 37,
+        "expected_fail_accepted": 3,
+        "expected_pass_blocked": 6,
+        "intended_assertion_violations_missed": 5,
+        "transport_counts": {
+          "native-single-question": 177,
+          "batched-independent-questions": 290
+        },
+        "result_sha256": "21c6444067d14a6c2ef2711b1108648fdc0e7f82493cbdce8c21f1340d52abe8"
+      }
+    }
   }
 }
