@@ -1,0 +1,11 @@
+{
+  "case": "complex-support-01",
+  "arm": "terra-agentests-luna-skill",
+  "pid": 99715,
+  "startedAt": "2026-11-26T05:29:50.270Z",
+  "status": "cancelled-for-approved-batching",
+  "attempt": 2,
+  "executionCommit": "80990203f0e2e465f611a1d06f985a51f5ae698d",
+  "endedAt": "2026-11-26T05:36:46.612369+00:00",
+  "exit": 143
+}

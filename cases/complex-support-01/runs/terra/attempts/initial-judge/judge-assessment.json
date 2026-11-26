@@ -1,0 +1,7 @@
+{
+  "origin": "benchamel-judge-generated",
+  "judgeVersion": "2.1",
+  "model": "gpt-6.1-terra",
+  "score": null,
+  "inferenceFailure": "Error: Judge citation is not an exact input excerpt."
+}

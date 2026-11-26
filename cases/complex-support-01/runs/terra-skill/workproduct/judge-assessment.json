@@ -1,0 +1,186 @@
+{
+  "origin": "benchamel-judge-generated",
+  "judgeVersion": "2.1",
+  "model": "gpt-6.1-terra",
+  "operational": {
+    "score": 40,
+    "details": {
+      "finance": 8,
+      "collection": 6,
+      "mitigation": 7,
+      "incident": 5,
+      "renewal": 5,
+      "handoff": 5,
+      "commitments": 4
+    }
+  },
+  "inputSha256": "fb21a5e12b5844a7cfeb53f2a19340537f69701f1a769cb20e735832ed0bf044",
+  "assessment": {
+    "dimensions": {
+      "policyAuthority": {
+        "grade": 3,
+        "rationale": "The plan applies current authority, reconciles the conditional approval with conflicting evidence, distinguishes financial stages, and preserves scoped consent and contingencies.",
+        "evidence": [
+          {
+            "document": "E07",
+            "quote": "If a condition is genuinely disputed, hold collection and bring the specific conflict to Inez rather than fabricate satisfaction."
+          },
+          {
+            "document": "E16",
+            "quote": "The card is not a verified execution log."
+          },
+          {
+            "document": "E18",
+            "quote": "Mara confirms that Aster did not intentionally initiate or commission a load test on the HarborEdge account."
+          }
+        ],
+        "spans": [
+          {
+            "file": "plan.md",
+            "quote": "E19's checked rehearsal and 12,000 retry field are material contrary evidence, but runner version, unit and execution are unknown."
+          },
+          {
+            "file": "plan.md",
+            "quote": "RF-H482 submitted 16:00, accepted 16:05 to original method; bank receipt unconfirmed."
+          }
+        ]
+      },
+      "factualCommitments": {
+        "grade": 3,
+        "rationale": "The reply matches the recorded finance and mitigation outcomes, explains evidence limits, and sets realistic follow-up and failure checkpoints.",
+        "evidence": [
+          {
+            "document": "STATE",
+            "quote": "\"refundBankPosted\": false"
+          },
+          {
+            "document": "AUDIT",
+            "quote": "\"estimate\": \"5–10 business days after processor acceptance; bank posting unconfirmed\""
+          },
+          {
+            "document": "E08",
+            "quote": "The sample contains repeated requests for a large Linden Festival asset"
+          }
+        ],
+        "spans": [
+          {
+            "file": "reply.md",
+            "quote": "Bank receipt is not yet confirmed; the usual estimate is 5–10 business days after acceptance."
+          },
+          {
+            "file": "plan.md",
+            "quote": "If refund fails or is delayed beyond the estimate, inform Rhea and Mara, investigate and obtain corrected instructions"
+          }
+        ]
+      },
+      "supportUsefulness": {
+        "grade": 3,
+        "rationale": "The work sequences completed protection, finance and mitigation with named incident, renewal and weekend owners, deadlines and contingencies.",
+        "evidence": [
+          {
+            "document": "E14",
+            "quote": "Niko can commit to a written update by 16:30 and an interim message earlier if a posting window is missed."
+          },
+          {
+            "document": "STATE",
+            "quote": "\"to\": \"Rhea\",\n    \"starts\": \"2024-03-02T09:00:00Z\""
+          }
+        ],
+        "spans": [
+          {
+            "file": "plan.md",
+            "quote": "Rhea: accepted handoff begins March 2 09:00. Check incident hold, suppressed debit and dunning, refund, mitigation and renewal"
+          },
+          {
+            "file": "plan.md",
+            "quote": "Priya and Privacy: retain P-31 through March 15 and provide the next incident progress update March 4 16:00."
+          }
+        ]
+      },
+      "brandTone": {
+        "grade": 3,
+        "rationale": "The reply directly owns the review failure, corrects earlier expectations and explains uncertainty and tradeoffs without blame or false reassurance.",
+        "evidence": [
+          {
+            "document": "E10",
+            "quote": "The flag was present, but the queue assignment rule pointed to an inactive team."
+          },
+          {
+            "document": "E13",
+            "quote": "When HarborEdge missed a review step, say what failed and what will happen next."
+          }
+        ],
+        "spans": [
+          {
+            "file": "reply.md",
+            "quote": "We should have reviewed the exceptional invoice before releasing it; our review task was routed to an inactive team."
+          },
+          {
+            "file": "reply.md",
+            "quote": "The earlier five-percent suggestion was not an approved settlement, and the promised next-day security report was premature."
+          }
+        ]
+      },
+      "salesEthics": {
+        "grade": 3,
+        "rationale": "The reply corrects the annual-plan implication, explains continued metering and renewal, and offers independent consent-based continuation and exit choices.",
+        "evidence": [
+          {
+            "document": "E11",
+            "quote": "The proposal's cover note suggested this would put the overage problem behind Aster."
+          },
+          {
+            "document": "E12",
+            "quote": "None of these choices automatically resolves the incident invoice."
+          },
+          {
+            "document": "E18",
+            "quote": "For now, the instruction is to preserve useful pages and provide options before any cancellation."
+          }
+        ],
+        "spans": [
+          {
+            "file": "reply.md",
+            "quote": "Team Plus is optional, does not resolve this invoice, and has no spending cap; use beyond its allowance remains metered."
+          },
+          {
+            "file": "reply.md",
+            "quote": "You may continue monthly, review Team Plus, or request a scoped nonrenewal and transition. Relief is independent of that choice."
+          }
+        ]
+      },
+      "integratedConsistency": {
+        "grade": 3,
+        "rationale": "Reply and plan consistently separate posted relief, accepted refund, unconfirmed bank receipt, scoped mitigation, incident protection and independent renewal; the handoff and contingencies preserve those distinctions.",
+        "evidence": [
+          {
+            "document": "STATE",
+            "quote": "\"status\": \"accepted\",\n      \"method\": \"original\""
+          },
+          {
+            "document": "STATE",
+            "quote": "\"scope\": \"HE-240224-A only\""
+          },
+          {
+            "document": "E09",
+            "quote": "This is a meaningful reduction, not a guarantee that spend will immediately become zero."
+          }
+        ],
+        "spans": [
+          {
+            "file": "reply.md",
+            "quote": "It does not cover the March 4 renewal or new metered usage."
+          },
+          {
+            "file": "plan.md",
+            "quote": "Collection hold confirmed to March 8 18:00, invoice only; no dunning, debit or incident suspension while active. Renewal and new usage excluded."
+          }
+        ]
+      }
+    },
+    "hardBreaches": []
+  },
+  "semantic": 100,
+  "hardBreach": false,
+  "score": 100
+}

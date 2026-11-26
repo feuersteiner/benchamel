@@ -1,0 +1,1136 @@
+{
+  "state": {
+    "now": "2024-03-01T16:20:00Z",
+    "actor": "Niko Reed",
+    "ticket": {
+      "id": "H-482",
+      "status": "open",
+      "owner": "Niko Reed",
+      "nextUpdate": "2024-03-01T16:30:00Z",
+      "briefing": "2024-03-01T17:00:00Z",
+      "ordinary": "Favicon ticket awaits normal triage"
+    },
+    "ledger": {
+      "invoice": "HE-240224-A",
+      "invoiceCents": 10450000,
+      "settledCents": 60000,
+      "receivableCents": 0,
+      "creditCents": 10390000,
+      "refundLiabilityCents": 60000,
+      "refundRequestedCents": 60000,
+      "refundAcceptedCents": 60000,
+      "refundBankPosted": false,
+      "basePaidCents": 12000
+    },
+    "collection": {
+      "status": "DISPUTE-HOLD",
+      "until": "2024-03-08T18:00:00Z",
+      "dunning": false,
+      "debitQueued": false,
+      "suspension": false,
+      "scope": "HE-240224-A only"
+    },
+    "finance": {
+      "status": "posted",
+      "request": {
+        "id": "FIN-H482",
+        "approval": "A-73",
+        "route": "immediate",
+        "reason": "E18 authenticated no-intent attestation and E08 P-31 satisfy A-73; E19 card and ambiguous retry field do not establish intentional load generation or execution. Submit the full approved remedy without waiting for attribution.",
+        "evidence": [
+          "E07",
+          "E08",
+          "E16",
+          "E18",
+          "E19"
+        ],
+        "requestedAt": "2024-03-01T15:00:00Z",
+        "owner": "Sam",
+        "postAt": "2024-03-01T16:00:00Z",
+        "creditCents": 10390000,
+        "refundCents": 60000,
+        "reversalChecked": true,
+        "reversalFound": false
+      },
+      "posting": {
+        "creditNote": "CN-H482",
+        "at": "2024-03-01T16:00:00Z",
+        "owner": "Sam",
+        "invoice": "HE-240224-A",
+        "creditCents": 10390000,
+        "refundLiabilityCents": 60000,
+        "reversalRechecked": true,
+        "reversalFound": false
+      },
+      "refund": {
+        "reference": "RF-H482",
+        "status": "accepted",
+        "method": "original",
+        "cents": 60000,
+        "submittedAt": "2024-03-01T16:00:00Z",
+        "responseAt": "2024-03-01T16:05:00Z",
+        "reversalRechecked": true,
+        "reversalFound": false
+      }
+    },
+    "review": null,
+    "mitigation": {
+      "status": "verified",
+      "deployment": "linden-prod-20240214",
+      "regions": [
+        "eu",
+        "us"
+      ],
+      "rollback": "restore prior Linden asset only if verification fails",
+      "residual": "Previously cached/versioned URLs and other traffic remain metered",
+      "consent": "MARA-LINDEN-0229",
+      "owner": "Tomas",
+      "requestedAt": "2024-03-01T15:00:00Z",
+      "readyAt": "2024-03-01T15:30:00Z",
+      "verifiedAt": "2024-03-01T15:30:00Z",
+      "ticketLinksPreserved": true,
+      "informationPagesUntouched": true
+    },
+    "incident": {
+      "status": "open",
+      "preservation": "P-31",
+      "preservationUntil": "2024-03-15T00:00:00Z",
+      "request": {
+        "id": "SEC-H482",
+        "owner": "Priya",
+        "privacyOwner": "Privacy",
+        "requestedAt": "2024-03-01T15:00:00Z",
+        "briefAt": "2024-03-01T16:20:00Z",
+        "nextUpdate": "2024-03-04T16:00:00Z",
+        "scope": "Minimized account-level aggregate explanation; no raw visitor or third-party data."
+      },
+      "packet": {
+        "id": "SEC-H482-MIN",
+        "reviewedBy": [
+          "Priya",
+          "Privacy"
+        ],
+        "at": "2024-03-01T16:20:00Z",
+        "scope": "Aggregate time windows and asset classes only; third-party identifiers removed.",
+        "limitations": "~7% interval, two regions; billing ~190 TB; cause and useful notice unresolved",
+        "reviewMissConfirmed": true,
+        "notice": "Dispatch evidence does not prove receipt/usefulness; retry and runner history unresolved.",
+        "nextUpdate": "2024-03-04T16:00:00Z"
+      },
+      "cause": "unresolved",
+      "notice": "receipt and usefulness unconfirmed"
+    },
+    "subscription": {
+      "plan": "Agency Basic",
+      "renewal": "2024-03-04T00:00:00Z",
+      "status": "unchanged",
+      "consent": null,
+      "choiceRequest": {
+        "id": "CHOICE-H482",
+        "status": "prepared-not-sent",
+        "owner": "Niko Reed",
+        "due": "2024-03-03T12:00:00Z",
+        "options": [
+          "Continue $120 monthly with metering; no spending cap",
+          "Optional Team Plus review; no retrospective protection or annual election",
+          "Mara may request scoped nonrenewal/transition; verify export and continuity first"
+        ],
+        "renewal": "2024-03-04T00:00:00Z",
+        "reliefIndependent": true,
+        "priorSalesCorrection": "Annual purchase is not required for relief and is not a cap."
+      },
+      "export": {
+        "status": "inventory-ready",
+        "owner": "Customer Operations",
+        "items": [
+          "built deployment artifacts",
+          "redirects",
+          "configuration",
+          "available operational records"
+        ],
+        "excludes": [
+          "externally hosted source repositories",
+          "registrar domains",
+          "raw third-party visitor identifiers"
+        ],
+        "verification": "Customer usability check required before any cutoff",
+        "retention": "30 days after termination for ordinary artifacts; original shorter log retention; P-31 through March 15",
+        "cutoffScheduled": false
+      }
+    },
+    "work": [
+      {
+        "area": "finance",
+        "owner": "Sam",
+        "due": "2024-03-04T10:00:00Z",
+        "action": "Reconcile CN-H482 and RF-H482, check processor and collection queues; investigate any refund failure or reported reversal before any retry and update Rhea."
+      },
+      {
+        "area": "engineering",
+        "owner": "Tomas",
+        "due": "2024-03-02T09:00:00Z",
+        "action": "Check Linden replacement and transfer exposure; retain essential pages, report residual cached URLs and seek scoped consent for further changes."
+      },
+      {
+        "area": "incident",
+        "owner": "Priya",
+        "due": "2024-03-04T16:00:00Z",
+        "action": "Provide minimized incident progress with Privacy, reconcile notice and runner evidence, retain P-31 through March 15; attribution remains open."
+      },
+      {
+        "area": "renewal",
+        "owner": "Rhea",
+        "due": "2024-03-03T12:00:00Z",
+        "action": "Offer independent renewal and export choices; obtain Mara’s scoped authenticated decision before any subscription change, and verify continuity and export."
+      },
+      {
+        "area": "support",
+        "owner": "Rhea",
+        "due": "2024-03-02T09:00:00Z",
+        "action": "Take weekend ownership, check refund and incident hold, coordinate follow-up and update Mara; keep H-482 and information request open."
+      }
+    ],
+    "handoff": {
+      "to": "Rhea",
+      "starts": "2024-03-02T09:00:00Z",
+      "at": "2024-03-01T16:20:00Z",
+      "note": "Rhea takes over March 2 09:00 UTC. Immediate A-73 submission used E18 and P-31 after assessing E19; no condition review was opened. The credit was pending after FIN-H482 request at 15:00; finance-poll produced posting receipt CN-H482 at 16:00 for $103,900, incident balance zero. Separate refund-submit produced processor request RF-H482 at 16:00; refund-poll confirmed acceptance at 16:05, bank unconfirmed. Friday window met; if missed, confirmed fallback was Monday March 4 10:00, pending receipt. Incident hold through March 8 18:00. Linden verified EU and US; residual usage metered. Renewal March 4 00:00 unchanged, no consent. SEC-H482 open, P-31 through March 15; Security update March 4 16:00. Niko update due March 1 16:30; no message sent.",
+      "ledger": {
+        "invoice": "HE-240224-A",
+        "invoiceCents": 10450000,
+        "settledCents": 60000,
+        "receivableCents": 0,
+        "creditCents": 10390000,
+        "refundLiabilityCents": 60000,
+        "refundRequestedCents": 60000,
+        "refundAcceptedCents": 60000,
+        "refundBankPosted": false,
+        "basePaidCents": 12000
+      },
+      "finance": {
+        "status": "posted",
+        "request": {
+          "id": "FIN-H482",
+          "approval": "A-73",
+          "route": "immediate",
+          "reason": "E18 authenticated no-intent attestation and E08 P-31 satisfy A-73; E19 card and ambiguous retry field do not establish intentional load generation or execution. Submit the full approved remedy without waiting for attribution.",
+          "evidence": [
+            "E07",
+            "E08",
+            "E16",
+            "E18",
+            "E19"
+          ],
+          "requestedAt": "2024-03-01T15:00:00Z",
+          "owner": "Sam",
+          "postAt": "2024-03-01T16:00:00Z",
+          "creditCents": 10390000,
+          "refundCents": 60000,
+          "reversalChecked": true,
+          "reversalFound": false
+        },
+        "posting": {
+          "creditNote": "CN-H482",
+          "at": "2024-03-01T16:00:00Z",
+          "owner": "Sam",
+          "invoice": "HE-240224-A",
+          "creditCents": 10390000,
+          "refundLiabilityCents": 60000,
+          "reversalRechecked": true,
+          "reversalFound": false
+        },
+        "refund": {
+          "reference": "RF-H482",
+          "status": "accepted",
+          "method": "original",
+          "cents": 60000,
+          "submittedAt": "2024-03-01T16:00:00Z",
+          "responseAt": "2024-03-01T16:05:00Z",
+          "reversalRechecked": true,
+          "reversalFound": false
+        }
+      },
+      "collection": {
+        "status": "DISPUTE-HOLD",
+        "until": "2024-03-08T18:00:00Z",
+        "dunning": false,
+        "debitQueued": false,
+        "suspension": false,
+        "scope": "HE-240224-A only"
+      },
+      "mitigation": {
+        "status": "verified",
+        "deployment": "linden-prod-20240214",
+        "regions": [
+          "eu",
+          "us"
+        ],
+        "rollback": "restore prior Linden asset only if verification fails",
+        "residual": "Previously cached/versioned URLs and other traffic remain metered",
+        "consent": "MARA-LINDEN-0229",
+        "owner": "Tomas",
+        "requestedAt": "2024-03-01T15:00:00Z",
+        "readyAt": "2024-03-01T15:30:00Z",
+        "verifiedAt": "2024-03-01T15:30:00Z",
+        "ticketLinksPreserved": true,
+        "informationPagesUntouched": true
+      },
+      "incident": {
+        "status": "open",
+        "preservation": "P-31",
+        "preservationUntil": "2024-03-15T00:00:00Z",
+        "request": {
+          "id": "SEC-H482",
+          "owner": "Priya",
+          "privacyOwner": "Privacy",
+          "requestedAt": "2024-03-01T15:00:00Z",
+          "briefAt": "2024-03-01T16:20:00Z",
+          "nextUpdate": "2024-03-04T16:00:00Z",
+          "scope": "Minimized account-level aggregate explanation; no raw visitor or third-party data."
+        },
+        "packet": {
+          "id": "SEC-H482-MIN",
+          "reviewedBy": [
+            "Priya",
+            "Privacy"
+          ],
+          "at": "2024-03-01T16:20:00Z",
+          "scope": "Aggregate time windows and asset classes only; third-party identifiers removed.",
+          "limitations": "~7% interval, two regions; billing ~190 TB; cause and useful notice unresolved",
+          "reviewMissConfirmed": true,
+          "notice": "Dispatch evidence does not prove receipt/usefulness; retry and runner history unresolved.",
+          "nextUpdate": "2024-03-04T16:00:00Z"
+        },
+        "cause": "unresolved",
+        "notice": "receipt and usefulness unconfirmed"
+      },
+      "renewal": {
+        "plan": "Agency Basic",
+        "renewal": "2024-03-04T00:00:00Z",
+        "status": "unchanged",
+        "consent": null,
+        "choiceRequest": {
+          "id": "CHOICE-H482",
+          "status": "prepared-not-sent",
+          "owner": "Niko Reed",
+          "due": "2024-03-03T12:00:00Z",
+          "options": [
+            "Continue $120 monthly with metering; no spending cap",
+            "Optional Team Plus review; no retrospective protection or annual election",
+            "Mara may request scoped nonrenewal/transition; verify export and continuity first"
+          ],
+          "renewal": "2024-03-04T00:00:00Z",
+          "reliefIndependent": true,
+          "priorSalesCorrection": "Annual purchase is not required for relief and is not a cap."
+        },
+        "export": {
+          "status": "inventory-ready",
+          "owner": "Customer Operations",
+          "items": [
+            "built deployment artifacts",
+            "redirects",
+            "configuration",
+            "available operational records"
+          ],
+          "excludes": [
+            "externally hosted source repositories",
+            "registrar domains",
+            "raw third-party visitor identifiers"
+          ],
+          "verification": "Customer usability check required before any cutoff",
+          "retention": "30 days after termination for ordinary artifacts; original shorter log retention; P-31 through March 15",
+          "cutoffScheduled": false
+        }
+      },
+      "nextUpdate": "2024-03-01T16:30:00Z",
+      "tasks": [
+        {
+          "area": "finance",
+          "owner": "Sam",
+          "due": "2024-03-04T10:00:00Z",
+          "action": "Reconcile CN-H482 and RF-H482, check processor and collection queues; investigate any refund failure or reported reversal before any retry and update Rhea."
+        },
+        {
+          "area": "engineering",
+          "owner": "Tomas",
+          "due": "2024-03-02T09:00:00Z",
+          "action": "Check Linden replacement and transfer exposure; retain essential pages, report residual cached URLs and seek scoped consent for further changes."
+        },
+        {
+          "area": "incident",
+          "owner": "Priya",
+          "due": "2024-03-04T16:00:00Z",
+          "action": "Provide minimized incident progress with Privacy, reconcile notice and runner evidence, retain P-31 through March 15; attribution remains open."
+        },
+        {
+          "area": "renewal",
+          "owner": "Rhea",
+          "due": "2024-03-03T12:00:00Z",
+          "action": "Offer independent renewal and export choices; obtain Mara’s scoped authenticated decision before any subscription change, and verify continuity and export."
+        },
+        {
+          "area": "support",
+          "owner": "Rhea",
+          "due": "2024-03-02T09:00:00Z",
+          "action": "Take weekend ownership, check refund and incident hold, coordinate follow-up and update Mara; keep H-482 and information request open."
+        }
+      ]
+    },
+    "commitments": {
+      "at": "2024-03-01T16:20:00Z",
+      "finance": "refund-accepted",
+      "mitigation": "verified",
+      "holdUntil": "2024-03-08T18:00:00Z",
+      "nextUpdate": "2024-03-01T16:30:00Z",
+      "sent": false
+    }
+  },
+  "audit": [
+    {
+      "seq": 1,
+      "at": "2024-03-01T15:00:00Z",
+      "actor": "Niko Reed",
+      "command": "hold-extend",
+      "args": {
+        "until": "2024-03-08T18:00:00Z",
+        "reason": "Protect incident collection while the approved remedy and refund are processed; review collection state before expiry."
+      },
+      "receipt": {
+        "at": "2024-03-01T15:00:00Z",
+        "actor": "Niko Reed",
+        "policy": [
+          "FIN-3.2",
+          "DATA-3.4 / ENG-482.2",
+          "SUP-6.0"
+        ],
+        "system": "collections",
+        "confirmed": true,
+        "scope": "HE-240224-A only",
+        "until": "2024-03-08T18:00:00Z",
+        "renewalExcluded": true,
+        "reason": "Protect incident collection while the approved remedy and refund are processed; review collection state before expiry."
+      }
+    },
+    {
+      "seq": 2,
+      "at": "2024-03-01T15:00:00Z",
+      "actor": "Niko Reed",
+      "command": "finance-submit",
+      "args": {
+        "route": "immediate",
+        "reason": "E18 authenticated no-intent attestation and E08 P-31 satisfy A-73; E19 card and ambiguous retry field do not establish intentional load generation or execution. Submit the full approved remedy without waiting for attribution.",
+        "evidence": "E07,E08,E16,E18,E19"
+      },
+      "receipt": {
+        "at": "2024-03-01T15:00:00Z",
+        "actor": "Niko Reed",
+        "policy": [
+          "FIN-3.2",
+          "DATA-3.4 / ENG-482.2",
+          "SUP-6.0"
+        ],
+        "system": "finance-queue",
+        "accepted": true,
+        "id": "FIN-H482",
+        "approval": "A-73",
+        "route": "immediate",
+        "reason": "E18 authenticated no-intent attestation and E08 P-31 satisfy A-73; E19 card and ambiguous retry field do not establish intentional load generation or execution. Submit the full approved remedy without waiting for attribution.",
+        "evidence": [
+          "E07",
+          "E08",
+          "E16",
+          "E18",
+          "E19"
+        ],
+        "requestedAt": "2024-03-01T15:00:00Z",
+        "owner": "Sam",
+        "postAt": "2024-03-01T16:00:00Z",
+        "creditCents": 10390000,
+        "refundCents": 60000,
+        "reversalChecked": true,
+        "reversalFound": false,
+        "note": "Request accepted; credit and cash return not yet posted."
+      }
+    },
+    {
+      "seq": 3,
+      "at": "2024-03-01T15:00:00Z",
+      "actor": "Niko Reed",
+      "command": "mitigation-request",
+      "args": {
+        "deployment": "linden-prod-20240214",
+        "consent": "MARA-LINDEN-0229"
+      },
+      "receipt": {
+        "at": "2024-03-01T15:00:00Z",
+        "actor": "Niko Reed",
+        "policy": [
+          "FIN-3.2",
+          "DATA-3.4 / ENG-482.2",
+          "SUP-6.0"
+        ],
+        "system": "engineering",
+        "status": "requested",
+        "deployment": "linden-prod-20240214",
+        "regions": [],
+        "rollback": "restore prior Linden asset only if verification fails",
+        "residual": "Previously cached/versioned URLs and other traffic remain metered",
+        "consent": "MARA-LINDEN-0229",
+        "owner": "Tomas",
+        "requestedAt": "2024-03-01T15:00:00Z",
+        "readyAt": "2024-03-01T15:30:00Z",
+        "unchangedSites": [
+          "cedar",
+          "beacon",
+          "quarry",
+          "tern",
+          "aster-preview"
+        ]
+      }
+    },
+    {
+      "seq": 4,
+      "at": "2024-03-01T15:00:00Z",
+      "actor": "Niko Reed",
+      "command": "incident-request",
+      "args": {},
+      "receipt": {
+        "at": "2024-03-01T15:00:00Z",
+        "actor": "Niko Reed",
+        "policy": [
+          "FIN-3.2",
+          "DATA-3.4 / ENG-482.2",
+          "SUP-6.0"
+        ],
+        "system": "security-privacy",
+        "id": "SEC-H482",
+        "owner": "Priya",
+        "privacyOwner": "Privacy",
+        "requestedAt": "2024-03-01T15:00:00Z",
+        "briefAt": "2024-03-01T16:20:00Z",
+        "nextUpdate": "2024-03-04T16:00:00Z",
+        "scope": "Minimized account-level aggregate explanation; no raw visitor or third-party data.",
+        "preservation": "P-31",
+        "cause": "unresolved"
+      }
+    },
+    {
+      "seq": 5,
+      "at": "2024-03-01T15:00:00Z",
+      "actor": "Niko Reed",
+      "command": "renewal-options",
+      "args": {},
+      "receipt": {
+        "at": "2024-03-01T15:00:00Z",
+        "actor": "Niko Reed",
+        "policy": [
+          "FIN-3.2",
+          "DATA-3.4 / ENG-482.2",
+          "SUP-6.0"
+        ],
+        "system": "customer-operations",
+        "id": "CHOICE-H482",
+        "status": "prepared-not-sent",
+        "owner": "Niko Reed",
+        "due": "2024-03-03T12:00:00Z",
+        "options": [
+          "Continue $120 monthly with metering; no spending cap",
+          "Optional Team Plus review; no retrospective protection or annual election",
+          "Mara may request scoped nonrenewal/transition; verify export and continuity first"
+        ],
+        "renewal": "2024-03-04T00:00:00Z",
+        "reliefIndependent": true,
+        "priorSalesCorrection": "Annual purchase is not required for relief and is not a cap.",
+        "consentReceived": false,
+        "subscriptionChanged": false
+      }
+    },
+    {
+      "seq": 6,
+      "at": "2024-03-01T15:00:00Z",
+      "actor": "Niko Reed",
+      "command": "export-prepare",
+      "args": {},
+      "receipt": {
+        "at": "2024-03-01T15:00:00Z",
+        "actor": "Niko Reed",
+        "policy": [
+          "FIN-3.2",
+          "DATA-3.4 / ENG-482.2",
+          "SUP-6.0"
+        ],
+        "system": "customer-operations",
+        "status": "inventory-ready",
+        "owner": "Customer Operations",
+        "items": [
+          "built deployment artifacts",
+          "redirects",
+          "configuration",
+          "available operational records"
+        ],
+        "excludes": [
+          "externally hosted source repositories",
+          "registrar domains",
+          "raw third-party visitor identifiers"
+        ],
+        "verification": "Customer usability check required before any cutoff",
+        "retention": "30 days after termination for ordinary artifacts; original shorter log retention; P-31 through March 15",
+        "cutoffScheduled": false
+      }
+    },
+    {
+      "seq": 7,
+      "at": "2024-03-01T15:00:00Z",
+      "actor": "Niko Reed",
+      "command": "clock",
+      "args": {
+        "to": "2024-03-01T15:30:00Z"
+      },
+      "receipt": {
+        "at": "2024-03-01T15:00:00Z",
+        "actor": "Niko Reed",
+        "policy": [
+          "FIN-3.2",
+          "DATA-3.4 / ENG-482.2",
+          "SUP-6.0"
+        ],
+        "clock": "2024-03-01T15:30:00Z"
+      }
+    },
+    {
+      "seq": 8,
+      "at": "2024-03-01T15:30:00Z",
+      "actor": "Niko Reed",
+      "command": "mitigation-poll",
+      "args": {},
+      "receipt": {
+        "at": "2024-03-01T15:30:00Z",
+        "actor": "Niko Reed",
+        "policy": [
+          "FIN-3.2",
+          "DATA-3.4 / ENG-482.2",
+          "SUP-6.0"
+        ],
+        "system": "engineering",
+        "status": "verified",
+        "deployment": "linden-prod-20240214",
+        "regions": [
+          "eu",
+          "us"
+        ],
+        "rollback": "restore prior Linden asset only if verification fails",
+        "residual": "Previously cached/versioned URLs and other traffic remain metered",
+        "consent": "MARA-LINDEN-0229",
+        "owner": "Tomas",
+        "requestedAt": "2024-03-01T15:00:00Z",
+        "readyAt": "2024-03-01T15:30:00Z",
+        "verifiedAt": "2024-03-01T15:30:00Z",
+        "ticketLinksPreserved": true,
+        "informationPagesUntouched": true,
+        "cap": false
+      }
+    },
+    {
+      "seq": 9,
+      "at": "2024-03-01T15:30:00Z",
+      "actor": "Niko Reed",
+      "command": "clock",
+      "args": {
+        "to": "2024-03-01T16:00:00Z"
+      },
+      "receipt": {
+        "at": "2024-03-01T15:30:00Z",
+        "actor": "Niko Reed",
+        "policy": [
+          "FIN-3.2",
+          "DATA-3.4 / ENG-482.2",
+          "SUP-6.0"
+        ],
+        "clock": "2024-03-01T16:00:00Z"
+      }
+    },
+    {
+      "seq": 10,
+      "at": "2024-03-01T16:00:00Z",
+      "actor": "Niko Reed",
+      "command": "finance-poll",
+      "args": {},
+      "receipt": {
+        "at": "2024-03-01T16:00:00Z",
+        "actor": "Niko Reed",
+        "policy": [
+          "FIN-3.2",
+          "DATA-3.4 / ENG-482.2",
+          "SUP-6.0"
+        ],
+        "system": "finance-ledger",
+        "creditNote": "CN-H482",
+        "owner": "Sam",
+        "invoice": "HE-240224-A",
+        "creditCents": 10390000,
+        "refundLiabilityCents": 60000,
+        "reversalRechecked": true,
+        "reversalFound": false,
+        "bankPosted": false
+      }
+    },
+    {
+      "seq": 11,
+      "at": "2024-03-01T16:00:00Z",
+      "actor": "Niko Reed",
+      "command": "refund-submit",
+      "args": {},
+      "receipt": {
+        "at": "2024-03-01T16:00:00Z",
+        "actor": "Niko Reed",
+        "policy": [
+          "FIN-3.2",
+          "DATA-3.4 / ENG-482.2",
+          "SUP-6.0"
+        ],
+        "system": "payment-processor",
+        "reference": "RF-H482",
+        "status": "submitted",
+        "method": "original",
+        "cents": 60000,
+        "submittedAt": "2024-03-01T16:00:00Z",
+        "responseAt": "2024-03-01T16:05:00Z",
+        "reversalRechecked": true,
+        "reversalFound": false,
+        "bankPosted": false
+      }
+    },
+    {
+      "seq": 12,
+      "at": "2024-03-01T16:00:00Z",
+      "actor": "Niko Reed",
+      "command": "clock",
+      "args": {
+        "to": "2024-03-01T16:05:00Z"
+      },
+      "receipt": {
+        "at": "2024-03-01T16:00:00Z",
+        "actor": "Niko Reed",
+        "policy": [
+          "FIN-3.2",
+          "DATA-3.4 / ENG-482.2",
+          "SUP-6.0"
+        ],
+        "clock": "2024-03-01T16:05:00Z"
+      }
+    },
+    {
+      "seq": 13,
+      "at": "2024-03-01T16:05:00Z",
+      "actor": "Niko Reed",
+      "command": "refund-poll",
+      "args": {},
+      "receipt": {
+        "at": "2024-03-01T16:05:00Z",
+        "actor": "Niko Reed",
+        "policy": [
+          "FIN-3.2",
+          "DATA-3.4 / ENG-482.2",
+          "SUP-6.0"
+        ],
+        "system": "payment-processor",
+        "reference": "RF-H482",
+        "status": "accepted",
+        "method": "original",
+        "cents": 60000,
+        "submittedAt": "2024-03-01T16:00:00Z",
+        "responseAt": "2024-03-01T16:05:00Z",
+        "reversalRechecked": true,
+        "reversalFound": false,
+        "estimate": "5–10 business days after processor acceptance; bank posting unconfirmed",
+        "bankPosted": false
+      }
+    },
+    {
+      "seq": 14,
+      "at": "2024-03-01T16:05:00Z",
+      "actor": "Niko Reed",
+      "command": "clock",
+      "args": {
+        "to": "2024-03-01T16:20:00Z"
+      },
+      "receipt": {
+        "at": "2024-03-01T16:05:00Z",
+        "actor": "Niko Reed",
+        "policy": [
+          "FIN-3.2",
+          "DATA-3.4 / ENG-482.2",
+          "SUP-6.0"
+        ],
+        "clock": "2024-03-01T16:20:00Z"
+      }
+    },
+    {
+      "seq": 15,
+      "at": "2024-03-01T16:20:00Z",
+      "actor": "Niko Reed",
+      "command": "incident-poll",
+      "args": {},
+      "receipt": {
+        "at": "2024-03-01T16:20:00Z",
+        "actor": "Niko Reed",
+        "policy": [
+          "FIN-3.2",
+          "DATA-3.4 / ENG-482.2",
+          "SUP-6.0"
+        ],
+        "system": "security-privacy",
+        "packet": {
+          "id": "SEC-H482-MIN",
+          "reviewedBy": [
+            "Priya",
+            "Privacy"
+          ],
+          "at": "2024-03-01T16:20:00Z",
+          "scope": "Aggregate time windows and asset classes only; third-party identifiers removed.",
+          "limitations": "~7% interval, two regions; billing ~190 TB; cause and useful notice unresolved",
+          "reviewMissConfirmed": true,
+          "notice": "Dispatch evidence does not prove receipt/usefulness; retry and runner history unresolved.",
+          "nextUpdate": "2024-03-04T16:00:00Z"
+        },
+        "finalReport": false
+      }
+    },
+    {
+      "seq": 16,
+      "at": "2024-03-01T16:20:00Z",
+      "actor": "Niko Reed",
+      "command": "task",
+      "args": {
+        "area": "finance",
+        "owner": "Sam",
+        "due": "2024-03-04T10:00:00Z",
+        "action": "Reconcile CN-H482 and RF-H482, check processor and collection queues; investigate any refund failure or reported reversal before any retry and update Rhea."
+      },
+      "receipt": {
+        "at": "2024-03-01T16:20:00Z",
+        "actor": "Niko Reed",
+        "policy": [
+          "FIN-3.2",
+          "DATA-3.4 / ENG-482.2",
+          "SUP-6.0"
+        ],
+        "system": "support",
+        "task": {
+          "area": "finance",
+          "owner": "Sam",
+          "due": "2024-03-04T10:00:00Z",
+          "action": "Reconcile CN-H482 and RF-H482, check processor and collection queues; investigate any refund failure or reported reversal before any retry and update Rhea."
+        }
+      }
+    },
+    {
+      "seq": 17,
+      "at": "2024-03-01T16:20:00Z",
+      "actor": "Niko Reed",
+      "command": "task",
+      "args": {
+        "area": "engineering",
+        "owner": "Tomas",
+        "due": "2024-03-02T09:00:00Z",
+        "action": "Check Linden replacement and transfer exposure; retain essential pages, report residual cached URLs and seek scoped consent for further changes."
+      },
+      "receipt": {
+        "at": "2024-03-01T16:20:00Z",
+        "actor": "Niko Reed",
+        "policy": [
+          "FIN-3.2",
+          "DATA-3.4 / ENG-482.2",
+          "SUP-6.0"
+        ],
+        "system": "support",
+        "task": {
+          "area": "engineering",
+          "owner": "Tomas",
+          "due": "2024-03-02T09:00:00Z",
+          "action": "Check Linden replacement and transfer exposure; retain essential pages, report residual cached URLs and seek scoped consent for further changes."
+        }
+      }
+    },
+    {
+      "seq": 18,
+      "at": "2024-03-01T16:20:00Z",
+      "actor": "Niko Reed",
+      "command": "task",
+      "args": {
+        "area": "incident",
+        "owner": "Priya",
+        "due": "2024-03-04T16:00:00Z",
+        "action": "Provide minimized incident progress with Privacy, reconcile notice and runner evidence, retain P-31 through March 15; attribution remains open."
+      },
+      "receipt": {
+        "at": "2024-03-01T16:20:00Z",
+        "actor": "Niko Reed",
+        "policy": [
+          "FIN-3.2",
+          "DATA-3.4 / ENG-482.2",
+          "SUP-6.0"
+        ],
+        "system": "support",
+        "task": {
+          "area": "incident",
+          "owner": "Priya",
+          "due": "2024-03-04T16:00:00Z",
+          "action": "Provide minimized incident progress with Privacy, reconcile notice and runner evidence, retain P-31 through March 15; attribution remains open."
+        }
+      }
+    },
+    {
+      "seq": 19,
+      "at": "2024-03-01T16:20:00Z",
+      "actor": "Niko Reed",
+      "command": "task",
+      "args": {
+        "area": "renewal",
+        "owner": "Rhea",
+        "due": "2024-03-03T12:00:00Z",
+        "action": "Offer independent renewal and export choices; obtain Mara’s scoped authenticated decision before any subscription change, and verify continuity and export."
+      },
+      "receipt": {
+        "at": "2024-03-01T16:20:00Z",
+        "actor": "Niko Reed",
+        "policy": [
+          "FIN-3.2",
+          "DATA-3.4 / ENG-482.2",
+          "SUP-6.0"
+        ],
+        "system": "support",
+        "task": {
+          "area": "renewal",
+          "owner": "Rhea",
+          "due": "2024-03-03T12:00:00Z",
+          "action": "Offer independent renewal and export choices; obtain Mara’s scoped authenticated decision before any subscription change, and verify continuity and export."
+        }
+      }
+    },
+    {
+      "seq": 20,
+      "at": "2024-03-01T16:20:00Z",
+      "actor": "Niko Reed",
+      "command": "task",
+      "args": {
+        "area": "support",
+        "owner": "Rhea",
+        "due": "2024-03-02T09:00:00Z",
+        "action": "Take weekend ownership, check refund and incident hold, coordinate follow-up and update Mara; keep H-482 and information request open."
+      },
+      "receipt": {
+        "at": "2024-03-01T16:20:00Z",
+        "actor": "Niko Reed",
+        "policy": [
+          "FIN-3.2",
+          "DATA-3.4 / ENG-482.2",
+          "SUP-6.0"
+        ],
+        "system": "support",
+        "task": {
+          "area": "support",
+          "owner": "Rhea",
+          "due": "2024-03-02T09:00:00Z",
+          "action": "Take weekend ownership, check refund and incident hold, coordinate follow-up and update Mara; keep H-482 and information request open."
+        }
+      }
+    },
+    {
+      "seq": 21,
+      "at": "2024-03-01T16:20:00Z",
+      "actor": "Niko Reed",
+      "command": "commitments",
+      "args": {
+        "finance": "refund-accepted",
+        "mitigation": "verified",
+        "hold-until": "2024-03-08T18:00:00Z",
+        "next-update": "2024-03-01T16:30:00Z"
+      },
+      "receipt": {
+        "at": "2024-03-01T16:20:00Z",
+        "actor": "Niko Reed",
+        "policy": [
+          "FIN-3.2",
+          "DATA-3.4 / ENG-482.2",
+          "SUP-6.0"
+        ],
+        "system": "support",
+        "finance": "refund-accepted",
+        "mitigation": "verified",
+        "holdUntil": "2024-03-08T18:00:00Z",
+        "nextUpdate": "2024-03-01T16:30:00Z",
+        "sent": false
+      }
+    },
+    {
+      "seq": 22,
+      "at": "2024-03-01T16:20:00Z",
+      "actor": "Niko Reed",
+      "command": "handoff",
+      "args": {
+        "note": "Rhea takes over March 2 09:00 UTC. CN-H482 posted, incident balance zero; RF-H482 accepted for $600, bank unconfirmed. Hold to March 8 18:00, incident only. Linden verified EU/US; cached URLs and usage remain metered. Renewal March 4 00:00 unchanged; choice prepared, no consent. SEC-H482 remains open, P-31 to March 15, next Security update March 4 16:00. Niko owns draft update by March 1 16:30; no message sent."
+      },
+      "receipt": {
+        "at": "2024-03-01T16:20:00Z",
+        "actor": "Niko Reed",
+        "policy": [
+          "FIN-3.2",
+          "DATA-3.4 / ENG-482.2",
+          "SUP-6.0"
+        ],
+        "system": "support-handoff",
+        "to": "Rhea",
+        "starts": "2024-03-02T09:00:00Z",
+        "accepted": true
+      }
+    },
+    {
+      "seq": 23,
+      "at": "2024-03-01T16:20:00Z",
+      "actor": "Niko Reed",
+      "command": "commitments",
+      "args": {
+        "finance": "refund-accepted",
+        "mitigation": "verified",
+        "hold-until": "2024-03-08T18:00:00Z",
+        "next-update": "2024-03-01T16:30:00Z"
+      },
+      "receipt": {
+        "at": "2024-03-01T16:20:00Z",
+        "actor": "Niko Reed",
+        "policy": [
+          "FIN-3.2",
+          "DATA-3.4 / ENG-482.2",
+          "SUP-6.0"
+        ],
+        "system": "support",
+        "finance": "refund-accepted",
+        "mitigation": "verified",
+        "holdUntil": "2024-03-08T18:00:00Z",
+        "nextUpdate": "2024-03-01T16:30:00Z",
+        "sent": false
+      }
+    },
+    {
+      "seq": 24,
+      "at": "2024-03-01T16:20:00Z",
+      "actor": "Niko Reed",
+      "command": "handoff",
+      "args": {
+        "note": "Rhea takes over March 2 09:00 UTC. Finance posting receipt CN-H482 confirms $103,900 credit posted March 1 16:00 against HE-240224-A; incident balance zero. RF-H482 accepted $600 refund, bank unconfirmed. Original Friday window met; if missed, confirmed fallback was Monday March 4 10:00, with credit pending until receipt. Hold incident only through March 8 18:00. Linden verified EU and US; residual usage metered. Renewal March 4 00:00 unchanged; no choice consent. SEC-H482 open, P-31 through March 15; Security update March 4 16:00. Niko update due March 1 16:30; no message sent."
+      },
+      "receipt": {
+        "at": "2024-03-01T16:20:00Z",
+        "actor": "Niko Reed",
+        "policy": [
+          "FIN-3.2",
+          "DATA-3.4 / ENG-482.2",
+          "SUP-6.0"
+        ],
+        "system": "support-handoff",
+        "to": "Rhea",
+        "starts": "2024-03-02T09:00:00Z",
+        "accepted": true
+      }
+    },
+    {
+      "seq": 25,
+      "at": "2024-03-01T16:20:00Z",
+      "actor": "Niko Reed",
+      "command": "commitments",
+      "args": {
+        "finance": "refund-accepted",
+        "mitigation": "verified",
+        "hold-until": "2024-03-08T18:00:00Z",
+        "next-update": "2024-03-01T16:30:00Z"
+      },
+      "receipt": {
+        "at": "2024-03-01T16:20:00Z",
+        "actor": "Niko Reed",
+        "policy": [
+          "FIN-3.2",
+          "DATA-3.4 / ENG-482.2",
+          "SUP-6.0"
+        ],
+        "system": "support",
+        "finance": "refund-accepted",
+        "mitigation": "verified",
+        "holdUntil": "2024-03-08T18:00:00Z",
+        "nextUpdate": "2024-03-01T16:30:00Z",
+        "sent": false
+      }
+    },
+    {
+      "seq": 26,
+      "at": "2024-03-01T16:20:00Z",
+      "actor": "Niko Reed",
+      "command": "handoff",
+      "args": {
+        "note": "Rhea takes over March 2 09:00 UTC. FIN-H482 was pending after the 15:00 request; finance-poll produced the actual CN-H482 posting receipt at 16:00 for the $103,900 credit against HE-240224-A, leaving zero incident receivable. RF-H482 accepted $600 refund; bank unconfirmed. Friday window met; if missed, Monday March 4 10:00 was the confirmed fallback and credit would remain pending until receipt. Hold incident only to March 8 18:00. Linden verified EU and US; residual usage metered. Renewal March 4 00:00 unchanged, no consent. SEC-H482 open, P-31 through March 15, next Security update March 4 16:00. Niko update due March 1 16:30; no message sent."
+      },
+      "receipt": {
+        "at": "2024-03-01T16:20:00Z",
+        "actor": "Niko Reed",
+        "policy": [
+          "FIN-3.2",
+          "DATA-3.4 / ENG-482.2",
+          "SUP-6.0"
+        ],
+        "system": "support-handoff",
+        "to": "Rhea",
+        "starts": "2024-03-02T09:00:00Z",
+        "accepted": true
+      }
+    },
+    {
+      "seq": 27,
+      "at": "2024-03-01T16:20:00Z",
+      "actor": "Niko Reed",
+      "command": "commitments",
+      "args": {
+        "finance": "refund-accepted",
+        "mitigation": "verified",
+        "hold-until": "2024-03-08T18:00:00Z",
+        "next-update": "2024-03-01T16:30:00Z"
+      },
+      "receipt": {
+        "at": "2024-03-01T16:20:00Z",
+        "actor": "Niko Reed",
+        "policy": [
+          "FIN-3.2",
+          "DATA-3.4 / ENG-482.2",
+          "SUP-6.0"
+        ],
+        "system": "support",
+        "finance": "refund-accepted",
+        "mitigation": "verified",
+        "holdUntil": "2024-03-08T18:00:00Z",
+        "nextUpdate": "2024-03-01T16:30:00Z",
+        "sent": false
+      }
+    },
+    {
+      "seq": 28,
+      "at": "2024-03-01T16:20:00Z",
+      "actor": "Niko Reed",
+      "command": "handoff",
+      "args": {
+        "note": "Rhea takes over March 2 09:00 UTC. Immediate A-73 submission used E18 and P-31 after assessing E19; no condition review was opened. The credit was pending after FIN-H482 request at 15:00; finance-poll produced posting receipt CN-H482 at 16:00 for $103,900, incident balance zero. Separate refund-submit produced processor request RF-H482 at 16:00; refund-poll confirmed acceptance at 16:05, bank unconfirmed. Friday window met; if missed, confirmed fallback was Monday March 4 10:00, pending receipt. Incident hold through March 8 18:00. Linden verified EU and US; residual usage metered. Renewal March 4 00:00 unchanged, no consent. SEC-H482 open, P-31 through March 15; Security update March 4 16:00. Niko update due March 1 16:30; no message sent."
+      },
+      "receipt": {
+        "at": "2024-03-01T16:20:00Z",
+        "actor": "Niko Reed",
+        "policy": [
+          "FIN-3.2",
+          "DATA-3.4 / ENG-482.2",
+          "SUP-6.0"
+        ],
+        "system": "support-handoff",
+        "to": "Rhea",
+        "starts": "2024-03-02T09:00:00Z",
+        "accepted": true
+      }
+    }
+  ]
+}

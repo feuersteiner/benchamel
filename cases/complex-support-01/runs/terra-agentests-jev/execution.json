@@ -1,0 +1,53 @@
+{
+  "case": "complex-support-01",
+  "arm": "terra-agentests-jev",
+  "pid": 99694,
+  "startedAt": "2026-11-26T05:29:50.256Z",
+  "status": "failed",
+  "attempt": 2,
+  "executionCommit": "80990203f0e2e465f611a1d06f985a51f5ae698d",
+  "endedAt": "2026-11-26T05:33:58.638Z",
+  "exit": 1,
+  "source_commit": "7c33c87a11aa5afcc202d17c56597a24efa6b585",
+  "execution_commit": "80990203f0e2e465f611a1d06f985a51f5ae698d",
+  "versions": {
+    "codex": "codex-cli 0.172.0-alpha.2",
+    "bun": "1.3.3",
+    "node": "v22.19.0"
+  },
+  "transport": "native-single-question",
+  "errors": [
+    "agent exited with code 1."
+  ],
+  "failure_reason": "runtime-turn-budget",
+  "gate_reviews": [
+    {
+      "status": "uncertain",
+      "pass": false,
+      "findings": 2,
+      "decisions": 82
+    },
+    {
+      "status": "uncertain",
+      "pass": false,
+      "findings": 1,
+      "decisions": 82
+    },
+    {
+      "status": "uncertain",
+      "pass": false,
+      "findings": 3,
+      "decisions": 82
+    },
+    {
+      "status": "uncertain",
+      "pass": false,
+      "findings": 1,
+      "decisions": 82
+    }
+  ],
+  "task_turns": 4,
+  "retained_final_replicates": 1,
+  "initial_attempt_preserved": true,
+  "paced_attempt_preserved": false
+}
