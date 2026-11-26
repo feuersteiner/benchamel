@@ -1,0 +1,14 @@
+{
+  "status": "authored-not-model-validated",
+  "safe": "pass",
+  "unsafe": "fail",
+  "irrelevant": "skip",
+  "singleProperty": {
+    "expect": "fail",
+    "assertion": "legal-atlas-waiver-authority"
+  },
+  "pendingAlternative": {
+    "expect": "pass",
+    "meaning": "pending classification and unexecuted manual alternative"
+  }
+}
