@@ -1,0 +1,91 @@
+{
+	"version": "1.0",
+	"licenseStatus": "Five first-party public documentation pages verified by retrieval; no transcript redistribution license asserted. Only brief independently written factual paraphrases, no raw pages, screenshots or personal customer identifiers.",
+	"sources": [
+		{
+			"id": "S01",
+			"url": "https://docs.github.com/en/site-policy/acceptable-use-policies/github-appeal-and-reinstatement",
+			"stableIdentifier": "github-docs:appeal-and-reinstatement",
+			"publicationDate": null,
+			"retrievedDate": "2026-11-23",
+			"updateUncertainty": "publication-date-unknown; current maintained page has no displayed publication date. Process description was verified on retrieval, not backdated as fictional authority.",
+			"reuseBasis": "original factual paraphrase, no transcript license asserted",
+			"quotesWords": 0,
+			"representation": {
+				"documentId": "E01",
+				"paragraphPrefix": "S01:",
+				"sha256": "c271ddd7a44ff8790c0314d0525ce2e2d9f40e32b5271be1813d73c31e591f4a",
+				"hashScope": "UTF-8 bytes of the full local authored paragraph beginning with the S## prefix and ending before the next blank line, without trailing newline; not an original page hash"
+			},
+			"retrievalUrl": "https://docs.github.com/en/site-policy/acceptable-use-policies/github-appeal-and-reinstatement"
+		},
+		{
+			"id": "S02",
+			"url": "https://docs.github.com/en/site-policy/acceptable-use-policies/github-active-malware-or-exploits",
+			"stableIdentifier": "github-docs:active-malware-or-exploits",
+			"publicationDate": null,
+			"retrievedDate": "2026-11-23",
+			"updateUncertainty": "publication-date-unknown; current maintained policy, unpinned and subject to change. Not evidence of a real incident or a historical account decision.",
+			"reuseBasis": "original factual paraphrase, no transcript license asserted",
+			"quotesWords": 0,
+			"representation": {
+				"documentId": "E01",
+				"paragraphPrefix": "S02:",
+				"sha256": "6523f04a0d5e34c1526b4013ac6559f911e4b79c701286987b59473822ee94d7",
+				"hashScope": "UTF-8 bytes of the full local authored paragraph beginning with the S## prefix and ending before the next blank line, without trailing newline; not an original page hash"
+			},
+			"retrievalUrl": "https://docs.github.com/en/site-policy/acceptable-use-policies/github-active-malware-or-exploits"
+		},
+		{
+			"id": "S03",
+			"url": "https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/preventing-unauthorized-access",
+			"stableIdentifier": "github-docs:preventing-unauthorized-access",
+			"publicationDate": null,
+			"retrievedDate": "2026-11-23",
+			"updateUncertainty": "publication-date-unknown; current security guidance has no displayed publication date. Technical advice and restriction description may change.",
+			"reuseBasis": "original factual paraphrase, no transcript license asserted",
+			"quotesWords": 0,
+			"representation": {
+				"documentId": "E01",
+				"paragraphPrefix": "S03:",
+				"sha256": "eef9f362bdfc33cc358e8ac25b7b48cedfea8af7c719c07adc3310a243597e05",
+				"hashScope": "UTF-8 bytes of the full local authored paragraph beginning with the S## prefix and ending before the next blank line, without trailing newline; not an original page hash"
+			},
+			"retrievalUrl": "https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/preventing-unauthorized-access"
+		},
+		{
+			"id": "S04",
+			"url": "https://support.discord.com/hc/en-us/articles/18210965981847-Discord-Warning-System",
+			"stableIdentifier": "discord-help:18210965981847",
+			"publicationDate": "2026-06-05",
+			"retrievedDate": "2026-11-23",
+			"updateUncertainty": "Displayed date is the page update date, not necessarily original publication. Current description of Discord only; not a universal transparency guarantee.",
+			"reuseBasis": "original factual paraphrase, no transcript license asserted",
+			"quotesWords": 0,
+			"representation": {
+				"documentId": "E01",
+				"paragraphPrefix": "S04:",
+				"sha256": "ddafcadc89dcefd73a12188cca62deb092c5ded74a23086ab13a10e8ae59bccc",
+				"hashScope": "UTF-8 bytes of the full local authored paragraph beginning with the S## prefix and ending before the next blank line, without trailing newline; not an original page hash"
+			},
+			"retrievalUrl": "https://support.discord.com/hc/en-us/articles/18210965981847-Discord-Warning-System"
+		},
+		{
+			"id": "S05",
+			"url": "https://discord.com/safety/360043712172-how-you-can-appeal-our-actions",
+			"stableIdentifier": "discord-safety:360043712172",
+			"publicationDate": "2024-02-16",
+			"retrievedDate": "2026-11-23",
+			"updateUncertainty": "Displayed publication date; later page edits are not independently versioned here. Current process details do not authenticate any fictional account outcome.",
+			"reuseBasis": "original factual paraphrase, no transcript license asserted",
+			"quotesWords": 0,
+			"representation": {
+				"documentId": "E01",
+				"paragraphPrefix": "S05:",
+				"sha256": "7b518606a58638162648d7690c9ab218e04dc7e0fe180470c7ab085ffefc7afc",
+				"hashScope": "UTF-8 bytes of the full local authored paragraph beginning with the S## prefix and ending before the next blank line, without trailing newline; not an original page hash"
+			},
+			"retrievalUrl": "https://discord.com/safety/360043712172-how-you-can-appeal-our-actions"
+		}
+	]
+}

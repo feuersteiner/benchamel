@@ -1,0 +1,14 @@
+[
+  {
+    "kind": "invalid-final-candidate",
+    "status": "passed"
+  },
+  {
+    "kind": "judge-validation-error",
+    "status": "passed"
+  },
+  {
+    "kind": "preflight-error",
+    "status": "passed"
+  }
+]

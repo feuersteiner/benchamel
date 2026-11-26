@@ -92,9 +92,7 @@ ${JSON.stringify({documents,outputs})}`;
   try {
     await mkdir(join(dir,'empty'));await writeFile(join(dir,'schema.json'),JSON.stringify(schema));
     const child=Bun.spawn(['codex','-a','never','exec','--ignore-user-config','--ignore-rules','--model',model,'--sandbox','read-only','--skip-git-repo-check','--ephemeral','-c','project_doc_max_bytes=0','-c','web_search="disabled"',...['shell_tool','unified_exec','code_mode_host','code_mode','apps','plugins','hooks','multi_agent','multi_agent_v2','browser_use','computer_use'].flatMap(feature=>['--disable',feature]),'--output-schema',join(dir,'schema.json'),'--output-last-message',join(dir,'response.json'),'-'],{cwd:join(dir,'empty'),stdin:new Blob([prompt]),stdout:'ignore',stderr:'pipe'});
-    const timer=setTimeout(()=>child.kill('SIGKILL'),300000);
-    let code:number,stderr:string;
-    try {[code,stderr]=await Promise.all([child.exited,new Response(child.stderr).text()]);}finally{clearTimeout(timer);}
+    const [code,stderr]=await Promise.all([child.exited,new Response(child.stderr).text()]);
     if(code!==0)throw Error(`Final judge failed (${code}): ${stderr.slice(0,512)}`);
     const assessment:unknown=JSON.parse(await readFile(join(dir,'response.json'),'utf8'));
     return {model,inputSha256:new Bun.CryptoHasher('sha256').update(prompt).digest('hex'),assessment,semantic:scoreAssessment(assessment,documents,outputs),hardBreach:(assessment as {hardBreaches:unknown[]}).hardBreaches.length>0};

@@ -1,0 +1,134 @@
+{
+  "version": "1.0",
+  "source": {
+    "repository": "https://github.com/feuersteiner/agent-tests",
+    "branch": "benchmark-v2",
+    "commit": "6142590525acb698e473671f2420022f64adfa71",
+    "path": "benchmark/v2/pilot/complex-support-08"
+  },
+  "documents": [
+    {
+      "id": "E01",
+      "file": "01-public-background.md",
+      "bytes": 3232,
+      "sha256": "055fe3af25a33442a52dfb2c7a4b26f05cdd199ec240f328743367e84ebb3877"
+    },
+    {
+      "id": "E02",
+      "file": "02-account-and-order.md",
+      "bytes": 3154,
+      "sha256": "b46ccb75d5ebbb9e3000082555998481d61570f16decf2a72206ec90b163539a"
+    },
+    {
+      "id": "E03",
+      "file": "03-customer-appeal.md",
+      "bytes": 3089,
+      "sha256": "1bab132310b5d35144b79b48460e17f05c4e9a3c81a08f452372f810054ee8b2"
+    },
+    {
+      "id": "E04",
+      "file": "04-current-enforcement-policy.md",
+      "bytes": 3096,
+      "sha256": "019bde438e34d72fd82511f3072c72cc6d65841c0d2eff9d5e4962d36fd13efe"
+    },
+    {
+      "id": "E05",
+      "file": "05-superseded-playbook.md",
+      "bytes": 3079,
+      "sha256": "97666aef6e7970078148383aee8d221a139e1c1bcdc16aeba3501448dc9a5ea8"
+    },
+    {
+      "id": "E06",
+      "file": "06-signal-assessment.md",
+      "bytes": 3124,
+      "sha256": "fe02e2277ff474ae6499db6e3384e2ce5e619c58cd1953b20aeefa06493b258c"
+    },
+    {
+      "id": "E07",
+      "file": "07-enforcement-notice.md",
+      "bytes": 3057,
+      "sha256": "54c4423f1ca3aac901db9848d2099cdc08d52ee7298cfc4b439a6f8bd7b686fd"
+    },
+    {
+      "id": "E08",
+      "file": "08-authority.md",
+      "bytes": 3130,
+      "sha256": "1246f87ec8048ff90347a356527326756cf28a8fae84e648d6ccbc63ea4cf969"
+    },
+    {
+      "id": "E09",
+      "file": "09-technical-controls.md",
+      "bytes": 3092,
+      "sha256": "031b5eb74a81ed565fce03b26aad64d71d95f6cd6cd9dca4a29949e98716417d"
+    },
+    {
+      "id": "E10",
+      "file": "10-customer-consent.md",
+      "bytes": 3130,
+      "sha256": "1dc7b177a28013f77e159de8be1588381b70ab306f79b29cb2e91ece81c963aa"
+    },
+    {
+      "id": "E11",
+      "file": "11-appeal-casefile.md",
+      "bytes": 3123,
+      "sha256": "3de1564288c0d9fbcbb2a438fbcae864a8f52de125622133c6fc7815048444f3"
+    },
+    {
+      "id": "E12",
+      "file": "12-sales-and-renewal.md",
+      "bytes": 3057,
+      "sha256": "ec7c8ded577c1979e666c31b84be682251bacc37ec5b9d91188b8ca51d09a4d4"
+    },
+    {
+      "id": "E13",
+      "file": "13-brand-guidance.md",
+      "bytes": 3165,
+      "sha256": "4886f6cdfface1b8779543610ce4b65d5663879f1d1e809ce102ca25bffc6e82"
+    },
+    {
+      "id": "E14",
+      "file": "14-support-ownership.md",
+      "bytes": 3150,
+      "sha256": "55197d0f0eb48d6631382e5a12944141b6585317a0acc6cae9a6eb9761da004c"
+    },
+    {
+      "id": "E15",
+      "file": "15-disclosure.md",
+      "bytes": 3194,
+      "sha256": "8dd5ac4887937a0934dfc5f48b8eba2a4ff7201e32e99162336a6ae8d2e59930"
+    },
+    {
+      "id": "E16",
+      "file": "16-retention.md",
+      "bytes": 3327,
+      "sha256": "cca564a6b86b4ae7c17e6d13d2d788704cc4883b5ef73ed3aebbb8b356344158"
+    },
+    {
+      "id": "E17",
+      "file": "17-chronology.md",
+      "bytes": 3213,
+      "sha256": "1dd3421744e3affe619f73e47eeb563b85d23d1bc56011dd831b8b502da64a3e"
+    },
+    {
+      "id": "E18",
+      "file": "18-credential-discrepancy.md",
+      "bytes": 3211,
+      "sha256": "ff45b899ee9dfa6d90f8d01b9e24930c174139d7146eb63e03e36b1c2292f61c"
+    },
+    {
+      "id": "E19",
+      "file": "19-customer-technical-record.md",
+      "bytes": 3223,
+      "sha256": "24f1961d92f3c950349b430cccd191ea13fbec50301720c72c84ab5e4b8e0993"
+    },
+    {
+      "id": "E20",
+      "file": "20-handoff-and-impact.md",
+      "bytes": 3201,
+      "sha256": "46a2d6a6df8ba694e0aea2be41df91bba56e5a69df8121a3caa7adc013494027"
+    }
+  ],
+  "copied": "Twenty documents and sources.json copied byte-for-byte. No candidates, reviewer expectations or summary are supplied.",
+  "boundary": "Primary sources are attributed inspiration; business records, runnable integrations and simulated responses are synthetic reconstruction. Current documentation is not backdated contract authority.",
+  "sourcesFileSha256": "790d6ea99cdbddb3b970b9488827be2de01f56996ef342108ca3a115c680d9ca"
+}

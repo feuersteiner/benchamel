@@ -1,0 +1,375 @@
+{
+  "state": {
+    "now": "2026-11-12T13:00:00Z",
+    "domain": {
+      "appeal": "submitted",
+      "notice": "corrected",
+      "credentialReview": "scoped",
+      "route": "restricted-view",
+      "export": "none",
+      "restrictedView": "active-until-Nov13-18",
+      "ordinaryLogin": "disabled",
+      "integration": "disabled",
+      "publication": "disabled",
+      "externalLinks": "disabled",
+      "research": "quarantined",
+      "merits": "unresolved",
+      "retention": "2026-11-26T18:00:00Z",
+      "credentialEvidence": {
+        "signed": {
+          "receipt": "R-618",
+          "at": "12:05",
+          "oldIdentities": 4,
+          "revoked": true
+        },
+        "replica": {
+          "watermark": "11:58",
+          "courierOld": "active"
+        },
+        "regionalAcknowledgment": "unknown"
+      },
+      "gatewayDeniedResearch": true,
+      "challenged": [
+        "Noor Vale",
+        "Felix Rowan"
+      ],
+      "expires": "2026-11-13T18:00:00Z"
+    },
+    "tasks": [
+      {
+        "area": "security",
+        "owner": "Arun",
+        "due": "2026-11-12T14:00:00Z",
+        "action": "Check regional revocation acknowledgment and live scope; report uncertainty and maintain blocks. Tomas verifies challenged sessions and expiry."
+      },
+      {
+        "area": "appeal",
+        "owner": "Tessa",
+        "due": "2026-11-12T16:00:00Z",
+        "action": "Review disputed harmful-distribution finding and proportionality independently; report decision or specific outstanding question and next checkpoint."
+      },
+      {
+        "area": "data",
+        "owner": "Sana",
+        "due": "2026-11-12T14:30:00Z",
+        "action": "Stand ready for minimized Dispatch snapshot if restricted view fails; confirm fields, privacy review and secure recipient before delivery; preserve retention and hold."
+      },
+      {
+        "area": "commercial",
+        "owner": "Mira Chen",
+        "due": "2026-11-12T14:30:00Z",
+        "action": "Correct always-available sales implication and two-hour promise. Signed order provides named support ownership and response targets, not uninterrupted availability; annual quote offers a named account team and scheduled security-planning sessions, not access guarantees. Keep credit and renewal separate."
+      },
+      {
+        "area": "support",
+        "owner": "Jae Lin",
+        "due": "2026-11-13T17:00:00Z",
+        "action": "Send Noor a restricted-view expiry reminder by November 13 17:00 UTC: the Noor/Felix Dispatch view expires November 13 at 18:00 UTC. Confirm expiry and reversion at 18:00; no extension is approved. Mira retains the November 12 14:30 customer update and hands over at 18:00."
+      }
+    ],
+    "commitments": {
+      "nextUpdate": "2026-11-12T14:30:00Z",
+      "domain": {
+        "appeal": "submitted",
+        "notice": "corrected",
+        "credentialReview": "scoped",
+        "route": "restricted-view",
+        "export": "none",
+        "restrictedView": "active-until-Nov13-18",
+        "ordinaryLogin": "disabled",
+        "integration": "disabled",
+        "publication": "disabled",
+        "externalLinks": "disabled",
+        "research": "quarantined",
+        "merits": "unresolved",
+        "retention": "2026-11-26T18:00:00Z",
+        "credentialEvidence": {
+          "signed": {
+            "receipt": "R-618",
+            "at": "12:05",
+            "oldIdentities": 4,
+            "revoked": true
+          },
+          "replica": {
+            "watermark": "11:58",
+            "courierOld": "active"
+          },
+          "regionalAcknowledgment": "unknown"
+        },
+        "gatewayDeniedResearch": true,
+        "challenged": [
+          "Noor Vale",
+          "Felix Rowan"
+        ],
+        "expires": "2026-11-13T18:00:00Z"
+      }
+    },
+    "handoff": {
+      "to": "Jae Lin",
+      "note": "Jae Lin takes over November 12 at 18:00 UTC. ACTION FOR JAE: by November 13 at 17:00 UTC send Noor a reminder that the restricted Dispatch view for Noor and Felix expires November 13 at 18:00 UTC; confirm expiry and reversion at 18:00. Reminder is assigned in task receipt 16, not yet sent; no extension is approved. Runtime receipt 2 confirms correct-notice completed: notice status corrected to precautionary grounds and two-hour assurance corrected. Customer reply remains an unsent draft; ensure Noor receives the correction by the November 12 14:30 update. Restricted view is active locally; fresh customer challenges and usability remain unverified. No export requested, prepared or delivered. Ordinary login, integrations, publication and external links disabled; Research quarantined. Appeal submitted to Tessa; merits unresolved. Arun checks regional acknowledgment at 13:20 and reports by 14:00; R-618 and passed test do not establish regional propagation. Tessa reviews at 14:00, initial update target 16:00. If view fails Sana coordinates export booking, field confirmation, Privacy review and secure delivery. Preserve P-882 and retention; keep case open.",
+      "domain": {
+        "appeal": "submitted",
+        "notice": "corrected",
+        "credentialReview": "scoped",
+        "route": "restricted-view",
+        "export": "none",
+        "restrictedView": "active-until-Nov13-18",
+        "ordinaryLogin": "disabled",
+        "integration": "disabled",
+        "publication": "disabled",
+        "externalLinks": "disabled",
+        "research": "quarantined",
+        "merits": "unresolved",
+        "retention": "2026-11-26T18:00:00Z",
+        "credentialEvidence": {
+          "signed": {
+            "receipt": "R-618",
+            "at": "12:05",
+            "oldIdentities": 4,
+            "revoked": true
+          },
+          "replica": {
+            "watermark": "11:58",
+            "courierOld": "active"
+          },
+          "regionalAcknowledgment": "unknown"
+        },
+        "gatewayDeniedResearch": true,
+        "challenged": [
+          "Noor Vale",
+          "Felix Rowan"
+        ],
+        "expires": "2026-11-13T18:00:00Z"
+      },
+      "tasks": [
+        {
+          "area": "security",
+          "owner": "Arun",
+          "due": "2026-11-12T14:00:00Z",
+          "action": "Check regional revocation acknowledgment and live scope; report uncertainty and maintain blocks. Tomas verifies challenged sessions and expiry."
+        },
+        {
+          "area": "appeal",
+          "owner": "Tessa",
+          "due": "2026-11-12T16:00:00Z",
+          "action": "Review disputed harmful-distribution finding and proportionality independently; report decision or specific outstanding question and next checkpoint."
+        },
+        {
+          "area": "data",
+          "owner": "Sana",
+          "due": "2026-11-12T14:30:00Z",
+          "action": "Stand ready for minimized Dispatch snapshot if restricted view fails; confirm fields, privacy review and secure recipient before delivery; preserve retention and hold."
+        },
+        {
+          "area": "commercial",
+          "owner": "Mira Chen",
+          "due": "2026-11-12T14:30:00Z",
+          "action": "Correct always-available sales implication and two-hour promise. Signed order provides named support ownership and response targets, not uninterrupted availability; annual quote offers a named account team and scheduled security-planning sessions, not access guarantees. Keep credit and renewal separate."
+        },
+        {
+          "area": "support",
+          "owner": "Jae Lin",
+          "due": "2026-11-13T17:00:00Z",
+          "action": "Send Noor a restricted-view expiry reminder by November 13 17:00 UTC: the Noor/Felix Dispatch view expires November 13 at 18:00 UTC. Confirm expiry and reversion at 18:00; no extension is approved. Mira retains the November 12 14:30 customer update and hands over at 18:00."
+        }
+      ]
+    }
+  },
+  "audit": [
+    {
+      "seq": 1,
+      "command": "submit-appeal",
+      "args": {
+        "channel": "existing-thread"
+      },
+      "at": "2026-11-12T13:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 2,
+      "command": "correct-notice",
+      "args": {},
+      "at": "2026-11-12T13:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 3,
+      "command": "check-credentials",
+      "args": {},
+      "at": "2026-11-12T13:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 4,
+      "command": "activate-restricted",
+      "args": {
+        "basis": "signed-receipt-plus-scope-test",
+        "reason": "A-882 addendum identifies signed primary revocation receipt R-618 and passed gateway scope test as required evidence. The replica watermark predates revocation; regional acknowledgment remains unknown, but the independent challenged view is isolated from the regional link path and external links remain blocked. This is a limited primary-receipt interpretation, not a claim of global propagation."
+      },
+      "at": "2026-11-12T13:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 5,
+      "command": "task",
+      "args": {
+        "area": "security",
+        "owner": "Arun",
+        "due": "2026-11-12T14:00:00Z",
+        "action": "Check regional revocation acknowledgment and live scope; report uncertainty and maintain blocks. Tomas verifies challenged sessions and expiry."
+      },
+      "at": "2026-11-12T13:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 6,
+      "command": "task",
+      "args": {
+        "area": "appeal",
+        "owner": "Tessa",
+        "due": "2026-11-12T16:00:00Z",
+        "action": "Review disputed harmful-distribution finding and proportionality independently; report decision or specific outstanding question and next checkpoint."
+      },
+      "at": "2026-11-12T13:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 7,
+      "command": "task",
+      "args": {
+        "area": "data",
+        "owner": "Sana",
+        "due": "2026-11-12T14:30:00Z",
+        "action": "Stand ready for minimized Dispatch snapshot if restricted view fails; confirm fields, privacy review and secure recipient before delivery; preserve retention and hold."
+      },
+      "at": "2026-11-12T13:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 8,
+      "command": "task",
+      "args": {
+        "area": "commercial",
+        "owner": "Mira Chen",
+        "due": "2026-11-12T14:30:00Z",
+        "action": "Correct unsupported restoration promise; keep renewal and any documented service-credit request separate from review."
+      },
+      "at": "2026-11-12T13:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 9,
+      "command": "task",
+      "args": {
+        "area": "support",
+        "owner": "Mira Chen",
+        "due": "2026-11-12T14:30:00Z",
+        "action": "Update Noor on actual access and review status before 15:00; verify usability and coordinate fallback, then hand off to Jae at 18:00."
+      },
+      "at": "2026-11-12T13:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 10,
+      "command": "commitments",
+      "args": {
+        "next-update": "2026-11-12T14:30:00Z",
+        "snapshot": "{\"appeal\":\"submitted\",\"notice\":\"corrected\",\"credentialReview\":\"scoped\",\"route\":\"restricted-view\",\"export\":\"none\",\"restrictedView\":\"active-until-Nov13-18\",\"ordinaryLogin\":\"disabled\",\"integration\":\"disabled\",\"publication\":\"disabled\",\"externalLinks\":\"disabled\",\"research\":\"quarantined\",\"merits\":\"unresolved\",\"retention\":\"2026-11-26T18:00:00Z\",\"credentialEvidence\":{\"signed\":{\"receipt\":\"R-618\",\"at\":\"12:05\",\"oldIdentities\":4,\"revoked\":true},\"replica\":{\"watermark\":\"11:58\",\"courierOld\":\"active\"},\"regionalAcknowledgment\":\"unknown\"},\"gatewayDeniedResearch\":true,\"challenged\":[\"Noor Vale\",\"Felix Rowan\"],\"expires\":\"2026-11-13T18:00:00Z\"}"
+      },
+      "at": "2026-11-12T13:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 11,
+      "command": "handoff",
+      "args": {
+        "note": "Jae Lin accepts at 18:00. Restricted Dispatch view active for newly challenged Noor and Felix until Nov 13 18:00; verify actual usability, scope, reversion and remind before expiry. Arun checks regional acknowledgment at 13:20 and reports by 14:00; R-618 and passed test do not establish regional propagation. Tessa reviews at 14:00, initial update target 16:00; merits unresolved. Mira updates Noor by 14:30. Sana fallback export requires booking, privacy and delivery checks; no export requested or delivered. Preserve P-882 and retention; keep case open."
+      },
+      "at": "2026-11-12T13:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 12,
+      "command": "task",
+      "args": {
+        "area": "commercial",
+        "owner": "Mira Chen",
+        "due": "2026-11-12T14:30:00Z",
+        "action": "Correct always-available sales implication and two-hour promise. Signed order provides named support ownership and response targets, not uninterrupted availability; annual quote offers a named account team and scheduled security-planning sessions, not access guarantees. Keep credit and renewal separate."
+      },
+      "at": "2026-11-12T13:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 13,
+      "command": "task",
+      "args": {
+        "area": "support",
+        "owner": "Mira Chen",
+        "due": "2026-11-12T14:30:00Z",
+        "action": "Update Noor by 14:30 and verify restricted-view usability. At 18:00 hand off current receipts and pending work to Jae Lin; Jae must remind Noor before the November 13 18:00 UTC restricted-view expiry and verify reversion."
+      },
+      "at": "2026-11-12T13:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 14,
+      "command": "commitments",
+      "args": {
+        "next-update": "2026-11-12T14:30:00Z",
+        "snapshot": "{\"appeal\":\"submitted\",\"notice\":\"corrected\",\"credentialReview\":\"scoped\",\"route\":\"restricted-view\",\"export\":\"none\",\"restrictedView\":\"active-until-Nov13-18\",\"ordinaryLogin\":\"disabled\",\"integration\":\"disabled\",\"publication\":\"disabled\",\"externalLinks\":\"disabled\",\"research\":\"quarantined\",\"merits\":\"unresolved\",\"retention\":\"2026-11-26T18:00:00Z\",\"credentialEvidence\":{\"signed\":{\"receipt\":\"R-618\",\"at\":\"12:05\",\"oldIdentities\":4,\"revoked\":true},\"replica\":{\"watermark\":\"11:58\",\"courierOld\":\"active\"},\"regionalAcknowledgment\":\"unknown\"},\"gatewayDeniedResearch\":true,\"challenged\":[\"Noor Vale\",\"Felix Rowan\"],\"expires\":\"2026-11-13T18:00:00Z\"}"
+      },
+      "at": "2026-11-12T13:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 15,
+      "command": "handoff",
+      "args": {
+        "note": "Jae Lin takes ownership at November 12 18:00 UTC. Actual route: restricted Dispatch view active until November 13 18:00 UTC for Noor Vale and Felix Rowan with fresh challenges; customer login and usability are not yet verified. No export requested, prepared or delivered. Ordinary login, integration, publication and external links remain disabled; Research quarantined. Appeal submitted to independent Tessa, notice corrected, merits unresolved. Arun checks regional acknowledgment at 13:20 and reports by 14:00; signed R-618 and passed test do not establish regional propagation. Tessa review is at 14:00 with initial update target 16:00. Mira updates Noor by 14:30. If view fails, Sana must arrange export, field confirmation, Privacy review and secure delivery. Jae must send Noor a reminder before November 13 18:00 UTC that restricted view expires then, and verify expiry and reversion; no extension is approved. Preserve P-882 and retention; keep case open."
+      },
+      "at": "2026-11-12T13:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 16,
+      "command": "task",
+      "args": {
+        "area": "support",
+        "owner": "Jae Lin",
+        "due": "2026-11-13T17:00:00Z",
+        "action": "Send Noor a restricted-view expiry reminder by November 13 17:00 UTC: the Noor/Felix Dispatch view expires November 13 at 18:00 UTC. Confirm expiry and reversion at 18:00; no extension is approved. Mira retains the November 12 14:30 customer update and hands over at 18:00."
+      },
+      "at": "2026-11-12T13:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 17,
+      "command": "commitments",
+      "args": {
+        "next-update": "2026-11-12T14:30:00Z",
+        "snapshot": "{\"appeal\":\"submitted\",\"notice\":\"corrected\",\"credentialReview\":\"scoped\",\"route\":\"restricted-view\",\"export\":\"none\",\"restrictedView\":\"active-until-Nov13-18\",\"ordinaryLogin\":\"disabled\",\"integration\":\"disabled\",\"publication\":\"disabled\",\"externalLinks\":\"disabled\",\"research\":\"quarantined\",\"merits\":\"unresolved\",\"retention\":\"2026-11-26T18:00:00Z\",\"credentialEvidence\":{\"signed\":{\"receipt\":\"R-618\",\"at\":\"12:05\",\"oldIdentities\":4,\"revoked\":true},\"replica\":{\"watermark\":\"11:58\",\"courierOld\":\"active\"},\"regionalAcknowledgment\":\"unknown\"},\"gatewayDeniedResearch\":true,\"challenged\":[\"Noor Vale\",\"Felix Rowan\"],\"expires\":\"2026-11-13T18:00:00Z\"}"
+      },
+      "at": "2026-11-12T13:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 18,
+      "command": "handoff",
+      "args": {
+        "note": "Jae Lin assumes case ownership November 12 at 18:00 UTC. Jae owns the explicit reminder task due November 13 at 17:00 UTC: send Noor a reminder that the restricted Dispatch view for Noor and Felix expires November 13 at 18:00 UTC. At expiry verify reversion; no extension is approved. The view is active in local state; customer challenges and usability are not yet verified. No export has been requested, prepared or delivered. Ordinary login, integration, publication and external links are disabled; Research remains quarantined. Appeal submitted to Tessa, notice corrected and merits unresolved. Arun checks regional acknowledgment at 13:20 and reports by 14:00; primary revocation and passed test do not establish regional propagation. Tessa reviews at 14:00, initial update target 16:00. Mira updates Noor by 14:30. If view fails, Sana coordinates export booking, field confirmation, Privacy review and secure delivery. Preserve P-882 and retention; keep case open."
+      },
+      "at": "2026-11-12T13:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 19,
+      "command": "handoff",
+      "args": {
+        "note": "Jae Lin takes over November 12 at 18:00 UTC. ACTION FOR JAE: by November 13 at 17:00 UTC send Noor a reminder that the restricted Dispatch view for Noor and Felix expires November 13 at 18:00 UTC; confirm expiry and reversion at 18:00. Reminder is assigned in task receipt 16, not yet sent; no extension is approved. Runtime receipt 2 confirms correct-notice completed: notice status corrected to precautionary grounds and two-hour assurance corrected. Customer reply remains an unsent draft; ensure Noor receives the correction by the November 12 14:30 update. Restricted view is active locally; fresh customer challenges and usability remain unverified. No export requested, prepared or delivered. Ordinary login, integrations, publication and external links disabled; Research quarantined. Appeal submitted to Tessa; merits unresolved. Arun checks regional acknowledgment at 13:20 and reports by 14:00; R-618 and passed test do not establish regional propagation. Tessa reviews at 14:00, initial update target 16:00. If view fails Sana coordinates export booking, field confirmation, Privacy review and secure delivery. Preserve P-882 and retention; keep case open."
+      },
+      "at": "2026-11-12T13:00:00Z",
+      "outcome": "confirmed"
+    }
+  ]
+}

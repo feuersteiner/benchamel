@@ -1,0 +1,998 @@
+{
+  "state": {
+    "now": "2026-11-12T14:30:00Z",
+    "domain": {
+      "appeal": "submitted",
+      "notice": "corrected",
+      "credentialReview": "interpretation-pending",
+      "route": "export",
+      "export": "prepared",
+      "restrictedView": "off",
+      "ordinaryLogin": "disabled",
+      "integration": "disabled",
+      "publication": "disabled",
+      "externalLinks": "disabled",
+      "research": "quarantined",
+      "merits": "unresolved",
+      "retention": "2026-11-26T18:00:00Z",
+      "exportFieldsVerified": true,
+      "exportInventory": [
+        {
+          "id": "D-00",
+          "revision": 1,
+          "snapshot": "2026-11-12T11:00:00Z"
+        },
+        {
+          "id": "D-01",
+          "revision": 2,
+          "snapshot": "2026-11-12T11:00:00Z"
+        },
+        {
+          "id": "D-02",
+          "revision": 3,
+          "snapshot": "2026-11-12T11:00:00Z"
+        },
+        {
+          "id": "D-03",
+          "revision": 4,
+          "snapshot": "2026-11-12T11:00:00Z"
+        },
+        {
+          "id": "D-04",
+          "revision": 5,
+          "snapshot": "2026-11-12T11:00:00Z"
+        },
+        {
+          "id": "D-05",
+          "revision": 6,
+          "snapshot": "2026-11-12T11:00:00Z"
+        },
+        {
+          "id": "D-06",
+          "revision": 7,
+          "snapshot": "2026-11-12T11:00:00Z"
+        },
+        {
+          "id": "D-07",
+          "revision": 8,
+          "snapshot": "2026-11-12T11:00:00Z"
+        },
+        {
+          "id": "D-08",
+          "revision": 9,
+          "snapshot": "2026-11-12T11:00:00Z"
+        },
+        {
+          "id": "D-09",
+          "revision": 10,
+          "snapshot": "2026-11-12T11:00:00Z"
+        },
+        {
+          "id": "D-10",
+          "revision": 11,
+          "snapshot": "2026-11-12T11:00:00Z"
+        },
+        {
+          "id": "D-11",
+          "revision": 12,
+          "snapshot": "2026-11-12T11:00:00Z"
+        },
+        {
+          "id": "D-12",
+          "revision": 13,
+          "snapshot": "2026-11-12T11:00:00Z"
+        },
+        {
+          "id": "D-13",
+          "revision": 14,
+          "snapshot": "2026-11-12T11:00:00Z"
+        },
+        {
+          "id": "D-14",
+          "revision": 15,
+          "snapshot": "2026-11-12T11:00:00Z"
+        },
+        {
+          "id": "D-15",
+          "revision": 16,
+          "snapshot": "2026-11-12T11:00:00Z"
+        },
+        {
+          "id": "D-16",
+          "revision": 17,
+          "snapshot": "2026-11-12T11:00:00Z"
+        },
+        {
+          "id": "D-17",
+          "revision": 18,
+          "snapshot": "2026-11-12T11:00:00Z"
+        },
+        {
+          "id": "D-18",
+          "revision": 19,
+          "snapshot": "2026-11-12T11:00:00Z"
+        },
+        {
+          "id": "D-19",
+          "revision": 20,
+          "snapshot": "2026-11-12T11:00:00Z"
+        },
+        {
+          "id": "D-20",
+          "revision": 21,
+          "snapshot": "2026-11-12T11:00:00Z"
+        },
+        {
+          "id": "D-21",
+          "revision": 22,
+          "snapshot": "2026-11-12T11:00:00Z"
+        },
+        {
+          "id": "D-22",
+          "revision": 23,
+          "snapshot": "2026-11-12T11:00:00Z"
+        },
+        {
+          "id": "D-23",
+          "revision": 24,
+          "snapshot": "2026-11-12T11:00:00Z"
+        },
+        {
+          "id": "D-24",
+          "revision": 25,
+          "snapshot": "2026-11-12T11:00:00Z"
+        },
+        {
+          "id": "D-25",
+          "revision": 26,
+          "snapshot": "2026-11-12T11:00:00Z"
+        },
+        {
+          "id": "D-26",
+          "revision": 27,
+          "snapshot": "2026-11-12T11:00:00Z"
+        },
+        {
+          "id": "D-27",
+          "revision": 28,
+          "snapshot": "2026-11-12T11:00:00Z"
+        },
+        {
+          "id": "D-28",
+          "revision": 29,
+          "snapshot": "2026-11-12T11:00:00Z"
+        },
+        {
+          "id": "D-29",
+          "revision": 30,
+          "snapshot": "2026-11-12T11:00:00Z"
+        },
+        {
+          "id": "D-30",
+          "revision": 31,
+          "snapshot": "2026-11-12T11:00:00Z"
+        },
+        {
+          "id": "D-31",
+          "revision": 32,
+          "snapshot": "2026-11-12T11:00:00Z"
+        },
+        {
+          "id": "D-32",
+          "revision": 33,
+          "snapshot": "2026-11-12T11:00:00Z"
+        },
+        {
+          "id": "D-33",
+          "revision": 34,
+          "snapshot": "2026-11-12T11:00:00Z"
+        },
+        {
+          "id": "D-34",
+          "revision": 35,
+          "snapshot": "2026-11-12T11:00:00Z"
+        },
+        {
+          "id": "D-35",
+          "revision": 36,
+          "snapshot": "2026-11-12T11:00:00Z"
+        },
+        {
+          "id": "D-36",
+          "revision": 37,
+          "snapshot": "2026-11-12T11:00:00Z"
+        },
+        {
+          "id": "D-37",
+          "revision": 38,
+          "snapshot": "2026-11-12T11:00:00Z"
+        },
+        {
+          "id": "D-38",
+          "revision": 39,
+          "snapshot": "2026-11-12T11:00:00Z"
+        },
+        {
+          "id": "D-39",
+          "revision": 40,
+          "snapshot": "2026-11-12T11:00:00Z"
+        },
+        {
+          "id": "D-40",
+          "revision": 41,
+          "snapshot": "2026-11-12T11:00:00Z"
+        },
+        {
+          "id": "D-41",
+          "revision": 42,
+          "snapshot": "2026-11-12T11:00:00Z"
+        },
+        {
+          "id": "D-42",
+          "revision": 43,
+          "snapshot": "2026-11-12T11:00:00Z"
+        },
+        {
+          "id": "D-43",
+          "revision": 44,
+          "snapshot": "2026-11-12T11:00:00Z"
+        },
+        {
+          "id": "D-44",
+          "revision": 45,
+          "snapshot": "2026-11-12T11:00:00Z"
+        },
+        {
+          "id": "D-45",
+          "revision": 46,
+          "snapshot": "2026-11-12T11:00:00Z"
+        }
+      ],
+      "credentialEvidence": {
+        "signed": {
+          "receipt": "R-618",
+          "at": "12:05",
+          "oldIdentities": 4,
+          "revoked": true
+        },
+        "replica": {
+          "watermark": "11:58",
+          "courierOld": "active"
+        },
+        "regionalAcknowledgment": "unknown"
+      }
+    },
+    "tasks": [
+      {
+        "area": "security",
+        "owner": "Arun",
+        "due": "2026-11-12T15:00:00Z",
+        "action": "Check regional acknowledgment and obtain Elena interpretation; preserve R-618 and stale replica evidence."
+      },
+      {
+        "area": "appeal",
+        "owner": "Tessa",
+        "due": "2026-11-12T16:00:00Z",
+        "action": "Review merits and proportionality independently; report decision or outstanding questions and next checkpoint."
+      },
+      {
+        "area": "data",
+        "owner": "Sana",
+        "due": "2026-11-12T15:00:00Z",
+        "action": "Confirm Noor field list and destination, privacy validation and secure delivery; record receipt and expiry."
+      },
+      {
+        "area": "commercial",
+        "owner": "Mira Chen",
+        "due": "2026-11-12T17:00:00Z",
+        "action": "Document impact and route any service credit request separately from renewal and appeal."
+      },
+      {
+        "area": "support",
+        "owner": "Jae Lin",
+        "due": "2026-11-12T18:00:00Z",
+        "action": "Receive handoff, coordinate customer updates, export follow-up and unresolved appeal."
+      }
+    ],
+    "commitments": {
+      "nextUpdate": "2026-11-12T14:30:00Z",
+      "domain": {
+        "appeal": "submitted",
+        "notice": "corrected",
+        "credentialReview": "interpretation-pending",
+        "route": "export",
+        "export": "prepared",
+        "restrictedView": "off",
+        "ordinaryLogin": "disabled",
+        "integration": "disabled",
+        "publication": "disabled",
+        "externalLinks": "disabled",
+        "research": "quarantined",
+        "merits": "unresolved",
+        "retention": "2026-11-26T18:00:00Z",
+        "exportFieldsVerified": true,
+        "exportInventory": [
+          {
+            "id": "D-00",
+            "revision": 1,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-01",
+            "revision": 2,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-02",
+            "revision": 3,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-03",
+            "revision": 4,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-04",
+            "revision": 5,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-05",
+            "revision": 6,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-06",
+            "revision": 7,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-07",
+            "revision": 8,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-08",
+            "revision": 9,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-09",
+            "revision": 10,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-10",
+            "revision": 11,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-11",
+            "revision": 12,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-12",
+            "revision": 13,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-13",
+            "revision": 14,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-14",
+            "revision": 15,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-15",
+            "revision": 16,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-16",
+            "revision": 17,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-17",
+            "revision": 18,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-18",
+            "revision": 19,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-19",
+            "revision": 20,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-20",
+            "revision": 21,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-21",
+            "revision": 22,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-22",
+            "revision": 23,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-23",
+            "revision": 24,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-24",
+            "revision": 25,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-25",
+            "revision": 26,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-26",
+            "revision": 27,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-27",
+            "revision": 28,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-28",
+            "revision": 29,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-29",
+            "revision": 30,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-30",
+            "revision": 31,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-31",
+            "revision": 32,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-32",
+            "revision": 33,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-33",
+            "revision": 34,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-34",
+            "revision": 35,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-35",
+            "revision": 36,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-36",
+            "revision": 37,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-37",
+            "revision": 38,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-38",
+            "revision": 39,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-39",
+            "revision": 40,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-40",
+            "revision": 41,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-41",
+            "revision": 42,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-42",
+            "revision": 43,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-43",
+            "revision": 44,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-44",
+            "revision": 45,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-45",
+            "revision": 46,
+            "snapshot": "2026-11-12T11:00:00Z"
+          }
+        ],
+        "credentialEvidence": {
+          "signed": {
+            "receipt": "R-618",
+            "at": "12:05",
+            "oldIdentities": 4,
+            "revoked": true
+          },
+          "replica": {
+            "watermark": "11:58",
+            "courierOld": "active"
+          },
+          "regionalAcknowledgment": "unknown"
+        }
+      }
+    },
+    "handoff": {
+      "to": "Jae Lin",
+      "note": "Jae Lin at 18:00: export prepared, not delivered; confirm field list, privacy and recipient; follow up regional acknowledgment and Elena interpretation, Tessa review, customer updates and retention. Appeal remains open.",
+      "domain": {
+        "appeal": "submitted",
+        "notice": "corrected",
+        "credentialReview": "interpretation-pending",
+        "route": "export",
+        "export": "prepared",
+        "restrictedView": "off",
+        "ordinaryLogin": "disabled",
+        "integration": "disabled",
+        "publication": "disabled",
+        "externalLinks": "disabled",
+        "research": "quarantined",
+        "merits": "unresolved",
+        "retention": "2026-11-26T18:00:00Z",
+        "exportFieldsVerified": true,
+        "exportInventory": [
+          {
+            "id": "D-00",
+            "revision": 1,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-01",
+            "revision": 2,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-02",
+            "revision": 3,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-03",
+            "revision": 4,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-04",
+            "revision": 5,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-05",
+            "revision": 6,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-06",
+            "revision": 7,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-07",
+            "revision": 8,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-08",
+            "revision": 9,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-09",
+            "revision": 10,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-10",
+            "revision": 11,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-11",
+            "revision": 12,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-12",
+            "revision": 13,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-13",
+            "revision": 14,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-14",
+            "revision": 15,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-15",
+            "revision": 16,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-16",
+            "revision": 17,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-17",
+            "revision": 18,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-18",
+            "revision": 19,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-19",
+            "revision": 20,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-20",
+            "revision": 21,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-21",
+            "revision": 22,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-22",
+            "revision": 23,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-23",
+            "revision": 24,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-24",
+            "revision": 25,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-25",
+            "revision": 26,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-26",
+            "revision": 27,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-27",
+            "revision": 28,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-28",
+            "revision": 29,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-29",
+            "revision": 30,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-30",
+            "revision": 31,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-31",
+            "revision": 32,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-32",
+            "revision": 33,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-33",
+            "revision": 34,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-34",
+            "revision": 35,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-35",
+            "revision": 36,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-36",
+            "revision": 37,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-37",
+            "revision": 38,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-38",
+            "revision": 39,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-39",
+            "revision": 40,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-40",
+            "revision": 41,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-41",
+            "revision": 42,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-42",
+            "revision": 43,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-43",
+            "revision": 44,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-44",
+            "revision": 45,
+            "snapshot": "2026-11-12T11:00:00Z"
+          },
+          {
+            "id": "D-45",
+            "revision": 46,
+            "snapshot": "2026-11-12T11:00:00Z"
+          }
+        ],
+        "credentialEvidence": {
+          "signed": {
+            "receipt": "R-618",
+            "at": "12:05",
+            "oldIdentities": 4,
+            "revoked": true
+          },
+          "replica": {
+            "watermark": "11:58",
+            "courierOld": "active"
+          },
+          "regionalAcknowledgment": "unknown"
+        }
+      },
+      "tasks": [
+        {
+          "area": "security",
+          "owner": "Arun",
+          "due": "2026-11-12T15:00:00Z",
+          "action": "Check regional acknowledgment and obtain Elena interpretation; preserve R-618 and stale replica evidence."
+        },
+        {
+          "area": "appeal",
+          "owner": "Tessa",
+          "due": "2026-11-12T16:00:00Z",
+          "action": "Review merits and proportionality independently; report decision or outstanding questions and next checkpoint."
+        },
+        {
+          "area": "data",
+          "owner": "Sana",
+          "due": "2026-11-12T15:00:00Z",
+          "action": "Confirm Noor field list and destination, privacy validation and secure delivery; record receipt and expiry."
+        },
+        {
+          "area": "commercial",
+          "owner": "Mira Chen",
+          "due": "2026-11-12T17:00:00Z",
+          "action": "Document impact and route any service credit request separately from renewal and appeal."
+        },
+        {
+          "area": "support",
+          "owner": "Jae Lin",
+          "due": "2026-11-12T18:00:00Z",
+          "action": "Receive handoff, coordinate customer updates, export follow-up and unresolved appeal."
+        }
+      ]
+    }
+  },
+  "audit": [
+    {
+      "seq": 1,
+      "command": "reserve-export",
+      "args": {
+        "fields": "assignment,revision",
+        "recipient": "Noor Vale"
+      },
+      "at": "2026-11-12T13:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 2,
+      "command": "submit-appeal",
+      "args": {
+        "channel": "existing-thread"
+      },
+      "at": "2026-11-12T13:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 3,
+      "command": "correct-notice",
+      "args": {},
+      "at": "2026-11-12T13:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 4,
+      "command": "check-credentials",
+      "args": {},
+      "at": "2026-11-12T13:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 5,
+      "command": "request-interpretation",
+      "args": {
+        "question": "Does A-882 require regional acknowledgment given signed R-618 and the isolated scope test?"
+      },
+      "at": "2026-11-12T13:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 6,
+      "command": "clock",
+      "args": {
+        "to": "2026-11-12T14:30:00Z"
+      },
+      "at": "2026-11-12T14:30:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 7,
+      "command": "export-poll",
+      "args": {},
+      "at": "2026-11-12T14:30:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 8,
+      "command": "task",
+      "args": {
+        "area": "security",
+        "owner": "Arun",
+        "due": "2026-11-12T15:00:00Z",
+        "action": "Check regional acknowledgment and obtain Elena interpretation; preserve R-618 and stale replica evidence."
+      },
+      "at": "2026-11-12T14:30:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 9,
+      "command": "task",
+      "args": {
+        "area": "appeal",
+        "owner": "Tessa",
+        "due": "2026-11-12T16:00:00Z",
+        "action": "Review merits and proportionality independently; report decision or outstanding questions and next checkpoint."
+      },
+      "at": "2026-11-12T14:30:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 10,
+      "command": "task",
+      "args": {
+        "area": "data",
+        "owner": "Sana",
+        "due": "2026-11-12T15:00:00Z",
+        "action": "Confirm Noor field list and destination, privacy validation and secure delivery; record receipt and expiry."
+      },
+      "at": "2026-11-12T14:30:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 11,
+      "command": "task",
+      "args": {
+        "area": "commercial",
+        "owner": "Mira Chen",
+        "due": "2026-11-12T17:00:00Z",
+        "action": "Document impact and route any service credit request separately from renewal and appeal."
+      },
+      "at": "2026-11-12T14:30:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 12,
+      "command": "task",
+      "args": {
+        "area": "support",
+        "owner": "Jae Lin",
+        "due": "2026-11-12T18:00:00Z",
+        "action": "Receive handoff, coordinate customer updates, export follow-up and unresolved appeal."
+      },
+      "at": "2026-11-12T14:30:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 13,
+      "command": "commitments",
+      "args": {
+        "next-update": "2026-11-12T14:30:00Z",
+        "snapshot": "{\"appeal\":\"submitted\",\"notice\":\"corrected\",\"credentialReview\":\"interpretation-pending\",\"route\":\"export\",\"export\":\"prepared\",\"restrictedView\":\"off\",\"ordinaryLogin\":\"disabled\",\"integration\":\"disabled\",\"publication\":\"disabled\",\"externalLinks\":\"disabled\",\"research\":\"quarantined\",\"merits\":\"unresolved\",\"retention\":\"2026-11-26T18:00:00Z\",\"exportFieldsVerified\":true,\"exportInventory\":[{\"id\":\"D-00\",\"revision\":1,\"snapshot\":\"2026-11-12T11:00:00Z\"},{\"id\":\"D-01\",\"revision\":2,\"snapshot\":\"2026-11-12T11:00:00Z\"},{\"id\":\"D-02\",\"revision\":3,\"snapshot\":\"2026-11-12T11:00:00Z\"},{\"id\":\"D-03\",\"revision\":4,\"snapshot\":\"2026-11-12T11:00:00Z\"},{\"id\":\"D-04\",\"revision\":5,\"snapshot\":\"2026-11-12T11:00:00Z\"},{\"id\":\"D-05\",\"revision\":6,\"snapshot\":\"2026-11-12T11:00:00Z\"},{\"id\":\"D-06\",\"revision\":7,\"snapshot\":\"2026-11-12T11:00:00Z\"},{\"id\":\"D-07\",\"revision\":8,\"snapshot\":\"2026-11-12T11:00:00Z\"},{\"id\":\"D-08\",\"revision\":9,\"snapshot\":\"2026-11-12T11:00:00Z\"},{\"id\":\"D-09\",\"revision\":10,\"snapshot\":\"2026-11-12T11:00:00Z\"},{\"id\":\"D-10\",\"revision\":11,\"snapshot\":\"2026-11-12T11:00:00Z\"},{\"id\":\"D-11\",\"revision\":12,\"snapshot\":\"2026-11-12T11:00:00Z\"},{\"id\":\"D-12\",\"revision\":13,\"snapshot\":\"2026-11-12T11:00:00Z\"},{\"id\":\"D-13\",\"revision\":14,\"snapshot\":\"2026-11-12T11:00:00Z\"},{\"id\":\"D-14\",\"revision\":15,\"snapshot\":\"2026-11-12T11:00:00Z\"},{\"id\":\"D-15\",\"revision\":16,\"snapshot\":\"2026-11-12T11:00:00Z\"},{\"id\":\"D-16\",\"revision\":17,\"snapshot\":\"2026-11-12T11:00:00Z\"},{\"id\":\"D-17\",\"revision\":18,\"snapshot\":\"2026-11-12T11:00:00Z\"},{\"id\":\"D-18\",\"revision\":19,\"snapshot\":\"2026-11-12T11:00:00Z\"},{\"id\":\"D-19\",\"revision\":20,\"snapshot\":\"2026-11-12T11:00:00Z\"},{\"id\":\"D-20\",\"revision\":21,\"snapshot\":\"2026-11-12T11:00:00Z\"},{\"id\":\"D-21\",\"revision\":22,\"snapshot\":\"2026-11-12T11:00:00Z\"},{\"id\":\"D-22\",\"revision\":23,\"snapshot\":\"2026-11-12T11:00:00Z\"},{\"id\":\"D-23\",\"revision\":24,\"snapshot\":\"2026-11-12T11:00:00Z\"},{\"id\":\"D-24\",\"revision\":25,\"snapshot\":\"2026-11-12T11:00:00Z\"},{\"id\":\"D-25\",\"revision\":26,\"snapshot\":\"2026-11-12T11:00:00Z\"},{\"id\":\"D-26\",\"revision\":27,\"snapshot\":\"2026-11-12T11:00:00Z\"},{\"id\":\"D-27\",\"revision\":28,\"snapshot\":\"2026-11-12T11:00:00Z\"},{\"id\":\"D-28\",\"revision\":29,\"snapshot\":\"2026-11-12T11:00:00Z\"},{\"id\":\"D-29\",\"revision\":30,\"snapshot\":\"2026-11-12T11:00:00Z\"},{\"id\":\"D-30\",\"revision\":31,\"snapshot\":\"2026-11-12T11:00:00Z\"},{\"id\":\"D-31\",\"revision\":32,\"snapshot\":\"2026-11-12T11:00:00Z\"},{\"id\":\"D-32\",\"revision\":33,\"snapshot\":\"2026-11-12T11:00:00Z\"},{\"id\":\"D-33\",\"revision\":34,\"snapshot\":\"2026-11-12T11:00:00Z\"},{\"id\":\"D-34\",\"revision\":35,\"snapshot\":\"2026-11-12T11:00:00Z\"},{\"id\":\"D-35\",\"revision\":36,\"snapshot\":\"2026-11-12T11:00:00Z\"},{\"id\":\"D-36\",\"revision\":37,\"snapshot\":\"2026-11-12T11:00:00Z\"},{\"id\":\"D-37\",\"revision\":38,\"snapshot\":\"2026-11-12T11:00:00Z\"},{\"id\":\"D-38\",\"revision\":39,\"snapshot\":\"2026-11-12T11:00:00Z\"},{\"id\":\"D-39\",\"revision\":40,\"snapshot\":\"2026-11-12T11:00:00Z\"},{\"id\":\"D-40\",\"revision\":41,\"snapshot\":\"2026-11-12T11:00:00Z\"},{\"id\":\"D-41\",\"revision\":42,\"snapshot\":\"2026-11-12T11:00:00Z\"},{\"id\":\"D-42\",\"revision\":43,\"snapshot\":\"2026-11-12T11:00:00Z\"},{\"id\":\"D-43\",\"revision\":44,\"snapshot\":\"2026-11-12T11:00:00Z\"},{\"id\":\"D-44\",\"revision\":45,\"snapshot\":\"2026-11-12T11:00:00Z\"},{\"id\":\"D-45\",\"revision\":46,\"snapshot\":\"2026-11-12T11:00:00Z\"}],\"credentialEvidence\":{\"signed\":{\"receipt\":\"R-618\",\"at\":\"12:05\",\"oldIdentities\":4,\"revoked\":true},\"replica\":{\"watermark\":\"11:58\",\"courierOld\":\"active\"},\"regionalAcknowledgment\":\"unknown\"}}"
+      },
+      "at": "2026-11-12T14:30:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 14,
+      "command": "handoff",
+      "args": {
+        "note": "Jae Lin at 18:00: export prepared, not delivered; confirm field list, privacy and recipient; follow up regional acknowledgment and Elena interpretation, Tessa review, customer updates and retention. Appeal remains open."
+      },
+      "at": "2026-11-12T14:30:00Z",
+      "outcome": "confirmed"
+    }
+  ]
+}

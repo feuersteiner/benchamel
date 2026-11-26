@@ -1,0 +1,24 @@
+{
+  "state": {
+    "now": "2026-11-12T13:00:00Z",
+    "domain": {
+      "appeal": "not-submitted",
+      "notice": "uncorrected",
+      "credentialReview": "none",
+      "route": "unselected",
+      "export": "none",
+      "restrictedView": "off",
+      "ordinaryLogin": "disabled",
+      "integration": "disabled",
+      "publication": "disabled",
+      "externalLinks": "disabled",
+      "research": "quarantined",
+      "merits": "unresolved",
+      "retention": "2026-11-26T18:00:00Z"
+    },
+    "tasks": [],
+    "commitments": null,
+    "handoff": null
+  },
+  "audit": []
+}

@@ -1,0 +1,332 @@
+{
+  "state": {
+    "now": "2026-11-12T13:00:00Z",
+    "domain": {
+      "appeal": "submitted",
+      "notice": "corrected",
+      "credentialReview": "scoped",
+      "route": "restricted-view",
+      "export": "none",
+      "restrictedView": "active-until-Nov13-18",
+      "ordinaryLogin": "disabled",
+      "integration": "disabled",
+      "publication": "disabled",
+      "externalLinks": "disabled",
+      "research": "quarantined",
+      "merits": "unresolved",
+      "retention": "2026-11-26T18:00:00Z",
+      "credentialEvidence": {
+        "signed": {
+          "receipt": "R-618",
+          "at": "12:05",
+          "oldIdentities": 4,
+          "revoked": true
+        },
+        "replica": {
+          "watermark": "11:58",
+          "courierOld": "active"
+        },
+        "regionalAcknowledgment": "unknown"
+      },
+      "gatewayDeniedResearch": true,
+      "challenged": [
+        "Noor Vale",
+        "Felix Rowan"
+      ],
+      "expires": "2026-11-13T18:00:00Z"
+    },
+    "tasks": [
+      {
+        "area": "appeal",
+        "owner": "Tessa",
+        "due": "2026-11-12T14:00:00Z",
+        "action": "Review existing appeal independently; assess distribution evidence and proportionality, with initial update target 16:00."
+      },
+      {
+        "area": "data",
+        "owner": "Sana",
+        "due": "2026-11-12T14:30:00Z",
+        "action": "Keep minimized snapshot export as alternative if restricted view fails; confirm fields and privacy before delivery."
+      },
+      {
+        "area": "commercial",
+        "owner": "Mira Chen",
+        "due": "2026-11-12T14:30:00Z",
+        "action": "Correct unsupported restoration promise; route documented service impact for credit consideration without linking review to renewal."
+      },
+      {
+        "area": "support",
+        "owner": "Mira Chen",
+        "due": "2026-11-12T14:30:00Z",
+        "action": "Verify Noor and Felix can use challenged view, update customer before meeting, and hand off to Jae at 18:00 with expiry reminder."
+      },
+      {
+        "area": "security",
+        "owner": "Tomas",
+        "due": "2026-11-12T13:20:00Z",
+        "action": "Own restricted Dispatch activation and verify live scope and successful challenged Noor and Felix sessions; record result and reversion at expiry."
+      }
+    ],
+    "commitments": {
+      "nextUpdate": "2026-11-12T14:30:00Z",
+      "domain": {
+        "appeal": "submitted",
+        "notice": "corrected",
+        "credentialReview": "scoped",
+        "route": "restricted-view",
+        "export": "none",
+        "restrictedView": "active-until-Nov13-18",
+        "ordinaryLogin": "disabled",
+        "integration": "disabled",
+        "publication": "disabled",
+        "externalLinks": "disabled",
+        "research": "quarantined",
+        "merits": "unresolved",
+        "retention": "2026-11-26T18:00:00Z",
+        "credentialEvidence": {
+          "signed": {
+            "receipt": "R-618",
+            "at": "12:05",
+            "oldIdentities": 4,
+            "revoked": true
+          },
+          "replica": {
+            "watermark": "11:58",
+            "courierOld": "active"
+          },
+          "regionalAcknowledgment": "unknown"
+        },
+        "gatewayDeniedResearch": true,
+        "challenged": [
+          "Noor Vale",
+          "Felix Rowan"
+        ],
+        "expires": "2026-11-13T18:00:00Z"
+      }
+    },
+    "handoff": {
+      "to": "Jae Lin",
+      "note": "Jae Lin, 18:00 handoff: at 13:00 receipt 4 confirmed restricted-view route active for newly challenged Noor Vale and Felix Rowan through 2026-11-13 18:00 UTC; actual customer use is not yet verified. Tomas owns live verification and expiry reversion; remind customer before expiry. Ordinary login, integration, publication and external links remain disabled; Research quarantined. Appeal submitted to Tessa, merits unresolved; 14:00 review and 16:00 initial update target. Notice corrected by receipt 2. Arun checks unknown regional acknowledgment at 13:20; R-618 is signed and replica watermark predates revocation. Mira customer update due 14:30. Export not requested or delivered; Sana owns alternative if needed. Retention Nov 26 18:00; preserve P-882 evidence. Refresh snapshot and handoff after transitions.",
+      "domain": {
+        "appeal": "submitted",
+        "notice": "corrected",
+        "credentialReview": "scoped",
+        "route": "restricted-view",
+        "export": "none",
+        "restrictedView": "active-until-Nov13-18",
+        "ordinaryLogin": "disabled",
+        "integration": "disabled",
+        "publication": "disabled",
+        "externalLinks": "disabled",
+        "research": "quarantined",
+        "merits": "unresolved",
+        "retention": "2026-11-26T18:00:00Z",
+        "credentialEvidence": {
+          "signed": {
+            "receipt": "R-618",
+            "at": "12:05",
+            "oldIdentities": 4,
+            "revoked": true
+          },
+          "replica": {
+            "watermark": "11:58",
+            "courierOld": "active"
+          },
+          "regionalAcknowledgment": "unknown"
+        },
+        "gatewayDeniedResearch": true,
+        "challenged": [
+          "Noor Vale",
+          "Felix Rowan"
+        ],
+        "expires": "2026-11-13T18:00:00Z"
+      },
+      "tasks": [
+        {
+          "area": "appeal",
+          "owner": "Tessa",
+          "due": "2026-11-12T14:00:00Z",
+          "action": "Review existing appeal independently; assess distribution evidence and proportionality, with initial update target 16:00."
+        },
+        {
+          "area": "data",
+          "owner": "Sana",
+          "due": "2026-11-12T14:30:00Z",
+          "action": "Keep minimized snapshot export as alternative if restricted view fails; confirm fields and privacy before delivery."
+        },
+        {
+          "area": "commercial",
+          "owner": "Mira Chen",
+          "due": "2026-11-12T14:30:00Z",
+          "action": "Correct unsupported restoration promise; route documented service impact for credit consideration without linking review to renewal."
+        },
+        {
+          "area": "support",
+          "owner": "Mira Chen",
+          "due": "2026-11-12T14:30:00Z",
+          "action": "Verify Noor and Felix can use challenged view, update customer before meeting, and hand off to Jae at 18:00 with expiry reminder."
+        },
+        {
+          "area": "security",
+          "owner": "Tomas",
+          "due": "2026-11-12T13:20:00Z",
+          "action": "Own restricted Dispatch activation and verify live scope and successful challenged Noor and Felix sessions; record result and reversion at expiry."
+        }
+      ]
+    }
+  },
+  "audit": [
+    {
+      "seq": 1,
+      "command": "submit-appeal",
+      "args": {
+        "channel": "existing-thread"
+      },
+      "at": "2026-11-12T13:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 2,
+      "command": "correct-notice",
+      "args": {},
+      "at": "2026-11-12T13:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 3,
+      "command": "check-credentials",
+      "args": {},
+      "at": "2026-11-12T13:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 4,
+      "command": "activate-restricted",
+      "args": {
+        "basis": "signed-receipt-plus-scope-test",
+        "reason": "R-618 confirms primary revocation and session termination; the passed scope test isolates challenged Dispatch sessions from Research and the regional link path. The replica watermark predates revocation and regional acknowledgment remains unknown; external links remain blocked."
+      },
+      "at": "2026-11-12T13:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 5,
+      "command": "task",
+      "args": {
+        "area": "security",
+        "owner": "Arun",
+        "due": "2026-11-12T13:20:00Z",
+        "action": "Check regional revocation acknowledgment; report unknown or receipt, and verify live scope with Tomas."
+      },
+      "at": "2026-11-12T13:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 6,
+      "command": "task",
+      "args": {
+        "area": "appeal",
+        "owner": "Tessa",
+        "due": "2026-11-12T14:00:00Z",
+        "action": "Review existing appeal independently; assess distribution evidence and proportionality, with initial update target 16:00."
+      },
+      "at": "2026-11-12T13:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 7,
+      "command": "task",
+      "args": {
+        "area": "data",
+        "owner": "Sana",
+        "due": "2026-11-12T14:30:00Z",
+        "action": "Keep minimized snapshot export as alternative if restricted view fails; confirm fields and privacy before delivery."
+      },
+      "at": "2026-11-12T13:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 8,
+      "command": "task",
+      "args": {
+        "area": "commercial",
+        "owner": "Mira Chen",
+        "due": "2026-11-12T14:30:00Z",
+        "action": "Correct unsupported restoration promise; route documented service impact for credit consideration without linking review to renewal."
+      },
+      "at": "2026-11-12T13:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 9,
+      "command": "task",
+      "args": {
+        "area": "support",
+        "owner": "Mira Chen",
+        "due": "2026-11-12T14:30:00Z",
+        "action": "Verify Noor and Felix can use challenged view, update customer before meeting, and hand off to Jae at 18:00 with expiry reminder."
+      },
+      "at": "2026-11-12T13:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 10,
+      "command": "commitments",
+      "args": {
+        "next-update": "2026-11-12T14:30:00Z",
+        "snapshot": "{\"appeal\":\"submitted\",\"notice\":\"corrected\",\"credentialReview\":\"scoped\",\"route\":\"restricted-view\",\"export\":\"none\",\"restrictedView\":\"active-until-Nov13-18\",\"ordinaryLogin\":\"disabled\",\"integration\":\"disabled\",\"publication\":\"disabled\",\"externalLinks\":\"disabled\",\"research\":\"quarantined\",\"merits\":\"unresolved\",\"retention\":\"2026-11-26T18:00:00Z\",\"credentialEvidence\":{\"signed\":{\"receipt\":\"R-618\",\"at\":\"12:05\",\"oldIdentities\":4,\"revoked\":true},\"replica\":{\"watermark\":\"11:58\",\"courierOld\":\"active\"},\"regionalAcknowledgment\":\"unknown\"},\"gatewayDeniedResearch\":true,\"challenged\":[\"Noor Vale\",\"Felix Rowan\"],\"expires\":\"2026-11-13T18:00:00Z\"}"
+      },
+      "at": "2026-11-12T13:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 11,
+      "command": "handoff",
+      "args": {
+        "note": "Jae Lin accepts 18:00 handoff: restricted Dispatch active for challenged Noor and Felix until Nov 13 18:00; verify usable sessions and remind before expiry. Arun checks regional acknowledgment at 13:20; R-618 and scope test do not establish regional acknowledgment. Tessa review 14:00, initial update target 16:00; merits unresolved. Mira updates customer by 14:30. Export not requested; Sana owns alternative if needed. Preserve receipts and outstanding evidence."
+      },
+      "at": "2026-11-12T13:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 12,
+      "command": "task",
+      "args": {
+        "area": "security",
+        "owner": "Tomas",
+        "due": "2026-11-12T13:20:00Z",
+        "action": "Own restricted Dispatch activation and verify live scope and successful challenged Noor and Felix sessions; record result and reversion at expiry."
+      },
+      "at": "2026-11-12T13:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 13,
+      "command": "commitments",
+      "args": {
+        "next-update": "2026-11-12T14:30:00Z",
+        "snapshot": "{\"appeal\":\"submitted\",\"notice\":\"corrected\",\"credentialReview\":\"scoped\",\"route\":\"restricted-view\",\"export\":\"none\",\"restrictedView\":\"active-until-Nov13-18\",\"ordinaryLogin\":\"disabled\",\"integration\":\"disabled\",\"publication\":\"disabled\",\"externalLinks\":\"disabled\",\"research\":\"quarantined\",\"merits\":\"unresolved\",\"retention\":\"2026-11-26T18:00:00Z\",\"credentialEvidence\":{\"signed\":{\"receipt\":\"R-618\",\"at\":\"12:05\",\"oldIdentities\":4,\"revoked\":true},\"replica\":{\"watermark\":\"11:58\",\"courierOld\":\"active\"},\"regionalAcknowledgment\":\"unknown\"},\"gatewayDeniedResearch\":true,\"challenged\":[\"Noor Vale\",\"Felix Rowan\"],\"expires\":\"2026-11-13T18:00:00Z\"}"
+      },
+      "at": "2026-11-12T13:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 14,
+      "command": "handoff",
+      "args": {
+        "note": "Jae Lin accepts 18:00 handoff. Notice correction confirmed; appeal submitted. Tomas owns restricted Dispatch activation and live verification for challenged Noor and Felix, expiring Nov 13 18:00; remind before expiry. Arun checks regional acknowledgment at 13:20; R-618 and scope test do not establish regional acknowledgment. Tessa review 14:00, initial update target 16:00; merits unresolved. Mira updates customer by 14:30. Export not requested; Sana owns alternative if needed. Preserve receipts and evidence."
+      },
+      "at": "2026-11-12T13:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 15,
+      "command": "handoff",
+      "args": {
+        "note": "Jae Lin, 18:00 handoff: at 13:00 receipt 4 confirmed restricted-view route active for newly challenged Noor Vale and Felix Rowan through 2026-11-13 18:00 UTC; actual customer use is not yet verified. Tomas owns live verification and expiry reversion; remind customer before expiry. Ordinary login, integration, publication and external links remain disabled; Research quarantined. Appeal submitted to Tessa, merits unresolved; 14:00 review and 16:00 initial update target. Notice corrected by receipt 2. Arun checks unknown regional acknowledgment at 13:20; R-618 is signed and replica watermark predates revocation. Mira customer update due 14:30. Export not requested or delivered; Sana owns alternative if needed. Retention Nov 26 18:00; preserve P-882 evidence. Refresh snapshot and handoff after transitions."
+      },
+      "at": "2026-11-12T13:00:00Z",
+      "outcome": "confirmed"
+    }
+  ]
+}
