@@ -1,0 +1,11 @@
+{
+  "name": "complex-support-07-operations",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "ops": "bun src/cli.ts",
+    "help": "bun src/cli.ts help",
+    "status": "bun src/cli.ts status",
+    "check": "bun src/cli.ts check"
+  }
+}

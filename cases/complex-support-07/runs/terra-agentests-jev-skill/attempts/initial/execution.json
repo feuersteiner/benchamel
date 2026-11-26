@@ -1,0 +1,17 @@
+{
+  "case": "complex-support-07",
+  "arm": "terra-agentests-jev-skill",
+  "pid": 45643,
+  "startedAt": "2026-11-26T05:25:24.758Z",
+  "endedAt": "2026-11-26T05:27:46.963Z",
+  "status": "failed",
+  "exit": 1,
+  "source_commit": "31b8b6ad2ead73efd5b4cb650387c5f577170786",
+  "versions": {
+    "codex": "codex-cli 0.172.0-alpha.2",
+    "bun": "1.3.3",
+    "node": "v22.19.0"
+  },
+  "transport": "native-single-question",
+  "execution_wave": "initial-60-way"
+}

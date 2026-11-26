@@ -1,0 +1,24 @@
+{
+  "state": {
+    "now": "2026-10-20T13:00:00Z",
+    "domain": {
+      "holdUntil": "2026-10-21T09:00:00Z",
+      "path": "unselected",
+      "custody": "reserved",
+      "payments": "none",
+      "bundle": null,
+      "rental": "none",
+      "buyerRefundCents": 0,
+      "sellerPayableCents": 452000,
+      "sellerPaidCents": 0,
+      "bankPosted": false,
+      "fault": "unresolved",
+      "preservation": "PR-7714",
+      "release": false
+    },
+    "tasks": [],
+    "commitments": null,
+    "handoff": null
+  },
+  "audit": []
+}

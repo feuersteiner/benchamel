@@ -1,0 +1,205 @@
+{
+  "id": "complex-support-07",
+  "now": "2026-10-20T13:00:00Z",
+  "updateBy": "2026-10-20T15:45:00Z",
+  "handoff": "Rhea Moss",
+  "areas": {
+    "logistics": [
+      "Noor"
+    ],
+    "payments": [
+      "Omar"
+    ],
+    "trust": [
+      "Dev Malik",
+      "Talia"
+    ],
+    "privacy": [
+      "Sana"
+    ],
+    "support": [
+      "Rowan",
+      "Rhea Moss"
+    ]
+  },
+  "initial": {
+    "holdUntil": "2026-10-21T09:00:00Z",
+    "path": "unselected",
+    "custody": "reserved",
+    "payments": "none",
+    "bundle": null,
+    "rental": "none",
+    "buyerRefundCents": 0,
+    "sellerPayableCents": 452000,
+    "sellerPaidCents": 0,
+    "bankPosted": false,
+    "fault": "unresolved",
+    "preservation": "PR-7714",
+    "release": false
+  },
+  "invariants": {
+    "bankPosted": false,
+    "fault": "unresolved",
+    "preservation": "PR-7714",
+    "release": false
+  },
+  "rules": [
+    "Delivery scan proves package receipt, not kit conformity or fault. Preserve a complete-kit hold and fair minimized evidence exchange.",
+    "PF-92 permits $4,920 buyer refund plus original $4,520 seller payable without seller recovery, only after owner terms, complete insured custody, preservation and fresh payment-block check.",
+    "Ordinary neutral inspection is a legitimate alternative; a later $3,000 accessory allocation is not an accepted divisible-order price.",
+    "Election before pickup changes the custody transaction to acquisition; possession, title, submitted paired payment, processor acceptance and bank posting are distinct.",
+    "The requested $120 rental contribution is separate and nonrepayable. No fraud finding, review suppression, broad release or subscription is required."
+  ],
+  "actions": {
+    "extend-hold": {
+      "description": "Confirm disputed-order hold through October 23 18:00, unrelated payouts unaffected.",
+      "owner": "Rowan",
+      "evidence": [
+        "E07",
+        "E20"
+      ],
+      "effects": {
+        "holdUntil": "2026-10-23T18:00:00Z"
+      }
+    },
+    "elect-acquisition": {
+      "description": "Elect accepted PF-92 package and notify owners before neutral pickup.",
+      "owner": "Rowan",
+      "evidence": [
+        "E15",
+        "E18"
+      ],
+      "effects": {
+        "path": "acquisition"
+      },
+      "requires": {
+        "path": "unselected",
+        "custody": "reserved"
+      },
+      "args": {
+        "approval": [
+          "PF-92"
+        ],
+        "owners": [
+          "Ada,Jules"
+        ]
+      },
+      "before": "2026-10-20T14:00:00Z"
+    },
+    "elect-inspection": {
+      "description": "Retain ordinary neutral inspection and October 21 13:00 adjudication checkpoint.",
+      "owner": "Dev Malik",
+      "evidence": [
+        "E11",
+        "E16",
+        "E20"
+      ],
+      "effects": {
+        "path": "inspection"
+      },
+      "requires": {
+        "path": "unselected"
+      },
+      "args": {
+        "reason": "text"
+      }
+    },
+    "pickup": {
+      "description": "Record complete-kit insured neutral custody; title transfer only for elected acquisition.",
+      "owner": "Noor",
+      "evidence": [
+        "E09",
+        "E11",
+        "E18"
+      ],
+      "effects": {
+        "custody": "accepted"
+      },
+      "args": {
+        "scope": [
+          "complete-kit-and-packaging"
+        ]
+      },
+      "after": "2026-10-20T14:00:00Z",
+      "before": "2026-10-20T15:00:00Z",
+      "failEffects": {
+        "custody": "failed-safe"
+      }
+    },
+    "prepare-evidence": {
+      "description": "Crop face/access panel and remove account-risk signals for goods comparison.",
+      "owner": "Sana",
+      "evidence": [
+        "E08",
+        "E10",
+        "E13"
+      ],
+      "effects": {
+        "bundle": "minimized"
+      }
+    },
+    "submit-paired": {
+      "description": "Recheck capture/block status, queue exact paired operations to Omar; no duplicate seller payout.",
+      "owner": "Omar",
+      "evidence": [
+        "E07",
+        "E15",
+        "E20"
+      ],
+      "effects": {
+        "payments": "submitted"
+      },
+      "requires": {
+        "path": "acquisition",
+        "custody": "accepted",
+        "payments": "none"
+      },
+      "args": {
+        "buyer-cents": [
+          "492000"
+        ],
+        "seller-cents": [
+          "452000"
+        ]
+      },
+      "before": "2026-10-20T15:00:00Z"
+    },
+    "payment-poll": {
+      "description": "Processor accepts paired instructions in supervised window, bank posting remains unknown.",
+      "owner": "Omar",
+      "evidence": [
+        "E07",
+        "E20"
+      ],
+      "effects": {
+        "payments": "accepted",
+        "buyerRefundCents": 492000,
+        "sellerPayableCents": 0,
+        "sellerPaidCents": 452000
+      },
+      "requires": {
+        "payments": "submitted"
+      },
+      "after": "2026-10-20T15:30:00Z",
+      "failEffects": {
+        "payments": "failed-safe"
+      }
+    },
+    "rental-request": {
+      "description": "Queue separate requested $120 original-method support contribution, nonrepayable.",
+      "owner": "Rowan",
+      "evidence": [
+        "E14",
+        "E18"
+      ],
+      "effects": {
+        "rental": "requested"
+      },
+      "args": {
+        "cents": [
+          "12000"
+        ]
+      }
+    }
+  }
+}

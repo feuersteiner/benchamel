@@ -1,0 +1,19 @@
+# NM-7714 handoff — 20 October 2026, 15:30 UTC
+
+Rhea Moss assumes ownership at 18:00. Rowan owes separate authenticated updates to Jules and Ada by 15:45; reply.md is a draft, not a sent message. No external contact has occurred.
+
+## Authority and evidence ledger
+
+- DSP-4.0 and E05/E14 govern; E06 is superseded. The delivery scan establishes receipt of a parcel, not conformity or fault. Buyer images show 614 and apparent damage; seller records support 641, but neither record provides a continuous custody chain. Weight differences and risk signals prove no substitution. No fraud finding or suspension is authorized (E08–E10).
+- E18 records both authorized owners' specific consent. Pilar's PF-92 (E15) authorizes the $4,920 original-method refund and $4,520 original seller payable without recovery, conditional on election, preservation, complete insured custody and a fresh payment-block check. Ordinary neutral inspection remained an authorized alternative. The seller's later $3,000 allocation was not an accepted component price; Dev owns severability and any partial-release decision (E16). No such release was made.
+- PR-7714 preserves originals. Sana's minimized bundle is prepared, not proven delivered; provide both parties a fair opportunity to address relevant evidence and explain withheld private account data. Do not expose raw risk signals. No broad release, review suppression, subscription or fraud admission is required.
+
+## Receipts and pending work
+
+- Audit 1 extended the order hold to October 23 18:00; unrelated payouts remain unaffected. Omar must verify processor-side exclusion. Election and owner notification are recorded by audit 2 before pickup. Audit 6 records insured, nondestructive complete-kit custody of camera, two batteries, charger, case, rig and carton, with platform title; it does not establish cause or historical contents.
+- Audit 7 records paired submission after custody; the instruction uses the original seller payable with zero seller recovery. Audit 9 records processor acceptance: $4,920 refund and $4,520 seller payout. No separate processor reference is displayed in the receipt; Omar must obtain and track references. Bank posting is unconfirmed. Estimates after acceptance are five to ten business days for the card and one to three business days for the seller bank, without guarantees. Do not duplicate the seller payout.
+- Audit 4 records the separate $120 nonrepayable rental request, not payment. Omar must check for duplicate assistance and progress it by 15:45. Escalate any payment failure or new external dispute to Payments; do not ask either party to surrender rights. If a material inventory discrepancy appears, pause any further dependent action and consult Pilar.
+- Noor: depot intake by October 21 10:00, preserve packaging, flag safety or material discrepancy. Talia: risk checkpoint October 21 11:30; no presumption of fraud. Sana: fair minimized exchange and privacy explanation; retain originals and redaction context. Dev: assess remaining goods questions and party responses by October 21 13:00; no invented inspection conclusion. If a report is late, update the parties before the checkpoint.
+- Rowan: separately tell Ada of accepted payout, posting estimate, absence of seller recovery, and the unresolved evidence and complaint; do not disclose buyer private details. Explain that the order metric remains pending and unrelated selling continues. Correct the buyer's unsupported guarantee and repeated upload request. Lena Orr owns sales and campaign wording correction by October 23; Ren Shaw owns the neutral carrier response by October 23 12:00. These tasks survive payment acceptance.
+
+Commitments and handoff were recorded against the current domain snapshot in audits 18–19. Rhea must refresh both after any subsequent state change and track posting, rental, privacy, Risk and the outstanding complaints until actually resolved.

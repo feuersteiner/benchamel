@@ -42,14 +42,15 @@ export async function treatmentChecks(root:string,workspace:string,arms:string[]
     const suite=await loadDomainSuite(root),total=suite.reduce((n,item)=>n+item.test.assert.length,0);
     await installDomainSuite(suite,temp);
     for(const decision of ['luna','jev'] as const) {
+      const reviewWorkspace=join(temp,'workspace-'+decision);await cp(workspace,reviewWorkspace,{recursive:true});
       await writeFile(join(temp,'agentests.config.yaml'),JSON.stringify(config(decision)));
       const cli=Bun.spawn(['node',join(import.meta.dir,'../node_modules/agentests/dist/cli/index.js'),'validate'],{cwd:temp,stdout:'pipe',stderr:'pipe'});
       const [code,out,err]=await Promise.all([cli.exited,new Response(cli.stdout).text(),new Response(cli.stderr).text()]);assert.equal(code,0,out+err);
-      const pass=await gate(root,workspace,decision,1);assert.equal(pass.pass,true);assert.equal(pass.offlineDecisionCalls,total);assert.deepEqual(pass.findings,[]);
-      const fail=await gate(root,workspace,decision,0);assert.equal(fail.pass,false);assert.equal(fail.offlineDecisionCalls,total);assert.equal(fail.findings.length,total);
+      const pass=await gate(root,reviewWorkspace,decision,1);assert.equal(pass.pass,true);assert.equal(pass.offlineDecisionCalls,total);assert.deepEqual(pass.findings,[]);
+      const fail=await gate(root,reviewWorkspace,decision,0);assert.equal(fail.pass,false);assert.equal(fail.offlineDecisionCalls,total);assert.equal(fail.findings.length,total);
       for(const item of suite)assert.equal(fail.findings.filter(f=>f.test===item.test.id&&f.domain===item.domain).length,item.test.assert.length);
       for(const item of suite) {
-        const selective=await gate(root,workspace,decision,input=>input.domain===item.domain?0:1);
+        const selective=await gate(root,reviewWorkspace,decision,input=>input.domain===item.domain?0:1);
         assert.equal(selective.pass,false);assert.equal(selective.offlineDecisionCalls,total);assert.equal(selective.findings.length,item.test.assert.length);
         assert.deepEqual(selective.findings.map(f=>f.assertion),item.test.assert.map(a=>a.id));
         assert(selective.findings.every(f=>f.test===item.test.id&&f.domain===item.domain&&f.error.trim().length>0));
