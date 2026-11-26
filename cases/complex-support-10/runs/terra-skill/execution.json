@@ -1,0 +1,41 @@
+{
+  "case": "complex-support-10",
+  "arm": "terra-skill",
+  "pid": 45678,
+  "startedAt": "2026-11-26T05:25:24.873Z",
+  "endedAt": "2026-11-26T05:30:59.954Z",
+  "status": "completed",
+  "exit": 0,
+  "initialExit": 1,
+  "judgeRetries": [
+    {
+      "attempt": 1,
+      "startedAt": "2026-11-26T05:30:11.571Z",
+      "endedAt": "2026-11-26T05:30:36.343Z",
+      "error": "Error: Judge citation is not an exact input excerpt."
+    },
+    {
+      "attempt": 2,
+      "startedAt": "2026-11-26T05:30:36.344Z",
+      "endedAt": "2026-11-26T05:30:59.953Z",
+      "score": 100
+    }
+  ],
+  "source_commit": "a5149b80b5531f041bd2928aa19c9c8196019482",
+  "execution_commit": "a5149b80b5531f041bd2928aa19c9c8196019482",
+  "versions": {
+    "codex": "codex-cli 0.172.0-alpha.2",
+    "bun": "1.3.3",
+    "node": "v22.19.0"
+  },
+  "transport": "none",
+  "errors": [
+    "Judge citation is not an exact input excerpt."
+  ],
+  "failure_reason": null,
+  "gate_reviews": [],
+  "task_turns": 1,
+  "retained_final_replicates": 1,
+  "initial_attempt_preserved": false,
+  "paced_attempt_preserved": false
+}

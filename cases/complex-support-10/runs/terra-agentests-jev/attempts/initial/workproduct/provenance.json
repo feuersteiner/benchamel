@@ -1,0 +1,134 @@
+{
+  "version": "1.0",
+  "source": {
+    "repository": "https://github.com/feuersteiner/agent-tests",
+    "branch": "benchmark-v2",
+    "commit": "6142590525acb698e473671f2420022f64adfa71",
+    "path": "benchmark/v2/pilot/complex-support-10"
+  },
+  "documents": [
+    {
+      "id": "E01",
+      "file": "01-public-background.md",
+      "bytes": 3558,
+      "sha256": "4a1c2be02cb76eb66ea26823d1d1351bddc782a16ff9ecc9be8dff5f458e60a0"
+    },
+    {
+      "id": "E02",
+      "file": "02-account-and-order.md",
+      "bytes": 3158,
+      "sha256": "532569f9976c3638ac5e6fbd3f5d81d73a064c63df398ab23386ea8bd83efbc6"
+    },
+    {
+      "id": "E03",
+      "file": "03-customer-thread.md",
+      "bytes": 3028,
+      "sha256": "d4b3a925272be75ee481098e24b07b09befeffe2454f7426728da099d448e681"
+    },
+    {
+      "id": "E04",
+      "file": "04-legacy-assurance.md",
+      "bytes": 3095,
+      "sha256": "93f8ffaa6dee71a89b2f251451e60ee1c99aaf16026c613d25fcd021ffc4f6a8"
+    },
+    {
+      "id": "E05",
+      "file": "05-current-lifecycle-policy.md",
+      "bytes": 3336,
+      "sha256": "cdd7daa483b63f3f6c5a48c0d52cdbb8465d2066adb8a348a7f5a555a0153756"
+    },
+    {
+      "id": "E06",
+      "file": "06-superseded-playbook.md",
+      "bytes": 3044,
+      "sha256": "330c5f0310e4a75493213f20cd0dae3662d0cce46acdd0d20363ff4ab8cc39c9"
+    },
+    {
+      "id": "E07",
+      "file": "07-retirement-notice-audit.md",
+      "bytes": 3094,
+      "sha256": "95a55ee904d722315ae3b6e086ed8282907bf6d85c8d24e651557476ae47fddf"
+    },
+    {
+      "id": "E08",
+      "file": "08-replacement-capabilities.md",
+      "bytes": 3100,
+      "sha256": "07d4fd3c9d94c0c4330a9c30f836d42807f2eabdb9b4245f87cb7d92dd92c49f"
+    },
+    {
+      "id": "E09",
+      "file": "09-customer-workflow-impact.md",
+      "bytes": 3118,
+      "sha256": "01be5178c99c4579301423dbef75f72c49503f8979bd0c4ba3f2076a70f89045"
+    },
+    {
+      "id": "E10",
+      "file": "10-continuation-feasibility.md",
+      "bytes": 3020,
+      "sha256": "3b4615337543384b31a88500a1d7b57f1f489098d19b0824c73c2051d1832862"
+    },
+    {
+      "id": "E11",
+      "file": "11-authority-and-approved-offer.md",
+      "bytes": 3109,
+      "sha256": "904b0ffed77cb532d7306a34ffc6e58a7c23f0cb31dec2c6e6cdfcd48830440d"
+    },
+    {
+      "id": "E12",
+      "file": "12-export-and-preservation.md",
+      "bytes": 3239,
+      "sha256": "a0ab37181100ba25b26fc4e197789a2bcd885862d71e5da3b363d9764c0ebafa"
+    },
+    {
+      "id": "E13",
+      "file": "13-sales-successor-proposal.md",
+      "bytes": 3183,
+      "sha256": "a8d135fd7f88e5467cc2f4a3760660db510f6d6278475b2a62140f8c199676d5"
+    },
+    {
+      "id": "E14",
+      "file": "14-marketing-claims-review.md",
+      "bytes": 3073,
+      "sha256": "31c8d26d62cd9c2f4c11b3b577c35426ab2bccee4662e373721793f5ee869472"
+    },
+    {
+      "id": "E15",
+      "file": "15-support-ownership.md",
+      "bytes": 3077,
+      "sha256": "85d556bca508ed8b4c575d9ff973070da74c18797e0946cd2b39ac38418701a8"
+    },
+    {
+      "id": "E16",
+      "file": "16-counsel-guidance.md",
+      "bytes": 3322,
+      "sha256": "aa6a412e998e37a0b00d553e099dfdb9579fca48f57ea24915f6037ec0df3c4e"
+    },
+    {
+      "id": "E17",
+      "file": "17-transition-cost-options.md",
+      "bytes": 3111,
+      "sha256": "4d92123a9cd19a244fd86cc82177a6a32a870d3c05582b40eda3a13839735b12"
+    },
+    {
+      "id": "E18",
+      "file": "18-consent-and-test-record.md",
+      "bytes": 3115,
+      "sha256": "381c03de2ab8025a2d8316bf7bc42f8480214c07b9978e252d90fcb8004128aa"
+    },
+    {
+      "id": "E19",
+      "file": "19-audit-verification-trial.md",
+      "bytes": 3184,
+      "sha256": "78e1723832e5b2ba6060c28bc071ae39b5f7e2be4d29eae817fd1cbc6a0b33bf"
+    },
+    {
+      "id": "E20",
+      "file": "20-final-handoff-and-ambiguity.md",
+      "bytes": 3163,
+      "sha256": "8c163dcf2ee5c384a6acaf78d6a4e04f3d669d6f6f072bc7e7d688ff6f79616e"
+    }
+  ],
+  "copied": "Twenty documents and sources.json copied byte-for-byte. No candidates, reviewer expectations or summary are supplied.",
+  "boundary": "Primary sources are attributed inspiration; business records, runnable integrations and simulated responses are synthetic reconstruction. Current documentation is not backdated contract authority.",
+  "sourcesFileSha256": "e3c594ba233d92827d82b86a6ba9a55e59b4112818dd3cec5b946a6390867e69"
+}

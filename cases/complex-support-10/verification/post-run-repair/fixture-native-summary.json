@@ -1,0 +1,22 @@
+[
+  {
+    "provider": "luna",
+    "case": "complex-support-10",
+    "status": "fail",
+    "taskAgentRerun": false,
+    "assertions": 64,
+    "requests": 52,
+    "maxPacketBytes": 30682,
+    "maxEncodedRequestBytes": 36684
+  },
+  {
+    "provider": "jev",
+    "case": "complex-support-10",
+    "status": "fail",
+    "taskAgentRerun": false,
+    "assertions": 64,
+    "requests": 52,
+    "maxPacketBytes": 30682,
+    "maxEncodedRequestBytes": 36565
+  }
+]
