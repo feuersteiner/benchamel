@@ -1,0 +1,194 @@
+{
+  "origin": "benchamel-judge-generated",
+  "judgeVersion": "2.1",
+  "model": "gpt-6.1-terra",
+  "operational": {
+    "score": 40,
+    "details": {
+      "finance": 8,
+      "collection": 6,
+      "mitigation": 7,
+      "incident": 5,
+      "renewal": 5,
+      "handoff": 5,
+      "commitments": 4
+    }
+  },
+  "inputSha256": "b4582195d1b89dadacd99ef2ac76b4df40b67c12097ad95316b9dae84dd6da0a",
+  "assessment": {
+    "dimensions": {
+      "policyAuthority": {
+        "grade": 3,
+        "rationale": "The plan applies current authority, supports immediate submission despite the unresolved conflict, respects signatory scope, and distinguishes posting, refund and collection protection.",
+        "evidence": [
+          {
+            "document": "E07",
+            "quote": "If both conditions are evidenced, the support owner may submit the posting request immediately."
+          },
+          {
+            "document": "E16",
+            "quote": "The card is not a verified execution log."
+          },
+          {
+            "document": "E02",
+            "quote": "Leon cannot accept a financial settlement, change the paid plan, cancel the whole subscription, or waive Aster's claims."
+          }
+        ],
+        "spans": [
+          {
+            "file": "plan.md",
+            "quote": "E19's completed rehearsal card and retry value 12,000 raise a real question, but the runner version, unit, execution and intent are unknown"
+          },
+          {
+            "file": "plan.md",
+            "quote": "No cancellation, upgrade or cutoff is authorized"
+          }
+        ]
+      },
+      "factualCommitments": {
+        "grade": 3,
+        "rationale": "The reply matches the recorded credit, processor acceptance and verified mitigation while preserving uncertainty about bank receipt, attribution and notice.",
+        "evidence": [
+          {
+            "document": "STATE",
+            "quote": "\"refundBankPosted\": false"
+          },
+          {
+            "document": "AUDIT",
+            "quote": "\"status\": \"accepted\""
+          },
+          {
+            "document": "E08",
+            "quote": "The sample contains repeated requests for a large Linden Festival asset"
+          },
+          {
+            "document": "E10",
+            "quote": "The record contains no human-open confirmation and no copy of the recipient's inbox."
+          }
+        ],
+        "spans": [
+          {
+            "file": "reply.md",
+            "quote": "bank receipt is not yet confirmed"
+          },
+          {
+            "file": "reply.md",
+            "quote": "It shows concentrated requests for a large asset, but cannot establish the complete cause or identify an attacker."
+          },
+          {
+            "file": "reply.md",
+            "quote": "whether the first was received and useful remains unresolved"
+          }
+        ]
+      },
+      "supportUsefulness": {
+        "grade": 3,
+        "rationale": "The submission sequences the completed finance and mitigation work, briefing, privacy follow-up, renewal choice and weekend handoff, with owners, deadlines and failure responses.",
+        "evidence": [
+          {
+            "document": "STATE",
+            "quote": "\"to\": \"Rhea\""
+          },
+          {
+            "document": "STATE",
+            "quote": "\"nextUpdate\": \"2024-03-01T16:30:00Z\""
+          },
+          {
+            "document": "E14",
+            "quote": "The owner must state the next update time and provide a fallback if a specialist cannot finish."
+          }
+        ],
+        "spans": [
+          {
+            "file": "plan.md",
+            "quote": "If the refund fails or is later reversed, inform Mara promptly, investigate with the processor and Inez, and obtain corrected instructions."
+          },
+          {
+            "file": "plan.md",
+            "quote": "If a specialist is unavailable, arrange a named substitute and report the delay"
+          }
+        ]
+      },
+      "brandTone": {
+        "grade": 3,
+        "rationale": "The reply takes responsibility for the review failure and prior premature expectations, explains the difficult tradeoffs plainly, and avoids blame or false reassurance.",
+        "evidence": [
+          {
+            "document": "E10",
+            "quote": "This is a confirmed internal process failure."
+          },
+          {
+            "document": "E17",
+            "quote": "Daria's promise of a security report the next day was also premature."
+          }
+        ],
+        "spans": [
+          {
+            "file": "reply.md",
+            "quote": "That review was misrouted, and the earlier five-percent suggestion and promise of a report the next day created expectations we had not secured."
+          },
+          {
+            "file": "reply.md",
+            "quote": "Previously cached or versioned URLs and other traffic can still incur charges; this is not a spending cap."
+          }
+        ]
+      },
+      "salesEthics": {
+        "grade": 3,
+        "rationale": "The reply corrects the earlier sales implication, separates relief from purchases, explains residual metering and offers informed continuation or exit choices.",
+        "evidence": [
+          {
+            "document": "E11",
+            "quote": "The detailed quote says existing invoices remain subject to their own review and continued use above the new allowance is metered."
+          },
+          {
+            "document": "E12",
+            "quote": "Nonrenewal requires Mara's authenticated instruction."
+          }
+        ],
+        "spans": [
+          {
+            "file": "reply.md",
+            "quote": "No purchase, release of claims, or withdrawal of your information request is required."
+          },
+          {
+            "file": "reply.md",
+            "quote": "You may continue monthly, review Team Plus, or request a scoped nonrenewal and transition."
+          }
+        ]
+      },
+      "integratedConsistency": {
+        "grade": 3,
+        "rationale": "The reply and plan agree with the recorded finance, hold, mitigation and renewal states, and connect remaining exposure and independent choices to concrete follow-up.",
+        "evidence": [
+          {
+            "document": "STATE",
+            "quote": "\"receivableCents\": 0"
+          },
+          {
+            "document": "STATE",
+            "quote": "\"status\": \"unchanged\""
+          },
+          {
+            "document": "AUDIT",
+            "quote": "\"renewalExcluded\": true"
+          }
+        ],
+        "spans": [
+          {
+            "file": "reply.md",
+            "quote": "It blocks incident reminders, debit attempts and incident-related suspension, but does not cover the March 4 renewal or new metered usage."
+          },
+          {
+            "file": "plan.md",
+            "quote": "Choice and export inventory prepared, not sent or elected."
+          }
+        ]
+      }
+    },
+    "hardBreaches": []
+  },
+  "semantic": 100,
+  "hardBreach": false,
+  "score": 100
+}

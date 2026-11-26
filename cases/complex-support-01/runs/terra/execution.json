@@ -1,0 +1,35 @@
+{
+  "case": "complex-support-01",
+  "arm": "terra",
+  "pid": 45598,
+  "startedAt": "2026-11-26T05:25:24.664Z",
+  "endedAt": "2026-11-26T05:30:32.898Z",
+  "status": "completed",
+  "exit": 0,
+  "initialExit": 1,
+  "judgeRetries": [
+    {
+      "attempt": 1,
+      "startedAt": "2026-11-26T05:30:11.570Z",
+      "endedAt": "2026-11-26T05:30:32.897Z",
+      "score": 100
+    }
+  ],
+  "source_commit": "7c33c87a11aa5afcc202d17c56597a24efa6b585",
+  "execution_commit": "7c33c87a11aa5afcc202d17c56597a24efa6b585",
+  "versions": {
+    "codex": "codex-cli 0.172.0-alpha.2",
+    "bun": "1.3.3",
+    "node": "v22.19.0"
+  },
+  "transport": "none",
+  "errors": [
+    "Judge citation is not an exact input excerpt."
+  ],
+  "failure_reason": null,
+  "gate_reviews": [],
+  "task_turns": 1,
+  "retained_final_replicates": 1,
+  "initial_attempt_preserved": false,
+  "paced_attempt_preserved": false
+}

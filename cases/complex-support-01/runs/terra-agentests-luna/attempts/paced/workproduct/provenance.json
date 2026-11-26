@@ -1,0 +1,142 @@
+{
+  "version": "2.0",
+  "adaptation": "Benchamel generation benchmark; new numeric judge, separate from the original ordinal evaluator. No equivalence or calibration claimed.",
+  "sourceRepository": "https://github.com/feuersteiner/agent-tests",
+  "sourceCommit": "6142590525acb698e473671f2420022f64adfa71",
+  "sourcePath": "benchmark/v2/pilot/complex-support-01",
+  "copiedFiles": "Twenty public authored documents and sources.json, byte-for-byte from the source commit; source files had no local modifications.",
+  "historicalBoundary": "Fictional HarborEdge/Aster business records inspired by the Netlify incident. Historical waiver settled; synthetic account decisions are not historical adjudication.",
+  "reuseBasis": "Public authored synthetic records and original factual paraphrases, with attribution retained. No verified open transcript redistribution license; no raw pages or screenshots included. See sources.json for source-specific dates and limitations.",
+  "sourceHashScope": "sources.json paragraph hashes concern local authored paraphrases, not original web pages. Document hashes below cover exact copied UTF-8 file bytes.",
+  "sourcesFileSha256": "b44743b44b1a0b36eea2d24f942cc74c2ddc05b8ed790d65ca46c157576d5ad7",
+  "documentCount": 20,
+  "documentBytes": 68686,
+  "documents": [
+    {
+      "file": "01-public-background.md",
+      "bytes": 3419,
+      "sha256": "65683949b1db6e690655e906546dc8889553898d0ba5fd9a2c2e4a5c2180306e"
+    },
+    {
+      "file": "02-account-order.md",
+      "bytes": 3366,
+      "sha256": "c8d3e9d534d1019d55f3387a93aaad68c1438f56e708374d8c68038f5701698f"
+    },
+    {
+      "file": "03-customer-thread.md",
+      "bytes": 3366,
+      "sha256": "79424601cf6a086300a25e46445aa0d41a8d53b963261e6b58b7b213286287d8"
+    },
+    {
+      "file": "04-ledger.md",
+      "bytes": 3266,
+      "sha256": "289a714a725b80ba9b94118624916a1f9f934d2f30cf3e69be5665a6fb4c6e00"
+    },
+    {
+      "file": "05-billing-policy.md",
+      "bytes": 3714,
+      "sha256": "8aa702b0a410630db0ff9c4085dcd99d446df98d1a828ce08ae588cc36cb6146"
+    },
+    {
+      "file": "06-previous-procedure.md",
+      "bytes": 3382,
+      "sha256": "706d06b148a57de000b740984ec567f0282e3d1fffe4991492805e46b2ada636"
+    },
+    {
+      "file": "07-authority-and-approval.md",
+      "bytes": 3488,
+      "sha256": "56d00d3c356382c22bdd10b77cfa5247a190ba4510232eb1361bc6b68cc6326a"
+    },
+    {
+      "file": "08-security-review.md",
+      "bytes": 3582,
+      "sha256": "0abb852ed90a86b8dd005f38f40bc07db9ed30a32e7796877557a54285778ea3"
+    },
+    {
+      "file": "09-mitigation-options.md",
+      "bytes": 3518,
+      "sha256": "99461012306ab3c1dae5f019d9f469b83804b7e1fcf074c1e138da8c3de85e6d"
+    },
+    {
+      "file": "10-notification-audit.md",
+      "bytes": 3342,
+      "sha256": "0a73e4ca3999bb21a5e35b21f63154eb538ef8c688782a959d9f289c9fdc2ba7"
+    },
+    {
+      "file": "11-sales-correspondence.md",
+      "bytes": 3496,
+      "sha256": "00c361d3388b90ef8a447aee08633b7b64f7adbb479d06e7ba5a951f41b8e7c9"
+    },
+    {
+      "file": "12-renewal-and-options.md",
+      "bytes": 3439,
+      "sha256": "736caba8c75be85b14702498a8a5ff3b5276d332639335275e6082b57f1e3cca"
+    },
+    {
+      "file": "13-brand-guidelines.md",
+      "bytes": 3351,
+      "sha256": "9df5142c10a1e4c799a9e7f9aa42ade8455ec430cd9e0697ef8fca56b739aec2"
+    },
+    {
+      "file": "14-support-ownership.md",
+      "bytes": 3334,
+      "sha256": "ee74f0121f47b06e27c68b2ecf3cdf66e4c7ae46e83e04a9434306097e60cf11"
+    },
+    {
+      "file": "15-cancellation-and-data.md",
+      "bytes": 3445,
+      "sha256": "5e70c31e3bf6e4467f7479f19b7333e04c80e2128bfdc035455ba95b396e4a95"
+    },
+    {
+      "file": "16-legal-review-note.md",
+      "bytes": 3461,
+      "sha256": "4142d0d5306bdbc725f3fa223de4a15c833116a0401f97357decaf8a107b7e2b"
+    },
+    {
+      "file": "17-incident-chronology.md",
+      "bytes": 3404,
+      "sha256": "da16c80b9d9e6ebc2992723fa570a3e7a79978558a53fdcaa075a6092f59a23c"
+    },
+    {
+      "file": "18-attestation-and-client-impact.md",
+      "bytes": 3367,
+      "sha256": "9b3a1f22352c0c25b7e0efae68ddf24533826c11ec3f102dde219a2783d0a5f5"
+    },
+    {
+      "file": "19-publishing-records.md",
+      "bytes": 3489,
+      "sha256": "557524a78a28c8ea189b855c95537a2f987ad2298cfc651fa67ce20efb62edcc"
+    },
+    {
+      "file": "20-product-draft-and-handoff.md",
+      "bytes": 3457,
+      "sha256": "b2484f9e7a393118e2c3cfcbe7f9c8bd14e517889c52d9d5b790486388e0c4ea"
+    }
+  ],
+  "excluded": "Candidates, reviewer expectations, original task/rubric/schema, answer-bearing manifest, construction summary, measured outputs, private evidence, and conversations.",
+  "documentDirectory": "docs/evidence",
+  "reconstruction": {
+    "asOf": "2024-03-01T15:00:00Z",
+    "authorship": "Benchamel-authored executable support repository, structured seed and policy summaries. All operational facts and deterministic adapter responses are synthetic; authority summaries cite the preserved records. Adapter slot/refund/deployment responses are local simulations, not new historical evidence.",
+    "immutableInventory": "manifest.json; runtime state is excluded and validated by replay."
+  },
+  "primarySourceCheck": {
+    "checkedDate": "2026-11-25",
+    "verifiedBy": "Coordinating agent using public primary pages; link-only attribution and original paraphrase.",
+    "links": [
+      {
+        "url": "https://answers.netlify.com/t/limit-bandwidth-to-avoid-high-billing-caused-by-ddos/13086/16",
+        "note": "February 27 staff apology/company statement: rare invoice should have been internally flagged."
+      },
+      {
+        "url": "https://news.ycombinator.com/item?id=39521986",
+        "note": "February 27 CEO response: customer not charged, initial communication failure, availability policy at that time."
+      },
+      {
+        "url": "https://answers.netlify.com/t/i-am-the-op-of-that-104k-bill-post-and-i-have-some-follow-up-questions/113472/9",
+        "note": "March 3 customer receipt of IP information; provider investigation question remains."
+      }
+    ],
+    "boundary": "Supports historical inspiration and separate information follow-up only; does not establish synthetic policy, ledger split or authority. Original sources.json preserved; other links not newly verified."
+  }
+}

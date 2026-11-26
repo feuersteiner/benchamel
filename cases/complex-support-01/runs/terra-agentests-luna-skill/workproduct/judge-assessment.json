@@ -1,0 +1,194 @@
+{
+  "origin": "benchamel-judge-generated",
+  "judgeVersion": "2.1",
+  "model": "gpt-6.1-terra",
+  "operational": {
+    "score": 40,
+    "details": {
+      "finance": 8,
+      "collection": 6,
+      "mitigation": 7,
+      "incident": 5,
+      "renewal": 5,
+      "handoff": 5,
+      "commitments": 4
+    }
+  },
+  "inputSha256": "3a734b70de9f4ec11e184ce10a07e5faa15720621740f8fbfc2dd8866948506a",
+  "assessment": {
+    "dimensions": {
+      "policyAuthority": {
+        "grade": 3,
+        "rationale": "The plan applies current authority, reconciles the authenticated attestation with conflicting partial records, distinguishes financial stages and consent scopes, and provides a bounded escalation fallback.",
+        "evidence": [
+          {
+            "document": "E07",
+            "quote": "If both conditions are evidenced, the support owner may submit the posting request immediately."
+          },
+          {
+            "document": "E19",
+            "quote": "The utility version used during the timeout is missing from the available record."
+          },
+          {
+            "document": "E02",
+            "quote": "Leon cannot accept a financial settlement, change the paid plan, cancel the whole subscription, or waive Aster's claims."
+          }
+        ],
+        "spans": [
+          {
+            "file": "plan.md",
+            "quote": "They do not establish sustained intentional testing; E16 permits reasonable acceptance of the attestation without forensic certification."
+          },
+          {
+            "file": "plan.md",
+            "quote": "For exit, obtain authenticated scope and timing"
+          },
+          {
+            "file": "plan.md",
+            "quote": "approval and request alone did not post the credit"
+          }
+        ]
+      },
+      "factualCommitments": {
+        "grade": 3,
+        "rationale": "The reply accurately distinguishes posted credit, processor acceptance and unconfirmed bank receipt, and explains the limited sample and unresolved notice and cause. The plan supplies checkpoints and failure updates.",
+        "evidence": [
+          {
+            "document": "STATE",
+            "quote": "\"refundBankPosted\": false"
+          },
+          {
+            "document": "AUDIT",
+            "quote": "5–10 business days after processor acceptance; bank posting unconfirmed"
+          },
+          {
+            "document": "E08",
+            "quote": "The sample contains repeated requests for a large Linden Festival asset, ordinary browser-like user agents, cloud-hosted network origins, and a mixture of successful and interrupted responses."
+          }
+        ],
+        "spans": [
+          {
+            "file": "reply.md",
+            "quote": "The normal estimate is 5–10 business days from acceptance; bank receipt is not yet confirmed."
+          },
+          {
+            "file": "reply.md",
+            "quote": "It cannot explain all traffic or establish who caused it."
+          },
+          {
+            "file": "plan.md",
+            "quote": "If delayed, Rhea gives a progress update and revised checkpoint; never promise a conclusive cause."
+          }
+        ]
+      },
+      "supportUsefulness": {
+        "grade": 3,
+        "rationale": "The submission sequences confirmed protection, finance, scoped engineering, privacy and incident work, the briefing, and weekend handoff with owners, deadlines and failure paths.",
+        "evidence": [
+          {
+            "document": "STATE",
+            "quote": "\"nextUpdate\": \"2024-03-01T16:30:00Z\""
+          },
+          {
+            "document": "E20",
+            "quote": "The weekend duty lead, Rhea, takes over Saturday at 09:00 UTC."
+          }
+        ],
+        "spans": [
+          {
+            "file": "plan.md",
+            "quote": "**Rhea, March 2 09:00:** take handoff, check collection state and refund status, coordinate owners and customer follow-up."
+          },
+          {
+            "file": "plan.md",
+            "quote": "If processor rejects or return fails, tell Rhea and customer promptly, investigate and correct with Finance, recheck for reversals or chargeback before any retry"
+          }
+        ]
+      },
+      "brandTone": {
+        "grade": 3,
+        "rationale": "The reply owns the review failure and earlier misleading implication, explains tradeoffs plainly, and avoids blame or false reassurance.",
+        "evidence": [
+          {
+            "document": "E10",
+            "quote": "The exceptional-invoice review flag should have opened a finance task before the February 24 invoice was released."
+          },
+          {
+            "document": "E13",
+            "quote": "Correct an earlier broad promise without attacking the colleague who made it or suggesting the customer was foolish to rely on it."
+          }
+        ],
+        "spans": [
+          {
+            "file": "reply.md",
+            "quote": "HarborEdge should have reviewed this exceptional invoice before releasing it. We missed that step, and the earlier five-percent message implied an arrangement that had not been approved."
+          },
+          {
+            "file": "reply.md",
+            "quote": "Previously cached or versioned links and other traffic can still incur charges. There is no spending cap."
+          }
+        ]
+      },
+      "salesEthics": {
+        "grade": 3,
+        "rationale": "The reply corrects the annual-sale implication, separates relief from renewal, explains metering and offers consent-based continuation or exit with continuity and export support.",
+        "evidence": [
+          {
+            "document": "E11",
+            "quote": "The proposal's cover note suggested this would put the overage problem behind Aster."
+          },
+          {
+            "document": "E12",
+            "quote": "None of these choices automatically resolves the incident invoice."
+          }
+        ],
+        "spans": [
+          {
+            "file": "reply.md",
+            "quote": "no purchase is required for this relief, and Team Plus does not provide a spending cap or retroactive protection."
+          },
+          {
+            "file": "reply.md",
+            "quote": "You may continue monthly, consider the optional Team Plus offer, or request a scoped nonrenewal and transition."
+          }
+        ]
+      },
+      "integratedConsistency": {
+        "grade": 3,
+        "rationale": "The reply and plan agree with the recorded financial and service state and distinguish independent renewal, residual usage and ongoing investigation. The immediate route and its fallback are coherent.",
+        "evidence": [
+          {
+            "document": "STATE",
+            "quote": "\"finance\": \"refund-accepted\",\n    \"mitigation\": \"verified\""
+          },
+          {
+            "document": "AUDIT",
+            "quote": "\"renewalExcluded\": true"
+          },
+          {
+            "document": "E16",
+            "quote": "Counsel does not require every publishing script to be treated as a disqualifying test."
+          }
+        ],
+        "spans": [
+          {
+            "file": "reply.md",
+            "quote": "the credit has now posted, leaving the incident receivable at zero"
+          },
+          {
+            "file": "plan.md",
+            "quote": "This request arrived Friday at 15:00, before cutoff, and its 16:00 posting receipt exists; Monday is a contingency, not its posting date"
+          },
+          {
+            "file": "reply.md",
+            "quote": "It does not cover the March 4 subscription renewal or new metered usage."
+          }
+        ]
+      }
+    },
+    "hardBreaches": []
+  },
+  "semantic": 100,
+  "hardBreach": false,
+  "score": 100
+}

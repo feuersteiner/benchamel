@@ -1,0 +1,125 @@
+{
+	"version": "1.0",
+	"licenseStatus": "Public discussion; no verified open transcript redistribution license. No raw source pages, screenshots, visitor identifiers or customer domains included.",
+	"sources": [
+		{
+			"id": "S01",
+			"url": "https://www.reddit.com/r/webdev/comments/1b14bty/netlify_just_sent_me_a_104k_bill_for_a_simple/",
+			"stableIdentifier": "reddit:1b14bty",
+			"publicationDate": "2024-02-27",
+			"retrievedDate": "2026-11-23",
+			"updateUncertainty": "Customer allegation; account and traffic not independently authenticated.",
+			"reuseBasis": "original factual paraphrase, no transcript license asserted",
+			"quotesWords": 0,
+			"representation": {
+				"documentId": "E01",
+				"paragraphPrefix": "S01:",
+				"sha256": "4da9ab230778f05cc8a911f4baeae51a3b079d52be9c5e9198cb4fe626990077",
+				"hashScope": "UTF-8 bytes of this local authored paragraph only; not an original page hash"
+			},
+			"retrievalUrl": "https://www.reddit.com/r/webdev/comments/1b14bty/netlify_just_sent_me_a_104k_bill_for_a_simple/"
+		},
+		{
+			"id": "S02",
+			"url": "https://news.ycombinator.com/item?id=39521986",
+			"stableIdentifier": "hn:39521986",
+			"publicationDate": "2024-02-27",
+			"retrievedDate": "2026-11-23",
+			"updateUncertainty": "Direct public CEO response; not an audited ledger or complete contract.",
+			"reuseBasis": "original factual paraphrase, no transcript license asserted",
+			"quotesWords": 0,
+			"representation": {
+				"documentId": "E01",
+				"paragraphPrefix": "S02:",
+				"sha256": "2a627901c36c673c38bc7e739cb3ff5db18ef7ea4b67180554cf428dd28b7347",
+				"hashScope": "UTF-8 bytes of this local authored paragraph only; not an original page hash"
+			},
+			"retrievalUrl": "https://news.ycombinator.com/item?id=39521986"
+		},
+		{
+			"id": "S03",
+			"url": "https://answers.netlify.com/t/limit-bandwidth-to-avoid-high-billing-caused-by-ddos/13086/16",
+			"stableIdentifier": "discourse:13086:16",
+			"publicationDate": "2024-02-27",
+			"retrievedDate": "2026-11-23",
+			"updateUncertainty": "Official apology repost; embedded original statement not separately archived.",
+			"reuseBasis": "original factual paraphrase, no transcript license asserted",
+			"quotesWords": 0,
+			"representation": {
+				"documentId": "E01",
+				"paragraphPrefix": "S03:",
+				"sha256": "75aa828099be6f755bbfef1bc6e06999ab45aac1fd940a0865379d2aa72aa02e",
+				"hashScope": "UTF-8 bytes of this local authored paragraph only; not an original page hash"
+			},
+			"retrievalUrl": "https://answers.netlify.com/t/limit-bandwidth-to-avoid-high-billing-caused-by-ddos/13086/16"
+		},
+		{
+			"id": "S04",
+			"url": "https://answers.netlify.com/t/add-automated-kill-switch-or-rate-limiting-to-prevent-excess-billing-from-ddos-attacks/113359/8",
+			"stableIdentifier": "discourse:113359:8",
+			"publicationDate": "2024-02-29",
+			"retrievedDate": "2026-11-23",
+			"updateUncertainty": "Selected support post dated February 29; whole thread contains later posts and 2025 edits, not all contemporaneous.",
+			"reuseBasis": "original factual paraphrase, no transcript license asserted",
+			"quotesWords": 0,
+			"representation": {
+				"documentId": "E01",
+				"paragraphPrefix": "S04:",
+				"sha256": "2405c682d4f4de5f44534912c0a0b4f770d2219fe7fafcdeb5dddf6e85a7994a",
+				"hashScope": "UTF-8 bytes of this local authored paragraph only; not an original page hash"
+			},
+			"retrievalUrl": "https://answers.netlify.com/t/add-automated-kill-switch-or-rate-limiting-to-prevent-excess-billing-from-ddos-attacks/113359"
+		},
+		{
+			"id": "S05",
+			"url": "https://answers.netlify.com/t/i-am-the-op-of-that-104k-bill-post-and-i-have-some-follow-up-questions/113472/9",
+			"stableIdentifier": "discourse:113472:9",
+			"publicationDate": "2024-03-03",
+			"retrievedDate": "2026-11-23",
+			"updateUncertainty": "Selected receipt confirmation March 3; thread began February 28; no verified final cause or attacker.",
+			"reuseBasis": "original factual paraphrase, no transcript license asserted",
+			"quotesWords": 0,
+			"representation": {
+				"documentId": "E01",
+				"paragraphPrefix": "S05:",
+				"sha256": "a65c9c5169877b5b109b92944d6b8f05df8b903ca56e9c8b651425f0609b3995",
+				"hashScope": "UTF-8 bytes of this local authored paragraph only; not an original page hash"
+			},
+			"retrievalUrl": "https://answers.netlify.com/t/i-am-the-op-of-that-104k-bill-post-and-i-have-some-follow-up-questions/113472/9"
+		},
+		{
+			"id": "S06",
+			"url": "https://answers.netlify.com/t/clarification-on-ddos-attack-fees-and-protections-100k-charge/127953/3",
+			"stableIdentifier": "discourse:127953:3",
+			"publicationDate": "2024-10-23",
+			"retrievedDate": "2026-11-23",
+			"updateUncertainty": "Later policy statement; not available to February decision and not applied retroactively.",
+			"reuseBasis": "original factual paraphrase, no transcript license asserted",
+			"quotesWords": 0,
+			"representation": {
+				"documentId": "E01",
+				"paragraphPrefix": "S06:",
+				"sha256": "855cdd41d3c7d61d772daeca19773a84aa1631b468dc2a902268b3ed72360504",
+				"hashScope": "UTF-8 bytes of this local authored paragraph only; not an original page hash"
+			},
+			"retrievalUrl": "https://answers.netlify.com/t/clarification-on-ddos-attack-fees-and-protections-100k-charge/127953"
+		},
+		{
+			"id": "S07",
+			"url": "https://www.netlify.com/legal/terms-of-use/",
+			"stableIdentifier": "netlify:website-terms",
+			"publicationDate": "2026-10-14",
+			"retrievedDate": "2026-11-23",
+			"updateUncertainty": "Current page update is October 14 2026; 2024 text and redistribution permissions unverified.",
+			"reuseBasis": "original factual paraphrase, no transcript license asserted",
+			"quotesWords": 0,
+			"representation": {
+				"documentId": "E01",
+				"paragraphPrefix": "S07:",
+				"sha256": "679faac85d8ec7daa2928c1dbfcd877cd85ddeb27c490d0c7182eea84dac4122",
+				"hashScope": "UTF-8 bytes of this local authored paragraph only; not an original page hash"
+			},
+			"retrievalUrl": "https://www.netlify.com/legal/terms-of-use/"
+		}
+	]
+}
