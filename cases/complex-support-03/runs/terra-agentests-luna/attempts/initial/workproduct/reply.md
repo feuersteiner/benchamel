@@ -1,0 +1,20 @@
+Subject: Bridge Pack recovery and board update — 12:00 UTC
+
+Sera,
+
+Flint Ledger's maintenance action removed Bridge Pack metadata relationships. We are sorry for the disruption and for the assurances that the backup was complete, that recovery would take two hours, that approvals could never be lost, and that everything would be back by 15:00. Those claims were unsupported. The latest complete workspace has not been established, and we cannot promise recovery or tender acceptance by your deadline.
+
+The 01:00 snapshot opens in isolation, but is not a complete validated application recovery. A segment in the later backup chain is missing; the archive check is due at 12:45. The 06:43 replica includes the cleanup. Of 96,420 attachment references, 48 remain unresolved. In your 612-row index, 601 attachments matched your exported revision; 11 latest revisions are absent from snapshot relationships, and seven unresolved references have unknown parents. These checks do not certify the tender pack.
+
+Your connector received success responses for 74 changes: 21 revision pointers, 31 approval transitions and 22 comments. Acceptance does not mean recovery. Seven approval transitions change or withdraw an earlier status. We have prepared a receipt-derived discrepancy list for secure delivery, subject to the applicable checks; it has not yet been delivered. Owen's 20:00 export and local latest files remain important. Please have Owen and Petra compare the 21 revised documents and all 31 transitions, including withdrawals, and provide the two specifically identified file digests when requested. Petra must determine whether the evidence supports an offline approval register. The older 16:20 pack contains useful signed cover sheets but is not the latest register.
+
+We have allocated the isolated read-only baseline work under your and Owen's existing consent. Its feasibility checkpoint is 13:15; assessment for release at 14:30 is a target, not a delivery promise. It would be labeled 01:00, with included-file hashes, provenance and gaps, and no active approval links. This choice delays full application reconciliation by an estimated 45–75 minutes while the archive investigation continues. The 18:00–06:00 full-workspace estimate depends on retrieving the segment and passing checks; without it there is no reliable latest-state completion time. Please continue the manual pack and plan around the portal's 16:30 upload recommendation and 17:00 close. No extension has been confirmed.
+
+The damaged state and receipts are preserved, production is fenced, and outbound queues remain paused. No production rollback or invitation replay will occur without the required validation and your informed permission. We will report the 12:45 findings in the written update due by 13:00, even if blocked.
+
+The approved $2,400 May fee refund has been requested to the original payment method; it has not been confirmed by the processor or bank. It does not settle your claims or require renewal. The $2,750 Reed proposal has not been approved or incurred by Flint Ledger. Nessa has been asked urgently whether its fixed-price scope and reservation charge qualify under the up-to-$3,000 incurred reconstruction allowance; the 12:20 reservation deadline precedes her targeted 13:15 response. You may decide whether to accept that risk; no payment guarantee can yet be given. The $18,000 supplier request and contingent $120,000 opportunity-loss claim remain open for review; the COO and counsel are to acknowledge the larger claim by May 15 at 12:00 and identify needed evidence.
+
+The proposed annual order is unsigned and locked. Your monthly plan's next routine charge is June 1; the lock is not a cancellation. Recoverable data export and incident work do not depend on a purchase or release. If you choose to leave, ordinary exports have a 30-day retrieval period and incident evidence remains preserved through June 13; missing approvals are not guaranteed by retention.
+
+Ellis Rowan
+Incident support owner

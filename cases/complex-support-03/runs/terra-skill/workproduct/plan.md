@@ -1,0 +1,23 @@
+# FL-619 internal plan — 14 May 2025, 12:00 UTC
+
+## Actual state and receipts
+
+- CLI receipts 1–5 confirm source inventory, baseline allocation, discrepancy preparation, $2,400 refund request and Nessa classification request. They do not establish delivery, processor acceptance, recovery or supplier approval. The receipt-derived journal categorizes 74 accepted events; `journalReconciled` means the local list was generated, not that the writes were restored or validated.
+- PR-619 preserves damaged state, queues and evidence; production remains fenced, outbound queues paused, latest recovery unresolved and annual order locked. No production cutover or external invitation replay. Preservation override runs through June 13.
+- N-011 is a 01:00 snapshot, not a complete current application recovery. Of 96,420 references, 96,372 resolve and 48 do not; 41 relate to retired previews, seven have unknown parents. R-2 contains the cleanup. The 05:10–05:20 chain segment is missing; archive index availability is not recovery of the segment (E07, E19–20).
+- The 612-row customer index has 601 matching exported-revision attachments; 11 later revisions are absent from snapshot relationships. The 31 transitions concern 24 documents, including four absent from the index; seven change or withdraw status, and two file digests are unknown. All transitions need ordering, role and revision validation. The unsafe bulk replay remains blocked (E09–10, E19). The report has no live links and is prepared, not delivered.
+
+## Authority and evidence ledger
+
+- REC-4.1 and Drina permit isolated work; Owen and Sera consented to a labelled read-only export, not production replacement. Noor's relation and identity checks, Drina's approval and Sera's informed cutover consent are prerequisites for production release (E02, E05, E09–10, E16). Preserve originals and disabled connectors.
+- Drina allocated baseline capacity before 12:15. Expected benefit is a bounded comparison; estimated cost is a 45–75 minute delay to full application reconciliation. Jules continues archive investigation. At 13:15 assess feasibility; 14:30 is a possible release assessment, not a promise (E08, E20).
+- CA-619 authorizes the independent May refund and up to $3,000 of eligible incurred reconstruction expense, with documentation and no claim release. Dev executes within scope; Nessa decides ambiguous expense classification. Reed's $2,750 signed proposal is not accepted, invoiced, incurred or approved. The $18,000 mixed scope is not allocated; the $120,000 opportunity is contingent. COO and counsel decide any consequential-loss settlement (E12–13, E18).
+- Cora permits minimized account-specific material through verified identities after checks, not raw logs, secrets, cross-tenant data or direct unverified supplier access. Owen may transfer it through Meridian's channel (E16, E18).
+
+## Pending work and handoff
+
+- Before 12:20, Nessa is asked to classify Reed's diagnostic scope and when cost is incurred; early response is requested, not assured. Until decided, no Flint Ledger commitment or reservation. Advise Sera of the deadline and uncertainty. Preserve supplier paperwork and ask for a supported allocation of the $18,000.
+- By 12:45, Jules reports the archive search; Noor checks and securely provides the minimized discrepancy list if eligible. Owen's manual comparison continues using local files, the 20:00 export and signed cover sheets; request the two specific digests. Petra reviews substantive approvals before 14:30. Do not treat the older 16:20 zip as the latest register.
+- Ellis sends the board status by 13:00, including missed assurances and actual unknowns; obtain a blocked-dependency report if either checkpoint slips. Drina and Noor assess the baseline at 13:15, with labelled provenance, hashes, exclusions and no active links. If unsafe or blocked, disclose that and continue manual comparison and chain work. No tender acceptance or extension is assured.
+- Dev follows the requested refund by the 15:00 submission deadline and 15:30 processing window; verify acceptance or failure and follow up. Bank posting remains unconfirmed. Rina and COO acknowledge the larger claim and request needed evidence by May 15 12:00; no settlement is implied. Send Rina the eventual explanation for preservation.
+- Ellis owns the case through 18:00; Dana Vale receives the named 17:30 handoff and provides an 18:30 written update if open. Include source and checksum inventory, recovery point, receipt and approval status, queues, consent, pending financial claims and deadlines. Refresh CLI commitments and handoff after any state transition. The drafted customer reply has not been sent; no external action is authorized here.

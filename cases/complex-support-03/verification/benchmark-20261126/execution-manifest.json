@@ -1,0 +1,50 @@
+{
+  "source_commit": "5b3bcd969d5bfd4082946e111f6d493bf7a882fd",
+  "runtime_fix_commit": "22476ff847f4a5456c9237d7d01074d44aa6caee",
+  "versions": {
+    "codex": "codex-cli 0.172.0-alpha.2",
+    "bun": "1.3.3",
+    "node": "v22.19.0"
+  },
+  "offline_checks_before_run": {
+    "case": "complex-support-03",
+    "steps": [
+      {
+        "command": [
+          "bun",
+          "run",
+          "check"
+        ],
+        "exit": 0
+      },
+      {
+        "command": [
+          "bun",
+          "test",
+          "harness/tests"
+        ],
+        "exit": 0
+      },
+      {
+        "command": [
+          "bun",
+          "harness/verify.ts",
+          "--case",
+          "complex-support-03",
+          "--layer",
+          "3"
+        ],
+        "exit": 0
+      }
+    ]
+  },
+  "offline_check_bun_version": "1.3.4",
+  "retained_run_count": 6,
+  "actual_task_executions": 10,
+  "completed": 4,
+  "scored": 4,
+  "started_at": "2026-11-26T05:25:24.673Z",
+  "ended_at": "2026-11-26T05:43:27.850Z",
+  "luna_transport": "batched-independent-questions",
+  "luna_preload_sha256": "a617e67824e4469051b3e6c0e2ae7313ef3828a0de878ff78d20dab03024be38"
+}

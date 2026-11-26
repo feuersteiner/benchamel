@@ -1,0 +1,15 @@
+Sera,
+
+I am sorry. Flint Ledger's maintenance process removed Bridge Pack project relationships, leaving approval panels and revision links unavailable. Our earlier assurances that the backup was complete, recovery would take two hours, no approval could be lost, and everything would be back by 15:00 were unsupported. We do not yet know whether the latest complete history can be recovered or when it will be ready.
+
+We have preserved the affected state and paused outgoing invitations and connectors. The 01:00 snapshot opens in isolation, but is an older baseline, not a complete current recovery. A missing incremental segment is being investigated, with Jules due to report at 12:45. The 74 changes accepted at 06:45 include 21 revision pointers, 31 approval transitions and 22 comments; acceptance does not mean they have been recovered. Seven transitions change or withdraw a prior status, and two referenced file digests remain unknown.
+
+A specialist has been allocated to a read-only, clearly labeled baseline and gap manifest for comparison. Its feasibility will be checked at 13:15; assessment for release by 14:30 is an estimate, not a delivery promise. This work delays full application reconciliation by an estimated 45–75 minutes, while the database source investigation continues. A full production recovery estimate of 18:00 today to 06:00 tomorrow depends on the missing segment and successful checks; it is not a commitment.
+
+Owen's manual comparison should continue now. A receipt-derived discrepancy list has been prepared for the 12:45 checkpoint, subject to the applicable checks and secure delivery; it has not yet been delivered. Please have Owen provide the two specific file digests when identified, and have Petra review the approval evidence and latest revisions. The older CSV and emails may help but do not themselves establish current signoffs. The tender portal recommends upload by 16:30 and closes at 17:00; the requested supplement remains unanswered. Neither recovery nor portal acceptance is assured.
+
+The $2,400 May fee refund has been requested to the original payment method, without a release of claims. It has not yet been processed or posted. The $2,750 Reed scope is under urgent finance review; its reservation is not yet incurred or approved, and payment cannot be promised before classification. The 12:20 reservation deadline may precede an answer. Your $18,000 request and estimated $120,000 opportunity claim remain open for review; the refund does not settle them. Please retain the supplier records and the basis for the claims. Counsel and the operations executive are due to acknowledge the larger claim by May 15 at 12:00 UTC.
+
+The annual offer remains unsigned and locked; the monthly plan remains active, with its next routine debit June 1. Recovery and export help do not depend on renewal. Ellis Rowan remains your contact and will provide a written update by 13:00 UTC even if the technical position is unchanged. Dana Vale is the named support successor at 17:30.
+
+Ellis Rowan

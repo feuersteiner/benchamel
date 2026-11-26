@@ -1,0 +1,16 @@
+Dear Sera,
+
+Flint Ledger's maintenance removed Bridge Pack project relationships. The earlier assurances that your backup was complete, that recovery would take two hours, that approvals could never be lost, and that everything would be back by 15:00 were unsupported. They were wrong; I am sorry. A current, complete recovery has not been established, and no reliable completion time can yet be promised.
+
+The 01:00 snapshot opens in isolation, but it is an older baseline with known gaps. A segment needed to establish the later backup chain is still missing. The 74 changes accepted at 06:45 include 21 revision pointers, 31 approval transitions and 22 comments; acceptance does not mean they have been recovered. The transitions include seven changes or withdrawals, and two associated file digests remain unknown. No production rollback has been performed, and outgoing invitations remain paused.
+
+With your and Owen's read-only permission, the team has allocated the specialist to a limited, labelled baseline extract. It is not yet ready or delivered. This choice may delay full application reconciliation by 45–75 minutes while the missing-chain investigation continues. Feasibility will be reviewed at 13:15; assessment for possible release at 14:30 is a target, not a delivery promise. The team has prepared a receipt-derived discrepancy list and will work toward providing it securely to Owen by the 12:45 checkpoint, subject to the required checks. Please continue the manual comparison with Petra and Owen, including the 21 latest files and all 31 transitions; the team will identify the two files needing digests rather than request whole drives. Petra must decide whether the evidence supports the offline approval register.
+
+Jules will report on the archive search at 12:45, and Ellis will provide the written board update by 13:00 even if the position is unchanged. The portal recommends completing upload by 16:30 for the 17:00 close; your request for a later supplement has no confirmed response in the records. Flint Ledger cannot guarantee an extension or tender acceptance. The conditional 18:00–06:00 application estimate depends on the missing segment and successful validation and may change; without the segment there is no reliable latest-state completion time.
+
+The $2,400 May refund has been requested to the original payment method. It has not yet been accepted by the processor or posted by your bank, and it requires no release of claims. The $2,750 Reed proposal has been sent for urgent classification, but Flint Ledger has not approved or promised payment; the reservation deadline is 12:20 and an answer before then is not assured. Your $18,000 request and the estimated $120,000 opportunity claim remain open for review, without a decision or admission. Rina and the chief operating officer are due to acknowledge the larger claim and identify required evidence by May 15 at 12:00.
+
+The proposed annual order remains locked and unsigned. Your monthly plan's next routine debit is June 1; the lock does not cancel it. Recoverable data can be exported through the secure portal under existing identity controls, independent of renewal or claim resolution. Incident evidence is preserved through June 13; ordinary exports have a 30-day retrieval period after cancellation.
+
+Ellis Rowan
+Support duty lead

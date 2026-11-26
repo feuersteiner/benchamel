@@ -1,0 +1,57 @@
+{
+	"version": "1.0",
+	"licenseStatus": "Primary public company reports; no verified open transcript redistribution license. Independently authored factual paraphrases only; no raw pages, copied dialogue, screenshots or real customer identifiers.",
+	"sources": [
+		{
+			"id": "S01",
+			"url": "https://about.gitlab.com/blog/2017/02/01/gitlab-dot-com-database-incident/",
+			"stableIdentifier": "gitlab:blog:gitlab-dot-com-database-incident",
+			"publicationDate": "2017-02-01",
+			"retrievedDate": "2026-11-23",
+			"updateUncertainty": "Evolving company incident account with later postmortem link; no independent audit or assertion of current recovery capability. Dated original URL redirects to an undated path.",
+			"reuseBasis": "original factual paraphrase, no transcript license asserted",
+			"quotesWords": 0,
+			"representation": {
+				"documentId": "E01",
+				"paragraphPrefix": "S01:",
+				"sha256": "c03be5e61c51efcd72064e933f3bb3cce32ba9f185e752948b17e34a0982a9ca",
+				"hashScope": "UTF-8 bytes of this local authored paragraph only; not an original page hash"
+			},
+			"retrievalUrl": "https://about.gitlab.com/blog/gitlab-dot-com-database-incident/"
+		},
+		{
+			"id": "S02",
+			"url": "https://github.blog/news-insights/company-news/oct21-post-incident-analysis/",
+			"stableIdentifier": "github:blog:oct21-post-incident-analysis",
+			"publicationDate": "2018-10-30",
+			"retrievedDate": "2026-11-23",
+			"updateUncertainty": "Retrieved article displays Updated December 19, 2021. Its eventual no-user-data-loss statement coexists with described continuing reconciliation and is not an earlier-cutoff observation.",
+			"reuseBasis": "original factual paraphrase, no transcript license asserted",
+			"quotesWords": 0,
+			"representation": {
+				"documentId": "E01",
+				"paragraphPrefix": "S02:",
+				"sha256": "60f18461d8a644e47a37133e97f790886a7b906cbdb427129a321cf357a12835",
+				"hashScope": "UTF-8 bytes of this local authored paragraph only; not an original page hash"
+			},
+			"retrievalUrl": "https://github.blog/news-insights/company-news/oct21-post-incident-analysis/"
+		},
+		{
+			"id": "S03",
+			"url": "https://www.atlassian.com/blog/atlassian-engineering/post-incident-review-april-2022-outage",
+			"stableIdentifier": "atlassian:blog:post-incident-review-april-2022-outage",
+			"publicationDate": "2022-04-29",
+			"retrievedDate": "2026-11-23",
+			"updateUncertainty": "First-party retrospective; retrieved page redirects to the how-we-build category. Later outcomes and current page content do not establish fictional policy or guaranteed recovery.",
+			"reuseBasis": "original factual paraphrase, no transcript license asserted",
+			"quotesWords": 0,
+			"representation": {
+				"documentId": "E01",
+				"paragraphPrefix": "S03:",
+				"sha256": "883e86d5d3640bc3df9fc2ed625e1a6e6b12619664f2170a900c353282026eaf",
+				"hashScope": "UTF-8 bytes of this local authored paragraph only; not an original page hash"
+			},
+			"retrievalUrl": "https://www.atlassian.com/blog/how-we-build/post-incident-review-april-2022-outage"
+		}
+	]
+}

@@ -1,0 +1,134 @@
+{
+  "version": "1.0",
+  "source": {
+    "repository": "https://github.com/feuersteiner/agent-tests",
+    "branch": "benchmark-v2",
+    "commit": "6142590525acb698e473671f2420022f64adfa71",
+    "path": "benchmark/v2/pilot/complex-support-03"
+  },
+  "documents": [
+    {
+      "id": "E01",
+      "file": "01-public-background.md",
+      "bytes": 3447,
+      "sha256": "ac57c10980c33ccada627e43234d6ec97f9687e2e1a6f9c1db428009db49a196"
+    },
+    {
+      "id": "E02",
+      "file": "02-account-and-workflow.md",
+      "bytes": 3164,
+      "sha256": "60c93c70967359f29cf312f689847b2eedf76bfe6f7262ddafdf8f72cbf8355a"
+    },
+    {
+      "id": "E03",
+      "file": "03-customer-deadlines.md",
+      "bytes": 3094,
+      "sha256": "d136bc61199151a6f0dc9075d303e5d4ccb0f14ff5329f1551aa75deef3e915f"
+    },
+    {
+      "id": "E04",
+      "file": "04-incident-state.md",
+      "bytes": 3134,
+      "sha256": "2c3293fd712b3a7f479f1e073c6a046ffee78136b5cc83d48befe7d47e95fae5"
+    },
+    {
+      "id": "E05",
+      "file": "05-current-recovery-policy.md",
+      "bytes": 3528,
+      "sha256": "fbdd89d700bf4bfe49076138475472c2c077e7433def8182000172d9651a70c3"
+    },
+    {
+      "id": "E06",
+      "file": "06-superseded-playbook.md",
+      "bytes": 3115,
+      "sha256": "d7acd83fd6d14d3d4116bff09058784edac5a1d1e0c02b9bd43b25ac87a74477"
+    },
+    {
+      "id": "E07",
+      "file": "07-backup-inventory.md",
+      "bytes": 3038,
+      "sha256": "f1dc60c93b7b137d72b392cb030914774f3f2e758eaa0891c2f1b224a5a277ce"
+    },
+    {
+      "id": "E08",
+      "file": "08-estimates-and-dependencies.md",
+      "bytes": 3200,
+      "sha256": "3a5f1f09d71586251f55c87a382060a713c3448de503931148aedcb82ccf9cab"
+    },
+    {
+      "id": "E09",
+      "file": "09-validation-and-release.md",
+      "bytes": 3192,
+      "sha256": "8f59f46fffad3709f8b4be53f8e9e48eae814660a7dea5e6e40dd2ea816d5dcb"
+    },
+    {
+      "id": "E10",
+      "file": "10-customer-export-and-gaps.md",
+      "bytes": 3228,
+      "sha256": "377d4bb7ec3b6395e2679c090864ba3feb058d693db832da3a3a0ff255424a9c"
+    },
+    {
+      "id": "E11",
+      "file": "11-sales-and-brand-promises.md",
+      "bytes": 3063,
+      "sha256": "51729248c5e743d56dcafba0acdb52222694531d2e3d455e5d06ac4be9345fb2"
+    },
+    {
+      "id": "E12",
+      "file": "12-financial-authority.md",
+      "bytes": 3287,
+      "sha256": "6a77f274abde7edcb72b4c6c8fb208e9daba271c08af4bf356b9e1c1f448a5bb"
+    },
+    {
+      "id": "E13",
+      "file": "13-service-terms-and-claims.md",
+      "bytes": 3317,
+      "sha256": "01c0ae459d27ed4cdd43ef613a1660f73e4cd5a38f99614a3736260012196630"
+    },
+    {
+      "id": "E14",
+      "file": "14-ownership-and-update-controls.md",
+      "bytes": 3186,
+      "sha256": "d3e5bc2f20aacae4f8413c987411c8328ac637a56e524352f456368ee4942871"
+    },
+    {
+      "id": "E15",
+      "file": "15-renewal-and-exit.md",
+      "bytes": 3043,
+      "sha256": "6c1a97140b90fae3fc3ef2a530097f7b673b35044574fd93d56cd77f00421039"
+    },
+    {
+      "id": "E16",
+      "file": "16-disclosure-and-minimized-evidence.md",
+      "bytes": 3249,
+      "sha256": "34a4f14d72dbaa9df1704674ce8a215a5b174c2c352d9f2c449834d59d61b2ae"
+    },
+    {
+      "id": "E17",
+      "file": "17-event-chronology.md",
+      "bytes": 2866,
+      "sha256": "6a90da3954eb475611a6bb19fabbd0986887608f9f214a899c13866f6341f99a"
+    },
+    {
+      "id": "E18",
+      "file": "18-supplier-cost-and-consent.md",
+      "bytes": 3280,
+      "sha256": "9bc2546999ea4391d76c0cb0a92bfab1c39576ac442a18728a8e6fc6886f9573"
+    },
+    {
+      "id": "E19",
+      "file": "19-bridgepack-evidence-check.md",
+      "bytes": 3179,
+      "sha256": "f05630af6f4f00b8df4b66afac0dc3a763b9f488ac37bd93c982f5af70917566"
+    },
+    {
+      "id": "E20",
+      "file": "20-latest-handoff-and-capacity.md",
+      "bytes": 3118,
+      "sha256": "18bc1265086ffe9a57a8020a63ebfe05c5bfb26a43727c7fa9e4dcb9762f2f5b"
+    }
+  ],
+  "copied": "Twenty documents and sources.json copied byte-for-byte. No candidates, reviewer expectations or summary are supplied.",
+  "boundary": "Primary sources are attributed inspiration; business records, runnable integrations and simulated responses are synthetic reconstruction. Current documentation is not backdated contract authority.",
+  "sourcesFileSha256": "062f158641723c0bc3fb51a4efe008dedf5667d5a6f0fdb10f4b41bb45f0039f"
+}

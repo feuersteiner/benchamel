@@ -1,0 +1,1445 @@
+{
+  "state": {
+    "now": "2025-05-14T12:00:00Z",
+    "domain": {
+      "source": "inventoried",
+      "route": "baseline-allocated",
+      "discrepancy": "prepared",
+      "refund": "requested",
+      "costReview": "requested",
+      "preservation": "PR-619",
+      "production": "fenced",
+      "queues": "paused",
+      "latestRecovery": "unresolved",
+      "annual": "locked",
+      "backupInventory": {
+        "id": "N-011",
+        "at": "2025-05-14T01:00:00Z",
+        "references": 96420,
+        "resolved": 96372,
+        "unresolved": 48,
+        "completeApplication": false,
+        "dirtyReplica": true
+      },
+      "journalReconciled": true,
+      "discrepancyReport": {
+        "events": [
+          {
+            "id": 1,
+            "kind": "revision",
+            "negative": false
+          },
+          {
+            "id": 2,
+            "kind": "revision",
+            "negative": false
+          },
+          {
+            "id": 3,
+            "kind": "revision",
+            "negative": false
+          },
+          {
+            "id": 4,
+            "kind": "revision",
+            "negative": false
+          },
+          {
+            "id": 5,
+            "kind": "revision",
+            "negative": false
+          },
+          {
+            "id": 6,
+            "kind": "revision",
+            "negative": false
+          },
+          {
+            "id": 7,
+            "kind": "revision",
+            "negative": false
+          },
+          {
+            "id": 8,
+            "kind": "revision",
+            "negative": false
+          },
+          {
+            "id": 9,
+            "kind": "revision",
+            "negative": false
+          },
+          {
+            "id": 10,
+            "kind": "revision",
+            "negative": false
+          },
+          {
+            "id": 11,
+            "kind": "revision",
+            "negative": false
+          },
+          {
+            "id": 12,
+            "kind": "revision",
+            "negative": false
+          },
+          {
+            "id": 13,
+            "kind": "revision",
+            "negative": false
+          },
+          {
+            "id": 14,
+            "kind": "revision",
+            "negative": false
+          },
+          {
+            "id": 15,
+            "kind": "revision",
+            "negative": false
+          },
+          {
+            "id": 16,
+            "kind": "revision",
+            "negative": false
+          },
+          {
+            "id": 17,
+            "kind": "revision",
+            "negative": false
+          },
+          {
+            "id": 18,
+            "kind": "revision",
+            "negative": false
+          },
+          {
+            "id": 19,
+            "kind": "revision",
+            "negative": false
+          },
+          {
+            "id": 20,
+            "kind": "revision",
+            "negative": false
+          },
+          {
+            "id": 21,
+            "kind": "revision",
+            "negative": false
+          },
+          {
+            "id": 22,
+            "kind": "approval",
+            "negative": true
+          },
+          {
+            "id": 23,
+            "kind": "approval",
+            "negative": true
+          },
+          {
+            "id": 24,
+            "kind": "approval",
+            "negative": true
+          },
+          {
+            "id": 25,
+            "kind": "approval",
+            "negative": true
+          },
+          {
+            "id": 26,
+            "kind": "approval",
+            "negative": true
+          },
+          {
+            "id": 27,
+            "kind": "approval",
+            "negative": true
+          },
+          {
+            "id": 28,
+            "kind": "approval",
+            "negative": true
+          },
+          {
+            "id": 29,
+            "kind": "approval",
+            "negative": false
+          },
+          {
+            "id": 30,
+            "kind": "approval",
+            "negative": false
+          },
+          {
+            "id": 31,
+            "kind": "approval",
+            "negative": false
+          },
+          {
+            "id": 32,
+            "kind": "approval",
+            "negative": false
+          },
+          {
+            "id": 33,
+            "kind": "approval",
+            "negative": false
+          },
+          {
+            "id": 34,
+            "kind": "approval",
+            "negative": false
+          },
+          {
+            "id": 35,
+            "kind": "approval",
+            "negative": false
+          },
+          {
+            "id": 36,
+            "kind": "approval",
+            "negative": false
+          },
+          {
+            "id": 37,
+            "kind": "approval",
+            "negative": false
+          },
+          {
+            "id": 38,
+            "kind": "approval",
+            "negative": false
+          },
+          {
+            "id": 39,
+            "kind": "approval",
+            "negative": false
+          },
+          {
+            "id": 40,
+            "kind": "approval",
+            "negative": false
+          },
+          {
+            "id": 41,
+            "kind": "approval",
+            "negative": false
+          },
+          {
+            "id": 42,
+            "kind": "approval",
+            "negative": false
+          },
+          {
+            "id": 43,
+            "kind": "approval",
+            "negative": false
+          },
+          {
+            "id": 44,
+            "kind": "approval",
+            "negative": false
+          },
+          {
+            "id": 45,
+            "kind": "approval",
+            "negative": false
+          },
+          {
+            "id": 46,
+            "kind": "approval",
+            "negative": false
+          },
+          {
+            "id": 47,
+            "kind": "approval",
+            "negative": false
+          },
+          {
+            "id": 48,
+            "kind": "approval",
+            "negative": false
+          },
+          {
+            "id": 49,
+            "kind": "approval",
+            "negative": false
+          },
+          {
+            "id": 50,
+            "kind": "approval",
+            "negative": false
+          },
+          {
+            "id": 51,
+            "kind": "approval",
+            "negative": false
+          },
+          {
+            "id": 52,
+            "kind": "approval",
+            "negative": false
+          },
+          {
+            "id": 53,
+            "kind": "comment",
+            "negative": false
+          },
+          {
+            "id": 54,
+            "kind": "comment",
+            "negative": false
+          },
+          {
+            "id": 55,
+            "kind": "comment",
+            "negative": false
+          },
+          {
+            "id": 56,
+            "kind": "comment",
+            "negative": false
+          },
+          {
+            "id": 57,
+            "kind": "comment",
+            "negative": false
+          },
+          {
+            "id": 58,
+            "kind": "comment",
+            "negative": false
+          },
+          {
+            "id": 59,
+            "kind": "comment",
+            "negative": false
+          },
+          {
+            "id": 60,
+            "kind": "comment",
+            "negative": false
+          },
+          {
+            "id": 61,
+            "kind": "comment",
+            "negative": false
+          },
+          {
+            "id": 62,
+            "kind": "comment",
+            "negative": false
+          },
+          {
+            "id": 63,
+            "kind": "comment",
+            "negative": false
+          },
+          {
+            "id": 64,
+            "kind": "comment",
+            "negative": false
+          },
+          {
+            "id": 65,
+            "kind": "comment",
+            "negative": false
+          },
+          {
+            "id": 66,
+            "kind": "comment",
+            "negative": false
+          },
+          {
+            "id": 67,
+            "kind": "comment",
+            "negative": false
+          },
+          {
+            "id": 68,
+            "kind": "comment",
+            "negative": false
+          },
+          {
+            "id": 69,
+            "kind": "comment",
+            "negative": false
+          },
+          {
+            "id": 70,
+            "kind": "comment",
+            "negative": false
+          },
+          {
+            "id": 71,
+            "kind": "comment",
+            "negative": false
+          },
+          {
+            "id": 72,
+            "kind": "comment",
+            "negative": false
+          },
+          {
+            "id": 73,
+            "kind": "comment",
+            "negative": false
+          },
+          {
+            "id": 74,
+            "kind": "comment",
+            "negative": false
+          }
+        ],
+        "approvalTransitions": 31,
+        "changedOrWithdrawn": 7,
+        "unresolvedFileDigests": 2,
+        "tender": {
+          "indexed": 612,
+          "matched": 601,
+          "unknownParents": 7,
+          "latestRevisionAbsent": 11
+        },
+        "liveLinks": false
+      }
+    },
+    "tasks": [
+      {
+        "area": "customer",
+        "owner": "Ellis Rowan",
+        "due": "2025-05-14T13:00:00Z",
+        "action": "Provide board status, coordinate Owen manual comparison and 12:45 discrepancy checkpoint; correct prior assurances."
+      },
+      {
+        "area": "support",
+        "owner": "Dana Vale",
+        "due": "2025-05-14T17:30:00Z",
+        "action": "Receive handoff of evidence, recovery gates, queues, customer commitments and open claims; update at 18:30 if open."
+      },
+      {
+        "area": "finance",
+        "owner": "Nessa",
+        "due": "2025-05-14T13:15:00Z",
+        "action": "Classify Reed scope and incurred condition, seeking an answer before 12:20. Dev tracks the already queued May refund request, checks duplicate reversal and submits to processor by 15:00 for 15:30 window; follow acceptance or failure and claims."
+      },
+      {
+        "area": "recovery",
+        "owner": "Drina Cole",
+        "due": "2025-05-14T13:15:00Z",
+        "action": "Jules checks archive at 12:45; Noor reviews discrepancy and baseline feasibility. Any export must carry item-level source and time labels distinguishing 01:00 N-011 from customer-supplied files, manifest, hashes and gaps; withhold if checks fail."
+      }
+    ],
+    "commitments": {
+      "nextUpdate": "2025-05-14T13:00:00Z",
+      "domain": {
+        "source": "inventoried",
+        "route": "baseline-allocated",
+        "discrepancy": "prepared",
+        "refund": "requested",
+        "costReview": "requested",
+        "preservation": "PR-619",
+        "production": "fenced",
+        "queues": "paused",
+        "latestRecovery": "unresolved",
+        "annual": "locked",
+        "backupInventory": {
+          "id": "N-011",
+          "at": "2025-05-14T01:00:00Z",
+          "references": 96420,
+          "resolved": 96372,
+          "unresolved": 48,
+          "completeApplication": false,
+          "dirtyReplica": true
+        },
+        "journalReconciled": true,
+        "discrepancyReport": {
+          "events": [
+            {
+              "id": 1,
+              "kind": "revision",
+              "negative": false
+            },
+            {
+              "id": 2,
+              "kind": "revision",
+              "negative": false
+            },
+            {
+              "id": 3,
+              "kind": "revision",
+              "negative": false
+            },
+            {
+              "id": 4,
+              "kind": "revision",
+              "negative": false
+            },
+            {
+              "id": 5,
+              "kind": "revision",
+              "negative": false
+            },
+            {
+              "id": 6,
+              "kind": "revision",
+              "negative": false
+            },
+            {
+              "id": 7,
+              "kind": "revision",
+              "negative": false
+            },
+            {
+              "id": 8,
+              "kind": "revision",
+              "negative": false
+            },
+            {
+              "id": 9,
+              "kind": "revision",
+              "negative": false
+            },
+            {
+              "id": 10,
+              "kind": "revision",
+              "negative": false
+            },
+            {
+              "id": 11,
+              "kind": "revision",
+              "negative": false
+            },
+            {
+              "id": 12,
+              "kind": "revision",
+              "negative": false
+            },
+            {
+              "id": 13,
+              "kind": "revision",
+              "negative": false
+            },
+            {
+              "id": 14,
+              "kind": "revision",
+              "negative": false
+            },
+            {
+              "id": 15,
+              "kind": "revision",
+              "negative": false
+            },
+            {
+              "id": 16,
+              "kind": "revision",
+              "negative": false
+            },
+            {
+              "id": 17,
+              "kind": "revision",
+              "negative": false
+            },
+            {
+              "id": 18,
+              "kind": "revision",
+              "negative": false
+            },
+            {
+              "id": 19,
+              "kind": "revision",
+              "negative": false
+            },
+            {
+              "id": 20,
+              "kind": "revision",
+              "negative": false
+            },
+            {
+              "id": 21,
+              "kind": "revision",
+              "negative": false
+            },
+            {
+              "id": 22,
+              "kind": "approval",
+              "negative": true
+            },
+            {
+              "id": 23,
+              "kind": "approval",
+              "negative": true
+            },
+            {
+              "id": 24,
+              "kind": "approval",
+              "negative": true
+            },
+            {
+              "id": 25,
+              "kind": "approval",
+              "negative": true
+            },
+            {
+              "id": 26,
+              "kind": "approval",
+              "negative": true
+            },
+            {
+              "id": 27,
+              "kind": "approval",
+              "negative": true
+            },
+            {
+              "id": 28,
+              "kind": "approval",
+              "negative": true
+            },
+            {
+              "id": 29,
+              "kind": "approval",
+              "negative": false
+            },
+            {
+              "id": 30,
+              "kind": "approval",
+              "negative": false
+            },
+            {
+              "id": 31,
+              "kind": "approval",
+              "negative": false
+            },
+            {
+              "id": 32,
+              "kind": "approval",
+              "negative": false
+            },
+            {
+              "id": 33,
+              "kind": "approval",
+              "negative": false
+            },
+            {
+              "id": 34,
+              "kind": "approval",
+              "negative": false
+            },
+            {
+              "id": 35,
+              "kind": "approval",
+              "negative": false
+            },
+            {
+              "id": 36,
+              "kind": "approval",
+              "negative": false
+            },
+            {
+              "id": 37,
+              "kind": "approval",
+              "negative": false
+            },
+            {
+              "id": 38,
+              "kind": "approval",
+              "negative": false
+            },
+            {
+              "id": 39,
+              "kind": "approval",
+              "negative": false
+            },
+            {
+              "id": 40,
+              "kind": "approval",
+              "negative": false
+            },
+            {
+              "id": 41,
+              "kind": "approval",
+              "negative": false
+            },
+            {
+              "id": 42,
+              "kind": "approval",
+              "negative": false
+            },
+            {
+              "id": 43,
+              "kind": "approval",
+              "negative": false
+            },
+            {
+              "id": 44,
+              "kind": "approval",
+              "negative": false
+            },
+            {
+              "id": 45,
+              "kind": "approval",
+              "negative": false
+            },
+            {
+              "id": 46,
+              "kind": "approval",
+              "negative": false
+            },
+            {
+              "id": 47,
+              "kind": "approval",
+              "negative": false
+            },
+            {
+              "id": 48,
+              "kind": "approval",
+              "negative": false
+            },
+            {
+              "id": 49,
+              "kind": "approval",
+              "negative": false
+            },
+            {
+              "id": 50,
+              "kind": "approval",
+              "negative": false
+            },
+            {
+              "id": 51,
+              "kind": "approval",
+              "negative": false
+            },
+            {
+              "id": 52,
+              "kind": "approval",
+              "negative": false
+            },
+            {
+              "id": 53,
+              "kind": "comment",
+              "negative": false
+            },
+            {
+              "id": 54,
+              "kind": "comment",
+              "negative": false
+            },
+            {
+              "id": 55,
+              "kind": "comment",
+              "negative": false
+            },
+            {
+              "id": 56,
+              "kind": "comment",
+              "negative": false
+            },
+            {
+              "id": 57,
+              "kind": "comment",
+              "negative": false
+            },
+            {
+              "id": 58,
+              "kind": "comment",
+              "negative": false
+            },
+            {
+              "id": 59,
+              "kind": "comment",
+              "negative": false
+            },
+            {
+              "id": 60,
+              "kind": "comment",
+              "negative": false
+            },
+            {
+              "id": 61,
+              "kind": "comment",
+              "negative": false
+            },
+            {
+              "id": 62,
+              "kind": "comment",
+              "negative": false
+            },
+            {
+              "id": 63,
+              "kind": "comment",
+              "negative": false
+            },
+            {
+              "id": 64,
+              "kind": "comment",
+              "negative": false
+            },
+            {
+              "id": 65,
+              "kind": "comment",
+              "negative": false
+            },
+            {
+              "id": 66,
+              "kind": "comment",
+              "negative": false
+            },
+            {
+              "id": 67,
+              "kind": "comment",
+              "negative": false
+            },
+            {
+              "id": 68,
+              "kind": "comment",
+              "negative": false
+            },
+            {
+              "id": 69,
+              "kind": "comment",
+              "negative": false
+            },
+            {
+              "id": 70,
+              "kind": "comment",
+              "negative": false
+            },
+            {
+              "id": 71,
+              "kind": "comment",
+              "negative": false
+            },
+            {
+              "id": 72,
+              "kind": "comment",
+              "negative": false
+            },
+            {
+              "id": 73,
+              "kind": "comment",
+              "negative": false
+            },
+            {
+              "id": 74,
+              "kind": "comment",
+              "negative": false
+            }
+          ],
+          "approvalTransitions": 31,
+          "changedOrWithdrawn": 7,
+          "unresolvedFileDigests": 2,
+          "tender": {
+            "indexed": 612,
+            "matched": 601,
+            "unknownParents": 7,
+            "latestRevisionAbsent": 11
+          },
+          "liveLinks": false
+        }
+      }
+    },
+    "handoff": {
+      "to": "Dana Vale",
+      "note": "Dana Vale takes over at 17:30. PR-619 preserved, production fenced, queues paused, latest recovery unresolved. Baseline allocated, discrepancy prepared not delivered; package carries source and time labels separating N-011 01:00 records from customer files, hashes and gaps; withhold if checks fail. Jules and Noor checkpoint 12:45, Noor feasibility 13:15, Ellis update 13:00. Refund request queued in receipt 4; Dev checks reversal and submits by 15:00 for 15:30 window; no posting yet. Receipt 5 confirms a focused request sent at 12:00 to Nessa: does Reed fixed-price diagnostic qualify under CA-619, and when is reservation cost incurred? costReview requested; acknowledgment is not decision or approval. Seek answer before 12:20 supplier deadline, otherwise no payment commitment; response target 13:15. Claims open; Dana update 18:30 if open.",
+      "domain": {
+        "source": "inventoried",
+        "route": "baseline-allocated",
+        "discrepancy": "prepared",
+        "refund": "requested",
+        "costReview": "requested",
+        "preservation": "PR-619",
+        "production": "fenced",
+        "queues": "paused",
+        "latestRecovery": "unresolved",
+        "annual": "locked",
+        "backupInventory": {
+          "id": "N-011",
+          "at": "2025-05-14T01:00:00Z",
+          "references": 96420,
+          "resolved": 96372,
+          "unresolved": 48,
+          "completeApplication": false,
+          "dirtyReplica": true
+        },
+        "journalReconciled": true,
+        "discrepancyReport": {
+          "events": [
+            {
+              "id": 1,
+              "kind": "revision",
+              "negative": false
+            },
+            {
+              "id": 2,
+              "kind": "revision",
+              "negative": false
+            },
+            {
+              "id": 3,
+              "kind": "revision",
+              "negative": false
+            },
+            {
+              "id": 4,
+              "kind": "revision",
+              "negative": false
+            },
+            {
+              "id": 5,
+              "kind": "revision",
+              "negative": false
+            },
+            {
+              "id": 6,
+              "kind": "revision",
+              "negative": false
+            },
+            {
+              "id": 7,
+              "kind": "revision",
+              "negative": false
+            },
+            {
+              "id": 8,
+              "kind": "revision",
+              "negative": false
+            },
+            {
+              "id": 9,
+              "kind": "revision",
+              "negative": false
+            },
+            {
+              "id": 10,
+              "kind": "revision",
+              "negative": false
+            },
+            {
+              "id": 11,
+              "kind": "revision",
+              "negative": false
+            },
+            {
+              "id": 12,
+              "kind": "revision",
+              "negative": false
+            },
+            {
+              "id": 13,
+              "kind": "revision",
+              "negative": false
+            },
+            {
+              "id": 14,
+              "kind": "revision",
+              "negative": false
+            },
+            {
+              "id": 15,
+              "kind": "revision",
+              "negative": false
+            },
+            {
+              "id": 16,
+              "kind": "revision",
+              "negative": false
+            },
+            {
+              "id": 17,
+              "kind": "revision",
+              "negative": false
+            },
+            {
+              "id": 18,
+              "kind": "revision",
+              "negative": false
+            },
+            {
+              "id": 19,
+              "kind": "revision",
+              "negative": false
+            },
+            {
+              "id": 20,
+              "kind": "revision",
+              "negative": false
+            },
+            {
+              "id": 21,
+              "kind": "revision",
+              "negative": false
+            },
+            {
+              "id": 22,
+              "kind": "approval",
+              "negative": true
+            },
+            {
+              "id": 23,
+              "kind": "approval",
+              "negative": true
+            },
+            {
+              "id": 24,
+              "kind": "approval",
+              "negative": true
+            },
+            {
+              "id": 25,
+              "kind": "approval",
+              "negative": true
+            },
+            {
+              "id": 26,
+              "kind": "approval",
+              "negative": true
+            },
+            {
+              "id": 27,
+              "kind": "approval",
+              "negative": true
+            },
+            {
+              "id": 28,
+              "kind": "approval",
+              "negative": true
+            },
+            {
+              "id": 29,
+              "kind": "approval",
+              "negative": false
+            },
+            {
+              "id": 30,
+              "kind": "approval",
+              "negative": false
+            },
+            {
+              "id": 31,
+              "kind": "approval",
+              "negative": false
+            },
+            {
+              "id": 32,
+              "kind": "approval",
+              "negative": false
+            },
+            {
+              "id": 33,
+              "kind": "approval",
+              "negative": false
+            },
+            {
+              "id": 34,
+              "kind": "approval",
+              "negative": false
+            },
+            {
+              "id": 35,
+              "kind": "approval",
+              "negative": false
+            },
+            {
+              "id": 36,
+              "kind": "approval",
+              "negative": false
+            },
+            {
+              "id": 37,
+              "kind": "approval",
+              "negative": false
+            },
+            {
+              "id": 38,
+              "kind": "approval",
+              "negative": false
+            },
+            {
+              "id": 39,
+              "kind": "approval",
+              "negative": false
+            },
+            {
+              "id": 40,
+              "kind": "approval",
+              "negative": false
+            },
+            {
+              "id": 41,
+              "kind": "approval",
+              "negative": false
+            },
+            {
+              "id": 42,
+              "kind": "approval",
+              "negative": false
+            },
+            {
+              "id": 43,
+              "kind": "approval",
+              "negative": false
+            },
+            {
+              "id": 44,
+              "kind": "approval",
+              "negative": false
+            },
+            {
+              "id": 45,
+              "kind": "approval",
+              "negative": false
+            },
+            {
+              "id": 46,
+              "kind": "approval",
+              "negative": false
+            },
+            {
+              "id": 47,
+              "kind": "approval",
+              "negative": false
+            },
+            {
+              "id": 48,
+              "kind": "approval",
+              "negative": false
+            },
+            {
+              "id": 49,
+              "kind": "approval",
+              "negative": false
+            },
+            {
+              "id": 50,
+              "kind": "approval",
+              "negative": false
+            },
+            {
+              "id": 51,
+              "kind": "approval",
+              "negative": false
+            },
+            {
+              "id": 52,
+              "kind": "approval",
+              "negative": false
+            },
+            {
+              "id": 53,
+              "kind": "comment",
+              "negative": false
+            },
+            {
+              "id": 54,
+              "kind": "comment",
+              "negative": false
+            },
+            {
+              "id": 55,
+              "kind": "comment",
+              "negative": false
+            },
+            {
+              "id": 56,
+              "kind": "comment",
+              "negative": false
+            },
+            {
+              "id": 57,
+              "kind": "comment",
+              "negative": false
+            },
+            {
+              "id": 58,
+              "kind": "comment",
+              "negative": false
+            },
+            {
+              "id": 59,
+              "kind": "comment",
+              "negative": false
+            },
+            {
+              "id": 60,
+              "kind": "comment",
+              "negative": false
+            },
+            {
+              "id": 61,
+              "kind": "comment",
+              "negative": false
+            },
+            {
+              "id": 62,
+              "kind": "comment",
+              "negative": false
+            },
+            {
+              "id": 63,
+              "kind": "comment",
+              "negative": false
+            },
+            {
+              "id": 64,
+              "kind": "comment",
+              "negative": false
+            },
+            {
+              "id": 65,
+              "kind": "comment",
+              "negative": false
+            },
+            {
+              "id": 66,
+              "kind": "comment",
+              "negative": false
+            },
+            {
+              "id": 67,
+              "kind": "comment",
+              "negative": false
+            },
+            {
+              "id": 68,
+              "kind": "comment",
+              "negative": false
+            },
+            {
+              "id": 69,
+              "kind": "comment",
+              "negative": false
+            },
+            {
+              "id": 70,
+              "kind": "comment",
+              "negative": false
+            },
+            {
+              "id": 71,
+              "kind": "comment",
+              "negative": false
+            },
+            {
+              "id": 72,
+              "kind": "comment",
+              "negative": false
+            },
+            {
+              "id": 73,
+              "kind": "comment",
+              "negative": false
+            },
+            {
+              "id": 74,
+              "kind": "comment",
+              "negative": false
+            }
+          ],
+          "approvalTransitions": 31,
+          "changedOrWithdrawn": 7,
+          "unresolvedFileDigests": 2,
+          "tender": {
+            "indexed": 612,
+            "matched": 601,
+            "unknownParents": 7,
+            "latestRevisionAbsent": 11
+          },
+          "liveLinks": false
+        }
+      },
+      "tasks": [
+        {
+          "area": "customer",
+          "owner": "Ellis Rowan",
+          "due": "2025-05-14T13:00:00Z",
+          "action": "Provide board status, coordinate Owen manual comparison and 12:45 discrepancy checkpoint; correct prior assurances."
+        },
+        {
+          "area": "support",
+          "owner": "Dana Vale",
+          "due": "2025-05-14T17:30:00Z",
+          "action": "Receive handoff of evidence, recovery gates, queues, customer commitments and open claims; update at 18:30 if open."
+        },
+        {
+          "area": "finance",
+          "owner": "Nessa",
+          "due": "2025-05-14T13:15:00Z",
+          "action": "Classify Reed scope and incurred condition, seeking an answer before 12:20. Dev tracks the already queued May refund request, checks duplicate reversal and submits to processor by 15:00 for 15:30 window; follow acceptance or failure and claims."
+        },
+        {
+          "area": "recovery",
+          "owner": "Drina Cole",
+          "due": "2025-05-14T13:15:00Z",
+          "action": "Jules checks archive at 12:45; Noor reviews discrepancy and baseline feasibility. Any export must carry item-level source and time labels distinguishing 01:00 N-011 from customer-supplied files, manifest, hashes and gaps; withhold if checks fail."
+        }
+      ]
+    }
+  },
+  "audit": [
+    {
+      "seq": 1,
+      "command": "inspect-backups",
+      "args": {},
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 2,
+      "command": "allocate-baseline",
+      "args": {
+        "consent": "Owen-Sera-read-only"
+      },
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 3,
+      "command": "prepare-discrepancy",
+      "args": {},
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 4,
+      "command": "refund-request",
+      "args": {
+        "amount": "240000",
+        "method": "original"
+      },
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 5,
+      "command": "classify-supplier",
+      "args": {
+        "question": "Does Reed’s $2,750 fixed-price diagnostic reconstruction qualify under CA-619, and when is its nonrefundable reservation charge actually incurred? The work order is signed by Sera but not accepted or invoiced; please advise before any commitment."
+      },
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 6,
+      "command": "task",
+      "args": {
+        "area": "recovery",
+        "owner": "Drina Cole",
+        "due": "2025-05-14T13:15:00Z",
+        "action": "Allocate isolated baseline; Jules checks archive at 12:45; Noor validates relations, reconciles all transitions and two digests, and reports feasibility at 13:15."
+      },
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 7,
+      "command": "task",
+      "args": {
+        "area": "finance",
+        "owner": "Nessa",
+        "due": "2025-05-14T13:15:00Z",
+        "action": "Classify Reed scope and incurred-cost condition, seeking earlier answer before 12:20; Dev follows May refund and preserves larger claims."
+      },
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 8,
+      "command": "task",
+      "args": {
+        "area": "customer",
+        "owner": "Ellis Rowan",
+        "due": "2025-05-14T13:00:00Z",
+        "action": "Provide board status, coordinate Owen manual comparison and 12:45 discrepancy checkpoint; correct prior assurances."
+      },
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 9,
+      "command": "task",
+      "args": {
+        "area": "support",
+        "owner": "Dana Vale",
+        "due": "2025-05-14T17:30:00Z",
+        "action": "Receive handoff of evidence, recovery gates, queues, customer commitments and open claims; update at 18:30 if open."
+      },
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 10,
+      "command": "commitments",
+      "args": {
+        "next-update": "2025-05-14T13:00:00Z",
+        "snapshot": "{\"source\":\"inventoried\",\"route\":\"baseline-allocated\",\"discrepancy\":\"prepared\",\"refund\":\"requested\",\"costReview\":\"requested\",\"preservation\":\"PR-619\",\"production\":\"fenced\",\"queues\":\"paused\",\"latestRecovery\":\"unresolved\",\"annual\":\"locked\",\"backupInventory\":{\"id\":\"N-011\",\"at\":\"2025-05-14T01:00:00Z\",\"references\":96420,\"resolved\":96372,\"unresolved\":48,\"completeApplication\":false,\"dirtyReplica\":true},\"journalReconciled\":true,\"discrepancyReport\":{\"events\":[{\"id\":1,\"kind\":\"revision\",\"negative\":false},{\"id\":2,\"kind\":\"revision\",\"negative\":false},{\"id\":3,\"kind\":\"revision\",\"negative\":false},{\"id\":4,\"kind\":\"revision\",\"negative\":false},{\"id\":5,\"kind\":\"revision\",\"negative\":false},{\"id\":6,\"kind\":\"revision\",\"negative\":false},{\"id\":7,\"kind\":\"revision\",\"negative\":false},{\"id\":8,\"kind\":\"revision\",\"negative\":false},{\"id\":9,\"kind\":\"revision\",\"negative\":false},{\"id\":10,\"kind\":\"revision\",\"negative\":false},{\"id\":11,\"kind\":\"revision\",\"negative\":false},{\"id\":12,\"kind\":\"revision\",\"negative\":false},{\"id\":13,\"kind\":\"revision\",\"negative\":false},{\"id\":14,\"kind\":\"revision\",\"negative\":false},{\"id\":15,\"kind\":\"revision\",\"negative\":false},{\"id\":16,\"kind\":\"revision\",\"negative\":false},{\"id\":17,\"kind\":\"revision\",\"negative\":false},{\"id\":18,\"kind\":\"revision\",\"negative\":false},{\"id\":19,\"kind\":\"revision\",\"negative\":false},{\"id\":20,\"kind\":\"revision\",\"negative\":false},{\"id\":21,\"kind\":\"revision\",\"negative\":false},{\"id\":22,\"kind\":\"approval\",\"negative\":true},{\"id\":23,\"kind\":\"approval\",\"negative\":true},{\"id\":24,\"kind\":\"approval\",\"negative\":true},{\"id\":25,\"kind\":\"approval\",\"negative\":true},{\"id\":26,\"kind\":\"approval\",\"negative\":true},{\"id\":27,\"kind\":\"approval\",\"negative\":true},{\"id\":28,\"kind\":\"approval\",\"negative\":true},{\"id\":29,\"kind\":\"approval\",\"negative\":false},{\"id\":30,\"kind\":\"approval\",\"negative\":false},{\"id\":31,\"kind\":\"approval\",\"negative\":false},{\"id\":32,\"kind\":\"approval\",\"negative\":false},{\"id\":33,\"kind\":\"approval\",\"negative\":false},{\"id\":34,\"kind\":\"approval\",\"negative\":false},{\"id\":35,\"kind\":\"approval\",\"negative\":false},{\"id\":36,\"kind\":\"approval\",\"negative\":false},{\"id\":37,\"kind\":\"approval\",\"negative\":false},{\"id\":38,\"kind\":\"approval\",\"negative\":false},{\"id\":39,\"kind\":\"approval\",\"negative\":false},{\"id\":40,\"kind\":\"approval\",\"negative\":false},{\"id\":41,\"kind\":\"approval\",\"negative\":false},{\"id\":42,\"kind\":\"approval\",\"negative\":false},{\"id\":43,\"kind\":\"approval\",\"negative\":false},{\"id\":44,\"kind\":\"approval\",\"negative\":false},{\"id\":45,\"kind\":\"approval\",\"negative\":false},{\"id\":46,\"kind\":\"approval\",\"negative\":false},{\"id\":47,\"kind\":\"approval\",\"negative\":false},{\"id\":48,\"kind\":\"approval\",\"negative\":false},{\"id\":49,\"kind\":\"approval\",\"negative\":false},{\"id\":50,\"kind\":\"approval\",\"negative\":false},{\"id\":51,\"kind\":\"approval\",\"negative\":false},{\"id\":52,\"kind\":\"approval\",\"negative\":false},{\"id\":53,\"kind\":\"comment\",\"negative\":false},{\"id\":54,\"kind\":\"comment\",\"negative\":false},{\"id\":55,\"kind\":\"comment\",\"negative\":false},{\"id\":56,\"kind\":\"comment\",\"negative\":false},{\"id\":57,\"kind\":\"comment\",\"negative\":false},{\"id\":58,\"kind\":\"comment\",\"negative\":false},{\"id\":59,\"kind\":\"comment\",\"negative\":false},{\"id\":60,\"kind\":\"comment\",\"negative\":false},{\"id\":61,\"kind\":\"comment\",\"negative\":false},{\"id\":62,\"kind\":\"comment\",\"negative\":false},{\"id\":63,\"kind\":\"comment\",\"negative\":false},{\"id\":64,\"kind\":\"comment\",\"negative\":false},{\"id\":65,\"kind\":\"comment\",\"negative\":false},{\"id\":66,\"kind\":\"comment\",\"negative\":false},{\"id\":67,\"kind\":\"comment\",\"negative\":false},{\"id\":68,\"kind\":\"comment\",\"negative\":false},{\"id\":69,\"kind\":\"comment\",\"negative\":false},{\"id\":70,\"kind\":\"comment\",\"negative\":false},{\"id\":71,\"kind\":\"comment\",\"negative\":false},{\"id\":72,\"kind\":\"comment\",\"negative\":false},{\"id\":73,\"kind\":\"comment\",\"negative\":false},{\"id\":74,\"kind\":\"comment\",\"negative\":false}],\"approvalTransitions\":31,\"changedOrWithdrawn\":7,\"unresolvedFileDigests\":2,\"tender\":{\"indexed\":612,\"matched\":601,\"unknownParents\":7,\"latestRevisionAbsent\":11},\"liveLinks\":false}}"
+      },
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 11,
+      "command": "handoff",
+      "args": {
+        "note": "Dana Vale takes over at 17:30; PR-619 preserved, production fenced and queues paused. N-011 baseline allocated, discrepancy prepared but not delivered; latest recovery unresolved. Jules 12:45 archive, Noor 12:45 discrepancy and 13:15 feasibility, Ellis 13:00 customer update, Nessa supplier classification pending, Dev refund requested; claims remain open. Dana update at 18:30 if open."
+      },
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 12,
+      "command": "task",
+      "args": {
+        "area": "finance",
+        "owner": "Nessa",
+        "due": "2025-05-14T13:15:00Z",
+        "action": "Classify Reed scope and incurred condition, seeking an answer before 12:20. Dev tracks the already queued May refund request, checks duplicate reversal and submits to processor by 15:00 for 15:30 window; follow acceptance or failure and claims."
+      },
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 13,
+      "command": "task",
+      "args": {
+        "area": "recovery",
+        "owner": "Drina Cole",
+        "due": "2025-05-14T13:15:00Z",
+        "action": "Jules checks archive at 12:45; Noor reviews discrepancy and baseline feasibility. Any export must carry item-level source and time labels distinguishing 01:00 N-011 from customer-supplied files, manifest, hashes and gaps; withhold if checks fail."
+      },
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 14,
+      "command": "commitments",
+      "args": {
+        "next-update": "2025-05-14T13:00:00Z",
+        "snapshot": "{\"source\":\"inventoried\",\"route\":\"baseline-allocated\",\"discrepancy\":\"prepared\",\"refund\":\"requested\",\"costReview\":\"requested\",\"preservation\":\"PR-619\",\"production\":\"fenced\",\"queues\":\"paused\",\"latestRecovery\":\"unresolved\",\"annual\":\"locked\",\"backupInventory\":{\"id\":\"N-011\",\"at\":\"2025-05-14T01:00:00Z\",\"references\":96420,\"resolved\":96372,\"unresolved\":48,\"completeApplication\":false,\"dirtyReplica\":true},\"journalReconciled\":true,\"discrepancyReport\":{\"events\":[{\"id\":1,\"kind\":\"revision\",\"negative\":false},{\"id\":2,\"kind\":\"revision\",\"negative\":false},{\"id\":3,\"kind\":\"revision\",\"negative\":false},{\"id\":4,\"kind\":\"revision\",\"negative\":false},{\"id\":5,\"kind\":\"revision\",\"negative\":false},{\"id\":6,\"kind\":\"revision\",\"negative\":false},{\"id\":7,\"kind\":\"revision\",\"negative\":false},{\"id\":8,\"kind\":\"revision\",\"negative\":false},{\"id\":9,\"kind\":\"revision\",\"negative\":false},{\"id\":10,\"kind\":\"revision\",\"negative\":false},{\"id\":11,\"kind\":\"revision\",\"negative\":false},{\"id\":12,\"kind\":\"revision\",\"negative\":false},{\"id\":13,\"kind\":\"revision\",\"negative\":false},{\"id\":14,\"kind\":\"revision\",\"negative\":false},{\"id\":15,\"kind\":\"revision\",\"negative\":false},{\"id\":16,\"kind\":\"revision\",\"negative\":false},{\"id\":17,\"kind\":\"revision\",\"negative\":false},{\"id\":18,\"kind\":\"revision\",\"negative\":false},{\"id\":19,\"kind\":\"revision\",\"negative\":false},{\"id\":20,\"kind\":\"revision\",\"negative\":false},{\"id\":21,\"kind\":\"revision\",\"negative\":false},{\"id\":22,\"kind\":\"approval\",\"negative\":true},{\"id\":23,\"kind\":\"approval\",\"negative\":true},{\"id\":24,\"kind\":\"approval\",\"negative\":true},{\"id\":25,\"kind\":\"approval\",\"negative\":true},{\"id\":26,\"kind\":\"approval\",\"negative\":true},{\"id\":27,\"kind\":\"approval\",\"negative\":true},{\"id\":28,\"kind\":\"approval\",\"negative\":true},{\"id\":29,\"kind\":\"approval\",\"negative\":false},{\"id\":30,\"kind\":\"approval\",\"negative\":false},{\"id\":31,\"kind\":\"approval\",\"negative\":false},{\"id\":32,\"kind\":\"approval\",\"negative\":false},{\"id\":33,\"kind\":\"approval\",\"negative\":false},{\"id\":34,\"kind\":\"approval\",\"negative\":false},{\"id\":35,\"kind\":\"approval\",\"negative\":false},{\"id\":36,\"kind\":\"approval\",\"negative\":false},{\"id\":37,\"kind\":\"approval\",\"negative\":false},{\"id\":38,\"kind\":\"approval\",\"negative\":false},{\"id\":39,\"kind\":\"approval\",\"negative\":false},{\"id\":40,\"kind\":\"approval\",\"negative\":false},{\"id\":41,\"kind\":\"approval\",\"negative\":false},{\"id\":42,\"kind\":\"approval\",\"negative\":false},{\"id\":43,\"kind\":\"approval\",\"negative\":false},{\"id\":44,\"kind\":\"approval\",\"negative\":false},{\"id\":45,\"kind\":\"approval\",\"negative\":false},{\"id\":46,\"kind\":\"approval\",\"negative\":false},{\"id\":47,\"kind\":\"approval\",\"negative\":false},{\"id\":48,\"kind\":\"approval\",\"negative\":false},{\"id\":49,\"kind\":\"approval\",\"negative\":false},{\"id\":50,\"kind\":\"approval\",\"negative\":false},{\"id\":51,\"kind\":\"approval\",\"negative\":false},{\"id\":52,\"kind\":\"approval\",\"negative\":false},{\"id\":53,\"kind\":\"comment\",\"negative\":false},{\"id\":54,\"kind\":\"comment\",\"negative\":false},{\"id\":55,\"kind\":\"comment\",\"negative\":false},{\"id\":56,\"kind\":\"comment\",\"negative\":false},{\"id\":57,\"kind\":\"comment\",\"negative\":false},{\"id\":58,\"kind\":\"comment\",\"negative\":false},{\"id\":59,\"kind\":\"comment\",\"negative\":false},{\"id\":60,\"kind\":\"comment\",\"negative\":false},{\"id\":61,\"kind\":\"comment\",\"negative\":false},{\"id\":62,\"kind\":\"comment\",\"negative\":false},{\"id\":63,\"kind\":\"comment\",\"negative\":false},{\"id\":64,\"kind\":\"comment\",\"negative\":false},{\"id\":65,\"kind\":\"comment\",\"negative\":false},{\"id\":66,\"kind\":\"comment\",\"negative\":false},{\"id\":67,\"kind\":\"comment\",\"negative\":false},{\"id\":68,\"kind\":\"comment\",\"negative\":false},{\"id\":69,\"kind\":\"comment\",\"negative\":false},{\"id\":70,\"kind\":\"comment\",\"negative\":false},{\"id\":71,\"kind\":\"comment\",\"negative\":false},{\"id\":72,\"kind\":\"comment\",\"negative\":false},{\"id\":73,\"kind\":\"comment\",\"negative\":false},{\"id\":74,\"kind\":\"comment\",\"negative\":false}],\"approvalTransitions\":31,\"changedOrWithdrawn\":7,\"unresolvedFileDigests\":2,\"tender\":{\"indexed\":612,\"matched\":601,\"unknownParents\":7,\"latestRevisionAbsent\":11},\"liveLinks\":false}}"
+      },
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 15,
+      "command": "handoff",
+      "args": {
+        "note": "Dana Vale takes over at 17:30. PR-619 preserved, production fenced, queues paused, latest recovery unresolved. Baseline allocated, discrepancy prepared not delivered; package must carry item-level source and time labels separating N-011 01:00 records from customer-supplied files, with hashes and gap manifest; withhold if checks fail. Jules and Noor checkpoint 12:45, Noor feasibility 13:15, Ellis update 13:00. Refund request queued in receipt 4; Dev checks prior reversal and submits to processor by 15:00 for 15:30 window, then follows acceptance or failure; no posting yet. Nessa classification pending, claims open. Dana update 18:30 if open."
+      },
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 16,
+      "command": "handoff",
+      "args": {
+        "note": "Dana Vale takes over at 17:30. PR-619 preserved, production fenced, queues paused, latest recovery unresolved. Baseline allocated, discrepancy prepared not delivered; package carries source and time labels separating N-011 01:00 records from customer files, hashes and gaps; withhold if checks fail. Jules and Noor checkpoint 12:45, Noor feasibility 13:15, Ellis update 13:00. Refund request queued in receipt 4; Dev checks reversal and submits by 15:00 for 15:30 window; no posting yet. Receipt 5 confirms a focused request sent at 12:00 to Nessa: does Reed fixed-price diagnostic qualify under CA-619, and when is reservation cost incurred? costReview requested; acknowledgment is not decision or approval. Seek answer before 12:20 supplier deadline, otherwise no payment commitment; response target 13:15. Claims open; Dana update 18:30 if open."
+      },
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    }
+  ]
+}
