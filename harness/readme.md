@@ -65,9 +65,10 @@ discovery. Offline verification proves installation and prompt inclusion; it
 cannot prove that a model follows the skill.
 
 Gated arms have a draft/review/revision runtime: the wrapper runs native
-agentests 1.0.1 against a minimized temporary repository containing the combined
-reply, plan, validated state/audit, and frozen evidence. Findings name the failing
-assertion and correction. The same Codex session resumes with feedback, until
+agentests 1.0.1 against three separate native Tests: legal, marketing and
+customer-support. Each receives reply, plan, validated state/audit and its selected
+frozen evidence in `review.md`. Findings retain the Test, domain, assertion ID and
+correction; any failed assertion blocks completion. The same Codex session resumes with feedback, until
 clean or four turns expire. Gate failures/setup errors cannot silently pass.
 This is a trusted external runtime integration, not a nonexistent agentests hook
 flag or a post-benchmark check. No task work is declared complete until the gate
@@ -75,7 +76,7 @@ passes. No workspace code is executed by a judge or gate evaluator.
 
 Luna uses the upstream OpenAI decision preset; Jev uses the exact upstream Jev
 preset (`jev-latest`, intentionally a mutable provider alias). Both use threshold
-0.5 and the same case Test. There are no reasoning assertions, so the configured
+0.5 and the same three domain Tests. There are no reasoning assertions, so the configured
 reasoning model is not called. See `provenance/dependencies.json` and the lockfile.
 The native library does not expose decision usage; total treatment `cost` and
 `context_length` are therefore **null**, with producer-only telemetry retained
@@ -97,3 +98,60 @@ remains detectable. The simulation threat model is cooperative task execution:
 replay proves state consistency, not an independent signature of CLI execution.
 Use process/container isolation before running adversarial agents; filesystem
 sandboxing alone does not make external trusted files unreadable.
+
+
+### Domain Test contract
+
+Each case owns `treatments/agentests/<domain>/test.yaml`, `TEST.md` and `evals/`.
+The three domain directories are `legal`, `marketing` and `customer-support`.
+The root umbrella `test.yaml` is forbidden. Test IDs are exactly
+`<case-directory-name>-<domain>`; installation copies each domain separately to
+`.agents/tests/<test-id>/`. Runtime and layer-three verification require all three
+Tests, each with at least 15 assertions. Assertion IDs and decision questions must
+be unique across the suite. Native agentests parsing validates required text,
+version, IDs and unsupported fields. Each assertion has one `decide` question
+(a string or a single-element string array); `grep` and `reason` are forbidden.
+Selection contains only `glob: review.md` (the native `[review.md]` form also works).
+These structural checks cannot establish semantic independence of the questions.
+
+An optional sibling `context.json` is a case-owned evidence manifest, separate
+from the native YAML schema:
+
+```json
+{"evidence":["E01","E04","E08"]}
+```
+
+Only `evidence` is supported: a nonempty list of unique IDs from
+`fixture/provenance.json` documents. Unknown IDs reject the whole gate before any
+inference. Without a manifest, all source evidence is included. A domain's packet
+has this shape, preserving the canonical state/audit paths:
+
+```text
+outputs["reply.md"], outputs["plan.md"]: workproduct strings
+state: inspectWorkspace(workspace).state (e.g. state.domain, state.tasks)
+audit: inspectWorkspace(workspace).audit (event array)
+evidence: {<selected source ID>: <frozen source text>}
+```
+
+All domains are installed together. Before each native `run({kind:'all'}, testId)`,
+the runtime writes that domain's packet to repository-root `review.md`. Engine
+receipts prove every expected assertion ran exactly once. Missing/duplicate Test
+results, skipped assertions and nonfinite/out-of-range scores throw instead of
+allowing completion. Native findings are aggregated by code without dropping
+failures from other domains. The unchanged revision loop forwards the complete
+findings to the same producer session under its existing four-turn budget.
+
+`treatmentChecks` native-validates the suite under both provider presets and
+uses injected engines for all-pass, all-fail and each selective domain failure.
+Shared unit checks also cover malformed/empty/missing/duplicate suites, evidence
+filtering, individual assertion failure, result omission and revision feedback.
+These checks use no live inference and establish runtime wiring only.
+
+The question-design guidance comes from TypeSafe's
+[How to build with TypeSafe](https://docs.typesafe.ai/concepts/how-to-build-with-system-one),
+[Writing a Noul question](https://docs.typesafe.ai/primitives/noul#writing-a-noul-question)
+and [Model jaggedness](https://docs.typesafe.ai/model-jaggedness)
+(checked 2026-11-25): ask narrow independent yes/no questions, send relevant
+context, point directly at structured state, and keep arithmetic/date comparisons
+and aggregation in code. The minimum of 15 assertions per domain is a user
+requirement. Offline doubles do not establish model correctness or calibration.

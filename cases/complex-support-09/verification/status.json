@@ -14,5 +14,31 @@
   "semantic_model_acceptance": "not-run",
   "paid_benchmark_runs": 0,
   "live_model_credentials_and_provider_network": "not-tested",
-  "eval_expectations": "authored-not-model-validated"
+  "eval_expectations": "authored-not-model-validated",
+  "native_domain_assertions": {
+    "legal": 24,
+    "marketing": 21,
+    "customer-support": 20
+  },
+  "native_domain_tests": 3,
+  "umbrella_test": "removed",
+  "atomic_assertion_coverage_maps": "reviewed-and-checked",
+  "context_manifest_and_verbatim_eval_evidence": "passed",
+  "native_eval_specimen_packet_replay": "passed",
+  "native_eval_specimen_plumbing": {
+    "mode": "injected-engines-only",
+    "specimens": 17,
+    "provider_presets": 2,
+    "native_evaluations": 34,
+    "decision_calls": 604,
+    "single_property_findings": "passed"
+  },
+  "shared_runtime_patch_sha256": "0e8201ff2e0bf1f935ecaa76fcb080702c890cda59adeb0fecbd90b6eee44d93",
+  "checks_run": [
+    "bun install --frozen-lockfile",
+    "bun run check",
+    "bun harness/verify.ts --case complex-support-09 --layer 3",
+    "bun cases/complex-support-09/verification/agentests.ts",
+    "git diff --check"
+  ]
 }
