@@ -32,4 +32,4 @@ Each real case uses a lowercase kebab-case directory name.
 - [complex-support-09](complex-support-09/CASE.md): Data residency commitment.
 - [complex-support-10](complex-support-10/CASE.md): Product retirement and migration.
 
-Each independent case stack starts at the shared foundation. Dummy-case is a separate smoke fixture. No paid runs or aggregate comparison results are claimed.
+Each independent case stack starts at the shared foundation. Dummy-case is a separate smoke fixture. Historical runs are retained with an invalid-comparison notice. The post-run optimization runtime has been repaired, but no corrected full benchmark result is claimed.
