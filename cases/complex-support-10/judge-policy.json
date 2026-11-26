@@ -1,0 +1,50 @@
+[
+  {
+    "id": "continuity",
+    "points": 6,
+    "any": [
+      {
+        "slot": "confirmed",
+        "offer": "prepared"
+      }
+    ]
+  },
+  {
+    "id": "export",
+    "points": 6,
+    "any": [
+      {
+        "export": "started",
+        "sampleVerified": true
+      }
+    ]
+  },
+  {
+    "id": "capability",
+    "points": 6,
+    "any": [
+      {
+        "comparison": "prepared",
+        "missingNativeAmendments": 37
+      }
+    ]
+  },
+  {
+    "id": "correction",
+    "points": 6,
+    "any": [
+      {
+        "wording": "correction-prepared"
+      }
+    ]
+  },
+  {
+    "id": "access-scope",
+    "points": 6,
+    "any": [
+      {
+        "accessQuestion": "clarification-pending"
+      }
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+[
+  [
+    [
+      "confirm-slot",
+      {}
+    ],
+    [
+      "send-offer",
+      {
+        "approval": "B-219"
+      }
+    ],
+    [
+      "start-export",
+      {
+        "destination": "Calder-existing-secure-workspace"
+      }
+    ],
+    [
+      "verify-sample",
+      {
+        "scope": "sanitized-sample"
+      }
+    ],
+    [
+      "compare-capabilities",
+      {}
+    ],
+    [
+      "correct-wording",
+      {}
+    ],
+    [
+      "clarify-access",
+      {
+        "question": "Do seven extra days mean archive review within staff assistance rather than unsupported post-Aug31 production hosting?"
+      }
+    ]
+  ]
+]
