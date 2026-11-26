@@ -1,4 +1,4 @@
-# Dummy case scoring
+# Dummy eval scoring
 
 - Score 100 when `answer.txt` contains exactly `hello, world` followed by a newline.
 - Score 0 otherwise.

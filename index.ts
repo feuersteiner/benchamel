@@ -2,11 +2,11 @@ import { run } from "./harness/run.ts";
 
 try {
   const definitions: string[] = [];
-  const glob = new Bun.Glob("cases/*/runs/*/run.yaml");
+  const glob = new Bun.Glob("evals/*/runs/*/run.yaml");
   for await (const path of glob.scan({ cwd: import.meta.dir, absolute: true, onlyFiles: true })) {
     definitions.push(path);
   }
-  if (definitions.length === 0) throw new Error("No run definitions found under cases/.");
+  if (definitions.length === 0) throw new Error("No run definitions found under evals/.");
   for (const definition of definitions.sort()) {
     await run(definition);
   }

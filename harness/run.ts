@@ -33,13 +33,13 @@ export async function run(definitionPath: string): Promise<void> {
   const path = resolve(definitionPath);
   const definition = parseDefinition(await Bun.file(path).text());
   const runDirectory = dirname(path);
-  const caseDirectory = resolve(runDirectory, "../..");
-  const fixture = join(caseDirectory, "fixture");
-  const [caseText, judgeText, judgeCode, { judge }] = await Promise.all([
-    Bun.file(join(caseDirectory, "CASE.md")).arrayBuffer(),
-    Bun.file(join(caseDirectory, "JUDGE.md")).arrayBuffer(),
-    Bun.file(join(caseDirectory, "judge.ts")).arrayBuffer(),
-    import(join(caseDirectory, "judge.ts")),
+  const evalDirectory = resolve(runDirectory, "../..");
+  const fixture = join(evalDirectory, "fixture");
+  const [evalText, judgeText, judgeCode, { judge }] = await Promise.all([
+    Bun.file(join(evalDirectory, "EVAL.md")).arrayBuffer(),
+    Bun.file(join(evalDirectory, "JUDGE.md")).arrayBuffer(),
+    Bun.file(join(evalDirectory, "judge.ts")).arrayBuffer(),
+    import(join(evalDirectory, "judge.ts")),
   ]);
   const output = runDirectory;
   const workspace = await mkdtemp(join(tmpdir(), "benchamel-"));
@@ -94,7 +94,7 @@ export async function run(definitionPath: string): Promise<void> {
   try {
     record({
       type: "run",
-      case_version: new Bun.CryptoHasher("sha256").update(caseText).digest("hex"),
+      eval_version: new Bun.CryptoHasher("sha256").update(evalText).digest("hex"),
       judge_version: new Bun.CryptoHasher("sha256").update(judgeText).update(judgeCode).digest("hex"),
     });
     await cp(fixture, workspace, { recursive: true });

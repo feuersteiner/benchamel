@@ -1,28 +1,28 @@
 # Harness
 
-Run `bun run benchamel`. It discovers every `cases/*/runs/*/run.yaml` and executes them sequentially in path order, stopping on failure.
+Run `bun run benchamel`. It discovers every `evals/*/runs/*/run.yaml` and executes them sequentially in path order, stopping on failure.
 
 The runner copies the fixture into a temporary workspace, executes preflight commands and the agent, and saves artifacts beside `run.yaml` under `runs/<run-id>/`:
 
-- `transcript.jsonl`: command output, per-call usage, exit codes, errors, and SHA-256 versions of the case and judge.
+- `transcript.jsonl`: command output, per-call usage, exit codes, errors, and SHA-256 versions of the eval and judge.
 - `workproduct/`: final workspace, including failed executions.
 - `result.json`: output metrics.
 
-The temporary workspace is removed after artifacts are saved. The included dummy case runs Codex GPT-6-Luna.
+The temporary workspace is removed after artifacts are saved. The included dummy eval runs Codex GPT-6-Luna.
 
 Each invocation replaces the previous artifacts for that run.
 
 ## `run.yaml` contract
 
-Definitions live at `cases/<case-id>/runs/<run-id>/run.yaml`; see [`run.example.yaml`](run.example.yaml). The three fields are:
+Definitions live at `evals/<eval-id>/runs/<run-id>/run.yaml`; see [`run.example.yaml`](run.example.yaml). The three fields are:
 
 - `preflight`: Ordered list of shell command strings; `[]` skips preparation.
 - `agent`: Shell command string, such as `codex -c`, accepting a final prompt argument.
 - `starter_prompt`: String passed as one appended argument to the agent.
 
-Copy `cases/<case-id>/fixture` into a fresh temporary workspace, then run preflight commands in order and the agent there. Command strings use shell syntax; pass the starter prompt safely as one appended argument, never interpolating it as shell code.
+Copy `evals/<eval-id>/fixture` into a fresh temporary workspace, then run preflight commands in order and the agent there. Command strings use shell syntax; pass the starter prompt safely as one appended argument, never interpolating it as shell code.
 
-Scoring rules live in `cases/<case-id>/JUDGE.md`; `judge.ts` exports `judge(workspace)`, returning a score from 0 to 100.
+Scoring rules live in `evals/<eval-id>/JUDGE.md`; `judge.ts` exports `judge(workspace)`, returning a score from 0 to 100.
 
 Codex per-call token counts are read from its local session log and preserved in the transcript. Cost uses standard API prices, checked 2026-11-25. USD per million tokens, listed as input / cached input / cache writes / output:
 

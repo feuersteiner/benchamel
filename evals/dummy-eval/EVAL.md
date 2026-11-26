@@ -1,4 +1,4 @@
-# Dummy case
+# Dummy eval
 
 Ask Codex GPT-6-Luna to replace `answer.txt` with `hello, world` followed by a newline. No other files should be modified.
 

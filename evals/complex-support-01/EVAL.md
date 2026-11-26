@@ -1,6 +1,6 @@
 # Complex support: disputed exceptional invoice
 
-Case version: 2.0. Judge version: 2.0. Adapted execution/generation benchmark.
+Eval version: 2.0. Judge version: 2.0. Adapted execution/generation benchmark.
 
 At **2024-03-01 15:00 UTC**, act as HarborEdge duty support lead Niko Reed in a functioning local support-operations repository. Aster disputes a $104,500 incident invoice: $600 settled and $103,900 receivable, with a separate paid $120 base fee. Mara needs an update before 17:00. Six sites have different continuity needs. Resolve or advance the dispute with the executable workflows, then deliver `reply.md` and `plan.md` supported by actual simulated state and audit receipts.
 
@@ -19,12 +19,12 @@ No exact reply template, purchase, cancellation, final cause finding or complete
 
 - Immutable: AGENTS.md, README.md, package.json, manifest.json, src/, data/, policies/, docs/, provenance.json and sources.json.
 - Allowed mutations: `state/runtime.json` through the CLI, plus authored `reply.md` and `plan.md`. Runtime contains both business state and ordered audit receipts; only successful operations write it. The judge owns `judge-assessment.json`.
-- The trusted judge compares every immutable asset with case originals, replays events using case-owned code and inspects resulting state; it never executes workproduct code. Final state must match valid receipts and replay, and claims must match that state. Replay establishes internal consistency, not independent proof that the CLI originally produced an event.
+- The trusted judge compares every immutable asset with eval originals, replays events using eval-owned code and inspects resulting state; it never executes workproduct code. Final state must match valid receipts and replay, and claims must match that state. Replay establishes internal consistency, not independent proof that the CLI originally produced an event.
 
 ## Origin and limits
 
 Twenty public synthetic records are preserved byte-for-byte (68,686 bytes) from `feuersteiner/agent-tests`, commit `6142590525acb698e473671f2420022f64adfa71`, path `benchmark/v2/pilot/complex-support-01`. Provenance and attribution remain in the fixture; documents are now organized under `docs/evidence/`. HarborEdge/Aster business facts, runnable workflows and deterministic adapter responses are a dated synthetic reconstruction. Netlify's historical waiver is settled and supplies inspiration, not account authority. Private evidence, credentials, original transcripts, source candidates and reviewer answers are excluded.
 
-The original evaluator uses six ordinal 0–3 dimensions and forbids averaging them. This case authors a separate 0–100 rule combining observable operations and semantic workproduct quality; no equivalence, calibration or original-evaluator validity is claimed. No benchmark run/result has been fabricated. Offline checks do not validate paid semantic inference, live CLI/authentication or model availability.
+The original evaluator uses six ordinal 0–3 dimensions and forbids averaging them. This eval authors a separate 0–100 rule combining observable operations and semantic workproduct quality; no equivalence, calibration or original-evaluator validity is claimed. No benchmark run/result has been fabricated. Offline checks do not validate paid semantic inference, live CLI/authentication or model availability.
 
 The baseline run definition retains exactly preflight, agent and starter_prompt. Preflight executes the real offline fixture health check. Shared harness/result schemas are unchanged.
