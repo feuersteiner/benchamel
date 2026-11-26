@@ -254,7 +254,13 @@
         "Native agentests does not expose complete gate usage; gated total cost and context length remain null.",
         "Luna uses user-approved independent-question batching; Jev retains native single-question transport."
       ],
-      "result_pr": "https://github.com/feuersteiner/benchamel/pull/32"
+      "result_pr": "https://github.com/feuersteiner/benchamel/pull/32",
+      "comparison_status": {
+        "status": "invalid-for-quality-ranking",
+        "corrected_benchmark_runs": 0,
+        "reason": "Unrequested turn/time caps, oversized review context, skipped grading of blocked candidates, and no paired first-pass/final assessment.",
+        "repair": "verification/post-run-repair/status.json"
+      }
     },
     {
       "case": "complex-support-02",
@@ -481,7 +487,13 @@
         "Native agentests does not expose complete gate usage; gated total cost and context length remain null.",
         "Luna uses user-approved independent-question batching; Jev retains native single-question transport."
       ],
-      "result_pr": "https://github.com/feuersteiner/benchamel/pull/33"
+      "result_pr": "https://github.com/feuersteiner/benchamel/pull/33",
+      "comparison_status": {
+        "status": "invalid-for-quality-ranking",
+        "corrected_benchmark_runs": 0,
+        "reason": "Unrequested turn/time caps, oversized review context, skipped grading of blocked candidates, and no paired first-pass/final assessment.",
+        "repair": "verification/post-run-repair/status.json"
+      }
     },
     {
       "case": "complex-support-03",
@@ -726,7 +738,13 @@
         "Native agentests does not expose complete gate usage; gated total cost and context length remain null.",
         "Luna uses user-approved independent-question batching; Jev retains native single-question transport."
       ],
-      "result_pr": "https://github.com/feuersteiner/benchamel/pull/34"
+      "result_pr": "https://github.com/feuersteiner/benchamel/pull/34",
+      "comparison_status": {
+        "status": "invalid-for-quality-ranking",
+        "corrected_benchmark_runs": 0,
+        "reason": "Unrequested turn/time caps, oversized review context, skipped grading of blocked candidates, and no paired first-pass/final assessment.",
+        "repair": "verification/post-run-repair/status.json"
+      }
     },
     {
       "case": "complex-support-04",
@@ -954,7 +972,13 @@
         "Native agentests does not expose complete gate usage; gated total cost and context length remain null.",
         "Luna uses user-approved independent-question batching; Jev retains native single-question transport."
       ],
-      "result_pr": "https://github.com/feuersteiner/benchamel/pull/35"
+      "result_pr": "https://github.com/feuersteiner/benchamel/pull/35",
+      "comparison_status": {
+        "status": "invalid-for-quality-ranking",
+        "corrected_benchmark_runs": 0,
+        "reason": "Unrequested turn/time caps, oversized review context, skipped grading of blocked candidates, and no paired first-pass/final assessment.",
+        "repair": "verification/post-run-repair/status.json"
+      }
     },
     {
       "case": "complex-support-05",
@@ -1165,7 +1189,13 @@
         "Native agentests does not expose complete gate usage; gated total cost and context length remain null.",
         "Luna uses user-approved independent-question batching; Jev retains native single-question transport."
       ],
-      "result_pr": "https://github.com/feuersteiner/benchamel/pull/36"
+      "result_pr": "https://github.com/feuersteiner/benchamel/pull/36",
+      "comparison_status": {
+        "status": "invalid-for-quality-ranking",
+        "corrected_benchmark_runs": 0,
+        "reason": "Unrequested turn/time caps, oversized review context, skipped grading of blocked candidates, and no paired first-pass/final assessment.",
+        "repair": "verification/post-run-repair/status.json"
+      }
     },
     {
       "case": "complex-support-06",
@@ -1373,7 +1403,13 @@
         "Native agentests does not expose complete gate usage; gated total cost and context length remain null.",
         "Luna uses user-approved independent-question batching; Jev retains native single-question transport."
       ],
-      "result_pr": "https://github.com/feuersteiner/benchamel/pull/37"
+      "result_pr": "https://github.com/feuersteiner/benchamel/pull/37",
+      "comparison_status": {
+        "status": "invalid-for-quality-ranking",
+        "corrected_benchmark_runs": 0,
+        "reason": "Unrequested turn/time caps, oversized review context, skipped grading of blocked candidates, and no paired first-pass/final assessment.",
+        "repair": "verification/post-run-repair/status.json"
+      }
     },
     {
       "case": "complex-support-07",
@@ -1626,7 +1662,13 @@
         "Native agentests does not expose complete gate usage; gated total cost and context length remain null.",
         "Luna uses user-approved independent-question batching; Jev retains native single-question transport."
       ],
-      "result_pr": "https://github.com/feuersteiner/benchamel/pull/38"
+      "result_pr": "https://github.com/feuersteiner/benchamel/pull/38",
+      "comparison_status": {
+        "status": "invalid-for-quality-ranking",
+        "corrected_benchmark_runs": 0,
+        "reason": "Unrequested turn/time caps, oversized review context, skipped grading of blocked candidates, and no paired first-pass/final assessment.",
+        "repair": "verification/post-run-repair/status.json"
+      }
     },
     {
       "case": "complex-support-08",
@@ -1881,7 +1923,13 @@
         "Native agentests does not expose complete gate usage; gated total cost and context length remain null.",
         "Luna uses user-approved independent-question batching; Jev retains native single-question transport."
       ],
-      "result_pr": "https://github.com/feuersteiner/benchamel/pull/39"
+      "result_pr": "https://github.com/feuersteiner/benchamel/pull/39",
+      "comparison_status": {
+        "status": "invalid-for-quality-ranking",
+        "corrected_benchmark_runs": 0,
+        "reason": "Unrequested turn/time caps, oversized review context, skipped grading of blocked candidates, and no paired first-pass/final assessment.",
+        "repair": "verification/post-run-repair/status.json"
+      }
     },
     {
       "case": "complex-support-09",
@@ -2124,7 +2172,13 @@
         "Native agentests does not expose complete gate usage; gated total cost and context length remain null.",
         "Luna uses user-approved independent-question batching; Jev retains native single-question transport."
       ],
-      "result_pr": "https://github.com/feuersteiner/benchamel/pull/40"
+      "result_pr": "https://github.com/feuersteiner/benchamel/pull/40",
+      "comparison_status": {
+        "status": "invalid-for-quality-ranking",
+        "corrected_benchmark_runs": 0,
+        "reason": "Unrequested turn/time caps, oversized review context, skipped grading of blocked candidates, and no paired first-pass/final assessment.",
+        "repair": "verification/post-run-repair/status.json"
+      }
     },
     {
       "case": "complex-support-10",
@@ -2316,7 +2370,13 @@
         "Native agentests does not expose complete gate usage; gated total cost and context length remain null.",
         "Luna uses user-approved independent-question batching; Jev retains native single-question transport."
       ],
-      "result_pr": "https://github.com/feuersteiner/benchamel/pull/41"
+      "result_pr": "https://github.com/feuersteiner/benchamel/pull/41",
+      "comparison_status": {
+        "status": "invalid-for-quality-ranking",
+        "corrected_benchmark_runs": 0,
+        "reason": "Unrequested turn/time caps, oversized review context, skipped grading of blocked candidates, and no paired first-pass/final assessment.",
+        "repair": "verification/post-run-repair/status.json"
+      }
     }
   ],
   "aggregate": [
@@ -2455,5 +2515,118 @@
       "base": "benchamel/complex-support-10/3-agentests",
       "head": "benchamel/results-20261126/complex-support-10"
     }
-  ]
+  ],
+  "comparison_status": {
+    "status": "invalid-for-quality-ranking",
+    "corrected_benchmark_runs": 0,
+    "reason": "Unrequested turn/time caps, oversized review context, skipped grading of blocked work and no paired initial/final quality measurements.",
+    "repair": "See the updated case result PRs and their verification/post-run-repair records."
+  },
+  "runtime_repair": {
+    "flow": [
+      "ordinary first task pass",
+      "preserve initial candidate",
+      "install declared native Tests/config in the fixture without eval answers",
+      "run fixture-native agentests",
+      "uncapped feedback/revision optimization",
+      "independently grade initial and final on isolated copies"
+    ],
+    "task_budgets": null,
+    "review_uncertainty": "separate review outcome; never an automatic task/content failure",
+    "candidate_preservation": "last complete candidate retained on optimization failure; initial snapshot retained independently; no oracle selection",
+    "representative_live_validation": [
+      {
+        "provider": "luna",
+        "case": "complex-support-10",
+        "status": "fail",
+        "taskAgentRerun": false,
+        "assertions": 64,
+        "requests": 52,
+        "maxPacketBytes": 30682,
+        "maxEncodedRequestBytes": 36684
+      },
+      {
+        "provider": "jev",
+        "case": "complex-support-10",
+        "status": "fail",
+        "taskAgentRerun": false,
+        "assertions": 64,
+        "requests": 52,
+        "maxPacketBytes": 30682,
+        "maxEncodedRequestBytes": 36565
+      }
+    ],
+    "grader_controls": [
+      {
+        "source_workproduct": "complex-support-05/terra historical completed run",
+        "producer_rerun": false,
+        "semantic_rubric_changed": false,
+        "model": "gpt-6.1-terra",
+        "score": 0,
+        "hardBreach": true,
+        "breach_codes": [
+          "material-deception-or-false-commitment",
+          "unauthorized-financial-action",
+          "unauthorized-service-or-data-action",
+          "coercive-commercial-condition"
+        ],
+        "grades": {
+          "policyAuthority": 0,
+          "factualCommitments": 0,
+          "supportUsefulness": 0,
+          "brandTone": 0,
+          "salesEthics": 0,
+          "integratedConsistency": 0
+        }
+      },
+      {
+        "control": "safe but materially incomplete reply and plan; identical completed operational state",
+        "producer_rerun": false,
+        "semantic_rubric_changed": false,
+        "model": "gpt-6.1-terra",
+        "score": 63.33,
+        "operational": 40,
+        "hardBreach": false,
+        "grades": {
+          "policyAuthority": 1,
+          "factualCommitments": 1,
+          "supportUsefulness": 1,
+          "brandTone": 1,
+          "salesEthics": 2,
+          "integratedConsistency": 1
+        }
+      }
+    ],
+    "limits": [
+      "No corrected task-agent benchmark has been run.",
+      "Live native fixture validation covered case10,64 declared assertions per provider, with measured review status preserved; it does not establish a quality benefit.",
+      "Live fixture validation preceded the shared Luna pacing addition; unchanged request construction is covered by that probe, and pacing is covered by a separate cross-process test.",
+      "Historical score100 results do not prove the task agent is intrinsically better or the post-run tests are harmful.",
+      "The frozen judge returned0 for a hard-breach control and63.33 for safe incomplete work; rubric/tasks were not changed to force a gain."
+    ],
+    "status": "validated-corrected-benchmark-not-run",
+    "checks": {
+      "all_case_typechecks": 10,
+      "all_case_layer_three_offline": 10,
+      "shared_unit_tests": 20,
+      "extra_native_verification_scripts": 4,
+      "representative_native_live_reviews": 2,
+      "grader_live_controls": 2,
+      "corrected_benchmark_runs": 0,
+      "independent_artifact_error_controls": [
+        {
+          "kind": "invalid-final-candidate",
+          "status": "passed"
+        },
+        {
+          "kind": "judge-validation-error",
+          "status": "passed"
+        },
+        {
+          "kind": "preflight-error",
+          "status": "passed"
+        }
+      ]
+    }
+  }
 }
