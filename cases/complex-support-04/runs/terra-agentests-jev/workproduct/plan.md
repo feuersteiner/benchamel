@@ -1,0 +1,24 @@
+# RF-2240 handoff — 27 June 2025, 15:15 UTC
+
+Lin Saye owns the case until 18:00 UTC; thereafter the duty support queue owns continuity and the next update. Customer reply is a draft, due by 15:45; no external message has been sent.
+
+## Actual state and receipts
+
+- Local receipt 1 confirms `gate-request` at 14:00; that request alone did not complete protection. At simulated 15:15, local receipt 7 confirms `gate-verify`; the resulting status separately records `gate=verified`, `builder=blocked`, `capture=blocked`, `dunning=blocked`, and `entitlementEnd=2025-07-08T00:00:00Z`. These are synthetic local workflow records, not evidence of contact with a real Finance system or person. The $14,400 D440 draft remains unposted; receivable is $0, seats 40. Check again after any Finance action and escalate before expiry; do not claim protection beyond what a current verification shows.
+- Receipt 2 assembled notice; 3 recorded a focused delegate clarification request; 4 prepared unsigned Core40 options; 5 removed the expansion forecast and corrected the categorical support claim in the local workflow. No actual customer message has been sent. Receipts 8–11 assigned work; 14–15 updated billing and support escalation. Receipt 18 refreshed the current domain snapshot, and receipt 19 refreshed the named handoff. `bun run check` passed after these events.
+- Authority remains clarification-pending, consent unresolved, options unexecuted and the letter preserved. Neither a bridge nor annual booking has been made. The sandbox $9,600 preview is not a live invoice or refund.
+
+## Evidence and decisions
+
+The signed 2022 assurance and 2023–24 renewals support the customer's position; internal delegation limits and Petra's first-term certificate do not settle incorporation or apparent authority. Preserve the signed bundle and historic policy. The current policy governs processing, subject to account-specific terms. May 1 server acceptance at stale BILLING-A shows dispatch and content, not reading or effective contractual notice; BILLING-B was recorded April 15, and the June 20 preview was 11 days before renewal. The banner and login are not acceptance. Counsel has reached no final conclusion (E02–07, E16).
+
+The unaccepted 48-seat quote is $15,840 per year, $6,240 (65%) above the current $9,600 and $1,440 above the disputed $14,400 Core40 price. Its $330 per-seat price versus $360 standard is not a total-cost saving against either baseline (E11). The expansion forecast has been corrected independently of claim review.
+
+Noor's signed 2024 delegation and explicit June 27 unchanged annual instruction are material, but 'approved' and Miri's later reservation create a real scope question. Tomas's narrow clarification is pending; do not treat Noor's instruction as approval of $14,400, expansion, bridge or release. Sela's annual approval is conditional on authority and acceptance; no Finance alteration until checked and attached (E15, E18–19).
+
+## Next actions
+
+- Lin: deliver the draft by 15:45 through the authorized local process only; reuse the supplied assurance, signed bundle, billing-address update and delegation. Do not ask for them again or require recovery of the old mailbox. Ask Miri only the focused question about Noor's authority for his unchanged annual instruction. Give the next decision or progress update by June 30 12:00, even if review remains open.
+- Tomas Reed: review the actual order, assurance, signature register, notice table and delegation with Sela at June 30 10:30; seek Counsel as needed. Eden's minimized notice table is due 10:00. Sela's decision or progress statement is due 12:00; do not promise a final legal outcome.
+- Jules: recheck D440, builder, capture, reminders and entitlement at the June 30 13:00 window. If any protection becomes unverified or fails, Lin or duty support must immediately escalate to Jules and the on-call Finance owner, and tell the customer verification is pending rather than claim completion. Execute only an authorized instruction. If a bridge is properly accepted, replace the annual draft with three monthly invoices and verify entitlement and no automatic annual conversion; if annual authority is verified, attach acceptance and approval before changing the draft. Refresh commitments and handoff after any state change.
+- Lin/duty support: track the June 30 18:00 offer expiry and July 8 00:00 gate expiry; obtain a fresh decision before any extension. Team30 supports only 30 staff versus 37 active, a seven-person shortfall, and lacks scheduled API exports; it requires explicit scope and impact review before any recommendation or change. If nonrenewal is chosen, scope export with Noor and allow customer integration owners to verify it; linked external files are not included. Do not downgrade or close the account by inference.

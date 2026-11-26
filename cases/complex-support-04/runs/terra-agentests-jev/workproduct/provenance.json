@@ -1,0 +1,134 @@
+{
+  "version": "1.0",
+  "source": {
+    "repository": "https://github.com/feuersteiner/agent-tests",
+    "branch": "benchmark-v2",
+    "commit": "6142590525acb698e473671f2420022f64adfa71",
+    "path": "benchmark/v2/pilot/complex-support-04"
+  },
+  "documents": [
+    {
+      "id": "E01",
+      "file": "01-public-background.md",
+      "bytes": 3414,
+      "sha256": "62f30fe309c3a6f16ff38ab37ce7da05887c3babbde438eb10bacf1e46a746b1"
+    },
+    {
+      "id": "E02",
+      "file": "02-order.md",
+      "bytes": 3266,
+      "sha256": "c4b3c99f16fb58de03b26ce099cea8a1a793852089307b4bc135ea93eed8a591"
+    },
+    {
+      "id": "E03",
+      "file": "03-sales-assurance.md",
+      "bytes": 3314,
+      "sha256": "74bac1a24a5d07b4c5a9034d1664d5fdda272c75fce2f6cc401babe5e99b3198"
+    },
+    {
+      "id": "E04",
+      "file": "04-signature-scope.md",
+      "bytes": 3467,
+      "sha256": "486ab013d3f80c988ad188ca0daa389aba8c887c765e92516fbaeee7a0de5a1e"
+    },
+    {
+      "id": "E05",
+      "file": "05-previous-policy.md",
+      "bytes": 3279,
+      "sha256": "63d3a6a559b374c7088ff93a5a5a12be30e25ba06a7b0fe7c6e21a66eda4028b"
+    },
+    {
+      "id": "E06",
+      "file": "06-current-policy.md",
+      "bytes": 3255,
+      "sha256": "adcfa88f06d1c77c74d02aec27f6f3ad3538f0966a210dd1e8eec6182c412928"
+    },
+    {
+      "id": "E07",
+      "file": "07-notice-audit.md",
+      "bytes": 3153,
+      "sha256": "758f54b3c34d7459d2c8a2e437e355d10169a1fcb3885f71ac3d495c2c80fd47"
+    },
+    {
+      "id": "E08",
+      "file": "08-customer-thread.md",
+      "bytes": 3104,
+      "sha256": "a637fd3db3e154dcc867fb4554deec4290489ea1f06c57274bf0836e3e45f9c6"
+    },
+    {
+      "id": "E09",
+      "file": "09-billing-state.md",
+      "bytes": 3093,
+      "sha256": "976199898e13ebb323b82e9777287ea99b8b28d75dea1c184d44d8194aacaf91"
+    },
+    {
+      "id": "E10",
+      "file": "10-product-scope.md",
+      "bytes": 3188,
+      "sha256": "7416700fcd0a96b88e6d9be09a2a03ca45bb1e1007ac9e99eae89f6f42aa94bb"
+    },
+    {
+      "id": "E11",
+      "file": "11-sales-pressure.md",
+      "bytes": 3121,
+      "sha256": "1a0f77556ad36cbce5a4353f351000f8c8b025e67d7b20baeb04c46e93cd2437"
+    },
+    {
+      "id": "E12",
+      "file": "12-continuity.md",
+      "bytes": 3384,
+      "sha256": "4046fe623cea5f3f142d47c08a153a26457b25242523ec05e33c0eb4cebd21f2"
+    },
+    {
+      "id": "E13",
+      "file": "13-brand.md",
+      "bytes": 3132,
+      "sha256": "f01b60feb403a2ea95fda465375495fa44401fcba109fac32fdcca5725feb06f"
+    },
+    {
+      "id": "E14",
+      "file": "14-support-ownership.md",
+      "bytes": 3179,
+      "sha256": "ce386169b5fc178566a9b4790712a6f0cb2fd03e29271d9ec74b4da404f67577"
+    },
+    {
+      "id": "E15",
+      "file": "15-finance-decision.md",
+      "bytes": 3297,
+      "sha256": "891284aba588f4997a9dabb486b46f666f9d477cb82b41a49a218601df7fe6ca"
+    },
+    {
+      "id": "E16",
+      "file": "16-counsel.md",
+      "bytes": 3361,
+      "sha256": "3cdc1901f48b5ba416a751f1f9576a17a33f0a795a25bfaf41d88e6d90ac6473"
+    },
+    {
+      "id": "E17",
+      "file": "17-timeline.md",
+      "bytes": 3203,
+      "sha256": "47fb8c3b75d95af172882f571d72d590296fd9af4241857e6e7b020e24889e65"
+    },
+    {
+      "id": "E18",
+      "file": "18-customer-authority.md",
+      "bytes": 3352,
+      "sha256": "b422800462b4fd476b0583d4cba6d5d88abe7808895d9cb36e3ce3771cb63860"
+    },
+    {
+      "id": "E19",
+      "file": "19-delegation.md",
+      "bytes": 3461,
+      "sha256": "19fe2dd63aa816461985af093636dcd0830b794ef88e04083b9681c8227259c9"
+    },
+    {
+      "id": "E20",
+      "file": "20-test-preview.md",
+      "bytes": 3351,
+      "sha256": "96c3384b75d40b22857e136a08b6f1344aae2a7eb2d96d97c3063f8f4f6ad36d"
+    }
+  ],
+  "copied": "Twenty documents and sources.json copied byte-for-byte. No candidates, reviewer expectations or summary are supplied.",
+  "boundary": "Primary sources are attributed inspiration; business records, runnable integrations and simulated responses are synthetic reconstruction. Current documentation is not backdated contract authority.",
+  "sourcesFileSha256": "fa19dc4c8ebed30574b6f3c9f1183b4b0d7e297bc121d2ed7e9f4cddd7fd61b9"
+}

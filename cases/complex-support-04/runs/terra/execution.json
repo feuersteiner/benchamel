@@ -1,0 +1,24 @@
+{
+  "case": "complex-support-04",
+  "arm": "terra",
+  "pid": 45616,
+  "startedAt": "2026-11-26T05:25:24.680Z",
+  "endedAt": "2026-11-26T05:28:18.247Z",
+  "status": "completed",
+  "exit": 0,
+  "source_commit": "620264a2f5c4525f7b7815e731c7638b9286de1e",
+  "execution_commit": "620264a2f5c4525f7b7815e731c7638b9286de1e",
+  "versions": {
+    "codex": "codex-cli 0.172.0-alpha.2",
+    "bun": "1.3.3",
+    "node": "v22.19.0"
+  },
+  "transport": "none",
+  "errors": [],
+  "failure_reason": null,
+  "gate_reviews": [],
+  "task_turns": 1,
+  "retained_final_replicates": 1,
+  "initial_attempt_preserved": false,
+  "paced_attempt_preserved": false
+}

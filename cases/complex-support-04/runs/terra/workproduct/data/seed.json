@@ -1,0 +1,25 @@
+{
+  "state": {
+    "now": "2025-06-27T14:00:00Z",
+    "domain": {
+      "gate": "none",
+      "builder": "eligible",
+      "capture": "eligible",
+      "dunning": "eligible",
+      "entitlementEnd": "2025-07-01T00:00:00Z",
+      "notice": null,
+      "authority": "unreviewed",
+      "options": null,
+      "forecast": "expansion",
+      "draftCents": 1440000,
+      "receivableCents": 0,
+      "seats": 40,
+      "consent": "unresolved",
+      "letter": "preserved"
+    },
+    "tasks": [],
+    "commitments": null,
+    "handoff": null
+  },
+  "audit": []
+}
