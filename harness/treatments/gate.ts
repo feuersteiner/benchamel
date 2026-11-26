@@ -4,10 +4,17 @@ import { basename, join } from 'node:path';
 import { Agentests, parseTest } from 'agentests';
 import type { AgentTestDefinition, AgentTestResult } from 'agentests/types';
 import { textFile } from '../boundary.ts';
+// Provisional operating bounds; live evals must measure their error tradeoff.
+export const decisionPolicy={failAtOrBelow:0.2,passAtOrAbove:0.8} as const;
+export function decisionStatus(probability:number):'pass'|'fail'|'uncertain' {
+  if(!Number.isFinite(probability)||probability<0||probability>1)throw Error('Invalid decision result');
+  return probability>=decisionPolicy.passAtOrAbove?'pass':probability<=decisionPolicy.failAtOrBelow?'fail':'uncertain';
+}
+export type DecisionReceipt={test:string;domain:Domain;assertion:string;probability:number;status:ReturnType<typeof decisionStatus>};
 // Native agentests config schema, inspected in v1.0.1. No reasoning assertions are used.
 export function config(decision:'luna'|'jev') {
   return {decision: decision==='luna'?{api:'openai' as const,url:'https://api.openai.com/v1',model:'gpt-6-luna',apiKeyEnv:'OPENAI_API_KEY'}:{api:'jev' as const,url:'https://api.typesafe.ai/v1',model:'jev-latest',apiKeyEnv:'TYPESAFE_AI_API_KEY'},
-    reasoning:{api:'openai' as const,url:'https://api.openai.com/v1',model:'gpt-6-sol',apiKeyEnv:'OPENAI_API_KEY'},select:{threshold:0.5},assert:{threshold:0.5},ignore:[]};
+    reasoning:{api:'openai' as const,url:'https://api.openai.com/v1',model:'gpt-6-sol',apiKeyEnv:'OPENAI_API_KEY'},select:{threshold:decisionPolicy.passAtOrAbove},assert:{threshold:decisionPolicy.passAtOrAbove},ignore:[]};
 }
 export const domains=['legal','marketing','customer-support'] as const;
 export type Domain=typeof domains[number];
@@ -102,7 +109,7 @@ export async function gate(caseRoot:string,workspace:string,decision:'luna'|'jev
     const settings=config(decision);
     await writeFile(join(temp,'agentests.config.yaml'),JSON.stringify(settings));
     process.chdir(temp);
-    const executed=new Map<string,Set<string>>(),results:AgentTestResult[]=[];
+    const executed=new Map<string,Set<string>>(),results:AgentTestResult[]=[],receiptsById=new Map<string,DecisionReceipt>();
     for(const [i,item] of suite.entries()) {
       const packet=packets[i]!;
       await writeFile(join(temp,'review.md'),JSON.stringify(packet,null,2));
@@ -117,6 +124,7 @@ export async function gate(caseRoot:string,workspace:string,decision:'luna'|'jev
             receipts.add(assertion!.id);decisionCalls++;
             const score=offlineScore===undefined?await nativeDecide(input,criteria):typeof offlineScore==='number'?offlineScore:await offlineScore({test:item.test.id,domain:item.domain,assertion:assertion!.id,packet:JSON.parse(input)});
             requireThat(Number.isFinite(score)&&score>=0&&score<=1,`Invalid decision result for ${item.test.id}/${assertion!.id}`);
+            receiptsById.set(assertion!.id,{test:item.test.id,domain:item.domain,assertion:assertion!.id,probability:score,status:decisionStatus(score)});
             return score;
           };
           this.engines.reason=async()=>{throw Error('Unexpected reasoning call');};
@@ -126,7 +134,12 @@ export async function gate(caseRoot:string,workspace:string,decision:'luna'|'jev
       requireThat(result.length===1&&result[0]!.test.id===item.test.id,`Missing native result for ${item.test.id}`);
       results.push(...result);
     }
-    const findings=collectFindings(suite,results,executed);
-    return {pass:findings.length===0,findings,decision:settings.decision,usage:null,cost:null,...(offlineScore===undefined?{}:{offlineDecisionCalls:decisionCalls})};
+    const decisions=suite.flatMap(item=>item.test.assert.map(a=>receiptsById.get(a.id)!));
+    const findings=collectFindings(suite,results,executed).map(f=>{
+      const receipt=receiptsById.get(f.assertion)!;
+      return receipt.status==='uncertain'?{...f,error:`Uncertain decision (P(yes)=${receipt.probability}); clarify the evidence or wording. ${f.error}`}:f;
+    });
+    const status=decisions.some(d=>d.status==='fail')?'fail':decisions.some(d=>d.status==='uncertain')?'uncertain':'pass';
+    return {pass:status==='pass',status,findings,decisions,policy:decisionPolicy,decision:settings.decision,usage:null,cost:null,...(offlineScore===undefined?{}:{offlineDecisionCalls:decisionCalls})};
   }finally {process.chdir(previous);await rm(temp,{recursive:true,force:true});}
 }
