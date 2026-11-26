@@ -115,6 +115,12 @@
     "retained_configurations": 6,
     "completed": 6,
     "scored": 6,
-    "completed_at_utc": "2026-11-26T05:41:02.119Z"
+    "completed_at_utc": "2026-11-26T05:41:02.119Z",
+    "comparison_validity": "historical-invalid-for-quality-ranking"
+  },
+  "post_run_runtime_repair": {
+    "status": "validated-corrected-benchmark-not-run",
+    "report": "post-run-repair/status.json",
+    "corrected_benchmark_runs": 0
   }
 }
