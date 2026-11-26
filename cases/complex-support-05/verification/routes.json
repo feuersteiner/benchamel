@@ -1,0 +1,36 @@
+[
+  [
+    [
+      "block-milestone",
+      {}
+    ],
+    [
+      "book-session",
+      {}
+    ],
+    [
+      "test-connector",
+      {
+        "connector": "C-19",
+        "mapping": "M9"
+      }
+    ],
+    [
+      "preserve-test-report",
+      {}
+    ],
+    [
+      "classify-queue",
+      {
+        "question": "Does Mode A create an automated reservation despite human release, requiring Nia exception?"
+      }
+    ],
+    [
+      "prepare-legacy",
+      {
+        "signatory": "Sera Malik",
+        "quote": "LP-81"
+      }
+    ]
+  ]
+]

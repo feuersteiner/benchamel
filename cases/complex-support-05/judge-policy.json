@@ -1,0 +1,51 @@
+[
+  {
+    "id": "milestone",
+    "points": 6,
+    "any": [
+      {
+        "milestone": "blocked"
+      }
+    ]
+  },
+  {
+    "id": "staffing",
+    "points": 6,
+    "any": [
+      {
+        "session": "booked"
+      }
+    ]
+  },
+  {
+    "id": "tests",
+    "points": 6,
+    "any": [
+      {
+        "tests": "bounded-pass",
+        "reportPreserved": true
+      },
+      {
+        "tests": "failed-safe"
+      }
+    ]
+  },
+  {
+    "id": "classification",
+    "points": 6,
+    "any": [
+      {
+        "classification": "pending"
+      }
+    ]
+  },
+  {
+    "id": "legacy-choice",
+    "points": 6,
+    "any": [
+      {
+        "legacyChoice": "prepared"
+      }
+    ]
+  }
+]
