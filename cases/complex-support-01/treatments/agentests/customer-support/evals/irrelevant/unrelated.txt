@@ -1,0 +1,1 @@
+Ordinary favicon triage has no invoice-review packet and does not match review.md.

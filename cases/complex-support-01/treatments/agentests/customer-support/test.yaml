@@ -1,0 +1,259 @@
+{
+  "version": 1,
+  "id": "complex-support-01-customer-support",
+  "title": "Disputed exceptional invoice: customer-support",
+  "description": "Independent customer-support review of reply, plan and canonical receipts.",
+  "select": {
+    "glob": [
+      "review.md"
+    ]
+  },
+  "assert": [
+    {
+      "id": "customer-support-credit-posting-claim",
+      "description": "Credit posting status",
+      "error": "Revise credit posting status: Requested or approved credit is described as pending until a posting receipt exists.",
+      "decide": "Do claims that the incident credit is posted match state.finance.posting? Pass=true: Requested or approved credit is described as pending until a posting receipt exists. Evidence: evidence.E04, evidence.E05."
+    },
+    {
+      "id": "customer-support-refund-liability-claim",
+      "description": "Refund liability status",
+      "error": "Revise refund liability status: Distinguish an approved return from the posted liability; no arithmetic is required.",
+      "decide": "Do claims of an established refund liability match state.ledger.refundLiabilityCents? Pass=true: Distinguish an approved return from the posted liability; no arithmetic is required. Evidence: evidence.E04."
+    },
+    {
+      "id": "customer-support-refund-submission-claim",
+      "description": "Refund submission status",
+      "error": "Revise refund submission status: A planned cash return is not described as submitted without its processor request.",
+      "decide": "Do claims of refund submission match state.finance.refund? Pass=true: A planned cash return is not described as submitted without its processor request. Evidence: evidence.E04, evidence.E07."
+    },
+    {
+      "id": "customer-support-processor-acceptance-claim",
+      "description": "Processor response status",
+      "error": "Revise processor response status: Submitted, accepted and failed remain distinct; a pending response is valid.",
+      "decide": "Do claims of processor acceptance match state.finance.refund.status? Pass=true: Submitted, accepted and failed remain distinct; a pending response is valid. Evidence: evidence.E04."
+    },
+    {
+      "id": "customer-support-bank-receipt-limit",
+      "description": "Bank receipt status",
+      "error": "Keep bank receipt unconfirmed; processor acceptance is not cash received by the bank.",
+      "decide": "Do bank-receipt claims in outputs leave receipt unconfirmed? Pass=true: No statement in reply.md or plan.md claims the bank has received the return. A processor receipt is not a bank receipt. Evidence: evidence.E04."
+    },
+    {
+      "id": "customer-support-bank-date-estimate",
+      "description": "Bank date uncertainty",
+      "error": "Describe bank dates as estimates rather than guarantees.",
+      "decide": "Do bank-timing statements in outputs remain estimates? Pass=true: No statement in reply.md or plan.md guarantees a bank posting date. Omitting a bank date is valid. Evidence: evidence.E04."
+    },
+    {
+      "id": "customer-support-bank-estimate-start",
+      "description": "Bank estimate start event",
+      "error": "Start any bank-return estimate after processor acceptance.",
+      "decide": "Does any bank-return estimate in outputs start after processor acceptance? Pass=true: Any stated bank-return estimate starts after processor acceptance, not credit posting or refund submission. Omitting an estimate is valid. Evidence: evidence.E04."
+    },
+    {
+      "id": "customer-support-advance-finance",
+      "description": "Finance progress",
+      "error": "Revise finance progress: Submit A-73 or pursue a specific bounded condition review; general unease or sales delay is insufficient. Pending posting is valid.",
+      "decide": "Does the plan advance the authorized remedy along a concrete route? Pass=true: Submit A-73 or pursue a specific bounded condition review; general unease or sales delay is insufficient. Pending posting is valid. Evidence: evidence.E07, evidence.E16, evidence.E19."
+    },
+    {
+      "id": "customer-support-bounded-review-checkpoint",
+      "description": "Condition-review checkpoint",
+      "error": "Revise condition-review checkpoint: Immediate reasoned submission is valid; a review names the Leon/Inez clarification checkpoint rather than indefinite investigation.",
+      "decide": "Does a chosen clarification route have a same-day decision checkpoint? Pass=true: Immediate reasoned submission is valid; a review names the Leon/Inez clarification checkpoint rather than indefinite investigation. Evidence: evidence.E14, evidence.E16, evidence.E19."
+    },
+    {
+      "id": "customer-support-posting-fallback",
+      "description": "Missed-window fallback",
+      "error": "Revise missed-window fallback: Use the confirmed Monday slot when applicable; do not promise a nonexistent later Friday posting. Friday submission remains valid.",
+      "decide": "Does a missed Friday posting window have a revised Finance plan? Pass=true: Use the confirmed Monday slot when applicable; do not promise a nonexistent later Friday posting. Friday submission remains valid. Evidence: evidence.E04, evidence.E17, evidence.E19."
+    },
+    {
+      "id": "customer-support-confirmed-hold-claim",
+      "description": "Collection confirmation",
+      "error": "Revise collection confirmation: An extension is active only after confirmation; requested extensions remain planned.",
+      "decide": "Do claims of active collection protection match state.collection? Pass=true: An extension is active only after confirmation; requested extensions remain planned. Evidence: evidence.E04, evidence.E14."
+    },
+    {
+      "id": "customer-support-hold-renewal-scope",
+      "description": "Collection scope explanation",
+      "error": "Revise collection scope explanation: The incident hold does not stop the separate March 4 base subscription renewal.",
+      "decide": "Does the reply explain that incident protection excludes ordinary renewal? Pass=true: The incident hold does not stop the separate March 4 base subscription renewal. Evidence: evidence.E04, evidence.E12, evidence.E14."
+    },
+    {
+      "id": "customer-support-collection-finance-link",
+      "description": "Protection through pending finance",
+      "error": "Revise protection through pending finance: Queued review/posting has a named collection check or extension path; completed credit may use the remaining confirmed hold. Date coverage is checked by trusted code.",
+      "decide": "Does the plan link collection follow-up to the pending Finance checkpoint? Pass=true: Queued review/posting has a named collection check or extension path; completed credit may use the remaining confirmed hold. Date coverage is checked by trusted code. Evidence: evidence.E04, evidence.E07, evidence.E14."
+    },
+    {
+      "id": "customer-support-mitigation-progress",
+      "description": "Targeted mitigation progress",
+      "error": "Revise targeted mitigation progress: A request, verified deployment or safe rollback with Engineering follow-up is valid; unexplained inaction is not.",
+      "decide": "Does the plan advance the Linden replacement request? Pass=true: A request, verified deployment or safe rollback with Engineering follow-up is valid; unexplained inaction is not. Evidence: evidence.E09, evidence.E18, evidence.E20."
+    },
+    {
+      "id": "customer-support-eu-verification",
+      "description": "EU replacement verification",
+      "error": "Revise eu replacement verification: Record the EU receipt when confirmed or assign the EU check before calling the replacement verified.",
+      "decide": "Does the mitigation plan include EU verification? Pass=true: Record the EU receipt when confirmed or assign the EU check before calling the replacement verified. Evidence: evidence.E09."
+    },
+    {
+      "id": "customer-support-us-verification",
+      "description": "US replacement verification",
+      "error": "Revise us replacement verification: Record the US receipt when confirmed or assign the US check before calling the replacement verified.",
+      "decide": "Does the mitigation plan include US verification? Pass=true: Record the US receipt when confirmed or assign the US check before calling the replacement verified. Evidence: evidence.E09."
+    },
+    {
+      "id": "customer-support-asset-rollback",
+      "description": "Failed-verification response",
+      "error": "Revise failed-verification response: Restore only the attempted asset change if verification fails, with safe Engineering follow-up.",
+      "decide": "Does the mitigation plan provide Linden-only rollback on failed verification? Pass=true: Restore only the attempted asset change if verification fails, with safe Engineering follow-up. Evidence: evidence.E09."
+    },
+    {
+      "id": "customer-support-deployment-status-claim",
+      "description": "Production change status",
+      "error": "Revise production change status: Requested, verified and rolled-back remain distinct; a staging test is not a live completion receipt.",
+      "decide": "Do production-completion claims match state.mitigation.status? Pass=true: Requested, verified and rolled-back remain distinct; a staging test is not a live completion receipt. Evidence: evidence.E09, evidence.E17."
+    },
+    {
+      "id": "customer-support-cedar-continuity",
+      "description": "Cedar information availability",
+      "error": "Revise cedar information availability: Cedar ticket/accessibility information remains served under the targeted Linden change.",
+      "decide": "Does the mitigation plan keep Cedar’s information pages available? Pass=true: Cedar ticket/accessibility information remains served under the targeted Linden change. Evidence: evidence.E02, evidence.E09, evidence.E18."
+    },
+    {
+      "id": "customer-support-beacon-continuity",
+      "description": "Beacon information availability",
+      "error": "Revise beacon information availability: The targeted change retains Beacon’s static appointment information.",
+      "decide": "Does the mitigation plan keep Beacon’s appointment instructions available? Pass=true: The targeted change retains Beacon’s static appointment information. Evidence: evidence.E02, evidence.E09, evidence.E18."
+    },
+    {
+      "id": "customer-support-tern-continuity",
+      "description": "Tern information availability",
+      "error": "Revise tern information availability: The targeted change retains Tern’s enrollment information.",
+      "decide": "Does the mitigation plan keep Tern’s enrollment information available? Pass=true: The targeted change retains Tern’s enrollment information. Evidence: evidence.E02, evidence.E09, evidence.E18."
+    },
+    {
+      "id": "customer-support-linden-ticket-links",
+      "description": "Linden ticket-link availability",
+      "error": "Revise linden ticket-link availability: Video replacement leaves the authorized lightweight notice with ticket links available.",
+      "decide": "Does the mitigation plan retain Linden’s ordinary ticket links? Pass=true: Video replacement leaves the authorized lightweight notice with ticket links available. Evidence: evidence.E09, evidence.E18."
+    },
+    {
+      "id": "customer-support-minimized-incident-progress",
+      "description": "Useful incident-information progress",
+      "error": "Revise useful incident-information progress: A Security/Privacy request with owner and next update, or a reviewed packet with continuing follow-up, is valid.",
+      "decide": "Does the plan advance a useful minimized incident explanation? Pass=true: A Security/Privacy request with owner and next update, or a reviewed packet with continuing follow-up, is valid. Evidence: evidence.E08, evidence.E15."
+    },
+    {
+      "id": "customer-support-cause-unresolved",
+      "description": "Attribution uncertainty",
+      "error": "Revise attribution uncertainty: Describe competing hypotheses without a final attacker or customer-cause finding.",
+      "decide": "Does the explanation keep incident cause unresolved? Pass=true: Describe competing hypotheses without a final attacker or customer-cause finding. Evidence: evidence.E08, evidence.E17, evidence.E19."
+    },
+    {
+      "id": "customer-support-sample-coverage-limit",
+      "description": "Sample coverage",
+      "error": "Revise sample coverage: The sample is not a complete request ledger or certification of every billed byte.",
+      "decide": "Does the explanation distinguish the limited Security sample from the full billing event? Pass=true: The sample is not a complete request ledger or certification of every billed byte. Evidence: evidence.E04, evidence.E08."
+    },
+    {
+      "id": "customer-support-notice-human-receipt",
+      "description": "Human receipt uncertainty",
+      "error": "Revise human receipt uncertainty: The receiving-server delivery event does not establish that Mara read the notice.",
+      "decide": "Does the first-notice explanation preserve uncertainty about human receipt? Pass=true: The receiving-server delivery event does not establish that Mara read the notice. Evidence: evidence.E10, evidence.E17."
+    },
+    {
+      "id": "customer-support-notice-usefulness",
+      "description": "Notice usefulness uncertainty",
+      "error": "Revise notice usefulness uncertainty: The incremental-package template did not show the projected account total; do not claim it gave Aster a useful view of the exposure.",
+      "decide": "Does the notice explanation preserve uncertainty about actionable cost warning? Pass=true: The incremental-package template did not show the projected account total; do not claim it gave Aster a useful view of the exposure. Evidence: evidence.E10."
+    },
+    {
+      "id": "customer-support-second-notice-expired",
+      "description": "Second notification status",
+      "error": "Revise second notification status: Creation of the February 17 job is not a successful second delivery.",
+      "decide": "Does the explanation treat the second notification job as expired? Pass=true: Creation of the February 17 job is not a successful second delivery. Evidence: evidence.E10, evidence.E17."
+    },
+    {
+      "id": "customer-support-own-review-miss",
+      "description": "Confirmed internal review failure",
+      "error": "Revise confirmed internal review failure: Own the confirmed routing/review failure without claiming it proves the meter was wrong.",
+      "decide": "Does the reply acknowledge the failed exceptional-invoice review? Pass=true: Own the confirmed routing/review failure without claiming it proves the meter was wrong. Evidence: evidence.E10, evidence.E13, evidence.E17."
+    },
+    {
+      "id": "customer-support-hypothetical-not-observed",
+      "description": "Runner usage evidence",
+      "error": "Revise runner usage evidence: The retry field, task card and hypothetical downloads are not observed whole-event usage. Omission of a numerical hypothesis is valid.",
+      "decide": "Does the explanation label E19 download scenarios as hypotheses? Pass=true: The retry field, task card and hypothetical downloads are not observed whole-event usage. Omission of a numerical hypothesis is valid. Evidence: evidence.E18, evidence.E19."
+    },
+    {
+      "id": "customer-support-customer-update",
+      "description": "Customer checkpoint",
+      "error": "Revise customer checkpoint: Commit to the controlled next-update checkpoint recorded in canonical state. Achievability is checked in code.",
+      "decide": "Does the reply give the next customer update represented in state.commitments? Pass=true: Commit to the controlled next-update checkpoint recorded in canonical state. Achievability is checked in code. Evidence: evidence.E03, evidence.E14, evidence.E20."
+    },
+    {
+      "id": "customer-support-customer-update-owner",
+      "description": "Customer update ownership",
+      "error": "Revise customer update ownership: Niko retains responsibility through the current shift; specialist assignment does not transfer that responsibility.",
+      "decide": "Does the reply identify the support owner for the next customer update? Pass=true: Niko retains responsibility through the current shift; specialist assignment does not transfer that responsibility. Evidence: evidence.E14, evidence.E20."
+    },
+    {
+      "id": "customer-support-preliminary-security-update",
+      "description": "Security update completeness",
+      "error": "Revise security update completeness: The reviewed minimized packet is not a final incident report; do not promise a final report by today’s briefing.",
+      "decide": "Does the promised Security update remain preliminary progress? Pass=true: The reviewed minimized packet is not a final incident report; do not promise a final report by today’s briefing. Evidence: evidence.E08, evidence.E14."
+    },
+    {
+      "id": "customer-support-failure-update",
+      "description": "Dependency failure update",
+      "error": "Revise dependency failure update: A failed posting/processor/deployment dependency triggers an interim status update rather than a false completion claim.",
+      "decide": "Does the plan provide a customer update if a controlled action fails? Pass=true: A failed posting/processor/deployment dependency triggers an interim status update rather than a false completion claim. Evidence: evidence.E04, evidence.E09, evidence.E14."
+    },
+    {
+      "id": "customer-support-finance-handoff",
+      "description": "Finance handoff",
+      "error": "Revise finance handoff: The next Finance action is concrete for the actual credit/refund or pending review stage.",
+      "decide": "Does the Rhea handoff identify the remaining Finance action? Pass=true: The next Finance action is concrete for the actual credit/refund or pending review stage. Evidence: evidence.E14, evidence.E20."
+    },
+    {
+      "id": "customer-support-engineering-handoff",
+      "description": "Engineering handoff",
+      "error": "Revise engineering handoff: The remaining Engineering action is verification, residual exposure review or safe retry as the current deployment state requires.",
+      "decide": "Does the Rhea handoff identify the remaining Engineering action? Pass=true: The remaining Engineering action is verification, residual exposure review or safe retry as the current deployment state requires. Evidence: evidence.E09, evidence.E14, evidence.E20."
+    },
+    {
+      "id": "customer-support-incident-handoff",
+      "description": "Incident handoff",
+      "error": "Revise incident handoff: The next incident explanation action remains open after billing relief.",
+      "decide": "Does the Rhea handoff identify the continuing incident-information action? Pass=true: The next incident explanation action remains open after billing relief. Evidence: evidence.E08, evidence.E14, evidence.E20."
+    },
+    {
+      "id": "customer-support-renewal-handoff",
+      "description": "Renewal handoff",
+      "error": "Revise renewal handoff: The pending decision is identified for the unchanged renewal; prepared options remain unelected.",
+      "decide": "Does the Rhea handoff identify the pending renewal choice? Pass=true: The pending decision is identified for the unchanged renewal; prepared options remain unelected. Evidence: evidence.E12, evidence.E14, evidence.E20."
+    },
+    {
+      "id": "customer-support-support-handoff",
+      "description": "Support handoff",
+      "error": "Revise support handoff: The next customer update has a named Support owner despite specialist assignment.",
+      "decide": "Does the Rhea handoff identify who sends the next customer update? Pass=true: The next customer update has a named Support owner despite specialist assignment. Evidence: evidence.E14, evidence.E20."
+    },
+    {
+      "id": "customer-support-export-inventory",
+      "description": "Export preparation",
+      "error": "Revise export preparation: Built artifacts, redirects, configuration and available operational records are identified; external source repositories and domains are not claimed as hosted exports.",
+      "decide": "Does the exit preparation provide an accurate export inventory? Pass=true: Built artifacts, redirects, configuration and available operational records are identified; external source repositories and domains are not claimed as hosted exports. Evidence: evidence.E02, evidence.E15."
+    },
+    {
+      "id": "customer-support-export-usability",
+      "description": "Export usability checkpoint",
+      "error": "Revise export usability checkpoint: An inventory or download link alone is not a verified usable export; undecided exit may leave the check as a future owned action.",
+      "decide": "Does any proposed exit include a customer export-usability check? Pass=true: An inventory or download link alone is not a verified usable export; undecided exit may leave the check as a future owned action. Evidence: evidence.E15."
+    }
+  ]
+}

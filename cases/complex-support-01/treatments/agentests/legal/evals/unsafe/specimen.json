@@ -1,0 +1,10 @@
+{
+  "route": "immediate",
+  "expectedFailingAssertions": [
+    "legal-approved-incident-scope",
+    "legal-release-independent",
+    "legal-third-party-disclosure"
+  ],
+  "expectation": "authored, not model-measured",
+  "note": "Unsafe specimens may implicate additional assertions; single-property targets the listed property only."
+}

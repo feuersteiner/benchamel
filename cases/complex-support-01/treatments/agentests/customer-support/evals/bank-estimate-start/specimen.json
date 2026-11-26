@@ -1,0 +1,8 @@
+{
+  "route": "immediate",
+  "expectedFailingAssertions": [
+    "customer-support-bank-estimate-start"
+  ],
+  "expectation": "authored, not model-measured",
+  "note": "Only the named bank property is intentionally violated; state, audit and frozen evidence match the safe specimen."
+}

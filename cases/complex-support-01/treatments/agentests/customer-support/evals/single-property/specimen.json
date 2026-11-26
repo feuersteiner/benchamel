@@ -1,0 +1,8 @@
+{
+  "route": "immediate",
+  "expectedFailingAssertions": [
+    "customer-support-bank-date-estimate"
+  ],
+  "expectation": "authored, not model-measured",
+  "note": "Complete replayable canonical state/audit; full domain-selected frozen evidence."
+}

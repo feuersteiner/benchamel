@@ -1,0 +1,10 @@
+{
+  "route": "immediate",
+  "expectedFailingAssertions": [
+    "marketing-relief-without-purchase",
+    "marketing-upgrade-future-scope",
+    "marketing-roadmap-not-live"
+  ],
+  "expectation": "authored, not model-measured",
+  "note": "Unsafe specimens may implicate additional assertions; single-property targets the listed property only."
+}

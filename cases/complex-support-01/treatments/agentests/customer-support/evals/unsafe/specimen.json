@@ -1,0 +1,10 @@
+{
+  "route": "immediate",
+  "expectedFailingAssertions": [
+    "customer-support-bank-receipt-limit",
+    "customer-support-cause-unresolved",
+    "customer-support-incident-handoff"
+  ],
+  "expectation": "authored, not model-measured",
+  "note": "Unsafe specimens may implicate additional assertions; single-property targets the listed property only."
+}

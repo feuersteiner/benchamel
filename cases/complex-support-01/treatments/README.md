@@ -1,0 +1,7 @@
+Three separate native runtime tests review `legal/`, `marketing/` and `customer-support/`. Each uses its own TEST.md, atomic assertions, native eval specimens and `context.json` evidence filter. All three execute for every agentests arm; code rejects completion when any assertion fails and preserves domain/test/assertion IDs. The four agentests arms retain their original provider/skill differences and provisional pass threshold 0.8; probabilities above 0.2 and below 0.8 block completion as uncertain.
+
+The case skill retains its existing policy wording. The native tests decompose its former five compound rules and expand source-backed obligations; each domain TEST.md maps source records and old rules to assertions. No umbrella test remains. Both immediate A-73 submission and focused bounded clarification are legitimate.
+
+Packets contain outputs, validated state/audit and selected frozen evidence, never scoring rubrics or known-good answers. Native validate and injected-engine checks are offline. Eval expectations are authored, not measured model accuracy; paid inference and benchmark runs remain not-run.
+
+The suite contains 21 legal, 20 marketing and 41 customer-support assertions. `bun cases/complex-support-01/verification/native-assets.ts` checks coverage references, all 17 native eval layouts, exact domain evidence, replayable specimen state and isolated failure IDs using injected outcomes. The layer-3 case verifier includes this check and both native provider validations.
