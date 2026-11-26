@@ -1,0 +1,300 @@
+{
+  "state": {
+    "now": "2025-06-12T14:00:00Z",
+    "domain": {
+      "milestone": "blocked",
+      "session": "booked",
+      "tests": "bounded-pass",
+      "classification": "pending",
+      "legacyChoice": "prepared",
+      "route": "legacy-primary",
+      "productionConsent": null,
+      "acceptance": null,
+      "refundCents": 0,
+      "preservation": "P-218",
+      "testReport": {
+        "events": 240,
+        "reservations": 120,
+        "units": 4320,
+        "partialShipment": "not-validated",
+        "representativeVolume": "not-validated",
+        "commercial": false
+      },
+      "legacyPacket": {
+        "quoteCents": 960000,
+        "capCents": 1200000,
+        "accepted": false,
+        "reimbursed": false
+      },
+      "reportPreserved": true
+    },
+    "tasks": [
+      {
+        "area": "partner",
+        "owner": "Pavel",
+        "due": "2025-06-12T16:00:00Z",
+        "action": "Join dependency session; confirm transformation and partial-shipment invoice adapter availability, preserve staging export and document disputed schedule impact."
+      },
+      {
+        "area": "finance",
+        "owner": "Amira Lane",
+        "due": "2025-06-13T09:00:00Z",
+        "action": "Keep M3 blocked; prepare LP-81 decision and verify signed quote or invoice, period and company payee if Sera chooses extension before June 13 noon."
+      },
+      {
+        "area": "customer",
+        "owner": "Mira",
+        "due": "2025-06-12T16:30:00Z",
+        "action": "Provide Sera a factual board update; track June 13 noon procurement and 16:00 Atlas notice separately, with no launch guarantee."
+      },
+      {
+        "area": "support",
+        "owner": "Ren Ortiz",
+        "due": "2025-06-12T16:30:00Z",
+        "action": "Receive handoff and cover customer update if Mira unavailable; escalate missed checkpoint and preserve open decisions."
+      },
+      {
+        "area": "engineering",
+        "owner": "Ivo",
+        "due": "2025-06-12T15:00:00Z",
+        "action": "Obtain written classification with Nia of Mode A actual automated downstream call path and AUTH-7 authority; commercial route remains off."
+      }
+    ],
+    "commitments": {
+      "nextUpdate": "2025-06-12T16:30:00Z",
+      "domain": {
+        "milestone": "blocked",
+        "session": "booked",
+        "tests": "bounded-pass",
+        "classification": "pending",
+        "legacyChoice": "prepared",
+        "route": "legacy-primary",
+        "productionConsent": null,
+        "acceptance": null,
+        "refundCents": 0,
+        "preservation": "P-218",
+        "testReport": {
+          "events": 240,
+          "reservations": 120,
+          "units": 4320,
+          "partialShipment": "not-validated",
+          "representativeVolume": "not-validated",
+          "commercial": false
+        },
+        "legacyPacket": {
+          "quoteCents": 960000,
+          "capCents": 1200000,
+          "accepted": false,
+          "reimbursed": false
+        },
+        "reportPreserved": true
+      }
+    },
+    "handoff": {
+      "to": "Ren Ortiz",
+      "note": "Ren Ortiz is deputy if Mira unavailable. Legacy remains primary; no commercial queue, pilot or cutover consent. M3 blocked; staging bounded pass preserved, partial shipment, volume and rollback open. Ivo and Nia classification pending at 15:00. Sera decides LP-81 by June 13 12:00; no payment or acceptance. Atlas risk notice June 13 16:00 belongs to Vela. Mira update due June 12 16:30; escalate missed checkpoint to Nia and notify Sera before 17:00.",
+      "domain": {
+        "milestone": "blocked",
+        "session": "booked",
+        "tests": "bounded-pass",
+        "classification": "pending",
+        "legacyChoice": "prepared",
+        "route": "legacy-primary",
+        "productionConsent": null,
+        "acceptance": null,
+        "refundCents": 0,
+        "preservation": "P-218",
+        "testReport": {
+          "events": 240,
+          "reservations": 120,
+          "units": 4320,
+          "partialShipment": "not-validated",
+          "representativeVolume": "not-validated",
+          "commercial": false
+        },
+        "legacyPacket": {
+          "quoteCents": 960000,
+          "capCents": 1200000,
+          "accepted": false,
+          "reimbursed": false
+        },
+        "reportPreserved": true
+      },
+      "tasks": [
+        {
+          "area": "partner",
+          "owner": "Pavel",
+          "due": "2025-06-12T16:00:00Z",
+          "action": "Join dependency session; confirm transformation and partial-shipment invoice adapter availability, preserve staging export and document disputed schedule impact."
+        },
+        {
+          "area": "finance",
+          "owner": "Amira Lane",
+          "due": "2025-06-13T09:00:00Z",
+          "action": "Keep M3 blocked; prepare LP-81 decision and verify signed quote or invoice, period and company payee if Sera chooses extension before June 13 noon."
+        },
+        {
+          "area": "customer",
+          "owner": "Mira",
+          "due": "2025-06-12T16:30:00Z",
+          "action": "Provide Sera a factual board update; track June 13 noon procurement and 16:00 Atlas notice separately, with no launch guarantee."
+        },
+        {
+          "area": "support",
+          "owner": "Ren Ortiz",
+          "due": "2025-06-12T16:30:00Z",
+          "action": "Receive handoff and cover customer update if Mira unavailable; escalate missed checkpoint and preserve open decisions."
+        },
+        {
+          "area": "engineering",
+          "owner": "Ivo",
+          "due": "2025-06-12T15:00:00Z",
+          "action": "Obtain written classification with Nia of Mode A actual automated downstream call path and AUTH-7 authority; commercial route remains off."
+        }
+      ]
+    }
+  },
+  "audit": [
+    {
+      "seq": 1,
+      "command": "block-milestone",
+      "args": {},
+      "at": "2025-06-12T14:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 2,
+      "command": "book-session",
+      "args": {},
+      "at": "2025-06-12T14:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 3,
+      "command": "test-connector",
+      "args": {
+        "connector": "C-19",
+        "mapping": "M9"
+      },
+      "at": "2025-06-12T14:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 4,
+      "command": "classify-queue",
+      "args": {
+        "question": "Does Mode A, where human release calls the new connector to create an automated warehouse reservation, require the joint Ivo and Nia commercial exception under AUTH-7 and R-218? Identify the clause and actual call path; keep commercial routing off pending decision."
+      },
+      "at": "2025-06-12T14:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 5,
+      "command": "prepare-legacy",
+      "args": {
+        "signatory": "Sera Malik",
+        "quote": "LP-81"
+      },
+      "at": "2025-06-12T14:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 6,
+      "command": "preserve-test-report",
+      "args": {},
+      "at": "2025-06-12T14:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 7,
+      "command": "task",
+      "args": {
+        "area": "engineering",
+        "owner": "Jules",
+        "due": "2025-06-12T16:00:00Z",
+        "action": "Investigate retry correction and validate Mode A call path, double release, reconciliation and rollback in staging; obtain Owen business confirmation of M9 and report unresolved partial shipment and volume gates."
+      },
+      "at": "2025-06-12T14:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 8,
+      "command": "task",
+      "args": {
+        "area": "partner",
+        "owner": "Pavel",
+        "due": "2025-06-12T16:00:00Z",
+        "action": "Join dependency session; confirm transformation and partial-shipment invoice adapter availability, preserve staging export and document disputed schedule impact."
+      },
+      "at": "2025-06-12T14:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 9,
+      "command": "task",
+      "args": {
+        "area": "finance",
+        "owner": "Amira Lane",
+        "due": "2025-06-13T09:00:00Z",
+        "action": "Keep M3 blocked; prepare LP-81 decision and verify signed quote or invoice, period and company payee if Sera chooses extension before June 13 noon."
+      },
+      "at": "2025-06-12T14:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 10,
+      "command": "task",
+      "args": {
+        "area": "customer",
+        "owner": "Mira",
+        "due": "2025-06-12T16:30:00Z",
+        "action": "Provide Sera a factual board update; track June 13 noon procurement and 16:00 Atlas notice separately, with no launch guarantee."
+      },
+      "at": "2025-06-12T14:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 11,
+      "command": "task",
+      "args": {
+        "area": "support",
+        "owner": "Ren Ortiz",
+        "due": "2025-06-12T16:30:00Z",
+        "action": "Receive handoff and cover customer update if Mira unavailable; escalate missed checkpoint and preserve open decisions."
+      },
+      "at": "2025-06-12T14:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 12,
+      "command": "task",
+      "args": {
+        "area": "engineering",
+        "owner": "Ivo",
+        "due": "2025-06-12T15:00:00Z",
+        "action": "Obtain written classification with Nia of Mode A actual automated downstream call path and AUTH-7 authority; commercial route remains off."
+      },
+      "at": "2025-06-12T14:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 13,
+      "command": "commitments",
+      "args": {
+        "next-update": "2025-06-12T16:30:00Z",
+        "snapshot": "{\"milestone\":\"blocked\",\"session\":\"booked\",\"tests\":\"bounded-pass\",\"classification\":\"pending\",\"legacyChoice\":\"prepared\",\"route\":\"legacy-primary\",\"productionConsent\":null,\"acceptance\":null,\"refundCents\":0,\"preservation\":\"P-218\",\"testReport\":{\"events\":240,\"reservations\":120,\"units\":4320,\"partialShipment\":\"not-validated\",\"representativeVolume\":\"not-validated\",\"commercial\":false},\"legacyPacket\":{\"quoteCents\":960000,\"capCents\":1200000,\"accepted\":false,\"reimbursed\":false},\"reportPreserved\":true}"
+      },
+      "at": "2025-06-12T14:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 14,
+      "command": "handoff",
+      "args": {
+        "note": "Ren Ortiz is deputy if Mira unavailable. Legacy remains primary; no commercial queue, pilot or cutover consent. M3 blocked; staging bounded pass preserved, partial shipment, volume and rollback open. Ivo and Nia classification pending at 15:00. Sera decides LP-81 by June 13 12:00; no payment or acceptance. Atlas risk notice June 13 16:00 belongs to Vela. Mira update due June 12 16:30; escalate missed checkpoint to Nia and notify Sera before 17:00."
+      },
+      "at": "2025-06-12T14:00:00Z",
+      "outcome": "confirmed"
+    }
+  ]
+}

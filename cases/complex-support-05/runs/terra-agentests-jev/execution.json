@@ -1,0 +1,56 @@
+{
+  "case": "complex-support-05",
+  "arm": "terra-agentests-jev",
+  "pid": 99702,
+  "startedAt": "2026-11-26T05:29:50.261Z",
+  "status": "completed",
+  "attempt": 2,
+  "executionCommit": "bfcb3e5aed930d9d54a57237cae033c0c9cb3bcf",
+  "endedAt": "2026-11-26T05:34:30.252Z",
+  "exit": 0,
+  "initialExit": 1,
+  "judgeRetries": [
+    {
+      "attempt": 1,
+      "startedAt": "2026-11-26T05:34:05.470Z",
+      "endedAt": "2026-11-26T05:34:30.251Z",
+      "score": 100
+    }
+  ],
+  "source_commit": "81e53b29be7f4e89bbd0be9e0f612197ba31d3da",
+  "execution_commit": "bfcb3e5aed930d9d54a57237cae033c0c9cb3bcf",
+  "versions": {
+    "codex": "codex-cli 0.172.0-alpha.2",
+    "bun": "1.3.3",
+    "node": "v22.19.0"
+  },
+  "transport": "native-single-question",
+  "errors": [
+    "Judge citation is not an exact input excerpt."
+  ],
+  "failure_reason": null,
+  "gate_reviews": [
+    {
+      "status": "uncertain",
+      "pass": false,
+      "findings": 1,
+      "decisions": 60
+    },
+    {
+      "status": "uncertain",
+      "pass": false,
+      "findings": 1,
+      "decisions": 60
+    },
+    {
+      "status": "pass",
+      "pass": true,
+      "findings": 0,
+      "decisions": 60
+    }
+  ],
+  "task_turns": 3,
+  "retained_final_replicates": 1,
+  "initial_attempt_preserved": true,
+  "paced_attempt_preserved": false
+}

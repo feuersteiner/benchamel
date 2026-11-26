@@ -1,0 +1,21 @@
+# Case plan — 12 June 2025, 14:00 UTC
+
+## Actual local state and receipts
+
+Operations receipts 1–6 confirm M3-218 blocked, the 15:00–17:00 session booked, C-19/M9 synthetic staging test run, Mode A referred for classification, LP-81 packet prepared, and the new report preserved. Receipt 3 reports 240 events, 120 reservations and 4,320 units; this bounded result is synthetic, not customer acceptance or production evidence. Partial shipment and representative volume are not validated. Receipt 6 preserves this run; P-218 retains T-40/T-41 through July 12 (E15). Export each subsequent downstream report before the 22:00 reset.
+
+Legacy is primary; production consent and acceptance are null. Classification remains pending; the packet is unaccepted and unreimbursed, and refund is zero. Receipts 7–11 assign the five work areas; 12 records the exact domain snapshot and 16:30 update; 13 hands off to Ren Ortiz. No external message or payment occurred. These local confirmations do not create real-world approvals or facts.
+
+## Work and decisions
+
+- **Mira, customer and coordination:** chair the 15:00 session, seek an owner, prerequisite and next evidence time by 16:00, and deliver the 16:30 update regardless of results. Correct Alec's premature readiness language and retain his correspondence and the customer reliance question (E11, E16). Escalate an absent owner or missed checkpoint to Nia. Ren covers if Mira is unavailable; if the update is missed, Ren informs Sera before 17:00 with the next owner and time (E14).
+- **Jules, engineering:** own the retry fix and staged evidence. Compare source, receipt, reservation and accounting states; exercise delayed acknowledgments, outage, partial shipment and reconciliation, and representative volume. Owen confirms M9 business quantities; Pavel owns the transformation and adapter, not Jules. Staging results do not establish release readiness (E04, E08, E09, E12).
+- **Pavel, partner:** attend the staffed session, confirm M9 and adapter availability and next evidence time, and preserve sanitized versioned results. Partner weekend staffing and any extra spend are unconfirmed; no order for partner labor is authorized (E09, E15).
+- **Ivo and Nia:** classify the actual Mode A call path, where human release causes a new automated reservation. The referral is pending, not a sign-off. Mode B is an existing manual entry workflow and would not prove the automated contract. A commercial pilot needs applicable Ivo/Nia approvals and Sera's written scoped consent. Keep the queue disabled until all gates are met (E07, E18).
+- **Amira, finance:** maintain the unissued milestone block. For LP-81, Sera must choose the $9,600 June 16–25 continuation by June 13 noon; then verify the provider document, period and Vela company payee for reimbursement of actual cost up to $12,000. No automatic alternative award, payment, direct supplier payment, release or claims settlement is authorized (E07, E19).
+
+Before any pilot, document selected orders excluded from legacy, one warehouse, at most 20 orders/day, no unattended retries or automatic invoice release, operator reservation checks, two-hour reconciliation, stop triggers, staffed support and credential rotation. On a duplicate, unexplained quantity, missing trace or missed reconciliation, stop intake and reconcile committed orders before any replay. Credential rotation is scheduled June 13 08:30, not completed. Full cutover additionally requires representative tests, partial-shipment invoicing, restoration rehearsal, staffing, readiness review and signed acceptance (E05, E07, E12, E15).
+
+Track June 13 10:00 evidence review and 11:00 go/no-go as decisions, not promises. Atlas risk notice is separately due June 13 16:00; Sera controls retailer contact and no waiver is recorded. June 16 08:00 remains at risk. Preserve the late June 6 file, June 4–5 sandbox outage, unquantified notice and disputed critical-path impact without allocating all delay (E17). The $45,000 daily gross-sales estimate is not a proven loss. Escalate cancellation, platform refund or damages requests to Nia and counsel without suspending correction (E16).
+
+Refresh commitments and Ren's handoff after any later state change. Keep the case and engineering, sales correction, customer decisions and claims open until actually resolved.

@@ -1,0 +1,56 @@
+import {mkdir,readFile,writeFile,rm,stat,appendFile} from 'node:fs/promises';
+import {createHash} from 'node:crypto';
+const directory=import.meta.dir,clock=directory+'/.luna-batch-next',lock=clock+'.lock';
+const sleep=(ms:number)=>new Promise(r=>setTimeout(r,Math.max(0,ms)));
+async function pace(body:string) {
+ for(;;){try{await mkdir(lock);break;}catch(e){if((e as any).code!=='EEXIST')throw e;try{if(Date.now()-(await stat(lock)).mtimeMs>10000)await rm(lock,{recursive:true,force:true});}catch{}await sleep(25);}}
+ let when:number;
+ try{
+  let next=0;try{next=Number(await readFile(clock,'utf8'));}catch(e){if((e as any).code!=='ENOENT')throw e;}
+  when=Math.max(Date.now(),next||0);await writeFile(clock,String(when+Math.ceil((Math.ceil(body.length/3)+2500)/24000*1000)));
+ }finally{await rm(lock,{recursive:true,force:true});}
+ await sleep(when!-Date.now());
+}
+const native=globalThis.fetch;
+type Pending={request:any;init?:RequestInit;resolve:(r:Response)=>void;reject:(e:unknown)=>void};
+const groups=new Map<string,Pending[]>();
+async function send(url:string,group:Pending[]) {
+ try{
+  const questions=group.flatMap((entry,i)=>entry.request.questions.map((q:any,j:number)=>({...q,name:'batch_'+i+'_'+j})));
+  const request={...group[0]!.request,questions};
+  const body=JSON.stringify(request);let response:Response;
+  for(let attempt=0;;attempt++){
+   await pace(body);response=await native(url,{...group[0]!.init,body});
+   if(response.status!==429||attempt>=8)break;
+   await response.body?.cancel();await sleep(2000);
+  }
+  if(!response.ok){for(const entry of group)entry.resolve(response.clone());return;}
+  const result=await response.json() as any;
+  if(!Array.isArray(result.answers)||result.answers.length!==questions.length)throw Error('Batched decision response omitted questions');
+  const names=new Set(result.answers.map((a:any)=>a.name));
+  if(names.size!==questions.length||questions.some((q:any)=>!names.has(q.name)))throw Error('Batched decision response has missing or duplicate names');
+  const receipt={timestamp:new Date().toISOString(),case:process.env.BENCHAMEL_CASE,questions:questions.length,inputSha256:createHash('sha256').update(JSON.stringify(request.input)).digest('hex'),requestSha256:createHash('sha256').update(body).digest('hex'),model:result.model??request.model,usage:result.usage??null};
+  await appendFile(directory+'/batch-transport-receipts.jsonl',JSON.stringify(receipt)+'\n');
+  for(const [i,entry] of group.entries()){
+   const answers=entry.request.questions.map((q:any,j:number)=>({...result.answers.find((a:any)=>a.name==='batch_'+i+'_'+j),name:q.name}));
+   // Native agentests does not consume usage. Keep one unsplit usage receipt per real request above.
+   const part={...result,answers};delete part.usage;
+   const headers=new Headers(response.headers);headers.delete('content-length');headers.delete('content-encoding');
+   entry.resolve(new Response(JSON.stringify(part),{status:response.status,headers}));
+  }
+ }catch(e){for(const entry of group)entry.reject(e);}
+}
+async function batchedFetch(input:any,init?:RequestInit):Promise<Response>{
+ const url=typeof input==='string'?input:input instanceof URL?input.href:input.url;
+ const body=typeof init?.body==='string'?init.body:null;
+ if(url!=='https://api.openai.com/v1/decisions'||!body)return native(input,init);
+ const request=JSON.parse(body);if(request.model!=='gpt-6-luna')return native(input,init);
+ const {questions,...same}=request;const key=JSON.stringify(same);
+ return new Promise<Response>((resolve,reject)=>{
+  const entry={request,init,resolve,reject},existing=groups.get(key);
+  if(existing){existing.push(entry);return;}
+  const group=[entry];groups.set(key,group);
+  setTimeout(()=>{groups.delete(key);void send(url,group);},20);
+ });
+}
+globalThis.fetch=Object.assign(batchedFetch,native) as typeof fetch;

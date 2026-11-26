@@ -68,11 +68,14 @@ try {
   const packets=await Promise.all(suite.map(async item=>JSON.parse(await readFile(join(item.source,'evals/safe/review.md'),'utf8'))));
   await writeFile(join(workspace,'state/runtime.json'),JSON.stringify({state:packets[0].state,audit:packets[0].audit}));
   for(const file of ['reply.md','plan.md'])await writeFile(join(workspace,file),packets.map(p=>p.outputs[file]).join('\n'));
-  for(const decision of ['luna','jev'] as const)for(const item of suite){
+  for(const decision of ['luna','jev'] as const){
+    const reviewWorkspace=join(temp,'review-'+decision);await cp(workspace,reviewWorkspace,{recursive:true});
+    for(const item of suite){
     const meta=JSON.parse(await readFile(join(item.source,'specimens.json'),'utf8'));
-    const result=await gate(root,workspace,decision,input=>input.assertion===meta.singleProperty.assertion?0:1);
+    const result=await gate(root,reviewWorkspace,decision,input=>input.assertion===meta.singleProperty.assertion?0:1);
     assert.equal(result.pass,false);assert.equal(result.offlineDecisionCalls,60);
     assert.deepEqual(result.findings,[{test:item.test.id,domain:item.domain,assertion:meta.singleProperty.assertion,error:item.test.assert.find(a=>a.id===meta.singleProperty.assertion)!.error}]);
+  }
   }
   console.log(JSON.stringify({case:'complex-support-05',counts:Object.fromEntries(suite.map(s=>[s.domain,s.test.assert.length])),specimenPacketsReplayed:12,nativeEvalFolders:15,providers:2,caseSingleFailureGates:6,mode:'injected-only',semanticValidation:'not-run'}));
 } finally {process.chdir(previous);await rm(temp,{recursive:true,force:true});}

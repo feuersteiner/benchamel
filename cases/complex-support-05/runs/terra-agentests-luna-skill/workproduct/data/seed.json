@@ -1,0 +1,21 @@
+{
+  "state": {
+    "now": "2025-06-12T14:00:00Z",
+    "domain": {
+      "milestone": "unblocked",
+      "session": "unbooked",
+      "tests": null,
+      "classification": "none",
+      "legacyChoice": "unprepared",
+      "route": "legacy-primary",
+      "productionConsent": null,
+      "acceptance": null,
+      "refundCents": 0,
+      "preservation": "P-218"
+    },
+    "tasks": [],
+    "commitments": null,
+    "handoff": null
+  },
+  "audit": []
+}
