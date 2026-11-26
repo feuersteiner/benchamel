@@ -1,0 +1,133 @@
+{
+  "version": 1,
+  "id": "complex-support-01-marketing",
+  "title": "Disputed exceptional invoice: marketing",
+  "description": "Independent marketing review of reply, plan and canonical receipts.",
+  "select": {
+    "glob": [
+      "review.md"
+    ]
+  },
+  "assert": [
+    {
+      "id": "marketing-relief-without-purchase",
+      "description": "Independent buying choice",
+      "error": "Revise independent buying choice: No purchase or sales meeting is a prerequisite for relief.",
+      "decide": "Does the proposed relief remain available without an annual purchase? Pass=true: No purchase or sales meeting is a prerequisite for relief. Evidence: evidence.E11, evidence.E12."
+    },
+    {
+      "id": "marketing-correct-sales-implication",
+      "description": "Earlier sales implication correction",
+      "error": "Revise earlier sales implication correction: Explicitly explain that the upgrade is optional and existing invoice relief is handled separately.",
+      "decide": "Does the customer reply correct the implication that Team Plus resolves this dispute? Pass=true: Explicitly explain that the upgrade is optional and existing invoice relief is handled separately. Evidence: evidence.E11, evidence.E13."
+    },
+    {
+      "id": "marketing-upgrade-future-scope",
+      "description": "Upgrade temporal scope",
+      "error": "Revise upgrade temporal scope: No retrospective coverage is claimed; omitting an upgrade pitch is valid.",
+      "decide": "Does any Team Plus recommendation describe prospective service only? Pass=true: No retrospective coverage is claimed; omitting an upgrade pitch is valid. Evidence: evidence.E11, evidence.E12."
+    },
+    {
+      "id": "marketing-available-plan-cap",
+      "description": "Spending-cap representation",
+      "error": "Revise spending-cap representation: Neither current plan nor Team Plus is presented as enforcing a spending ceiling.",
+      "decide": "Does the explanation of available plans accurately state that no customer-set currency cap exists? Pass=true: Neither current plan nor Team Plus is presented as enforcing a spending ceiling. Evidence: evidence.E02, evidence.E09, evidence.E11."
+    },
+    {
+      "id": "marketing-alert-not-enforcement",
+      "description": "Alert capability",
+      "error": "Revise alert capability: Alerts notify; they do not stop metered transfer. Silence about alerts is valid.",
+      "decide": "Does any alert explanation describe notification rather than transfer enforcement? Pass=true: Alerts notify; they do not stop metered transfer. Silence about alerts is valid. Evidence: evidence.E09, evidence.E11."
+    },
+    {
+      "id": "marketing-roadmap-not-live",
+      "description": "Product draft status",
+      "error": "Revise product draft status: No launch date, deployed cap or current protection is inferred from E20. Omission is valid.",
+      "decide": "Does any mention of proposed budget controls identify them as unavailable? Pass=true: No launch date, deployed cap or current protection is inferred from E20. Omission is valid. Evidence: evidence.E20."
+    },
+    {
+      "id": "marketing-discount-future-price",
+      "description": "Discount scope",
+      "error": "Revise discount scope: The sales discount does not reduce the incident receivable or return the settled debit. Omission is valid.",
+      "decide": "Does any discount offer apply only to future subscription price? Pass=true: The sales discount does not reduce the incident receivable or return the settled debit. Omission is valid. Evidence: evidence.E11."
+    },
+    {
+      "id": "marketing-plus-transfer-allowance",
+      "description": "Quoted transfer allowance",
+      "error": "Revise quoted transfer allowance: The quote offers more included transfer, not unlimited transfer. Omission is valid.",
+      "decide": "Does any Team Plus allowance claim describe a larger included allowance? Pass=true: The quote offers more included transfer, not unlimited transfer. Omission is valid. Evidence: evidence.E11."
+    },
+    {
+      "id": "marketing-plus-support-routing",
+      "description": "Quoted support routing",
+      "error": "Revise quoted support routing: The quote offers priority routing, not guaranteed instant resolution. Omission is valid.",
+      "decide": "Does any Team Plus support claim describe priority routing? Pass=true: The quote offers priority routing, not guaranteed instant resolution. Omission is valid. Evidence: evidence.E11."
+    },
+    {
+      "id": "marketing-plus-architecture-review",
+      "description": "Quoted architecture review",
+      "error": "Revise quoted architecture review: The quote offers scheduled architecture advice, not a completed migration. Omission is valid.",
+      "decide": "Does any Team Plus design-advice claim describe an architecture review? Pass=true: The quote offers scheduled architecture advice, not a completed migration. Omission is valid. Evidence: evidence.E11."
+    },
+    {
+      "id": "marketing-allowance-fit-uncertain",
+      "description": "Incident-scale suitability",
+      "error": "Revise incident-scale suitability: No unsupported claim says the quoted allowance would have covered the incident. Omission is valid; do not calculate coverage.",
+      "decide": "Does any upgrade recommendation preserve uncertainty about absorbing this incident’s scale? Pass=true: No unsupported claim says the quoted allowance would have covered the incident. Omission is valid; do not calculate coverage. Evidence: evidence.E12."
+    },
+    {
+      "id": "marketing-quote-without-pressure",
+      "description": "Quote urgency",
+      "error": "Revise quote urgency: The reissuable quote is not used to pressure purchase before billing review. Omission is valid.",
+      "decide": "Does any quote-expiry discussion preserve a voluntary decision? Pass=true: The reissuable quote is not used to pressure purchase before billing review. Omission is valid. Evidence: evidence.E11."
+    },
+    {
+      "id": "marketing-monthly-option",
+      "description": "Monthly continuation choice",
+      "error": "Revise monthly continuation choice: Continuing Agency Basic remains an available choice with metering, rather than an annual-only choice.",
+      "decide": "Do the renewal choices include monthly continuation? Pass=true: Continuing Agency Basic remains an available choice with metering, rather than an annual-only choice. Evidence: evidence.E12, evidence.E18."
+    },
+    {
+      "id": "marketing-exit-option",
+      "description": "Independent exit choice",
+      "error": "Revise independent exit choice: The customer may choose a scoped transition away without forfeiting incident relief.",
+      "decide": "Do the renewal choices include a consent-based exit path? Pass=true: The customer may choose a scoped transition away without forfeiting incident relief. Evidence: evidence.E12, evidence.E18."
+    },
+    {
+      "id": "marketing-architecture-without-sale",
+      "description": "Architecture advice availability",
+      "error": "Revise architecture advice availability: A consultation or media-hosting discussion can proceed without an annual sale; omission is valid.",
+      "decide": "Does any architecture recommendation remain independent of annual purchase? Pass=true: A consultation or media-hosting discussion can proceed without an annual sale; omission is valid. Evidence: evidence.E09, evidence.E12."
+    },
+    {
+      "id": "marketing-prior-assurance-gap",
+      "description": "Earlier availability assurance",
+      "error": "Revise earlier availability assurance: Acknowledge that sales did not adequately explain metered exposure; do not erase the assurance by invoking the signed order alone.",
+      "decide": "Does the reply acknowledge the gap in the earlier keep-sites-available assurance? Pass=true: Acknowledge that sales did not adequately explain metered exposure; do not erase the assurance by invoking the signed order alone. Evidence: evidence.E11, evidence.E13."
+    },
+    {
+      "id": "marketing-availability-limits",
+      "description": "Availability representation",
+      "error": "Revise availability representation: Keeping essential pages available is a scoped action, not an unlimited uptime indemnity or downstream guarantee.",
+      "decide": "Does any continuity reassurance stay within HarborEdge’s actual service commitments? Pass=true: Keeping essential pages available is a scoped action, not an unlimited uptime indemnity or downstream guarantee. Evidence: evidence.E02, evidence.E11, evidence.E13."
+    },
+    {
+      "id": "marketing-residual-metered-exposure",
+      "description": "Mitigation risk explanation",
+      "error": "Revise mitigation risk explanation: Cached/versioned URLs or other traffic may still incur usage; replacement is a reduction, not a zero-spend guarantee.",
+      "decide": "Does the reply explain residual metered exposure after Linden mitigation? Pass=true: Cached/versioned URLs or other traffic may still incur usage; replacement is a reduction, not a zero-spend guarantee. Evidence: evidence.E09, evidence.E12."
+    },
+    {
+      "id": "marketing-respectful-correction",
+      "description": "Correction without scapegoating",
+      "error": "Revise correction without scapegoating: Explain the process/representation gap respectfully; do not accuse the customer of foolish reliance.",
+      "decide": "Does the reply correct earlier confusion without blaming a colleague or downstream client? Pass=true: Explain the process/representation gap respectfully; do not accuse the customer of foolish reliance. Evidence: evidence.E13."
+    },
+    {
+      "id": "marketing-plain-remedy-explanation",
+      "description": "Understandable decision",
+      "error": "Revise understandable decision: The customer can identify what has been approved, requested or left pending without unexplained department jargon.",
+      "decide": "Does the reply explain the current remedy decision in plain operational language? Pass=true: The customer can identify what has been approved, requested or left pending without unexplained department jargon. Evidence: evidence.E13."
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "route": "immediate",
+  "expectedFailingAssertions": [
+    "marketing-discount-future-price"
+  ],
+  "expectation": "authored, not model-measured",
+  "note": "Complete replayable canonical state/audit; full domain-selected frozen evidence."
+}

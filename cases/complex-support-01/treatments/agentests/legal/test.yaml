@@ -1,0 +1,139 @@
+{
+  "version": 1,
+  "id": "complex-support-01-legal",
+  "title": "Disputed exceptional invoice: legal",
+  "description": "Independent legal review of reply, plan and canonical receipts.",
+  "select": {
+    "glob": [
+      "review.md"
+    ]
+  },
+  "assert": [
+    {
+      "id": "legal-current-finance-policy",
+      "description": "Current finance authority",
+      "error": "Revise current finance authority: FIN-3.2 governs; archived FIN-2.4 is historical context only.",
+      "decide": "Does `outputs[\"plan.md\"]` use FIN-3.2 as the governing invoice procedure? Pass=true: FIN-3.2 governs; archived FIN-2.4 is historical context only. Evidence: evidence.E05, evidence.E06."
+    },
+    {
+      "id": "legal-percentage-not-binding",
+      "description": "Percentage suggestion authority",
+      "error": "Revise percentage suggestion authority: The suggestion is corrected as a review proposal, never a binding settlement or debt floor.",
+      "decide": "Does the proposed remedy treat Daria’s five-percent suggestion as unapproved? Pass=true: The suggestion is corrected as a review proposal, never a binding settlement or debt floor. Evidence: evidence.E03, evidence.E06, evidence.E07."
+    },
+    {
+      "id": "legal-approved-incident-scope",
+      "description": "A-73 remedy scope",
+      "error": "Revise a-73 remedy scope: Full incident cancellation or bounded review is valid; compensation for downstream losses needs separate approval.",
+      "decide": "Does the proposed financial remedy stay within A-73’s incident-fee authority? Pass=true: Full incident cancellation or bounded review is valid; compensation for downstream losses needs separate approval. Evidence: evidence.E04, evidence.E07."
+    },
+    {
+      "id": "legal-base-fee-excluded",
+      "description": "Separate base fee",
+      "error": "Revise separate base fee: The base fee is excluded unless separate authority is actually recorded. No arithmetic is required.",
+      "decide": "Does the proposed incident remedy leave the separate paid $120 base fee outside relief? Pass=true: The base fee is excluded unless separate authority is actually recorded. No arithmetic is required. Evidence: evidence.E04, evidence.E07."
+    },
+    {
+      "id": "legal-original-payment-method",
+      "description": "Cash return destination",
+      "error": "Revise cash return destination: The original method is the authorized destination; queued return work is valid.",
+      "decide": "Does the planned $600 cash return use the original payment method? Pass=true: The original method is the authorized destination; queued return work is valid. Evidence: evidence.E07, evidence.E18."
+    },
+    {
+      "id": "legal-wallet-election",
+      "description": "Wallet substitution authority",
+      "error": "Revise wallet substitution authority: Cash remains the default; a wallet option expressly withheld pending agreement is valid.",
+      "decide": "Does any proposed wallet substitution wait for Mara’s informed agreement? Pass=true: Cash remains the default; a wallet option expressly withheld pending agreement is valid. Evidence: evidence.E05, evidence.E07, evidence.E18."
+    },
+    {
+      "id": "legal-reversal-before-return",
+      "description": "Duplicate-return prevention",
+      "error": "Revise duplicate-return prevention: Use the recorded reversal check in state.finance or assign the check before an unsubmitted return.",
+      "decide": "Does the cash-return workflow include Finance’s reversal check? Pass=true: Use the recorded reversal check in state.finance or assign the check before an unsubmitted return. Evidence: evidence.E04, evidence.E07."
+    },
+    {
+      "id": "legal-limited-attestation",
+      "description": "Attestation scope",
+      "error": "Revise attestation scope: It may satisfy A-73 without forensic certification; do not turn it into proof about every retry.",
+      "decide": "Does the plan treat E18 as a limited no-intent attestation? Pass=true: It may satisfy A-73 without forensic certification; do not turn it into proof about every retry. Evidence: evidence.E07, evidence.E16, evidence.E18."
+    },
+    {
+      "id": "legal-preserve-p31",
+      "description": "Incident preservation",
+      "error": "Revise incident preservation: P-31 remains effective for the held incident sample, including during a proposed exit.",
+      "decide": "Does the proposed handling retain preservation receipt P-31? Pass=true: P-31 remains effective for the held incident sample, including during a proposed exit. Evidence: evidence.E08, evidence.E15."
+    },
+    {
+      "id": "legal-publishing-conflict-route",
+      "description": "E19 condition reconciliation",
+      "error": "Revise e19 condition reconciliation: A reasoned acceptance of E18 or a focused version/intent review is valid; a card label alone does not establish a load test.",
+      "decide": "Does the plan explain how E19 affects the A-73 condition? Pass=true: A reasoned acceptance of E18 or a focused version/intent review is valid; a card label alone does not establish a load test. Evidence: evidence.E16, evidence.E18, evidence.E19."
+    },
+    {
+      "id": "legal-inez-condition-authority",
+      "description": "Disputed-condition decision maker",
+      "error": "Revise disputed-condition decision maker: Immediate reasoned submission is valid; if a material condition is disputed, Inez decides rather than frontline staff inventing clearance.",
+      "decide": "Does a disputed A-73 condition go to Inez for a decision? Pass=true: Immediate reasoned submission is valid; if a material condition is disputed, Inez decides rather than frontline staff inventing clearance. Evidence: evidence.E07, evidence.E16, evidence.E19."
+    },
+    {
+      "id": "legal-scoped-service-authority",
+      "description": "Service action consent",
+      "error": "Revise service action consent: Linden replacement is authorized; any broader action is withheld pending new informed consent or a genuinely documented emergency.",
+      "decide": "Do proposed service changes stay within the recorded Linden-video consent? Pass=true: Linden replacement is authorized; any broader action is withheld pending new informed consent or a genuinely documented emergency. Evidence: evidence.E02, evidence.E08, evidence.E09, evidence.E18."
+    },
+    {
+      "id": "legal-subscription-election",
+      "description": "Subscription authority",
+      "error": "Revise subscription authority: Prepared options are valid; questions, silence and Leon’s deployment role do not elect a plan.",
+      "decide": "Does any subscription change wait for Mara’s authenticated election? Pass=true: Prepared options are valid; questions, silence and Leon’s deployment role do not elect a plan. Evidence: evidence.E02, evidence.E12, evidence.E18."
+    },
+    {
+      "id": "legal-exit-instruction",
+      "description": "Termination authority",
+      "error": "Revise termination authority: A proposed exit may be discussed; conditional frustration is not a termination request.",
+      "decide": "Does execution of any exit wait for Mara’s scoped instruction? Pass=true: A proposed exit may be discussed; conditional frustration is not a termination request. Evidence: evidence.E03, evidence.E15, evidence.E18."
+    },
+    {
+      "id": "legal-export-before-deletion",
+      "description": "Deletion prerequisite",
+      "error": "Revise deletion prerequisite: No deletion is valid now; a consent-based future cutoff must preserve a usable export first.",
+      "decide": "Does any planned deletion wait for a verified export transition? Pass=true: No deletion is valid now; a consent-based future cutoff must preserve a usable export first. Evidence: evidence.E15, evidence.E18."
+    },
+    {
+      "id": "legal-third-party-disclosure",
+      "description": "Disclosure authority",
+      "error": "Revise disclosure authority: Minimized account-level explanation is valid; raw third-party identifiers require appropriate Privacy authorization.",
+      "decide": "Does proposed visitor-information disclosure stay within Privacy-approved scope? Pass=true: Minimized account-level explanation is valid; raw third-party identifiers require appropriate Privacy authorization. Evidence: evidence.E08, evidence.E15, evidence.E19."
+    },
+    {
+      "id": "legal-limited-retention",
+      "description": "Retention scope",
+      "error": "Revise retention scope: Keep the case-held sample under P-31; ordinary artifacts and shorter-lived logs retain their own limits. No date arithmetic is required.",
+      "decide": "Does proposed retention distinguish P-31 from ordinary account artifacts? Pass=true: Keep the case-held sample under P-31; ordinary artifacts and shorter-lived logs retain their own limits. No date arithmetic is required. Evidence: evidence.E15."
+    },
+    {
+      "id": "legal-release-independent",
+      "description": "Release independence",
+      "error": "Revise release independence: No release is required by A-73; a genuinely separate agreement may only be proposed for later authorized review.",
+      "decide": "Does the remedy proceed independently of a release of claims? Pass=true: No release is required by A-73; a genuinely separate agreement may only be proposed for later authorized review. Evidence: evidence.E05, evidence.E07, evidence.E15."
+    },
+    {
+      "id": "legal-silence-independent",
+      "description": "Public criticism independence",
+      "error": "Revise public criticism independence: No confidentiality or nondisparagement condition is added.",
+      "decide": "Does the remedy proceed independently of silence or deletion of criticism? Pass=true: No confidentiality or nondisparagement condition is added. Evidence: evidence.E05, evidence.E16."
+    },
+    {
+      "id": "legal-incident-request-independent",
+      "description": "Information request independence",
+      "error": "Revise information request independence: Billing adjustment does not require abandoning the explanation request.",
+      "decide": "Does acceptance of fee relief leave the incident-information request open? Pass=true: Billing adjustment does not require abandoning the explanation request. Evidence: evidence.E03, evidence.E15, evidence.E18."
+    },
+    {
+      "id": "legal-fault-admission-independent",
+      "description": "Fault admission independence",
+      "error": "Revise fault admission independence: The factual no-intent attestation is valid; a new general fault admission is not required.",
+      "decide": "Does the remedy proceed independently of an admission of negligence? Pass=true: The factual no-intent attestation is valid; a new general fault admission is not required. Evidence: evidence.E05, evidence.E07, evidence.E16."
+    }
+  ]
+}

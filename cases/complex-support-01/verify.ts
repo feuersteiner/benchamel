@@ -6,8 +6,10 @@ import { initial,transition,replay,canonical,type Runtime } from './fixture/src/
 import { inspectWorkspace,judge,stateScore,combineScore } from './judge.ts';
 import { prepare } from '../../harness/treatments/prepare.ts';
 import { sourceCheck,treatmentChecks,commandCheck } from '../../harness/verify-domain.ts';
+import { verifyNativeAssets } from './verification/native-assets.ts';
 export async function verify(root:string,arms:string[]) {
  await sourceCheck(root);
+ if(arms.some(arm=>arm.includes('agentests')))await verifyNativeAssets(root);
  assert.equal(canonical(JSON.parse(await readFile(join(root,'fixture/state/runtime.json'),'utf8'))),canonical({state:initial(),audit:[]}));
  for(const review of [false,true]) {
   const dir=await mkdtemp(join(tmpdir(),'benchamel-case01-'));
