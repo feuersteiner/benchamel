@@ -1,0 +1,52 @@
+[
+  {
+    "id": "correction",
+    "points": 6,
+    "any": [
+      {
+        "correction": true
+      }
+    ]
+  },
+  {
+    "id": "protection",
+    "points": 6,
+    "any": [
+      {
+        "protection": "verified"
+      }
+    ]
+  },
+  {
+    "id": "disclosure",
+    "points": 6,
+    "any": [
+      {
+        "disclosure": "minimized",
+        "packetReady": true
+      },
+      {
+        "disclosure": "review-pending",
+        "packetReady": true
+      }
+    ]
+  },
+  {
+    "id": "investigation",
+    "points": 6,
+    "any": [
+      {
+        "logs": "requested"
+      }
+    ]
+  },
+  {
+    "id": "choice",
+    "points": 6,
+    "any": [
+      {
+        "options": "prepared"
+      }
+    ]
+  }
+]

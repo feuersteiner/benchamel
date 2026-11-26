@@ -1,0 +1,64 @@
+[
+  [
+    [
+      "correct-assurance",
+      {}
+    ],
+    [
+      "verify-protection",
+      {}
+    ],
+    [
+      "prepare-schedule",
+      {
+        "scope": "attachment-rows"
+      }
+    ],
+    [
+      "request-logs",
+      {
+        "feeds": "attachments,report-filter,production-archive"
+      }
+    ],
+    [
+      "prepare-choices",
+      {
+        "signatory": "Ben Orrell"
+      }
+    ]
+  ],
+  [
+    [
+      "correct-assurance",
+      {}
+    ],
+    [
+      "verify-protection",
+      {}
+    ],
+    [
+      "indicator-review",
+      {
+        "question": "Does bare JOB-R17 associate another account under D-218?"
+      }
+    ],
+    [
+      "prepare-reviewed-schedule",
+      {
+        "scope": "attachment-rows"
+      }
+    ],
+    [
+      "request-logs",
+      {
+        "feeds": "attachments,report-filter,production-archive"
+      }
+    ],
+    [
+      "prepare-choices",
+      {
+        "signatory": "Ben Orrell"
+      }
+    ]
+  ]
+]
