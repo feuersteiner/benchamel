@@ -14,5 +14,33 @@
   "semantic_model_acceptance": "not-run",
   "paid_benchmark_runs": 0,
   "live_model_credentials_and_provider_network": "not-tested",
-  "eval_expectations": "authored-not-model-validated"
+  "eval_expectations": "authored-not-model-validated",
+  "three_native_domain_tests": "passed",
+  "assertions_per_domain": {
+    "legal": 29,
+    "marketing": 20,
+    "customer-support": 26
+  },
+  "unique_assertion_ids_and_questions": "passed",
+  "source_and_former_rule_coverage": "reviewed-in-domain-TEST.md",
+  "filtered_context_manifests": "passed",
+  "native_eval_canonical_packets": 19,
+  "native_eval_irrelevant_skips": 3,
+  "native_eval_fixed_engine_selection_and_finding_ids": "passed",
+  "shared_runtime_patch_sha256": "0e8201ff2e0bf1f935ecaa76fcb080702c890cda59adeb0fecbd90b6eee44d93",
+  "shared_runtime_propagation": "exact-patch-applied-and-verified",
+  "shared_runtime_tests": {
+    "passed": 10,
+    "failed": 0,
+    "expect_calls": 506
+  },
+  "commands_run": [
+    "bun install --frozen-lockfile",
+    "bun run check",
+    "bun harness/verify.ts --case complex-support-08 --layer 3",
+    "bun cases/complex-support-08/verification/agentests.ts",
+    "git diff --check"
+  ],
+  "native_eval_semantic_accuracy": "not-run",
+  "offline_limits": "Fixed injected engines verify selection, full assertion execution, failure propagation and IDs only. Authored pass/fail expectations are not semantic model measurements."
 }
