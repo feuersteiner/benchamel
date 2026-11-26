@@ -34,7 +34,7 @@ if(import.meta.main) {
   let activeChild:ReturnType<typeof Bun.spawn>|undefined;
   const produce=async(input:string,thread?:string):Promise<ProducerResult>=>{
     const base=['codex','-a','never','exec'];
-    const common=['--ignore-user-config','--model','gpt-6.1-terra','--skip-git-repo-check','--json','--disable','multi_agent','--disable','multi_agent_v2','-c','web_search="disabled"','-c','model_reasoning_effort="medium"'];
+    const common=['--ignore-user-config','--model','gpt-6.1-terra','--skip-git-repo-check','--json','--disable','multi_agent','--disable','multi_agent_v2','-c','web_search="disabled"','-c','model_reasoning_effort="medium"','-c','sandbox_mode="workspace-write"'];
     const argv=thread?[...base,'resume',...common,thread,input]:[...base,...common,'--sandbox','workspace-write',input];
     const child=Bun.spawn(argv,{cwd:workspace,env,stdin:'ignore',stdout:'pipe',stderr:'inherit'});activeChild=child;
     let id=thread??'',buffer='';const decoder=new TextDecoder();
