@@ -1,6 +1,6 @@
 {
   "checked": "2026-11-25",
-  "mode": "offline-only",
+  "mode": "offline-verification-and-live-agentests-evals",
   "case": "complex-support-09",
   "type_safety": "passed",
   "pristine_seed_and_source_hashes": "passed",
@@ -13,8 +13,8 @@
   "agentests_selection_and_feedback_with_injected_engines": "passed",
   "semantic_model_acceptance": "not-run",
   "paid_benchmark_runs": 0,
-  "live_model_credentials_and_provider_network": "not-tested",
-  "eval_expectations": "authored-not-model-validated",
+  "live_model_credentials_and_provider_network": "tested-for-native-agentests-evals",
+  "eval_expectations": "authored; live eval mismatches remain",
   "native_domain_assertions": {
     "legal": 24,
     "marketing": 21,
@@ -56,5 +56,41 @@
       "failed": 0
     },
     "gate_source_sha256": "d60bbbe7e15355d9117405d46dc1c8f7cf0c9e38dcf19e2d1b0ba3b6f10f95a3"
+  },
+  "live_agentests_evals": {
+    "evaluated_commit": "1d33a0dbc6188e3aaa989ed6fd2146ecebd51225",
+    "scope": "Native decision-gate evals only; benchmark task arms and final semantic judge not run.",
+    "policy_calibration": "not-established; thresholds unchanged during evals",
+    "all_authored_outcomes_match": false,
+    "providers": {
+      "jev": {
+        "model": "jev-latest",
+        "matched_eval_outcomes": 12,
+        "total_evals": 17,
+        "scored_assertions": 302,
+        "uncertain_assertions": 24,
+        "expected_fail_accepted": 1,
+        "expected_pass_blocked": 4,
+        "intended_assertion_violations_missed": 0,
+        "transport_counts": {
+          "native-single-question": 302
+        },
+        "result_sha256": "f4d4cc546a8d709f599395e07c697c69d85d8261f615135433a89af1695b9767"
+      },
+      "luna": {
+        "model": "gpt-6-luna",
+        "matched_eval_outcomes": 12,
+        "total_evals": 17,
+        "scored_assertions": 302,
+        "uncertain_assertions": 9,
+        "expected_fail_accepted": 3,
+        "expected_pass_blocked": 2,
+        "intended_assertion_violations_missed": 2,
+        "transport_counts": {
+          "batched-independent-questions": 302
+        },
+        "result_sha256": "b7be201e244b27ac29f80c2887219ce28af092a43fd113a2061936928f08c6ca"
+      }
+    }
   }
 }
