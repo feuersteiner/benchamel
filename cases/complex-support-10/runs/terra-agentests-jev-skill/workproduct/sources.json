@@ -1,0 +1,91 @@
+{
+	"version": "1.0",
+	"licenseStatus": "No open transcript redistribution license verified. Brief original factual paraphrases only; no raw pages, screenshots, personal identifiers or copied customer dialogue. All business records and candidates are synthetic.",
+	"sources": [
+		{
+			"id": "S01",
+			"url": "https://devcenter.heroku.com/changelog-items/2461",
+			"stableIdentifier": "heroku:changelog:2461",
+			"publicationDate": "2022-08-25",
+			"retrievedDate": "2026-11-23",
+			"updateUncertainty": "Official dated deprecation notice; retrieved current page may have editorial updates. No account-specific delivery evidence.",
+			"reuseBasis": "original factual paraphrase, no transcript license asserted",
+			"quotesWords": 0,
+			"representation": {
+				"documentId": "E01",
+				"paragraphPrefix": "S01:",
+				"sha256": "8c27d0e42f95cc3f983922313353b1db94eb7d37f8069a353153b2575a1a4000",
+				"hashScope": "UTF-8 bytes of the complete local authored paragraph beginning with S01: and ending immediately before the following blank line, including the prefix but excluding blank-line separators; not an original page hash"
+			},
+			"retrievalUrl": "https://devcenter.heroku.com/changelog-items/2461"
+		},
+		{
+			"id": "S02",
+			"url": "https://help.heroku.com/RSBRUH58/removal-of-heroku-free-product-plans-faq",
+			"stableIdentifier": "heroku:help:RSBRUH58",
+			"publicationDate": null,
+			"retrievedDate": "2026-11-23",
+			"updateUncertainty": "publication-date-unknown: no publication date visible in retrieved FAQ. Current mutable explanation includes distinctions that may reflect later updates; not backdated as customer notice.",
+			"reuseBasis": "original factual paraphrase, no transcript license asserted",
+			"quotesWords": 0,
+			"representation": {
+				"documentId": "E01",
+				"paragraphPrefix": "S02:",
+				"sha256": "badf23d0b21b1bcbacec3f8705fec0a7599af2d5eeb87f101534a4d36711e7b0",
+				"hashScope": "UTF-8 bytes of the complete local authored paragraph beginning with S02: and ending immediately before the following blank line, including the prefix but excluding blank-line separators; not an original page hash"
+			},
+			"retrievalUrl": "https://help.heroku.com/RSBRUH58/removal-of-heroku-free-product-plans-faq"
+		},
+		{
+			"id": "S03",
+			"url": "https://workspace.google.com/blog/product-announcements/next-phase-digital-whiteboarding",
+			"stableIdentifier": "google-workspace:2023-09-28:whiteboarding",
+			"publicationDate": "2023-09-28",
+			"retrievedDate": "2026-11-23",
+			"updateUncertainty": "Dated first-party announcement; future integration and transition intentions are not independently verified delivery outcomes.",
+			"reuseBasis": "original factual paraphrase, no transcript license asserted",
+			"quotesWords": 0,
+			"representation": {
+				"documentId": "E01",
+				"paragraphPrefix": "S03:",
+				"sha256": "1ca3cf981e19a047464fa85aad1cc86cb565661b470b8d06aa2c13ed92ee55c8",
+				"hashScope": "UTF-8 bytes of the complete local authored paragraph beginning with S03: and ending immediately before the following blank line, including the prefix but excluding blank-line separators; not an original page hash"
+			},
+			"retrievalUrl": "https://workspace.google.com/blog/product-announcements/next-phase-digital-whiteboarding"
+		},
+		{
+			"id": "S04",
+			"url": "https://support.google.com/a/users/answer/13342662?hl=en",
+			"stableIdentifier": "google-help:13342662",
+			"publicationDate": null,
+			"retrievedDate": "2026-11-23",
+			"updateUncertainty": "publication-date-unknown: current help article has no visible publication date. Retrieved text includes 2025 conversion information and cannot establish earlier customer knowledge; original Jamboard help path redirects to this article.",
+			"reuseBasis": "original factual paraphrase, no transcript license asserted",
+			"quotesWords": 0,
+			"representation": {
+				"documentId": "E01",
+				"paragraphPrefix": "S04:",
+				"sha256": "f551a709320557cdd2decea0a6f605987343f44324b1102e10a50aaa00912f0f",
+				"hashScope": "UTF-8 bytes of the complete local authored paragraph beginning with S04: and ending immediately before the following blank line, including the prefix but excluding blank-line separators; not an original page hash"
+			},
+			"retrievalUrl": "https://support.google.com/a/users/answer/13342662?hl=en"
+		},
+		{
+			"id": "S05",
+			"url": "https://www.atlassian.com/blog/company-news/farewell-to-server",
+			"stableIdentifier": "atlassian:farewell-to-server:2024-02-15",
+			"publicationDate": "2024-02-15",
+			"retrievedDate": "2026-11-23",
+			"updateUncertainty": "Dated company explanation of Server end of support; mutable current page, not proof of any individual notice or migration outcome.",
+			"reuseBasis": "original factual paraphrase, no transcript license asserted",
+			"quotesWords": 0,
+			"representation": {
+				"documentId": "E01",
+				"paragraphPrefix": "S05:",
+				"sha256": "50c17f6f3fc58c28c2cf1ae1fae7b7d4930121efb0228c02568f25ee903c23ed",
+				"hashScope": "UTF-8 bytes of the complete local authored paragraph beginning with S05: and ending immediately before the following blank line, including the prefix but excluding blank-line separators; not an original page hash"
+			},
+			"retrievalUrl": "https://www.atlassian.com/blog/company-news/farewell-to-server"
+		}
+	]
+}

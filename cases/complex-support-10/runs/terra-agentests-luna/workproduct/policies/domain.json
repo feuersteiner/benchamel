@@ -1,0 +1,159 @@
+{
+  "id": "complex-support-10",
+  "now": "2025-05-16T15:00:00Z",
+  "updateBy": "2025-05-16T16:30:00Z",
+  "handoff": "Ravi",
+  "areas": {
+    "continuity": [
+      "Mira",
+      "Salim Ko"
+    ],
+    "export": [
+      "Jae",
+      "Ben"
+    ],
+    "product": [
+      "Tomas"
+    ],
+    "communications": [
+      "Priya"
+    ],
+    "support": [
+      "Nia Chen",
+      "Ravi"
+    ]
+  },
+  "initial": {
+    "slot": "held-unconfirmed",
+    "offer": "unsent",
+    "export": "none",
+    "comparison": null,
+    "wording": "uncorrected",
+    "accessQuestion": "unreviewed",
+    "classic": "paid-through-June30",
+    "bridge": "inactive",
+    "productionMigration": false,
+    "partnerUpload": false,
+    "release": false,
+    "deleted": false,
+    "retention": "ordinary-thirty-days"
+  },
+  "invariants": {
+    "classic": "paid-through-June30",
+    "bridge": "inactive",
+    "productionMigration": false,
+    "partnerUpload": false,
+    "release": false,
+    "deleted": false,
+    "retention": "ordinary-thirty-days"
+  },
+  "rules": [
+    "General hosted shutdown June30 23:59 and ordinary export retention are separate; B-219 offers no-charge July/August continuation only after Leena accepts by May23 17:00 and activation is verified.",
+    "Confirm provisional slot and send no-release offer independently of Flow purchase. Sixteen assistance hours are staff help, not cash or an extra production month.",
+    "Begin full export now to existing secure workspace under Owen consent; test current rows, images, original event bundles, hashes and offline verifier separately from Flow import.",
+    "Flow lacks offline signing and native amendment lineage. A successful 500-record/93-image test and Q3 viewer target do not close those gaps.",
+    "Correct ten-year/seamless assurances and reconcile notice delivery/contact evidence. Clarify Salim’s seven extra days of access as archive review versus unsupported hosting; no production extension after August31 is approved."
+  ],
+  "actions": {
+    "confirm-slot": {
+      "description": "Confirm internal reservation through May23 17:00 without changing customer service.",
+      "owner": "Mira",
+      "evidence": [
+        "E10",
+        "E20"
+      ],
+      "effects": {
+        "slot": "confirmed"
+      },
+      "before": "2025-05-16T16:00:00Z"
+    },
+    "send-offer": {
+      "description": "Prepare B-219 terms with no release or Flow purchase, acceptance and activation separate.",
+      "owner": "Salim Ko",
+      "evidence": [
+        "E11",
+        "E18"
+      ],
+      "effects": {
+        "offer": "prepared"
+      },
+      "args": {
+        "approval": [
+          "B-219"
+        ]
+      }
+    },
+    "start-export": {
+      "description": "Start full Classic audit/data export to existing secure workspace, no partner upload.",
+      "owner": "Jae",
+      "evidence": [
+        "E09",
+        "E12",
+        "E18"
+      ],
+      "effects": {
+        "export": "started"
+      },
+      "args": {
+        "destination": [
+          "Calder-existing-secure-workspace"
+        ]
+      }
+    },
+    "verify-sample": {
+      "description": "Run disconnected sample archive checksum/lineage verifier; not a production export completion claim.",
+      "owner": "Ben",
+      "evidence": [
+        "E08",
+        "E19"
+      ],
+      "effects": {
+        "sampleVerified": true
+      },
+      "args": {
+        "scope": [
+          "sanitized-sample"
+        ]
+      }
+    },
+    "compare-capabilities": {
+      "description": "Compute Flow mapping and missing links; retain separate archive capabilities.",
+      "owner": "Tomas",
+      "evidence": [
+        "E08",
+        "E09",
+        "E19"
+      ],
+      "effects": {
+        "comparison": "prepared"
+      }
+    },
+    "correct-wording": {
+      "description": "Prepare correction of ten-year and every-workflow statements, preserving historical evidence.",
+      "owner": "Priya",
+      "evidence": [
+        "E04",
+        "E07",
+        "E14"
+      ],
+      "effects": {
+        "wording": "correction-prepared"
+      },
+      "before": "2025-05-16T15:30:00Z"
+    },
+    "clarify-access": {
+      "description": "Refer Salim’s undefined seven-day access remark; no post-Aug31 hosting activation.",
+      "owner": "Salim Ko",
+      "evidence": [
+        "E16",
+        "E20"
+      ],
+      "effects": {
+        "accessQuestion": "clarification-pending"
+      },
+      "args": {
+        "question": "text"
+      }
+    }
+  }
+}

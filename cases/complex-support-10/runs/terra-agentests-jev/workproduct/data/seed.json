@@ -1,0 +1,24 @@
+{
+  "state": {
+    "now": "2025-05-16T15:00:00Z",
+    "domain": {
+      "slot": "held-unconfirmed",
+      "offer": "unsent",
+      "export": "none",
+      "comparison": null,
+      "wording": "uncorrected",
+      "accessQuestion": "unreviewed",
+      "classic": "paid-through-June30",
+      "bridge": "inactive",
+      "productionMigration": false,
+      "partnerUpload": false,
+      "release": false,
+      "deleted": false,
+      "retention": "ordinary-thirty-days"
+    },
+    "tasks": [],
+    "commitments": null,
+    "handoff": null
+  },
+  "audit": []
+}
