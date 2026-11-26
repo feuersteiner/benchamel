@@ -4,7 +4,7 @@ import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { InMemorySource } from 'agentests';
 import type { AgentTestResult } from 'agentests/types';
-import { collectFindings, config, domains, gate, installDomainSuite, loadDomainSuite } from '../treatments/gate.ts';
+import { collectFindings, config, decisionPolicy, decisionStatus, domains, gate, installDomainSuite, loadDomainSuite } from '../treatments/gate.ts';
 import { revisionLoop } from '../treatments/agent.ts';
 
 // Synthetic wiring specimens; these questions are never evaluated by a model.
@@ -39,7 +39,7 @@ test('native domain suites run every assertion, filter evidence, retain failures
       const pass=await gate(root,workspace,decision,({domain,assertion,packet})=>{
         const index=domains.indexOf(domain);expect(packet.evidence).toEqual({[`E0${index+1}`]:`Frozen ${domain} source`});
         expect(packet.outputs['reply.md']).toBe('Synthetic offline reply.md');expect(packet.state).toEqual({domain:{status:'pending-review'},tasks:[]});expect(packet.audit).toEqual([{command:'request-review',outcome:'confirmed'}]);
-        if(!calls.has(domain))calls.set(domain,new Set());calls.get(domain)!.add(assertion);return 0.5;
+        if(!calls.has(domain))calls.set(domain,new Set());calls.get(domain)!.add(assertion);return 0.8;
       });
       expect(pass.pass).toBe(true);expect(pass.offlineDecisionCalls).toBe(45);expect(pass.findings).toEqual([]);expect([...calls.values()].map(ids=>ids.size)).toEqual([15,15,15]);
       const fail=await gate(root,workspace,decision,0);expect(fail.pass).toBe(false);expect(fail.findings).toHaveLength(45);expect(fail.offlineDecisionCalls).toBe(45);
@@ -116,5 +116,27 @@ test('optional manifests preserve all frozen evidence when absent',async()=>{
     for(const domain of domains)await rm(join(root,'treatments/agentests',domain,'context.json'));
     const pass=await gate(root,workspace,'jev',({packet})=>{expect(Object.keys(packet.evidence)).toEqual(['E01','E02','E03']);return 1;});
     expect(pass.pass).toBe(true);expect(pass.offlineDecisionCalls).toBe(45);
+  }finally {await rm(parent,{recursive:true,force:true});}
+});
+
+
+test('decision bounds retain probabilities and block uncertainty for both providers',async()=>{
+  expect(decisionStatus(0)).toBe('fail');expect(decisionStatus(0.2)).toBe('fail');
+  for(const score of [0.200001,0.49,0.5,0.500001,0.799999])expect(decisionStatus(score)).toBe('uncertain');
+  expect(decisionStatus(0.8)).toBe('pass');expect(decisionStatus(1)).toBe('pass');
+  for(const score of [NaN,Infinity,-0.01,1.01])expect(()=>decisionStatus(score)).toThrow('Invalid decision result');
+  const {parent,root,workspace}=await specimen();
+  try {
+    for(const provider of ['luna','jev'] as const) {
+      expect(config(provider).assert.threshold).toBe(decisionPolicy.passAtOrAbove);
+      const result=await gate(root,workspace,provider,({assertion})=>assertion==='legal-property-1'?0.5:0.8);
+      expect(result.pass).toBe(false);expect(result.status).toBe('uncertain');
+      expect(result.decisions).toHaveLength(45);expect(result.findings).toHaveLength(1);
+      expect(result.decisions[0]).toEqual({test:'case-unit-legal',domain:'legal',assertion:'legal-property-1',probability:0.5,status:'uncertain'});
+      expect(result.findings[0]!.error).toContain('Uncertain decision (P(yes)=0.5)');
+      const failed=await gate(root,workspace,provider,0.2);
+      expect(failed.pass).toBe(false);expect(failed.status).toBe('fail');expect(failed.findings).toHaveLength(45);
+      expect(failed.decisions.every(d=>d.probability===0.2&&d.status==='fail')).toBe(true);
+    }
   }finally {await rm(parent,{recursive:true,force:true});}
 });

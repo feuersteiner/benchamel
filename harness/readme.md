@@ -75,8 +75,11 @@ flag or a post-benchmark check. No task work is declared complete until the gate
 passes. No workspace code is executed by a judge or gate evaluator.
 
 Luna uses the upstream OpenAI decision preset; Jev uses the exact upstream Jev
-preset (`jev-latest`, intentionally a mutable provider alias). Both use threshold
-0.5 and the same three domain Tests. There are no reasoning assertions, so the configured
+preset (`jev-latest`, intentionally a mutable provider alias). Both use the same three domain Tests and provisional decision bounds: probabilities
+at least 0.8 pass, at most 0.2 fail, and values between those bounds are uncertain.
+Uncertainty blocks completion and produces actionable revision feedback. Every
+assertion probability and status is retained, including passing assertions. These
+bounds are operating policy, not a claim of calibrated model accuracy. There are no reasoning assertions, so the configured
 reasoning model is not called. See `provenance/dependencies.json` and the lockfile.
 The native library does not expose decision usage; total treatment `cost` and
 `context_length` are therefore **null**, with producer-only telemetry retained
