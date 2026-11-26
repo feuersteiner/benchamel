@@ -1,1 +1,7 @@
 These are trusted deterministic state routes, outside agent inputs. They prove operational solvability and alternatives, not semantic model acceptance. All commands execute against fresh temporary copies. No score/result artifacts represent benchmark inference.
+
+Run `bun run check`, `bun harness/verify.ts --case complex-support-04 --layer 3`, and `bun cases/complex-support-04/verification/assertions.ts` from the repository root. The suite has three separate native tests with 20 assertions each, unique IDs and per-domain evidence manifests; TEST.md files provide the source/old-rule coverage map.
+
+The case-specific assertions check validates specimen packet shape, evidence coverage, native selection/skip routing, and replay-consistent state/audit for both authority routes and pending gate execution. Native eval plumbing uses explicit authored-answer doubles for all 15 specimens under both provider configurations. Those supplied answers verify routing and failure propagation only; they do not verify the authored semantic expectations or provider accuracy. Layer-three verification separately exercises all-pass, all-fail and selective domain failures, complete assertion execution, retained IDs and revision feedback.
+
+The shared runtime was propagated unchanged from the published patch, SHA-256 `0e8201ff2e0bf1f935ecaa76fcb080702c890cda59adeb0fecbd90b6eee44d93`. No live/paid eval, inference or benchmark run was performed.

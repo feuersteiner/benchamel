@@ -14,5 +14,20 @@
   "semantic_model_acceptance": "not-run",
   "paid_benchmark_runs": 0,
   "live_model_credentials_and_provider_network": "not-tested",
-  "eval_expectations": "authored-not-model-validated"
+  "eval_expectations": "authored-not-model-validated",
+  "three_native_domain_tests": {
+    "legal": 20,
+    "marketing": 20,
+    "customer-support": 20
+  },
+  "unique_assertion_ids_and_source_coverage": "passed",
+  "native_eval_packet_shape_and_state_replay": "passed",
+  "native_eval_selection_and_routing_with_authored_answer_doubles": "passed",
+  "native_eval_specimens": 15,
+  "shared_runtime_patch_sha256": "0e8201ff2e0bf1f935ecaa76fcb080702c890cda59adeb0fecbd90b6eee44d93",
+  "checks_run": [
+    "bun run check",
+    "bun harness/verify.ts --case complex-support-04 --layer 3",
+    "bun cases/complex-support-04/verification/assertions.ts"
+  ]
 }
