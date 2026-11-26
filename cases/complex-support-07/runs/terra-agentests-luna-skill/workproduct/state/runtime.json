@@ -1,0 +1,486 @@
+{
+  "state": {
+    "now": "2026-10-20T15:30:00Z",
+    "domain": {
+      "holdUntil": "2026-10-23T18:00:00Z",
+      "path": "acquisition",
+      "custody": "accepted",
+      "payments": "accepted",
+      "bundle": "minimized",
+      "rental": "requested",
+      "buyerRefundCents": 492000,
+      "sellerPayableCents": 0,
+      "sellerPaidCents": 452000,
+      "bankPosted": false,
+      "fault": "unresolved",
+      "preservation": "PR-7714",
+      "release": false,
+      "privateRiskShared": false,
+      "evidenceBundle": {
+        "serialClaim": {
+          "buyer": "614",
+          "seller": "641"
+        },
+        "cropped": true,
+        "fault": "unresolved"
+      },
+      "custodyReceipt": {
+        "items": [
+          "camera",
+          "battery-1",
+          "battery-2",
+          "charger",
+          "case",
+          "rig",
+          "carton"
+        ],
+        "insured": true,
+        "nonDestructive": true,
+        "title": "platform",
+        "cause": "unresolved"
+      },
+      "pairedInstruction": {
+        "buyer": 492000,
+        "seller": 452000,
+        "sellerSource": "original-payable",
+        "recoveryFromSeller": 0
+      }
+    },
+    "tasks": [
+      {
+        "area": "trust",
+        "owner": "Talia",
+        "due": "2026-10-21T11:30:00Z",
+        "action": "Review neutral intake and serial comparison; no fraud finding or account action without separate process."
+      },
+      {
+        "area": "support",
+        "owner": "Rhea Moss",
+        "due": "2026-10-20T18:00:00Z",
+        "action": "At handoff track custody receipt 6 and payment receipts 7 and 9; Rowan to arrange separate buyer and seller updates by 15:45 and coordinate remaining complaints."
+      },
+      {
+        "area": "privacy",
+        "owner": "Sana",
+        "due": "2026-10-21T12:00:00Z",
+        "action": "Provide minimized neutral report to both owners and invite responses by October 21 12:45; extend response time if report is late, protecting private data."
+      },
+      {
+        "area": "logistics",
+        "owner": "Noor",
+        "due": "2026-10-21T10:00:00Z",
+        "action": "Confirm depot inventory; report material variance to Rowan and Pilar. For any failed or unsafe collection, issue a failure update and arrange next safe slot."
+      },
+      {
+        "area": "payments",
+        "owner": "Omar",
+        "due": "2026-10-21T10:30:00Z",
+        "action": "Track accepted payments and bank posting; process rental request. If prerequisites or payment fail, report actual status and use next eligible window without backdating."
+      }
+    ],
+    "commitments": {
+      "nextUpdate": "2026-10-20T15:45:00Z",
+      "domain": {
+        "holdUntil": "2026-10-23T18:00:00Z",
+        "path": "acquisition",
+        "custody": "accepted",
+        "payments": "accepted",
+        "bundle": "minimized",
+        "rental": "requested",
+        "buyerRefundCents": 492000,
+        "sellerPayableCents": 0,
+        "sellerPaidCents": 452000,
+        "bankPosted": false,
+        "fault": "unresolved",
+        "preservation": "PR-7714",
+        "release": false,
+        "privateRiskShared": false,
+        "evidenceBundle": {
+          "serialClaim": {
+            "buyer": "614",
+            "seller": "641"
+          },
+          "cropped": true,
+          "fault": "unresolved"
+        },
+        "custodyReceipt": {
+          "items": [
+            "camera",
+            "battery-1",
+            "battery-2",
+            "charger",
+            "case",
+            "rig",
+            "carton"
+          ],
+          "insured": true,
+          "nonDestructive": true,
+          "title": "platform",
+          "cause": "unresolved"
+        },
+        "pairedInstruction": {
+          "buyer": 492000,
+          "seller": 452000,
+          "sellerSource": "original-payable",
+          "recoveryFromSeller": 0
+        }
+      }
+    },
+    "handoff": {
+      "to": "Rhea Moss",
+      "note": "Rhea Moss: pickup receipt 6 confirmed full insured custody; if later variance appears, refer to Pilar. Payment submission receipt 7 and successful payment-poll receipt 9 confirm processor acceptance at 15:30, not bank posting. If collection or payment fails, Noor or Omar reports actual status; never backdate. Rental remains requested. Ensure both parties can respond to neutral report and Rowan updates them by 15:45.",
+      "domain": {
+        "holdUntil": "2026-10-23T18:00:00Z",
+        "path": "acquisition",
+        "custody": "accepted",
+        "payments": "accepted",
+        "bundle": "minimized",
+        "rental": "requested",
+        "buyerRefundCents": 492000,
+        "sellerPayableCents": 0,
+        "sellerPaidCents": 452000,
+        "bankPosted": false,
+        "fault": "unresolved",
+        "preservation": "PR-7714",
+        "release": false,
+        "privateRiskShared": false,
+        "evidenceBundle": {
+          "serialClaim": {
+            "buyer": "614",
+            "seller": "641"
+          },
+          "cropped": true,
+          "fault": "unresolved"
+        },
+        "custodyReceipt": {
+          "items": [
+            "camera",
+            "battery-1",
+            "battery-2",
+            "charger",
+            "case",
+            "rig",
+            "carton"
+          ],
+          "insured": true,
+          "nonDestructive": true,
+          "title": "platform",
+          "cause": "unresolved"
+        },
+        "pairedInstruction": {
+          "buyer": 492000,
+          "seller": 452000,
+          "sellerSource": "original-payable",
+          "recoveryFromSeller": 0
+        }
+      },
+      "tasks": [
+        {
+          "area": "trust",
+          "owner": "Talia",
+          "due": "2026-10-21T11:30:00Z",
+          "action": "Review neutral intake and serial comparison; no fraud finding or account action without separate process."
+        },
+        {
+          "area": "support",
+          "owner": "Rhea Moss",
+          "due": "2026-10-20T18:00:00Z",
+          "action": "At handoff track custody receipt 6 and payment receipts 7 and 9; Rowan to arrange separate buyer and seller updates by 15:45 and coordinate remaining complaints."
+        },
+        {
+          "area": "privacy",
+          "owner": "Sana",
+          "due": "2026-10-21T12:00:00Z",
+          "action": "Provide minimized neutral report to both owners and invite responses by October 21 12:45; extend response time if report is late, protecting private data."
+        },
+        {
+          "area": "logistics",
+          "owner": "Noor",
+          "due": "2026-10-21T10:00:00Z",
+          "action": "Confirm depot inventory; report material variance to Rowan and Pilar. For any failed or unsafe collection, issue a failure update and arrange next safe slot."
+        },
+        {
+          "area": "payments",
+          "owner": "Omar",
+          "due": "2026-10-21T10:30:00Z",
+          "action": "Track accepted payments and bank posting; process rental request. If prerequisites or payment fail, report actual status and use next eligible window without backdating."
+        }
+      ]
+    }
+  },
+  "audit": [
+    {
+      "seq": 1,
+      "command": "extend-hold",
+      "args": {},
+      "at": "2026-10-20T13:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 2,
+      "command": "elect-acquisition",
+      "args": {
+        "approval": "PF-92",
+        "owners": "Ada,Jules"
+      },
+      "at": "2026-10-20T13:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 3,
+      "command": "prepare-evidence",
+      "args": {},
+      "at": "2026-10-20T13:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 4,
+      "command": "rental-request",
+      "args": {
+        "cents": "12000"
+      },
+      "at": "2026-10-20T13:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 5,
+      "command": "clock",
+      "args": {
+        "to": "2026-10-20T14:00:00Z"
+      },
+      "at": "2026-10-20T14:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 6,
+      "command": "pickup",
+      "args": {
+        "scope": "complete-kit-and-packaging"
+      },
+      "at": "2026-10-20T14:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 7,
+      "command": "submit-paired",
+      "args": {
+        "buyer-cents": "492000",
+        "seller-cents": "452000"
+      },
+      "at": "2026-10-20T14:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 8,
+      "command": "clock",
+      "args": {
+        "to": "2026-10-20T15:30:00Z"
+      },
+      "at": "2026-10-20T15:30:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 9,
+      "command": "payment-poll",
+      "args": {},
+      "at": "2026-10-20T15:30:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 10,
+      "command": "task",
+      "args": {
+        "area": "logistics",
+        "owner": "Noor",
+        "due": "2026-10-21T10:00:00Z",
+        "action": "Obtain depot intake and preserve complete kit and packaging; report any discrepancy."
+      },
+      "at": "2026-10-20T15:30:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 11,
+      "command": "task",
+      "args": {
+        "area": "payments",
+        "owner": "Omar",
+        "due": "2026-10-21T11:00:00Z",
+        "action": "Track bank posting and reconcile accepted paired payment without duplicate payout; check and process separate rental request."
+      },
+      "at": "2026-10-20T15:30:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 12,
+      "command": "task",
+      "args": {
+        "area": "trust",
+        "owner": "Talia",
+        "due": "2026-10-21T11:30:00Z",
+        "action": "Review neutral intake and serial comparison; no fraud finding or account action without separate process."
+      },
+      "at": "2026-10-20T15:30:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 13,
+      "command": "task",
+      "args": {
+        "area": "privacy",
+        "owner": "Sana",
+        "due": "2026-10-21T12:00:00Z",
+        "action": "Arrange fair minimized evidence exchange and account-data explanation; protect restricted risk information."
+      },
+      "at": "2026-10-20T15:30:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 14,
+      "command": "task",
+      "args": {
+        "area": "support",
+        "owner": "Rhea Moss",
+        "due": "2026-10-20T18:00:00Z",
+        "action": "Take handoff; ensure separate authenticated buyer and seller updates, track rental and payments, and coordinate Lena sales-claim correction and Ren carrier response."
+      },
+      "at": "2026-10-20T15:30:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 15,
+      "command": "commitments",
+      "args": {
+        "next-update": "2026-10-20T15:45:00Z",
+        "snapshot": "{\"holdUntil\":\"2026-10-23T18:00:00Z\",\"path\":\"acquisition\",\"custody\":\"accepted\",\"payments\":\"accepted\",\"bundle\":\"minimized\",\"rental\":\"requested\",\"buyerRefundCents\":492000,\"sellerPayableCents\":0,\"sellerPaidCents\":452000,\"bankPosted\":false,\"fault\":\"unresolved\",\"preservation\":\"PR-7714\",\"release\":false,\"privateRiskShared\":false,\"evidenceBundle\":{\"serialClaim\":{\"buyer\":\"614\",\"seller\":\"641\"},\"cropped\":true,\"fault\":\"unresolved\"},\"custodyReceipt\":{\"items\":[\"camera\",\"battery-1\",\"battery-2\",\"charger\",\"case\",\"rig\",\"carton\"],\"insured\":true,\"nonDestructive\":true,\"title\":\"platform\",\"cause\":\"unresolved\"},\"pairedInstruction\":{\"buyer\":492000,\"seller\":452000,\"sellerSource\":\"original-payable\",\"recoveryFromSeller\":0}}"
+      },
+      "at": "2026-10-20T15:30:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 16,
+      "command": "handoff",
+      "args": {
+        "note": "Rhea Moss at 18:00: custody accepted under acquisition; paired payments accepted, bank posting unknown; rental requested only. Send separate updates by 15:45; track receipts, intake, risk, privacy, carrier and sales-claim correction."
+      },
+      "at": "2026-10-20T15:30:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 17,
+      "command": "task",
+      "args": {
+        "area": "support",
+        "owner": "Rhea Moss",
+        "due": "2026-10-20T18:00:00Z",
+        "action": "At handoff track custody receipt 6 and payment receipts 7 and 9; Rowan to arrange separate buyer and seller updates by 15:45 and coordinate remaining complaints."
+      },
+      "at": "2026-10-20T15:30:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 18,
+      "command": "commitments",
+      "args": {
+        "next-update": "2026-10-20T15:45:00Z",
+        "snapshot": "{\"holdUntil\":\"2026-10-23T18:00:00Z\",\"path\":\"acquisition\",\"custody\":\"accepted\",\"payments\":\"accepted\",\"bundle\":\"minimized\",\"rental\":\"requested\",\"buyerRefundCents\":492000,\"sellerPayableCents\":0,\"sellerPaidCents\":452000,\"bankPosted\":false,\"fault\":\"unresolved\",\"preservation\":\"PR-7714\",\"release\":false,\"privateRiskShared\":false,\"evidenceBundle\":{\"serialClaim\":{\"buyer\":\"614\",\"seller\":\"641\"},\"cropped\":true,\"fault\":\"unresolved\"},\"custodyReceipt\":{\"items\":[\"camera\",\"battery-1\",\"battery-2\",\"charger\",\"case\",\"rig\",\"carton\"],\"insured\":true,\"nonDestructive\":true,\"title\":\"platform\",\"cause\":\"unresolved\"},\"pairedInstruction\":{\"buyer\":492000,\"seller\":452000,\"sellerSource\":\"original-payable\",\"recoveryFromSeller\":0}}"
+      },
+      "at": "2026-10-20T15:30:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 19,
+      "command": "handoff",
+      "args": {
+        "note": "Rhea Moss at 18:00: pickup receipt 6 confirms insured complete-kit custody and platform title at 14:00. Election and owner notification receipt 2 at 13:00 preceded pickup. Submission receipt 7 and processor acceptance receipt 9; bank posting unknown. Rental requested only. Rowan to arrange separate updates by 15:45; follow intake, payment, risk, privacy, carrier and complaints."
+      },
+      "at": "2026-10-20T15:30:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 20,
+      "command": "task",
+      "args": {
+        "area": "logistics",
+        "owner": "Noor",
+        "due": "2026-10-21T10:00:00Z",
+        "action": "Obtain depot intake; report any material inventory variance to Rowan and Pilar for review; preserve all kit and packaging."
+      },
+      "at": "2026-10-20T15:30:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 21,
+      "command": "task",
+      "args": {
+        "area": "privacy",
+        "owner": "Sana",
+        "due": "2026-10-21T12:00:00Z",
+        "action": "Provide minimized neutral report to both owners and invite responses by October 21 12:45; extend response time if report is late, protecting private data."
+      },
+      "at": "2026-10-20T15:30:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 22,
+      "command": "commitments",
+      "args": {
+        "next-update": "2026-10-20T15:45:00Z",
+        "snapshot": "{\"holdUntil\":\"2026-10-23T18:00:00Z\",\"path\":\"acquisition\",\"custody\":\"accepted\",\"payments\":\"accepted\",\"bundle\":\"minimized\",\"rental\":\"requested\",\"buyerRefundCents\":492000,\"sellerPayableCents\":0,\"sellerPaidCents\":452000,\"bankPosted\":false,\"fault\":\"unresolved\",\"preservation\":\"PR-7714\",\"release\":false,\"privateRiskShared\":false,\"evidenceBundle\":{\"serialClaim\":{\"buyer\":\"614\",\"seller\":\"641\"},\"cropped\":true,\"fault\":\"unresolved\"},\"custodyReceipt\":{\"items\":[\"camera\",\"battery-1\",\"battery-2\",\"charger\",\"case\",\"rig\",\"carton\"],\"insured\":true,\"nonDestructive\":true,\"title\":\"platform\",\"cause\":\"unresolved\"},\"pairedInstruction\":{\"buyer\":492000,\"seller\":452000,\"sellerSource\":\"original-payable\",\"recoveryFromSeller\":0}}"
+      },
+      "at": "2026-10-20T15:30:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 23,
+      "command": "handoff",
+      "args": {
+        "note": "Rhea Moss: receipt 6 at 14:00 confirms insured custody of camera, two batteries, charger, case, rig and carton; title platform. Material inventory variance goes to Pilar. Receipt 7 submitted paired payments; successful payment-poll receipt 9 at 15:30 confirms processor acceptance, bank posting unknown. Rental only requested. Ensure both owners can respond to neutral report by October 21 12:45, extend if late. Rowan updates both by 15:45."
+      },
+      "at": "2026-10-20T15:30:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 24,
+      "command": "task",
+      "args": {
+        "area": "logistics",
+        "owner": "Noor",
+        "due": "2026-10-21T10:00:00Z",
+        "action": "Confirm depot inventory; report material variance to Rowan and Pilar. For any failed or unsafe collection, issue a failure update and arrange next safe slot."
+      },
+      "at": "2026-10-20T15:30:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 25,
+      "command": "task",
+      "args": {
+        "area": "payments",
+        "owner": "Omar",
+        "due": "2026-10-21T10:30:00Z",
+        "action": "Track accepted payments and bank posting; process rental request. If prerequisites or payment fail, report actual status and use next eligible window without backdating."
+      },
+      "at": "2026-10-20T15:30:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 26,
+      "command": "commitments",
+      "args": {
+        "next-update": "2026-10-20T15:45:00Z",
+        "snapshot": "{\"holdUntil\":\"2026-10-23T18:00:00Z\",\"path\":\"acquisition\",\"custody\":\"accepted\",\"payments\":\"accepted\",\"bundle\":\"minimized\",\"rental\":\"requested\",\"buyerRefundCents\":492000,\"sellerPayableCents\":0,\"sellerPaidCents\":452000,\"bankPosted\":false,\"fault\":\"unresolved\",\"preservation\":\"PR-7714\",\"release\":false,\"privateRiskShared\":false,\"evidenceBundle\":{\"serialClaim\":{\"buyer\":\"614\",\"seller\":\"641\"},\"cropped\":true,\"fault\":\"unresolved\"},\"custodyReceipt\":{\"items\":[\"camera\",\"battery-1\",\"battery-2\",\"charger\",\"case\",\"rig\",\"carton\"],\"insured\":true,\"nonDestructive\":true,\"title\":\"platform\",\"cause\":\"unresolved\"},\"pairedInstruction\":{\"buyer\":492000,\"seller\":452000,\"sellerSource\":\"original-payable\",\"recoveryFromSeller\":0}}"
+      },
+      "at": "2026-10-20T15:30:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 27,
+      "command": "handoff",
+      "args": {
+        "note": "Rhea Moss: pickup receipt 6 confirmed full insured custody; if later variance appears, refer to Pilar. Payment submission receipt 7 and successful payment-poll receipt 9 confirm processor acceptance at 15:30, not bank posting. If collection or payment fails, Noor or Omar reports actual status; never backdate. Rental remains requested. Ensure both parties can respond to neutral report and Rowan updates them by 15:45."
+      },
+      "at": "2026-10-20T15:30:00Z",
+      "outcome": "confirmed"
+    }
+  ]
+}

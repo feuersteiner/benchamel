@@ -1,0 +1,25 @@
+{
+  "captureCents": 492000,
+  "feeCents": 28000,
+  "outboundCents": 12000,
+  "payableCents": 452000,
+  "items": [
+    "camera",
+    "battery-1",
+    "battery-2",
+    "charger",
+    "case",
+    "rig",
+    "carton"
+  ],
+  "serialClaim": {
+    "buyer": "614",
+    "seller": "641"
+  },
+  "risk": {
+    "rawAddress": "SYNTHETIC-RESTRICTED",
+    "finding": null
+  },
+  "paymentBlock": false,
+  "priorRefundCents": 0
+}

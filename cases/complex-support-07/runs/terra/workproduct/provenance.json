@@ -1,0 +1,134 @@
+{
+  "version": "1.0",
+  "source": {
+    "repository": "https://github.com/feuersteiner/agent-tests",
+    "branch": "benchmark-v2",
+    "commit": "6142590525acb698e473671f2420022f64adfa71",
+    "path": "benchmark/v2/pilot/complex-support-07"
+  },
+  "documents": [
+    {
+      "id": "E01",
+      "file": "01-public-background.md",
+      "bytes": 3652,
+      "sha256": "132061884dd3173e0552e82430cc328e5580c7610347b139395c3f44a5a8c87d"
+    },
+    {
+      "id": "E02",
+      "file": "02-order.md",
+      "bytes": 3016,
+      "sha256": "3f7be69b82bc14a93addb74fe1c69772536b47dd430d0f92e90c393a80cb932d"
+    },
+    {
+      "id": "E03",
+      "file": "03-buyer-thread.md",
+      "bytes": 3099,
+      "sha256": "5fdeeed324dceffde42fc89c9377d4502c163839e179c02d88337cf0aa639131"
+    },
+    {
+      "id": "E04",
+      "file": "04-seller-thread.md",
+      "bytes": 3212,
+      "sha256": "4e4804b194eeee2c3590936f88167581c5d11ae1c8e112db75e9af5871818428"
+    },
+    {
+      "id": "E05",
+      "file": "05-current-policy.md",
+      "bytes": 3473,
+      "sha256": "118bcbbc49becdfdfefd9319e9184109004da9d3635d72addd35d24600025ebf"
+    },
+    {
+      "id": "E06",
+      "file": "06-superseded-playbook.md",
+      "bytes": 3238,
+      "sha256": "736e743d5424ce0815db77e4928572703d12649b0bb2f093d0c944501dba5339"
+    },
+    {
+      "id": "E07",
+      "file": "07-ledger.md",
+      "bytes": 3239,
+      "sha256": "e56d1b360f8c343eed7a69764b8d3289734491c4f0e141a3154d88b3953c6fbe"
+    },
+    {
+      "id": "E08",
+      "file": "08-evidence-register.md",
+      "bytes": 3271,
+      "sha256": "4b8ac6444fdae971c97a85bc196e78fcf36b5297b63fd80d8c26210d7aef6557"
+    },
+    {
+      "id": "E09",
+      "file": "09-carrier.md",
+      "bytes": 3252,
+      "sha256": "29e0edd056854f7ee8a4170671f50afa551f24800ffe879df3889e9f717b62c2"
+    },
+    {
+      "id": "E10",
+      "file": "10-risk-review.md",
+      "bytes": 3245,
+      "sha256": "dda61ee3127ce89952b1d126f7ac814e17b6793153c117c0bdc01bf2fbd9d909"
+    },
+    {
+      "id": "E11",
+      "file": "11-inspection.md",
+      "bytes": 3295,
+      "sha256": "079c65c1be4c61c0243b7962998b9c04773c6b8aca6c30226268be51f4883817"
+    },
+    {
+      "id": "E12",
+      "file": "12-commercial.md",
+      "bytes": 3408,
+      "sha256": "27955318a003022db740fb9a7af2f1d1d37033313c17bc33879803536b93bee8"
+    },
+    {
+      "id": "E13",
+      "file": "13-privacy.md",
+      "bytes": 3333,
+      "sha256": "1354d70e05d5c45144052973d36aa048592a9b7542864c13914c5a44f8276f24"
+    },
+    {
+      "id": "E14",
+      "file": "14-authority.md",
+      "bytes": 3373,
+      "sha256": "a887369ad5af999246da286b344ec232c9f1254c6c347ac7df7eca41e18e550a"
+    },
+    {
+      "id": "E15",
+      "file": "15-case-approval.md",
+      "bytes": 3534,
+      "sha256": "f19a9a6270a415f8e90385b4b1bd50c90c81f11c1396fb1f0325d154bbc6a5a4"
+    },
+    {
+      "id": "E16",
+      "file": "16-interpretation.md",
+      "bytes": 3351,
+      "sha256": "661b4a16095fbc5efb433f0f4482b82aeba500d2a124d4bd0a828707c062b77c"
+    },
+    {
+      "id": "E17",
+      "file": "17-chronology.md",
+      "bytes": 3141,
+      "sha256": "3b9be44ec5fb62bf4058df8a86d8d97256aa30b1499f3c7381286f2a94f9343c"
+    },
+    {
+      "id": "E18",
+      "file": "18-consent.md",
+      "bytes": 3547,
+      "sha256": "2f47b63e50dcfdb751a00597dfc8cf1574d8e7834f3e50416a5cfe5347635e3f"
+    },
+    {
+      "id": "E19",
+      "file": "19-tone.md",
+      "bytes": 3337,
+      "sha256": "c7ef5ceadb5d3abc75350454790ab7e3efd680c03a99bb7f266883d2da79a432"
+    },
+    {
+      "id": "E20",
+      "file": "20-handoff.md",
+      "bytes": 3252,
+      "sha256": "dfcd7499d85693b9062d75b73b7babc5873f0c9fb97dd4d92ca5d1ba5df658c9"
+    }
+  ],
+  "copied": "Twenty documents and sources.json copied byte-for-byte. No candidates, reviewer expectations or summary are supplied.",
+  "boundary": "Primary sources are attributed inspiration; business records, runnable integrations and simulated responses are synthetic reconstruction. Current documentation is not backdated contract authority.",
+  "sourcesFileSha256": "d7ed64ffd3905aaa3409620d017f007b2e0197e2d285fa9bcce582abe5b88958"
+}

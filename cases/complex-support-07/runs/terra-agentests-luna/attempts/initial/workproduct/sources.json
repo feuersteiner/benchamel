@@ -1,0 +1,74 @@
+{
+	"version": "1.0",
+	"licenseStatus": "Current primary policies are publicly readable; no open transcript redistribution license asserted. Only short original factual paraphrases are included, with synthetic case records and no raw source media or personal identifiers.",
+	"sources": [
+		{
+			"id": "S01",
+			"url": "https://www.ebay.com/help/policies/ebay-money-back-guarantee-policy/ebay-money-back-guarantee-policy?id=4210",
+			"stableIdentifier": "ebay:help:4210",
+			"publicationDate": null,
+			"retrievedDate": "2026-11-23",
+			"updateUncertainty": "publication-date-unknown; current mutable policy retrieved in November 2026, not an archived transaction-era contract.",
+			"reuseBasis": "original factual paraphrase, no transcript license asserted",
+			"quotesWords": 0,
+			"representation": {
+				"documentId": "E01",
+				"paragraphPrefix": "S01:",
+				"sha256": "4d7f934a2bb0ee45522e7a4a6a0d7d15ed2963f614c1c86dc6bd70e0700125e8",
+				"hashScope": "UTF-8 bytes of this local authored paragraph only; not an original page hash"
+			},
+			"retrievalUrl": "https://www.ebay.com/help/policies/ebay-money-back-guarantee-policy/ebay-money-back-guarantee-policy?id=4210"
+		},
+		{
+			"id": "S02",
+			"url": "https://www.ebay.com/help/policies/selling-policies/seller-protection-policy?id=4345",
+			"stableIdentifier": "ebay:help:4345",
+			"publicationDate": null,
+			"retrievedDate": "2026-11-23",
+			"updateUncertainty": "publication-date-unknown; current mutable help policy includes linked current information; historical text not independently archived.",
+			"reuseBasis": "original factual paraphrase, no transcript license asserted",
+			"quotesWords": 0,
+			"representation": {
+				"documentId": "E01",
+				"paragraphPrefix": "S02:",
+				"sha256": "6038bc7bebbf0d7666f2f6280b057d8bfb24817daf985cdfefe17897e8561681",
+				"hashScope": "UTF-8 bytes of this local authored paragraph only; not an original page hash"
+			},
+			"retrievalUrl": "https://www.ebay.com/help/policies/selling-policies/seller-protection-policy?id=4345"
+		},
+		{
+			"id": "S03",
+			"url": "https://www.etsy.com/legal/policy/purchase-protection-program-for-sellers/34509585385",
+			"stableIdentifier": "etsy:policy:34509585385",
+			"publicationDate": "2026-06-09",
+			"retrievedDate": "2026-11-23",
+			"updateUncertainty": "Page reports last updated June 9 2026 and effective July 9 2026; the recorded publicationDate uses the explicit update date, not an inferred original publication.",
+			"reuseBasis": "original factual paraphrase, no transcript license asserted",
+			"quotesWords": 0,
+			"representation": {
+				"documentId": "E01",
+				"paragraphPrefix": "S03:",
+				"sha256": "7d7d57db7aa737fbde22b5d7230da9eaa97ba021d449012e8a5adc6c95eb60e1",
+				"hashScope": "UTF-8 bytes of this local authored paragraph only; not an original page hash"
+			},
+			"retrievalUrl": "https://www.etsy.com/legal/policy/purchase-protection-program-for-sellers/34509585385"
+		},
+		{
+			"id": "S04",
+			"url": "https://www.paypal.com/us/legalhub/paypal/buyer-protection",
+			"stableIdentifier": "paypal:us:buyer-protection",
+			"publicationDate": "2026-01-26",
+			"retrievedDate": "2026-11-23",
+			"updateUncertainty": "Page explicitly reports last updated January 26 2026; mutable current policy, not an archived older contract. The recorded publicationDate uses that update date.",
+			"reuseBasis": "original factual paraphrase, no transcript license asserted",
+			"quotesWords": 0,
+			"representation": {
+				"documentId": "E01",
+				"paragraphPrefix": "S04:",
+				"sha256": "e17974194feea8ea7d652b87132c0b23c215b158d9ed0507a0ecf72445b4ae35",
+				"hashScope": "UTF-8 bytes of this local authored paragraph only; not an original page hash"
+			},
+			"retrievalUrl": "https://www.paypal.com/us/legalhub/paypal/buyer-protection"
+		}
+	]
+}
