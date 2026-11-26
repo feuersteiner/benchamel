@@ -53,18 +53,21 @@ try {
   for(const [file,text] of Object.entries(packet.outputs))await writeFile(join(temp,file),text);
   const targets=['legal-custody-acceptance-prerequisite','legal-custody-complete-kit-scope','legal-custody-insurance','legal-custody-neutrality','legal-election-before-pickup','legal-buyer-notice-before-pickup','legal-seller-notice-before-pickup','marketing-annual-acceptance-status','customer-support-bank-posting-status'];
   for(const decision of ['luna','jev'] as const) {
-    const pass=await gate(root,temp,decision,({domain,packet})=>{
-      assert.deepEqual(Object.keys(packet.evidence).sort(),[...suite.find(s=>s.domain===domain)!.evidence!].sort());
+    const reviewWorkspace=await mkdtemp(join(tmpdir(),'cs07-review-'));
+    try{await cp(temp,reviewWorkspace,{recursive:true});
+    const pass=await gate(root,reviewWorkspace,decision,({domain,assertion,packet})=>{
+      const selected=suite.find(s=>s.domain===domain)!,a=selected.test.assert.find(a=>a.id===assertion)!;const ids=[...new Set([a.decide!].flat()[0]!.match(/\bE\d{2}\b/g)??[])];assert.deepEqual(Object.keys(packet.evidence).sort(),(ids.length?ids:[...selected.evidence!]).sort());
       return 1;
     });
     assert.equal(pass.pass,true);assert.equal(pass.offlineDecisionCalls,82);
     for(const target of targets) {
-      const result=await gate(root,temp,decision,input=>input.assertion===target?0:1);
+      const result=await gate(root,reviewWorkspace,decision,input=>input.assertion===target?0:1);
       assert.equal(result.pass,false);assert.equal(result.offlineDecisionCalls,82);
       const owner=suite.find(s=>s.test.assert.some(a=>a.id===target))!;
       const assertion=owner.test.assert.find(a=>a.id===target)!;
       assert.deepEqual(result.findings,[{test:owner.test.id,domain:owner.domain,assertion:target,error:assertion.error}]);
     }
+    }finally{await rm(reviewWorkspace,{recursive:true,force:true});}
   }
 }finally {await rm(temp,{recursive:true,force:true});}
 console.log(JSON.stringify({offline:true,assertions:82,domains:3,specimens,selectedPackets:selected,presets:['luna','jev'],singleFailureTargets:9,semanticValidation:'not-run'}));
