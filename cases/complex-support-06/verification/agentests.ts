@@ -1,3 +1,4 @@
+import {compactState} from '../../../harness/treatments/context.ts';
 /** Offline native-schema and authored-specimen checks; no decision-provider calls. */
 import assert from 'node:assert/strict';
 import {cp,mkdtemp,readFile,rm,writeFile} from 'node:fs/promises';
@@ -67,17 +68,21 @@ try {
   const safe=await Bun.file(join(base,'customer-support/evals/safe/review.md')).json();
   await writeFile(join(workspace,'state/runtime.json'),JSON.stringify({state:safe.state,audit:safe.audit}));
   for(const file of ['reply.md','plan.md'])await writeFile(join(workspace,file),safe.outputs[file]);
-  for(const decision of ['luna','jev'] as const)for(const target of suite) {
+  for(const decision of ['luna','jev'] as const){
+    const reviewWorkspace=await mkdtemp(join(tmpdir(),'cs06-review-'));
+    try{await cp(workspace,reviewWorkspace,{recursive:true});for(const target of suite) {
     const id=target.test.assert[0]!.id;const visited=new Set<string>();
-    const result=await gate(root,workspace,decision,input=>{
+    const result=await gate(root,reviewWorkspace,decision,input=>{
       assert(!visited.has(input.assertion));visited.add(input.assertion);
       const domain=suite.find(s=>s.domain===input.domain)!;
-      assert.deepEqual(Object.keys(input.packet.evidence),domain.evidence!);
-      assert.deepEqual(input.packet.state,safe.state);assert.deepEqual(input.packet.audit,safe.audit);
+      const a=domain.test.assert.find(a=>a.id===input.assertion)!;const ids=[...new Set([a.decide!].flat()[0]!.match(/\bE\d{2}\b/g)??[])];assert.deepEqual(Object.keys(input.packet.evidence),(ids.length?ids:domain.evidence!));
+      const represented=compactState(safe.state,safe.audit);assert.deepEqual(input.packet.state,represented.state);assert.deepEqual(input.packet.audit,represented.audit);
       return input.assertion===id?0:1;
     });
     assert.equal(result.offlineDecisionCalls,seen.size);assert.equal(visited.size,seen.size);
     assert.equal(result.pass,false);assert.deepEqual(result.findings,[{test:target.test.id,domain:target.domain,assertion:id,error:target.test.assert[0]!.error}]);
+  }
+    }finally{await rm(reviewWorkspace,{recursive:true,force:true});}
   }
 }finally {await rm(workspace,{recursive:true,force:true});}
 console.log(JSON.stringify({offline:true,counts,specimens:15,nativeProviders:['luna','jev'],singleFailureGates:6,semanticInference:'not-run'}));

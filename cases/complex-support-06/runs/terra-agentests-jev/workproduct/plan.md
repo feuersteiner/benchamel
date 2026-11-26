@@ -1,0 +1,27 @@
+# Incident plan — 23 November 2026, 15:45 UTC
+
+## Current state and receipts
+
+- Receipt 1: transactional scheduler stopped through 25 November 15:00; information available. Main production form remains blocked.
+- Receipt 2: voluntary 15:40 synthetic-data session invited before 15:15. Attendance, outcome and recording consent are not established.
+- Receipt 3: unsupported badge and universal claim contained; vendor 18:00 campaign held. Detailed notice publication and recipient delivery are not confirmed; Trust channels remain under Trust control.
+- Receipt 4: Anya asked to review whether partner-origin people registering directly fall within the approved population. Review pending; partner import off.
+- Receipt 5: 19 drafts preserved in existing protected tenant, all unsubmitted; snapshot SHA-256 `2baa9335b08395da78d5074726fc013f7e71b1da7d540177483156b32c24a97c`. Mira must verify file associations and reference-only reconciliation.
+- Receipt 7: Simple Intake 2.3 bounded retest passed. One accepted reference persisted through notification failure and retry; notification progressed from pending to sent without a second submission. Test environments were Chrome 142 keyboard and Firefox 144/NVDA 2025.3 on Windows 11. This synthetic result is neither customer acceptance nor general conformance.
+- Receipts 8–12 assign engineering, data, launch, communications and support. Receipt 15 specifies the correction assignment; receipts 16 and 17 refresh the exact domain snapshot, 16:30 update and Kavi handoff. `bun run check` passed offline.
+
+## Decisions and work
+
+Keep transactional opening stopped and recommend an information-only notice until Ruth's written temporary-service acceptance and Ada's recorded opening decision exist. LA-19 permits Simple Intake 2.3 for direct applicants through 30 November 17:00, subject to its gates; it excludes partner import. At 16:00 Anya reviews the ambiguous associated-intake delegation, with escalation at 16:20. Ada decides population and program scope; do not treat silence as agreement. The 42 partner expressions may overlap the 34 direct accounts. Nia should prepare partner holding information for Ada's approval; Mira reviews consent, duplicates and account creation before any expanded processing.
+
+Mira, by 16:15: verify the preservation and file associations, prepare reference-only reconciliation and applicant-controlled transfer instructions. Do not silently submit or migrate drafts. The form uses existing protected tenant storage, one file at a time, maximum 10 MB; any larger-file route needs Ruth's necessity check. A failed notification requires reference and tenant-event checks before retry, with no-penalty handling for service failures.
+
+Juno, by 16:15: own the replacement wording and confirm actual publication time and URL for the limitation notice and replacement brochure. Owen is assigned to deliver the correction to Rivermere, including the old signoff email; Sales Operations is assigned to deliver it to all five other known sent-brochure recipients. Obtain delivery receipts for all six; delivery is pending. The replacement notice and recipient correction must explicitly say: “The previous certification and universal accessibility claims were unsupported. In the current application, an evidence-upload error can leave keyboard and screen-reader users unable to reach the declaration and complete submission. Transactional intake is stopped while a temporary route and the repair are reviewed. Information and the contact route remain available.” Preserve original claims and evidence. Prepare a Trust deferral notice for Ada's team; do not represent Trust publication as complete. Ask who authorized the original claim without delaying correction.
+
+Farah's bounded result and its limitations go to Ruth and Ada; voluntary user testing is additional evidence, not a gate or endorsement. Dan owns main-form repair, error recovery and regression of uploads, declaration, receipts and duplicate/failed submissions. His next report is 24 November 12:00; 26 November is the earliest testable build target. Full assessment and broader evaluation remain unconfirmed, and a later return to the main form requires controlled migration and acceptance.
+
+Elise provides a truthful update by 16:30 even if decisions or publication are delayed. If gates remain open, maintain the stop and agree the next checkpoint with Anya and Ruth; Anya must confirm any extension beyond 25 November 15:00. Ada alone can approve a general deadline extension after funder communication; consider fair access and lost time, not just the nominal 4 December close. Lena and Ada review any service-start or fee request on 24 November at 11:00. No remedy or waiver is recorded, and the complaint and technical work remain open independently of commercial choices.
+
+## Handoff
+
+At 17:30 Elise briefs evening lead Kavi Stone on the actual scheduler, notice and customer decision, LA-19 scope and expiry, partner question, drafts, contact route and next checkpoint. If closed, preserve drafts and tell users when the next decision update is due. If an authorized temporary opening later occurs, monitor failed submissions and check references before suggesting retries. Assistance is staffed daily 08:00–18:00 UTC, with failure monitoring outside those hours; it is voluntary and does not replace independent access. Refresh the commitment snapshot and handoff after any state change.

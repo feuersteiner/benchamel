@@ -1,0 +1,24 @@
+{
+  "case": "complex-support-06",
+  "arm": "terra-skill",
+  "pid": 45629,
+  "startedAt": "2026-11-26T05:25:24.724Z",
+  "endedAt": "2026-11-26T05:27:15.080Z",
+  "status": "completed",
+  "exit": 0,
+  "source_commit": "7134142f155253728a0f570a29d802d569c96e0c",
+  "execution_commit": "7134142f155253728a0f570a29d802d569c96e0c",
+  "versions": {
+    "codex": "codex-cli 0.172.0-alpha.2",
+    "bun": "1.3.3",
+    "node": "v22.19.0"
+  },
+  "transport": "none",
+  "errors": [],
+  "failure_reason": null,
+  "gate_reviews": [],
+  "task_turns": 1,
+  "retained_final_replicates": 1,
+  "initial_attempt_preserved": false,
+  "paced_attempt_preserved": false
+}

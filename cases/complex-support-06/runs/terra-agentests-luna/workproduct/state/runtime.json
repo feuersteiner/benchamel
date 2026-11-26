@@ -1,0 +1,625 @@
+{
+  "state": {
+    "now": "2026-11-23T15:45:00Z",
+    "domain": {
+      "opening": "stopped",
+      "information": "available",
+      "drafts": "preserved",
+      "temporary": "bounded-pass",
+      "claims": "contained",
+      "scope": "review-pending",
+      "invitation": true,
+      "productionForm": "blocked",
+      "customerAcceptance": null,
+      "partnerImport": "off",
+      "feeRemedy": null,
+      "draftCount": 19,
+      "draftInventory": [
+        {
+          "reference": "R-00",
+          "submitted": false
+        },
+        {
+          "reference": "R-01",
+          "submitted": false
+        },
+        {
+          "reference": "R-02",
+          "submitted": false
+        },
+        {
+          "reference": "R-03",
+          "submitted": false
+        },
+        {
+          "reference": "R-04",
+          "submitted": false
+        },
+        {
+          "reference": "R-05",
+          "submitted": false
+        },
+        {
+          "reference": "R-06",
+          "submitted": false
+        },
+        {
+          "reference": "R-07",
+          "submitted": false
+        },
+        {
+          "reference": "R-08",
+          "submitted": false
+        },
+        {
+          "reference": "R-09",
+          "submitted": false
+        },
+        {
+          "reference": "R-10",
+          "submitted": false
+        },
+        {
+          "reference": "R-11",
+          "submitted": false
+        },
+        {
+          "reference": "R-12",
+          "submitted": false
+        },
+        {
+          "reference": "R-13",
+          "submitted": false
+        },
+        {
+          "reference": "R-14",
+          "submitted": false
+        },
+        {
+          "reference": "R-15",
+          "submitted": false
+        },
+        {
+          "reference": "R-16",
+          "submitted": false
+        },
+        {
+          "reference": "R-17",
+          "submitted": false
+        },
+        {
+          "reference": "R-18",
+          "submitted": false
+        }
+      ],
+      "draftSnapshotSha": "2baa9335b08395da78d5074726fc013f7e71b1da7d540177483156b32c24a97c",
+      "acceptedReferences": 1,
+      "retest": {
+        "screens": [
+          {
+            "reference": "REF-A",
+            "status": "accepted",
+            "notification": "pending",
+            "retryCreatesNew": false
+          },
+          {
+            "reference": "REF-A",
+            "status": "accepted",
+            "notification": "sent",
+            "retryCreatesNew": false
+          }
+        ],
+        "environments": [
+          "Chrome142-keyboard",
+          "Firefox144-NVDA2025.3-Windows11"
+        ],
+        "universalConformance": false
+      }
+    },
+    "tasks": [
+      {
+        "area": "engineering",
+        "owner": "Farah",
+        "due": "2026-11-23T15:50:00Z",
+        "action": "Complete notification-failure retest and report build, observed behavior and limits to Dan and Anya; Dan owns repair and regression."
+      },
+      {
+        "area": "data",
+        "owner": "Mira",
+        "due": "2026-11-23T16:15:00Z",
+        "action": "Verify preserved draft associations and prepare reference-only applicant-controlled reconciliation without treating drafts as submissions."
+      },
+      {
+        "area": "launch",
+        "owner": "Anya",
+        "due": "2026-11-23T16:20:00Z",
+        "action": "Review LA-19 gates and partner-origin scope with Ruth and Ada; record decision or keep stop and set checkpoint."
+      },
+      {
+        "area": "support",
+        "owner": "Kavi",
+        "due": "2026-11-23T17:30:00Z",
+        "action": "Receive handoff, maintain contact route and drafts, monitor failures and advise next decision update."
+      },
+      {
+        "area": "communications",
+        "owner": "Juno",
+        "due": "2026-11-23T16:20:00Z",
+        "action": "Correct the prior representation explicitly: LanternPath is not established as WCAG 2.2 AA certified; no supporting certification or certifier has been identified. The full-accessibility and signoff claims were unsupported, and the current application has a reproduced blocker. Deliver this correction to all six known sent-brochure recipients: Owen to Rivermere, Sales Operations to the other five; track proof of delivery and preserve copies."
+      }
+    ],
+    "commitments": {
+      "nextUpdate": "2026-11-23T16:30:00Z",
+      "domain": {
+        "opening": "stopped",
+        "information": "available",
+        "drafts": "preserved",
+        "temporary": "bounded-pass",
+        "claims": "contained",
+        "scope": "review-pending",
+        "invitation": true,
+        "productionForm": "blocked",
+        "customerAcceptance": null,
+        "partnerImport": "off",
+        "feeRemedy": null,
+        "draftCount": 19,
+        "draftInventory": [
+          {
+            "reference": "R-00",
+            "submitted": false
+          },
+          {
+            "reference": "R-01",
+            "submitted": false
+          },
+          {
+            "reference": "R-02",
+            "submitted": false
+          },
+          {
+            "reference": "R-03",
+            "submitted": false
+          },
+          {
+            "reference": "R-04",
+            "submitted": false
+          },
+          {
+            "reference": "R-05",
+            "submitted": false
+          },
+          {
+            "reference": "R-06",
+            "submitted": false
+          },
+          {
+            "reference": "R-07",
+            "submitted": false
+          },
+          {
+            "reference": "R-08",
+            "submitted": false
+          },
+          {
+            "reference": "R-09",
+            "submitted": false
+          },
+          {
+            "reference": "R-10",
+            "submitted": false
+          },
+          {
+            "reference": "R-11",
+            "submitted": false
+          },
+          {
+            "reference": "R-12",
+            "submitted": false
+          },
+          {
+            "reference": "R-13",
+            "submitted": false
+          },
+          {
+            "reference": "R-14",
+            "submitted": false
+          },
+          {
+            "reference": "R-15",
+            "submitted": false
+          },
+          {
+            "reference": "R-16",
+            "submitted": false
+          },
+          {
+            "reference": "R-17",
+            "submitted": false
+          },
+          {
+            "reference": "R-18",
+            "submitted": false
+          }
+        ],
+        "draftSnapshotSha": "2baa9335b08395da78d5074726fc013f7e71b1da7d540177483156b32c24a97c",
+        "acceptedReferences": 1,
+        "retest": {
+          "screens": [
+            {
+              "reference": "REF-A",
+              "status": "accepted",
+              "notification": "pending",
+              "retryCreatesNew": false
+            },
+            {
+              "reference": "REF-A",
+              "status": "accepted",
+              "notification": "sent",
+              "retryCreatesNew": false
+            }
+          ],
+          "environments": [
+            "Chrome142-keyboard",
+            "Firefox144-NVDA2025.3-Windows11"
+          ],
+          "universalConformance": false
+        }
+      }
+    },
+    "handoff": {
+      "to": "Kavi",
+      "note": "Kavi Stone at 17:30: opening stopped through Nov 25 15:00, information available; main form blocked, no Ruth acceptance or Ada opening decision. LA-19 direct applicants only through Nov 30 17:00, subject to gates; partner scope pending, import off. Preserve 19 unsubmitted drafts and contact route; check reference before retry. Claims contained. Juno tracks explicit correction that the WCAG 2.2 AA certification claim was unsupported and the current application has a reproduced blocker; Owen delivers to Rivermere and Sales Operations to the other five known brochure recipients. Publication and delivery unconfirmed. Next customer update 16:30; Dan progress Nov 24 12:00. Staffed 08:00-18:00; monitor outages outside hours; escalate to Anya and Ruth.",
+      "domain": {
+        "opening": "stopped",
+        "information": "available",
+        "drafts": "preserved",
+        "temporary": "bounded-pass",
+        "claims": "contained",
+        "scope": "review-pending",
+        "invitation": true,
+        "productionForm": "blocked",
+        "customerAcceptance": null,
+        "partnerImport": "off",
+        "feeRemedy": null,
+        "draftCount": 19,
+        "draftInventory": [
+          {
+            "reference": "R-00",
+            "submitted": false
+          },
+          {
+            "reference": "R-01",
+            "submitted": false
+          },
+          {
+            "reference": "R-02",
+            "submitted": false
+          },
+          {
+            "reference": "R-03",
+            "submitted": false
+          },
+          {
+            "reference": "R-04",
+            "submitted": false
+          },
+          {
+            "reference": "R-05",
+            "submitted": false
+          },
+          {
+            "reference": "R-06",
+            "submitted": false
+          },
+          {
+            "reference": "R-07",
+            "submitted": false
+          },
+          {
+            "reference": "R-08",
+            "submitted": false
+          },
+          {
+            "reference": "R-09",
+            "submitted": false
+          },
+          {
+            "reference": "R-10",
+            "submitted": false
+          },
+          {
+            "reference": "R-11",
+            "submitted": false
+          },
+          {
+            "reference": "R-12",
+            "submitted": false
+          },
+          {
+            "reference": "R-13",
+            "submitted": false
+          },
+          {
+            "reference": "R-14",
+            "submitted": false
+          },
+          {
+            "reference": "R-15",
+            "submitted": false
+          },
+          {
+            "reference": "R-16",
+            "submitted": false
+          },
+          {
+            "reference": "R-17",
+            "submitted": false
+          },
+          {
+            "reference": "R-18",
+            "submitted": false
+          }
+        ],
+        "draftSnapshotSha": "2baa9335b08395da78d5074726fc013f7e71b1da7d540177483156b32c24a97c",
+        "acceptedReferences": 1,
+        "retest": {
+          "screens": [
+            {
+              "reference": "REF-A",
+              "status": "accepted",
+              "notification": "pending",
+              "retryCreatesNew": false
+            },
+            {
+              "reference": "REF-A",
+              "status": "accepted",
+              "notification": "sent",
+              "retryCreatesNew": false
+            }
+          ],
+          "environments": [
+            "Chrome142-keyboard",
+            "Firefox144-NVDA2025.3-Windows11"
+          ],
+          "universalConformance": false
+        }
+      },
+      "tasks": [
+        {
+          "area": "engineering",
+          "owner": "Farah",
+          "due": "2026-11-23T15:50:00Z",
+          "action": "Complete notification-failure retest and report build, observed behavior and limits to Dan and Anya; Dan owns repair and regression."
+        },
+        {
+          "area": "data",
+          "owner": "Mira",
+          "due": "2026-11-23T16:15:00Z",
+          "action": "Verify preserved draft associations and prepare reference-only applicant-controlled reconciliation without treating drafts as submissions."
+        },
+        {
+          "area": "launch",
+          "owner": "Anya",
+          "due": "2026-11-23T16:20:00Z",
+          "action": "Review LA-19 gates and partner-origin scope with Ruth and Ada; record decision or keep stop and set checkpoint."
+        },
+        {
+          "area": "support",
+          "owner": "Kavi",
+          "due": "2026-11-23T17:30:00Z",
+          "action": "Receive handoff, maintain contact route and drafts, monitor failures and advise next decision update."
+        },
+        {
+          "area": "communications",
+          "owner": "Juno",
+          "due": "2026-11-23T16:20:00Z",
+          "action": "Correct the prior representation explicitly: LanternPath is not established as WCAG 2.2 AA certified; no supporting certification or certifier has been identified. The full-accessibility and signoff claims were unsupported, and the current application has a reproduced blocker. Deliver this correction to all six known sent-brochure recipients: Owen to Rivermere, Sales Operations to the other five; track proof of delivery and preserve copies."
+        }
+      ]
+    }
+  },
+  "audit": [
+    {
+      "seq": 1,
+      "command": "stop-opening",
+      "args": {
+        "scope": "transactional-only"
+      },
+      "at": "2026-11-23T15:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 2,
+      "command": "invite-session",
+      "args": {},
+      "at": "2026-11-23T15:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 3,
+      "command": "preserve-drafts",
+      "args": {
+        "destination": "existing-protected-tenant"
+      },
+      "at": "2026-11-23T15:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 4,
+      "command": "contain-claims",
+      "args": {
+        "campaign": "18:00-hold"
+      },
+      "at": "2026-11-23T15:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 5,
+      "command": "scope-review",
+      "args": {
+        "question": "Does associated intake administration include new partner-origin direct registrations, and what decision and safeguards are required for the 42 referrals?"
+      },
+      "at": "2026-11-23T15:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 6,
+      "command": "task",
+      "args": {
+        "area": "engineering",
+        "owner": "Farah",
+        "due": "2026-11-23T15:50:00Z",
+        "action": "Complete notification-failure retest and report build, observed behavior and limits to Dan and Anya; Dan owns repair and regression."
+      },
+      "at": "2026-11-23T15:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 7,
+      "command": "task",
+      "args": {
+        "area": "data",
+        "owner": "Mira",
+        "due": "2026-11-23T16:15:00Z",
+        "action": "Verify preserved draft associations and prepare reference-only applicant-controlled reconciliation without treating drafts as submissions."
+      },
+      "at": "2026-11-23T15:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 8,
+      "command": "task",
+      "args": {
+        "area": "launch",
+        "owner": "Anya",
+        "due": "2026-11-23T16:20:00Z",
+        "action": "Review LA-19 gates and partner-origin scope with Ruth and Ada; record decision or keep stop and set checkpoint."
+      },
+      "at": "2026-11-23T15:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 9,
+      "command": "task",
+      "args": {
+        "area": "communications",
+        "owner": "Juno",
+        "due": "2026-11-23T16:20:00Z",
+        "action": "Confirm publication and recipient correction status, replace brochure, and coordinate Trust-owned notices without applicant details."
+      },
+      "at": "2026-11-23T15:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 10,
+      "command": "task",
+      "args": {
+        "area": "support",
+        "owner": "Kavi",
+        "due": "2026-11-23T17:30:00Z",
+        "action": "Receive handoff, maintain contact route and drafts, monitor failures and advise next decision update."
+      },
+      "at": "2026-11-23T15:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 11,
+      "command": "clock",
+      "args": {
+        "to": "2026-11-23T15:45:00Z"
+      },
+      "at": "2026-11-23T15:45:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 12,
+      "command": "retest-intake",
+      "args": {
+        "version": "2.3"
+      },
+      "at": "2026-11-23T15:45:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 13,
+      "command": "commitments",
+      "args": {
+        "next-update": "2026-11-23T16:30:00Z",
+        "snapshot": "{\"opening\":\"stopped\",\"information\":\"available\",\"drafts\":\"preserved\",\"temporary\":\"bounded-pass\",\"claims\":\"contained\",\"scope\":\"review-pending\",\"invitation\":true,\"productionForm\":\"blocked\",\"customerAcceptance\":null,\"partnerImport\":\"off\",\"feeRemedy\":null,\"draftCount\":19,\"draftInventory\":[{\"reference\":\"R-00\",\"submitted\":false},{\"reference\":\"R-01\",\"submitted\":false},{\"reference\":\"R-02\",\"submitted\":false},{\"reference\":\"R-03\",\"submitted\":false},{\"reference\":\"R-04\",\"submitted\":false},{\"reference\":\"R-05\",\"submitted\":false},{\"reference\":\"R-06\",\"submitted\":false},{\"reference\":\"R-07\",\"submitted\":false},{\"reference\":\"R-08\",\"submitted\":false},{\"reference\":\"R-09\",\"submitted\":false},{\"reference\":\"R-10\",\"submitted\":false},{\"reference\":\"R-11\",\"submitted\":false},{\"reference\":\"R-12\",\"submitted\":false},{\"reference\":\"R-13\",\"submitted\":false},{\"reference\":\"R-14\",\"submitted\":false},{\"reference\":\"R-15\",\"submitted\":false},{\"reference\":\"R-16\",\"submitted\":false},{\"reference\":\"R-17\",\"submitted\":false},{\"reference\":\"R-18\",\"submitted\":false}],\"draftSnapshotSha\":\"2baa9335b08395da78d5074726fc013f7e71b1da7d540177483156b32c24a97c\",\"acceptedReferences\":1,\"retest\":{\"screens\":[{\"reference\":\"REF-A\",\"status\":\"accepted\",\"notification\":\"pending\",\"retryCreatesNew\":false},{\"reference\":\"REF-A\",\"status\":\"accepted\",\"notification\":\"sent\",\"retryCreatesNew\":false}],\"environments\":[\"Chrome142-keyboard\",\"Firefox144-NVDA2025.3-Windows11\"],\"universalConformance\":false}}"
+      },
+      "at": "2026-11-23T15:45:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 14,
+      "command": "handoff",
+      "args": {
+        "note": "Kavi Stone at 17:30: opening stopped through Nov 25 15:00, information available; main form blocked, no Ruth acceptance or Ada opening decision. LA-19 direct applicants only through Nov 30 17:00, subject to gates; partner scope pending, import off. Preserve 19 unsubmitted drafts and contact route; check reference before retry. Claims contained; publication and recipient notification unconfirmed. Next customer update 16:30; Dan progress Nov 24 12:00. Staffed 08:00-18:00, monitor outages outside hours; escalate unresolved decisions to Anya and Ruth."
+      },
+      "at": "2026-11-23T15:45:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 15,
+      "command": "task",
+      "args": {
+        "area": "communications",
+        "owner": "Juno",
+        "due": "2026-11-23T16:20:00Z",
+        "action": "Own and track correction delivery to all six known sent-brochure recipients: Owen delivers to Rivermere and Sales Operations delivers to the other five. Replace the brochure, preserve sent copies, and confirm delivery status; no applicant details."
+      },
+      "at": "2026-11-23T15:45:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 16,
+      "command": "commitments",
+      "args": {
+        "next-update": "2026-11-23T16:30:00Z",
+        "snapshot": "{\"opening\":\"stopped\",\"information\":\"available\",\"drafts\":\"preserved\",\"temporary\":\"bounded-pass\",\"claims\":\"contained\",\"scope\":\"review-pending\",\"invitation\":true,\"productionForm\":\"blocked\",\"customerAcceptance\":null,\"partnerImport\":\"off\",\"feeRemedy\":null,\"draftCount\":19,\"draftInventory\":[{\"reference\":\"R-00\",\"submitted\":false},{\"reference\":\"R-01\",\"submitted\":false},{\"reference\":\"R-02\",\"submitted\":false},{\"reference\":\"R-03\",\"submitted\":false},{\"reference\":\"R-04\",\"submitted\":false},{\"reference\":\"R-05\",\"submitted\":false},{\"reference\":\"R-06\",\"submitted\":false},{\"reference\":\"R-07\",\"submitted\":false},{\"reference\":\"R-08\",\"submitted\":false},{\"reference\":\"R-09\",\"submitted\":false},{\"reference\":\"R-10\",\"submitted\":false},{\"reference\":\"R-11\",\"submitted\":false},{\"reference\":\"R-12\",\"submitted\":false},{\"reference\":\"R-13\",\"submitted\":false},{\"reference\":\"R-14\",\"submitted\":false},{\"reference\":\"R-15\",\"submitted\":false},{\"reference\":\"R-16\",\"submitted\":false},{\"reference\":\"R-17\",\"submitted\":false},{\"reference\":\"R-18\",\"submitted\":false}],\"draftSnapshotSha\":\"2baa9335b08395da78d5074726fc013f7e71b1da7d540177483156b32c24a97c\",\"acceptedReferences\":1,\"retest\":{\"screens\":[{\"reference\":\"REF-A\",\"status\":\"accepted\",\"notification\":\"pending\",\"retryCreatesNew\":false},{\"reference\":\"REF-A\",\"status\":\"accepted\",\"notification\":\"sent\",\"retryCreatesNew\":false}],\"environments\":[\"Chrome142-keyboard\",\"Firefox144-NVDA2025.3-Windows11\"],\"universalConformance\":false}}"
+      },
+      "at": "2026-11-23T15:45:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 17,
+      "command": "handoff",
+      "args": {
+        "note": "Kavi Stone at 17:30: opening stopped through Nov 25 15:00, information available; main form blocked, no Ruth acceptance or Ada opening decision. LA-19 direct applicants only through Nov 30 17:00, subject to gates; partner scope pending, import off. Preserve 19 unsubmitted drafts and contact route; check reference before retry. Claims contained; Juno tracks correction delivery to all six sent-brochure recipients, Owen to Rivermere and Sales Operations to the other five; publication and delivery remain unconfirmed. Next customer update 16:30; Dan progress Nov 24 12:00. Staffed 08:00-18:00, monitor outages outside hours; escalate unresolved decisions to Anya and Ruth."
+      },
+      "at": "2026-11-23T15:45:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 18,
+      "command": "task",
+      "args": {
+        "area": "communications",
+        "owner": "Juno",
+        "due": "2026-11-23T16:20:00Z",
+        "action": "Correct the prior representation explicitly: LanternPath is not established as WCAG 2.2 AA certified; no supporting certification or certifier has been identified. The full-accessibility and signoff claims were unsupported, and the current application has a reproduced blocker. Deliver this correction to all six known sent-brochure recipients: Owen to Rivermere, Sales Operations to the other five; track proof of delivery and preserve copies."
+      },
+      "at": "2026-11-23T15:45:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 19,
+      "command": "commitments",
+      "args": {
+        "next-update": "2026-11-23T16:30:00Z",
+        "snapshot": "{\"opening\":\"stopped\",\"information\":\"available\",\"drafts\":\"preserved\",\"temporary\":\"bounded-pass\",\"claims\":\"contained\",\"scope\":\"review-pending\",\"invitation\":true,\"productionForm\":\"blocked\",\"customerAcceptance\":null,\"partnerImport\":\"off\",\"feeRemedy\":null,\"draftCount\":19,\"draftInventory\":[{\"reference\":\"R-00\",\"submitted\":false},{\"reference\":\"R-01\",\"submitted\":false},{\"reference\":\"R-02\",\"submitted\":false},{\"reference\":\"R-03\",\"submitted\":false},{\"reference\":\"R-04\",\"submitted\":false},{\"reference\":\"R-05\",\"submitted\":false},{\"reference\":\"R-06\",\"submitted\":false},{\"reference\":\"R-07\",\"submitted\":false},{\"reference\":\"R-08\",\"submitted\":false},{\"reference\":\"R-09\",\"submitted\":false},{\"reference\":\"R-10\",\"submitted\":false},{\"reference\":\"R-11\",\"submitted\":false},{\"reference\":\"R-12\",\"submitted\":false},{\"reference\":\"R-13\",\"submitted\":false},{\"reference\":\"R-14\",\"submitted\":false},{\"reference\":\"R-15\",\"submitted\":false},{\"reference\":\"R-16\",\"submitted\":false},{\"reference\":\"R-17\",\"submitted\":false},{\"reference\":\"R-18\",\"submitted\":false}],\"draftSnapshotSha\":\"2baa9335b08395da78d5074726fc013f7e71b1da7d540177483156b32c24a97c\",\"acceptedReferences\":1,\"retest\":{\"screens\":[{\"reference\":\"REF-A\",\"status\":\"accepted\",\"notification\":\"pending\",\"retryCreatesNew\":false},{\"reference\":\"REF-A\",\"status\":\"accepted\",\"notification\":\"sent\",\"retryCreatesNew\":false}],\"environments\":[\"Chrome142-keyboard\",\"Firefox144-NVDA2025.3-Windows11\"],\"universalConformance\":false}}"
+      },
+      "at": "2026-11-23T15:45:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 20,
+      "command": "handoff",
+      "args": {
+        "note": "Kavi Stone at 17:30: opening stopped through Nov 25 15:00, information available; main form blocked, no Ruth acceptance or Ada opening decision. LA-19 direct applicants only through Nov 30 17:00, subject to gates; partner scope pending, import off. Preserve 19 unsubmitted drafts and contact route; check reference before retry. Claims contained. Juno tracks explicit correction that the WCAG 2.2 AA certification claim was unsupported and the current application has a reproduced blocker; Owen delivers to Rivermere and Sales Operations to the other five known brochure recipients. Publication and delivery unconfirmed. Next customer update 16:30; Dan progress Nov 24 12:00. Staffed 08:00-18:00; monitor outages outside hours; escalate to Anya and Ruth."
+      },
+      "at": "2026-11-23T15:45:00Z",
+      "outcome": "confirmed"
+    }
+  ]
+}
