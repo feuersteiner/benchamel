@@ -1,0 +1,56 @@
+{
+	"version": "1.0",
+	"status": "offline-prepared-graded-evaluation-not-implemented",
+	"situations": [
+		{
+			"id": "complex-support-01",
+			"title": "Exceptional usage invoice and continuity",
+			"directory": "complex-support-01"
+		},
+		{
+			"id": "complex-support-02",
+			"title": "Security incident during enterprise renewal",
+			"directory": "complex-support-02"
+		},
+		{
+			"id": "complex-support-03",
+			"title": "Data loss and recovery",
+			"directory": "complex-support-03"
+		},
+		{
+			"id": "complex-support-04",
+			"title": "Grandfathered pricing and disputed notice",
+			"directory": "complex-support-04"
+		},
+		{
+			"id": "complex-support-05",
+			"title": "Failed enterprise implementation",
+			"directory": "complex-support-05"
+		},
+		{
+			"id": "complex-support-06",
+			"title": "Accessibility complaint before launch",
+			"directory": "complex-support-06"
+		},
+		{
+			"id": "complex-support-07",
+			"title": "Marketplace transaction dispute",
+			"directory": "complex-support-07"
+		},
+		{
+			"id": "complex-support-08",
+			"title": "Account suspension appeal",
+			"directory": "complex-support-08"
+		},
+		{
+			"id": "complex-support-09",
+			"title": "Data residency commitment",
+			"directory": "complex-support-09"
+		},
+		{
+			"id": "complex-support-10",
+			"title": "Product retirement and migration",
+			"directory": "complex-support-10"
+		}
+	]
+}
