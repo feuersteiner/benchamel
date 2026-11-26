@@ -1,0 +1,314 @@
+{
+  "state": {
+    "now": "2025-06-27T15:15:00Z",
+    "domain": {
+      "gate": "verified",
+      "builder": "blocked",
+      "capture": "blocked",
+      "dunning": "blocked",
+      "entitlementEnd": "2025-07-08T00:00:00Z",
+      "notice": "assembled",
+      "authority": "reasoned-annual-instruction",
+      "options": "prepared",
+      "forecast": "existing-scope-only",
+      "draftCents": 1440000,
+      "receivableCents": 0,
+      "seats": 40,
+      "consent": "unresolved",
+      "letter": "preserved",
+      "contactMismatch": true,
+      "noticeTable": {
+        "sentTo": "BILLING-A",
+        "current": "BILLING-B",
+        "accepted": "2025-05-01T09:04:00Z",
+        "humanRead": null,
+        "contentAmount": 1440000,
+        "humanAcknowledgment": false
+      },
+      "optionAmounts": {
+        "annual": 960000,
+        "bridge": 240000,
+        "monthly": 80000,
+        "seats": 40,
+        "executed": false
+      },
+      "annualInstruction": {
+        "scope": "Core40",
+        "cents": 960000,
+        "status": "recorded-pending-finance",
+        "waiver": false
+      }
+    },
+    "tasks": [
+      {
+        "area": "billing",
+        "owner": "Jules",
+        "due": "2025-06-30T13:00:00Z",
+        "action": "Recheck D440, builder, capture, reminders and entitlement; execute only an authorized instruction and plan before July 8 expiry."
+      },
+      {
+        "area": "contracts",
+        "owner": "Tomas Reed",
+        "due": "2025-06-30T10:30:00Z",
+        "action": "Review assurance, order, signature and notice with Sela; resolve Noor delegation with Miri if possible and preserve claim."
+      },
+      {
+        "area": "customer",
+        "owner": "Lin Saye",
+        "due": "2025-06-27T15:45:00Z",
+        "action": "Provide customer update and focused delegation question; obtain authorized decision without conditioning protection or claim review on purchase."
+      },
+      {
+        "area": "support",
+        "owner": "Lin Saye",
+        "due": "2025-06-30T12:00:00Z",
+        "action": "Coordinate Sela progress update, Core40 continuity and export scoping if requested; hand off before gate expiry."
+      }
+    ],
+    "commitments": {
+      "nextUpdate": "2025-06-27T15:45:00Z",
+      "domain": {
+        "gate": "verified",
+        "builder": "blocked",
+        "capture": "blocked",
+        "dunning": "blocked",
+        "entitlementEnd": "2025-07-08T00:00:00Z",
+        "notice": "assembled",
+        "authority": "reasoned-annual-instruction",
+        "options": "prepared",
+        "forecast": "existing-scope-only",
+        "draftCents": 1440000,
+        "receivableCents": 0,
+        "seats": 40,
+        "consent": "unresolved",
+        "letter": "preserved",
+        "contactMismatch": true,
+        "noticeTable": {
+          "sentTo": "BILLING-A",
+          "current": "BILLING-B",
+          "accepted": "2025-05-01T09:04:00Z",
+          "humanRead": null,
+          "contentAmount": 1440000,
+          "humanAcknowledgment": false
+        },
+        "optionAmounts": {
+          "annual": 960000,
+          "bridge": 240000,
+          "monthly": 80000,
+          "seats": 40,
+          "executed": false
+        },
+        "annualInstruction": {
+          "scope": "Core40",
+          "cents": 960000,
+          "status": "recorded-pending-finance",
+          "waiver": false
+        }
+      }
+    },
+    "handoff": {
+      "to": "Lin Saye / duty support queue",
+      "note": "Lin Saye / duty support queue owns RF-2240; Jules owns billing verification and execution, Tomas Reed the authority and contract review, and Sela Moss the June 30 decision or progress update. Gate verified 15:15 June 27 through July 8 00:00; annual instruction recorded pending Finance, clarification and dispute remain open. Update customer by 15:45 today and again June 30 12:00; obtain a controlled instruction before expiry.",
+      "domain": {
+        "gate": "verified",
+        "builder": "blocked",
+        "capture": "blocked",
+        "dunning": "blocked",
+        "entitlementEnd": "2025-07-08T00:00:00Z",
+        "notice": "assembled",
+        "authority": "reasoned-annual-instruction",
+        "options": "prepared",
+        "forecast": "existing-scope-only",
+        "draftCents": 1440000,
+        "receivableCents": 0,
+        "seats": 40,
+        "consent": "unresolved",
+        "letter": "preserved",
+        "contactMismatch": true,
+        "noticeTable": {
+          "sentTo": "BILLING-A",
+          "current": "BILLING-B",
+          "accepted": "2025-05-01T09:04:00Z",
+          "humanRead": null,
+          "contentAmount": 1440000,
+          "humanAcknowledgment": false
+        },
+        "optionAmounts": {
+          "annual": 960000,
+          "bridge": 240000,
+          "monthly": 80000,
+          "seats": 40,
+          "executed": false
+        },
+        "annualInstruction": {
+          "scope": "Core40",
+          "cents": 960000,
+          "status": "recorded-pending-finance",
+          "waiver": false
+        }
+      },
+      "tasks": [
+        {
+          "area": "billing",
+          "owner": "Jules",
+          "due": "2025-06-30T13:00:00Z",
+          "action": "Recheck D440, builder, capture, reminders and entitlement; execute only an authorized instruction and plan before July 8 expiry."
+        },
+        {
+          "area": "contracts",
+          "owner": "Tomas Reed",
+          "due": "2025-06-30T10:30:00Z",
+          "action": "Review assurance, order, signature and notice with Sela; resolve Noor delegation with Miri if possible and preserve claim."
+        },
+        {
+          "area": "customer",
+          "owner": "Lin Saye",
+          "due": "2025-06-27T15:45:00Z",
+          "action": "Provide customer update and focused delegation question; obtain authorized decision without conditioning protection or claim review on purchase."
+        },
+        {
+          "area": "support",
+          "owner": "Lin Saye",
+          "due": "2025-06-30T12:00:00Z",
+          "action": "Coordinate Sela progress update, Core40 continuity and export scoping if requested; hand off before gate expiry."
+        }
+      ]
+    }
+  },
+  "audit": [
+    {
+      "seq": 1,
+      "command": "gate-request",
+      "args": {
+        "approval": "Sela-Core40-July8"
+      },
+      "at": "2025-06-27T14:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 2,
+      "command": "assemble-notice",
+      "args": {},
+      "at": "2025-06-27T14:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 3,
+      "command": "review-delegation",
+      "args": {
+        "question": "Miri, does Noor’s signed delegation authorize his June 27 instruction to renew unchanged Core40 for July 1, 2025 to July 1, 2026 at $9,600, with no expansion or release, despite your reservation of commercial decisions?"
+      },
+      "at": "2025-06-27T14:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 4,
+      "command": "prepare-options",
+      "args": {
+        "scope": "Core40-only"
+      },
+      "at": "2025-06-27T14:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 5,
+      "command": "correct-forecast",
+      "args": {},
+      "at": "2025-06-27T14:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 6,
+      "command": "clock",
+      "args": {
+        "to": "2025-06-27T15:15:00Z"
+      },
+      "at": "2025-06-27T15:15:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 7,
+      "command": "gate-verify",
+      "args": {},
+      "at": "2025-06-27T15:15:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 8,
+      "command": "record-annual-instruction",
+      "args": {
+        "basis": "Noor-signed-delegation",
+        "reason": "The acknowledged continuing delegation permits approved ordinary renewals at no more than the prior annual amount; Noor explicitly requested unchanged Core40 for $9,600 with no expansion or release. Miri reserved changed terms and did not expressly revoke the delegation, though approved and her reservation of annual decisions remain ambiguous. Record this limited interpretation pending her clarification and Finance execution; do not infer authority for a bridge, increase, expansion or settlement."
+      },
+      "at": "2025-06-27T15:15:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 9,
+      "command": "task",
+      "args": {
+        "area": "billing",
+        "owner": "Jules",
+        "due": "2025-06-30T13:00:00Z",
+        "action": "Recheck D440, builder, capture, reminders and entitlement; execute only an authorized instruction and plan before July 8 expiry."
+      },
+      "at": "2025-06-27T15:15:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 10,
+      "command": "task",
+      "args": {
+        "area": "contracts",
+        "owner": "Tomas Reed",
+        "due": "2025-06-30T10:30:00Z",
+        "action": "Review assurance, order, signature and notice with Sela; resolve Noor delegation with Miri if possible and preserve claim."
+      },
+      "at": "2025-06-27T15:15:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 11,
+      "command": "task",
+      "args": {
+        "area": "customer",
+        "owner": "Lin Saye",
+        "due": "2025-06-27T15:45:00Z",
+        "action": "Provide customer update and focused delegation question; obtain authorized decision without conditioning protection or claim review on purchase."
+      },
+      "at": "2025-06-27T15:15:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 12,
+      "command": "task",
+      "args": {
+        "area": "support",
+        "owner": "Lin Saye",
+        "due": "2025-06-30T12:00:00Z",
+        "action": "Coordinate Sela progress update, Core40 continuity and export scoping if requested; hand off before gate expiry."
+      },
+      "at": "2025-06-27T15:15:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 13,
+      "command": "commitments",
+      "args": {
+        "next-update": "2025-06-27T15:45:00Z",
+        "snapshot": "{\"gate\":\"verified\",\"builder\":\"blocked\",\"capture\":\"blocked\",\"dunning\":\"blocked\",\"entitlementEnd\":\"2025-07-08T00:00:00Z\",\"notice\":\"assembled\",\"authority\":\"reasoned-annual-instruction\",\"options\":\"prepared\",\"forecast\":\"existing-scope-only\",\"draftCents\":1440000,\"receivableCents\":0,\"seats\":40,\"consent\":\"unresolved\",\"letter\":\"preserved\",\"contactMismatch\":true,\"noticeTable\":{\"sentTo\":\"BILLING-A\",\"current\":\"BILLING-B\",\"accepted\":\"2025-05-01T09:04:00Z\",\"humanRead\":null,\"contentAmount\":1440000,\"humanAcknowledgment\":false},\"optionAmounts\":{\"annual\":960000,\"bridge\":240000,\"monthly\":80000,\"seats\":40,\"executed\":false},\"annualInstruction\":{\"scope\":\"Core40\",\"cents\":960000,\"status\":\"recorded-pending-finance\",\"waiver\":false}}"
+      },
+      "at": "2025-06-27T15:15:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 14,
+      "command": "handoff",
+      "args": {
+        "note": "Lin Saye / duty support queue owns RF-2240; Jules owns billing verification and execution, Tomas Reed the authority and contract review, and Sela Moss the June 30 decision or progress update. Gate verified 15:15 June 27 through July 8 00:00; annual instruction recorded pending Finance, clarification and dispute remain open. Update customer by 15:45 today and again June 30 12:00; obtain a controlled instruction before expiry."
+      },
+      "at": "2025-06-27T15:15:00Z",
+      "outcome": "confirmed"
+    }
+  ]
+}

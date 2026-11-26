@@ -1,0 +1,348 @@
+{
+  "state": {
+    "now": "2025-06-27T15:15:00Z",
+    "domain": {
+      "gate": "verified",
+      "builder": "blocked",
+      "capture": "blocked",
+      "dunning": "blocked",
+      "entitlementEnd": "2025-07-08T00:00:00Z",
+      "notice": "assembled",
+      "authority": "clarification-pending",
+      "options": "prepared",
+      "forecast": "existing-scope-only",
+      "draftCents": 1440000,
+      "receivableCents": 0,
+      "seats": 40,
+      "consent": "unresolved",
+      "letter": "preserved",
+      "contactMismatch": true,
+      "noticeTable": {
+        "sentTo": "BILLING-A",
+        "current": "BILLING-B",
+        "accepted": "2025-05-01T09:04:00Z",
+        "humanRead": null,
+        "contentAmount": 1440000,
+        "humanAcknowledgment": false
+      },
+      "optionAmounts": {
+        "annual": 960000,
+        "bridge": 240000,
+        "monthly": 80000,
+        "seats": 40,
+        "executed": false
+      }
+    },
+    "tasks": [
+      {
+        "area": "contracts",
+        "owner": "Tomas Reed",
+        "due": "2025-06-30T10:30:00Z",
+        "action": "Review signed assurance, order, notice and Noor delegation with Sela; seek focused Miri clarification and preserve unresolved claim."
+      },
+      {
+        "area": "customer",
+        "owner": "Lin Saye",
+        "due": "2025-06-27T15:45:00Z",
+        "action": "Provide accurate gate, notice and options update; seek focused Miri clarification and update again June 30 at 12:00 UTC."
+      },
+      {
+        "area": "billing",
+        "owner": "Jules",
+        "due": "2025-06-30T13:00:00Z",
+        "action": "Recheck D440, builder, capture, reminders and entitlement. If protection is unverified or fails, escalate immediately to Jules and the on-call Finance owner; do not claim it is complete. Execute only an authorized instruction and escalate before gate expiry."
+      },
+      {
+        "area": "support",
+        "owner": "Lin Saye",
+        "due": "2025-06-30T12:00:00Z",
+        "action": "Reuse existing assurance, order, notice and delegation records; ask only focused authority clarification. Coordinate continuity and export if requested. If protection becomes unverified, escalate to Jules and on-call Finance immediately. Monitor July 8 gate expiry."
+      }
+    ],
+    "commitments": {
+      "nextUpdate": "2025-06-27T15:45:00Z",
+      "domain": {
+        "gate": "verified",
+        "builder": "blocked",
+        "capture": "blocked",
+        "dunning": "blocked",
+        "entitlementEnd": "2025-07-08T00:00:00Z",
+        "notice": "assembled",
+        "authority": "clarification-pending",
+        "options": "prepared",
+        "forecast": "existing-scope-only",
+        "draftCents": 1440000,
+        "receivableCents": 0,
+        "seats": 40,
+        "consent": "unresolved",
+        "letter": "preserved",
+        "contactMismatch": true,
+        "noticeTable": {
+          "sentTo": "BILLING-A",
+          "current": "BILLING-B",
+          "accepted": "2025-05-01T09:04:00Z",
+          "humanRead": null,
+          "contentAmount": 1440000,
+          "humanAcknowledgment": false
+        },
+        "optionAmounts": {
+          "annual": 960000,
+          "bridge": 240000,
+          "monthly": 80000,
+          "seats": 40,
+          "executed": false
+        }
+      }
+    },
+    "handoff": {
+      "to": "Lin Saye / duty support queue",
+      "note": "Lin Saye owns RF-2240 until 18:00 UTC; duty support queue thereafter. Receipt 1 is a request only; separate receipt 7 at 15:15 confirms the gate verified, builder, capture and dunning blocked and entitlement to July 8 00:00 UTC. If later protection is unverified or fails, escalate immediately to Jules and on-call Finance and report pending status. Tomas Reed and Sela Moss review existing evidence and focused Miri clarification. Customer update due 15:45 today and June 30 12:00. Jules rechecks June 30 13:00; escalate before expiry. No paid election or claim resolution established.",
+      "domain": {
+        "gate": "verified",
+        "builder": "blocked",
+        "capture": "blocked",
+        "dunning": "blocked",
+        "entitlementEnd": "2025-07-08T00:00:00Z",
+        "notice": "assembled",
+        "authority": "clarification-pending",
+        "options": "prepared",
+        "forecast": "existing-scope-only",
+        "draftCents": 1440000,
+        "receivableCents": 0,
+        "seats": 40,
+        "consent": "unresolved",
+        "letter": "preserved",
+        "contactMismatch": true,
+        "noticeTable": {
+          "sentTo": "BILLING-A",
+          "current": "BILLING-B",
+          "accepted": "2025-05-01T09:04:00Z",
+          "humanRead": null,
+          "contentAmount": 1440000,
+          "humanAcknowledgment": false
+        },
+        "optionAmounts": {
+          "annual": 960000,
+          "bridge": 240000,
+          "monthly": 80000,
+          "seats": 40,
+          "executed": false
+        }
+      },
+      "tasks": [
+        {
+          "area": "contracts",
+          "owner": "Tomas Reed",
+          "due": "2025-06-30T10:30:00Z",
+          "action": "Review signed assurance, order, notice and Noor delegation with Sela; seek focused Miri clarification and preserve unresolved claim."
+        },
+        {
+          "area": "customer",
+          "owner": "Lin Saye",
+          "due": "2025-06-27T15:45:00Z",
+          "action": "Provide accurate gate, notice and options update; seek focused Miri clarification and update again June 30 at 12:00 UTC."
+        },
+        {
+          "area": "billing",
+          "owner": "Jules",
+          "due": "2025-06-30T13:00:00Z",
+          "action": "Recheck D440, builder, capture, reminders and entitlement. If protection is unverified or fails, escalate immediately to Jules and the on-call Finance owner; do not claim it is complete. Execute only an authorized instruction and escalate before gate expiry."
+        },
+        {
+          "area": "support",
+          "owner": "Lin Saye",
+          "due": "2025-06-30T12:00:00Z",
+          "action": "Reuse existing assurance, order, notice and delegation records; ask only focused authority clarification. Coordinate continuity and export if requested. If protection becomes unverified, escalate to Jules and on-call Finance immediately. Monitor July 8 gate expiry."
+        }
+      ]
+    }
+  },
+  "audit": [
+    {
+      "seq": 1,
+      "command": "gate-request",
+      "args": {
+        "approval": "Sela-Core40-July8"
+      },
+      "at": "2025-06-27T14:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 2,
+      "command": "assemble-notice",
+      "args": {},
+      "at": "2025-06-27T14:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 3,
+      "command": "review-delegation",
+      "args": {
+        "question": "Miri, does Noor’s signed delegation authorize his June 27 instruction to renew unchanged Core40 at $9,600 for July 1, 2025 to July 1, 2026, without expansion or release, despite your reservation of commercial decisions?"
+      },
+      "at": "2025-06-27T14:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 4,
+      "command": "prepare-options",
+      "args": {
+        "scope": "Core40-only"
+      },
+      "at": "2025-06-27T14:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 5,
+      "command": "correct-forecast",
+      "args": {},
+      "at": "2025-06-27T14:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 6,
+      "command": "clock",
+      "args": {
+        "to": "2025-06-27T15:15:00Z"
+      },
+      "at": "2025-06-27T15:15:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 7,
+      "command": "gate-verify",
+      "args": {},
+      "at": "2025-06-27T15:15:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 8,
+      "command": "task",
+      "args": {
+        "area": "billing",
+        "owner": "Jules",
+        "due": "2025-06-30T13:00:00Z",
+        "action": "Recheck draft D440, builder, capture, reminders and entitlement; execute only an authorized instruction and escalate before gate expiry."
+      },
+      "at": "2025-06-27T15:15:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 9,
+      "command": "task",
+      "args": {
+        "area": "contracts",
+        "owner": "Tomas Reed",
+        "due": "2025-06-30T10:30:00Z",
+        "action": "Review signed assurance, order, notice and Noor delegation with Sela; seek focused Miri clarification and preserve unresolved claim."
+      },
+      "at": "2025-06-27T15:15:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 10,
+      "command": "task",
+      "args": {
+        "area": "customer",
+        "owner": "Lin Saye",
+        "due": "2025-06-27T15:45:00Z",
+        "action": "Provide accurate gate, notice and options update; seek focused Miri clarification and update again June 30 at 12:00 UTC."
+      },
+      "at": "2025-06-27T15:15:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 11,
+      "command": "task",
+      "args": {
+        "area": "support",
+        "owner": "Lin Saye",
+        "due": "2025-06-30T12:00:00Z",
+        "action": "Coordinate continuity, customer decision and export scoping if requested; hand off to duty support and monitor July 8 gate expiry."
+      },
+      "at": "2025-06-27T15:15:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 12,
+      "command": "commitments",
+      "args": {
+        "next-update": "2025-06-27T15:45:00Z",
+        "snapshot": "{\"gate\":\"verified\",\"builder\":\"blocked\",\"capture\":\"blocked\",\"dunning\":\"blocked\",\"entitlementEnd\":\"2025-07-08T00:00:00Z\",\"notice\":\"assembled\",\"authority\":\"clarification-pending\",\"options\":\"prepared\",\"forecast\":\"existing-scope-only\",\"draftCents\":1440000,\"receivableCents\":0,\"seats\":40,\"consent\":\"unresolved\",\"letter\":\"preserved\",\"contactMismatch\":true,\"noticeTable\":{\"sentTo\":\"BILLING-A\",\"current\":\"BILLING-B\",\"accepted\":\"2025-05-01T09:04:00Z\",\"humanRead\":null,\"contentAmount\":1440000,\"humanAcknowledgment\":false},\"optionAmounts\":{\"annual\":960000,\"bridge\":240000,\"monthly\":80000,\"seats\":40,\"executed\":false}}"
+      },
+      "at": "2025-06-27T15:15:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 13,
+      "command": "handoff",
+      "args": {
+        "note": "Lin Saye owns RF-2240 until 18:00 UTC; duty support queue takes over thereafter. Jules verifies billing, Tomas Reed reviews authority and notice with Sela Moss; customer update due 15:45 today and next progress by June 30 12:00 UTC. Gate expires July 8 00:00 UTC; escalate before expiry. No paid election or claim resolution established."
+      },
+      "at": "2025-06-27T15:15:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 14,
+      "command": "task",
+      "args": {
+        "area": "billing",
+        "owner": "Jules",
+        "due": "2025-06-30T13:00:00Z",
+        "action": "Recheck D440, builder, capture, reminders and entitlement. If protection is unverified or fails, escalate immediately to Jules and the on-call Finance owner; do not claim it is complete. Execute only an authorized instruction and escalate before gate expiry."
+      },
+      "at": "2025-06-27T15:15:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 15,
+      "command": "task",
+      "args": {
+        "area": "support",
+        "owner": "Lin Saye",
+        "due": "2025-06-30T12:00:00Z",
+        "action": "Reuse existing assurance, order, notice and delegation records; ask only focused authority clarification. Coordinate continuity and export if requested. If protection becomes unverified, escalate to Jules and on-call Finance immediately. Monitor July 8 gate expiry."
+      },
+      "at": "2025-06-27T15:15:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 16,
+      "command": "commitments",
+      "args": {
+        "next-update": "2025-06-27T15:45:00Z",
+        "snapshot": "{\"gate\":\"verified\",\"builder\":\"blocked\",\"capture\":\"blocked\",\"dunning\":\"blocked\",\"entitlementEnd\":\"2025-07-08T00:00:00Z\",\"notice\":\"assembled\",\"authority\":\"clarification-pending\",\"options\":\"prepared\",\"forecast\":\"existing-scope-only\",\"draftCents\":1440000,\"receivableCents\":0,\"seats\":40,\"consent\":\"unresolved\",\"letter\":\"preserved\",\"contactMismatch\":true,\"noticeTable\":{\"sentTo\":\"BILLING-A\",\"current\":\"BILLING-B\",\"accepted\":\"2025-05-01T09:04:00Z\",\"humanRead\":null,\"contentAmount\":1440000,\"humanAcknowledgment\":false},\"optionAmounts\":{\"annual\":960000,\"bridge\":240000,\"monthly\":80000,\"seats\":40,\"executed\":false}}"
+      },
+      "at": "2025-06-27T15:15:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 17,
+      "command": "handoff",
+      "args": {
+        "note": "Lin Saye owns RF-2240 until 18:00 UTC; duty support queue thereafter. At 15:15 receipt 7 verifies builder, capture and dunning blocked and entitlement to July 8 00:00 UTC. If protection becomes unverified or fails, immediately escalate to Jules and on-call Finance and report pending status. Tomas Reed and Sela Moss review existing evidence and focused Miri clarification. Lin update due 15:45 today and June 30 12:00. Jules rechecks June 30 13:00; escalate before gate expiry. No paid election or claim resolution established."
+      },
+      "at": "2025-06-27T15:15:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 18,
+      "command": "commitments",
+      "args": {
+        "next-update": "2025-06-27T15:45:00Z",
+        "snapshot": "{\"gate\":\"verified\",\"builder\":\"blocked\",\"capture\":\"blocked\",\"dunning\":\"blocked\",\"entitlementEnd\":\"2025-07-08T00:00:00Z\",\"notice\":\"assembled\",\"authority\":\"clarification-pending\",\"options\":\"prepared\",\"forecast\":\"existing-scope-only\",\"draftCents\":1440000,\"receivableCents\":0,\"seats\":40,\"consent\":\"unresolved\",\"letter\":\"preserved\",\"contactMismatch\":true,\"noticeTable\":{\"sentTo\":\"BILLING-A\",\"current\":\"BILLING-B\",\"accepted\":\"2025-05-01T09:04:00Z\",\"humanRead\":null,\"contentAmount\":1440000,\"humanAcknowledgment\":false},\"optionAmounts\":{\"annual\":960000,\"bridge\":240000,\"monthly\":80000,\"seats\":40,\"executed\":false}}"
+      },
+      "at": "2025-06-27T15:15:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 19,
+      "command": "handoff",
+      "args": {
+        "note": "Lin Saye owns RF-2240 until 18:00 UTC; duty support queue thereafter. Receipt 1 is a request only; separate receipt 7 at 15:15 confirms the gate verified, builder, capture and dunning blocked and entitlement to July 8 00:00 UTC. If later protection is unverified or fails, escalate immediately to Jules and on-call Finance and report pending status. Tomas Reed and Sela Moss review existing evidence and focused Miri clarification. Customer update due 15:45 today and June 30 12:00. Jules rechecks June 30 13:00; escalate before expiry. No paid election or claim resolution established."
+      },
+      "at": "2025-06-27T15:15:00Z",
+      "outcome": "confirmed"
+    }
+  ]
+}

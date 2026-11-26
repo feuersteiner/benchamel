@@ -1,0 +1,338 @@
+{
+  "state": {
+    "now": "2025-06-27T15:15:00Z",
+    "domain": {
+      "gate": "verified",
+      "builder": "blocked",
+      "capture": "blocked",
+      "dunning": "blocked",
+      "entitlementEnd": "2025-07-08T00:00:00Z",
+      "notice": "assembled",
+      "authority": "clarification-pending",
+      "options": "prepared",
+      "forecast": "existing-scope-only",
+      "draftCents": 1440000,
+      "receivableCents": 0,
+      "seats": 40,
+      "consent": "unresolved",
+      "letter": "preserved",
+      "contactMismatch": true,
+      "noticeTable": {
+        "sentTo": "BILLING-A",
+        "current": "BILLING-B",
+        "accepted": "2025-05-01T09:04:00Z",
+        "humanRead": null,
+        "contentAmount": 1440000,
+        "humanAcknowledgment": false
+      },
+      "optionAmounts": {
+        "annual": 960000,
+        "bridge": 240000,
+        "monthly": 80000,
+        "seats": 40,
+        "executed": false
+      }
+    },
+    "tasks": [
+      {
+        "area": "contracts",
+        "owner": "Tomas Reed",
+        "due": "2025-06-30T10:30:00Z",
+        "action": "Review signed assurance, order, old renewal practice, notice and Noor delegation; seek Miri clarification and refer unresolved interpretations to Sela."
+      },
+      {
+        "area": "support",
+        "owner": "Lin Saye",
+        "due": "2025-06-30T12:00:00Z",
+        "action": "Coordinate Sela and Tomas review, continuity and a named next owner; plan before gate expiry and scope exports only if requested."
+      },
+      {
+        "area": "billing",
+        "owner": "Jules",
+        "due": "2025-06-30T13:00:00Z",
+        "action": "Separately verify renewal builder blocked, payment capture blocked, renewal reminders (dunning) blocked, and entitlement through July 8 00:00 UTC; recheck D440 and execute only an authorized instruction."
+      },
+      {
+        "area": "customer",
+        "owner": "Lin Saye",
+        "due": "2025-06-27T15:45:00Z",
+        "action": "Lin Saye owns and will provide the current written customer update by June 27 15:45 UTC, including the focused delegation question; follow up June 30 at 12:00 with decision or progress."
+      }
+    ],
+    "commitments": {
+      "nextUpdate": "2025-06-27T15:45:00Z",
+      "domain": {
+        "gate": "verified",
+        "builder": "blocked",
+        "capture": "blocked",
+        "dunning": "blocked",
+        "entitlementEnd": "2025-07-08T00:00:00Z",
+        "notice": "assembled",
+        "authority": "clarification-pending",
+        "options": "prepared",
+        "forecast": "existing-scope-only",
+        "draftCents": 1440000,
+        "receivableCents": 0,
+        "seats": 40,
+        "consent": "unresolved",
+        "letter": "preserved",
+        "contactMismatch": true,
+        "noticeTable": {
+          "sentTo": "BILLING-A",
+          "current": "BILLING-B",
+          "accepted": "2025-05-01T09:04:00Z",
+          "humanRead": null,
+          "contentAmount": 1440000,
+          "humanAcknowledgment": false
+        },
+        "optionAmounts": {
+          "annual": 960000,
+          "bridge": 240000,
+          "monthly": 80000,
+          "seats": 40,
+          "executed": false
+        }
+      }
+    },
+    "handoff": {
+      "to": "Lin Saye / duty support queue",
+      "note": "Lin Saye owns the current written customer update due June 27 15:45 UTC. Jules separately verified renewal builder blocked, capture blocked, renewal reminders (dunning) blocked, and entitlement through July 8 00:00 UTC at 15:15; recheck each field June 30. Tomas Reed owns delegation review; Sela Moss provides decision or progress June 30 12:00. No paid option executed. Lin Saye / duty support queue owns handoff.",
+      "domain": {
+        "gate": "verified",
+        "builder": "blocked",
+        "capture": "blocked",
+        "dunning": "blocked",
+        "entitlementEnd": "2025-07-08T00:00:00Z",
+        "notice": "assembled",
+        "authority": "clarification-pending",
+        "options": "prepared",
+        "forecast": "existing-scope-only",
+        "draftCents": 1440000,
+        "receivableCents": 0,
+        "seats": 40,
+        "consent": "unresolved",
+        "letter": "preserved",
+        "contactMismatch": true,
+        "noticeTable": {
+          "sentTo": "BILLING-A",
+          "current": "BILLING-B",
+          "accepted": "2025-05-01T09:04:00Z",
+          "humanRead": null,
+          "contentAmount": 1440000,
+          "humanAcknowledgment": false
+        },
+        "optionAmounts": {
+          "annual": 960000,
+          "bridge": 240000,
+          "monthly": 80000,
+          "seats": 40,
+          "executed": false
+        }
+      },
+      "tasks": [
+        {
+          "area": "contracts",
+          "owner": "Tomas Reed",
+          "due": "2025-06-30T10:30:00Z",
+          "action": "Review signed assurance, order, old renewal practice, notice and Noor delegation; seek Miri clarification and refer unresolved interpretations to Sela."
+        },
+        {
+          "area": "support",
+          "owner": "Lin Saye",
+          "due": "2025-06-30T12:00:00Z",
+          "action": "Coordinate Sela and Tomas review, continuity and a named next owner; plan before gate expiry and scope exports only if requested."
+        },
+        {
+          "area": "billing",
+          "owner": "Jules",
+          "due": "2025-06-30T13:00:00Z",
+          "action": "Separately verify renewal builder blocked, payment capture blocked, renewal reminders (dunning) blocked, and entitlement through July 8 00:00 UTC; recheck D440 and execute only an authorized instruction."
+        },
+        {
+          "area": "customer",
+          "owner": "Lin Saye",
+          "due": "2025-06-27T15:45:00Z",
+          "action": "Lin Saye owns and will provide the current written customer update by June 27 15:45 UTC, including the focused delegation question; follow up June 30 at 12:00 with decision or progress."
+        }
+      ]
+    }
+  },
+  "audit": [
+    {
+      "seq": 1,
+      "command": "gate-request",
+      "args": {
+        "approval": "Sela-Core40-July8"
+      },
+      "at": "2025-06-27T14:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 2,
+      "command": "assemble-notice",
+      "args": {},
+      "at": "2025-06-27T14:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 3,
+      "command": "review-delegation",
+      "args": {
+        "question": "Miri, does Noor’s signed delegation authorize his June 27 instruction to renew unchanged Core40 for July 1, 2025 to July 1, 2026 at $9,600, without expansion or release, despite your reservation of an annual decision?"
+      },
+      "at": "2025-06-27T14:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 4,
+      "command": "prepare-options",
+      "args": {
+        "scope": "Core40-only"
+      },
+      "at": "2025-06-27T14:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 5,
+      "command": "correct-forecast",
+      "args": {},
+      "at": "2025-06-27T14:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 6,
+      "command": "clock",
+      "args": {
+        "to": "2025-06-27T15:15:00Z"
+      },
+      "at": "2025-06-27T15:15:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 7,
+      "command": "gate-verify",
+      "args": {},
+      "at": "2025-06-27T15:15:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 8,
+      "command": "task",
+      "args": {
+        "area": "billing",
+        "owner": "Jules",
+        "due": "2025-06-30T13:00:00Z",
+        "action": "Recheck D440, builder, capture, reminders and entitlement; execute only an authorized instruction and plan before July 8 expiry."
+      },
+      "at": "2025-06-27T15:15:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 9,
+      "command": "task",
+      "args": {
+        "area": "contracts",
+        "owner": "Tomas Reed",
+        "due": "2025-06-30T10:30:00Z",
+        "action": "Review signed assurance, order, old renewal practice, notice and Noor delegation; seek Miri clarification and refer unresolved interpretations to Sela."
+      },
+      "at": "2025-06-27T15:15:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 10,
+      "command": "task",
+      "args": {
+        "area": "customer",
+        "owner": "Lin Saye",
+        "due": "2025-06-27T15:45:00Z",
+        "action": "Provide case update and focused delegation question; follow up June 30 at 12:00 with decision or progress."
+      },
+      "at": "2025-06-27T15:15:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 11,
+      "command": "task",
+      "args": {
+        "area": "support",
+        "owner": "Lin Saye",
+        "due": "2025-06-30T12:00:00Z",
+        "action": "Coordinate Sela and Tomas review, continuity and a named next owner; plan before gate expiry and scope exports only if requested."
+      },
+      "at": "2025-06-27T15:15:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 12,
+      "command": "handoff",
+      "args": {
+        "note": "Lin Saye / duty support queue owns RF-2240. Jules verified the gate at 15:15; Tomas Reed owns the focused delegation and contract review; Sela Moss provides decision or progress June 30 at 12:00. Customer update due today 15:45; no paid option executed. Recheck all protection fields and act before July 8 expiry."
+      },
+      "at": "2025-06-27T15:15:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 13,
+      "command": "commitments",
+      "args": {
+        "next-update": "2025-06-27T15:45:00Z",
+        "snapshot": "{\"gate\":\"verified\",\"builder\":\"blocked\",\"capture\":\"blocked\",\"dunning\":\"blocked\",\"entitlementEnd\":\"2025-07-08T00:00:00Z\",\"notice\":\"assembled\",\"authority\":\"clarification-pending\",\"options\":\"prepared\",\"forecast\":\"existing-scope-only\",\"draftCents\":1440000,\"receivableCents\":0,\"seats\":40,\"consent\":\"unresolved\",\"letter\":\"preserved\",\"contactMismatch\":true,\"noticeTable\":{\"sentTo\":\"BILLING-A\",\"current\":\"BILLING-B\",\"accepted\":\"2025-05-01T09:04:00Z\",\"humanRead\":null,\"contentAmount\":1440000,\"humanAcknowledgment\":false},\"optionAmounts\":{\"annual\":960000,\"bridge\":240000,\"monthly\":80000,\"seats\":40,\"executed\":false}}"
+      },
+      "at": "2025-06-27T15:15:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 14,
+      "command": "handoff",
+      "args": {
+        "note": "Lin Saye / duty support queue owns RF-2240. Jules verified the gate at 15:15; Tomas Reed owns focused delegation and contract review; Sela Moss provides decision or progress June 30 at 12:00. Customer update due today 15:45; no paid option executed. Recheck protection fields and act before July 8 expiry."
+      },
+      "at": "2025-06-27T15:15:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 15,
+      "command": "task",
+      "args": {
+        "area": "billing",
+        "owner": "Jules",
+        "due": "2025-06-30T13:00:00Z",
+        "action": "Separately verify renewal builder blocked, payment capture blocked, renewal reminders (dunning) blocked, and entitlement through July 8 00:00 UTC; recheck D440 and execute only an authorized instruction."
+      },
+      "at": "2025-06-27T15:15:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 16,
+      "command": "task",
+      "args": {
+        "area": "customer",
+        "owner": "Lin Saye",
+        "due": "2025-06-27T15:45:00Z",
+        "action": "Lin Saye owns and will provide the current written customer update by June 27 15:45 UTC, including the focused delegation question; follow up June 30 at 12:00 with decision or progress."
+      },
+      "at": "2025-06-27T15:15:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 17,
+      "command": "commitments",
+      "args": {
+        "next-update": "2025-06-27T15:45:00Z",
+        "snapshot": "{\"gate\":\"verified\",\"builder\":\"blocked\",\"capture\":\"blocked\",\"dunning\":\"blocked\",\"entitlementEnd\":\"2025-07-08T00:00:00Z\",\"notice\":\"assembled\",\"authority\":\"clarification-pending\",\"options\":\"prepared\",\"forecast\":\"existing-scope-only\",\"draftCents\":1440000,\"receivableCents\":0,\"seats\":40,\"consent\":\"unresolved\",\"letter\":\"preserved\",\"contactMismatch\":true,\"noticeTable\":{\"sentTo\":\"BILLING-A\",\"current\":\"BILLING-B\",\"accepted\":\"2025-05-01T09:04:00Z\",\"humanRead\":null,\"contentAmount\":1440000,\"humanAcknowledgment\":false},\"optionAmounts\":{\"annual\":960000,\"bridge\":240000,\"monthly\":80000,\"seats\":40,\"executed\":false}}"
+      },
+      "at": "2025-06-27T15:15:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 18,
+      "command": "handoff",
+      "args": {
+        "note": "Lin Saye owns the current written customer update due June 27 15:45 UTC. Jules separately verified renewal builder blocked, capture blocked, renewal reminders (dunning) blocked, and entitlement through July 8 00:00 UTC at 15:15; recheck each field June 30. Tomas Reed owns delegation review; Sela Moss provides decision or progress June 30 12:00. No paid option executed. Lin Saye / duty support queue owns handoff."
+      },
+      "at": "2025-06-27T15:15:00Z",
+      "outcome": "confirmed"
+    }
+  ]
+}

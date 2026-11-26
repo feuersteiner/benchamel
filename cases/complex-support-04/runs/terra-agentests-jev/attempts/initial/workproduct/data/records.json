@@ -1,0 +1,13 @@
+{
+  "notice": {
+    "sentTo": "BILLING-A",
+    "current": "BILLING-B",
+    "accepted": "2025-05-01T09:04:00Z",
+    "humanRead": null
+  },
+  "baseSeats": 40,
+  "legacyAnnualCents": 960000,
+  "listAnnualCents": 1440000,
+  "bridgeMonths": 3,
+  "bridgeMonthlyCents": 80000
+}
