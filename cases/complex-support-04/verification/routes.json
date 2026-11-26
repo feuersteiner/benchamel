@@ -1,0 +1,79 @@
+[
+  [
+    [
+      "gate-request",
+      {
+        "approval": "Sela-Core40-July8"
+      }
+    ],
+    [
+      "assemble-notice",
+      {}
+    ],
+    [
+      "review-delegation",
+      {
+        "question": "Does approved ordinary-course renewal at $9,600 remain delegated under Miri’s later instruction?"
+      }
+    ],
+    [
+      "prepare-options",
+      {
+        "scope": "Core40-only"
+      }
+    ],
+    [
+      "correct-forecast",
+      {}
+    ],
+    [
+      "clock",
+      {
+        "to": "2025-06-27T15:15:00Z"
+      }
+    ],
+    [
+      "gate-verify",
+      {}
+    ]
+  ],
+  [
+    [
+      "gate-request",
+      {
+        "approval": "Sela-Core40-July8"
+      }
+    ],
+    [
+      "assemble-notice",
+      {}
+    ],
+    [
+      "prepare-options",
+      {
+        "scope": "Core40-only"
+      }
+    ],
+    [
+      "correct-forecast",
+      {}
+    ],
+    [
+      "clock",
+      {
+        "to": "2025-06-27T15:15:00Z"
+      }
+    ],
+    [
+      "gate-verify",
+      {}
+    ],
+    [
+      "record-annual-instruction",
+      {
+        "basis": "Noor-signed-delegation",
+        "reason": "The signed delegation plus explicit unchanged Core40 annual instruction can cover this budgeted renewal; approved remains disputed and Finance execution is pending."
+      }
+    ]
+  ]
+]

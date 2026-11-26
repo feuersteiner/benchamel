@@ -1,0 +1,54 @@
+[
+  {
+    "id": "gate",
+    "points": 6,
+    "any": [
+      {
+        "gate": "verified",
+        "builder": "blocked",
+        "capture": "blocked",
+        "dunning": "blocked"
+      }
+    ]
+  },
+  {
+    "id": "notice",
+    "points": 6,
+    "any": [
+      {
+        "notice": "assembled",
+        "contactMismatch": true
+      }
+    ]
+  },
+  {
+    "id": "delegation",
+    "points": 6,
+    "any": [
+      {
+        "authority": "clarification-pending"
+      },
+      {
+        "authority": "reasoned-annual-instruction"
+      }
+    ]
+  },
+  {
+    "id": "options",
+    "points": 6,
+    "any": [
+      {
+        "options": "prepared"
+      }
+    ]
+  },
+  {
+    "id": "forecast",
+    "points": 6,
+    "any": [
+      {
+        "forecast": "existing-scope-only"
+      }
+    ]
+  }
+]

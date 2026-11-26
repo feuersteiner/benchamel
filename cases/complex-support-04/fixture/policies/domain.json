@@ -1,0 +1,173 @@
+{
+  "id": "complex-support-04",
+  "now": "2025-06-27T14:00:00Z",
+  "updateBy": "2025-06-27T15:45:00Z",
+  "handoff": "Lin Saye / duty support queue",
+  "areas": {
+    "billing": [
+      "Jules"
+    ],
+    "contracts": [
+      "Tomas Reed",
+      "Sela Moss"
+    ],
+    "customer": [
+      "Lin Saye"
+    ],
+    "support": [
+      "Lin Saye"
+    ]
+  },
+  "initial": {
+    "gate": "none",
+    "builder": "eligible",
+    "capture": "eligible",
+    "dunning": "eligible",
+    "entitlementEnd": "2025-07-01T00:00:00Z",
+    "notice": null,
+    "authority": "unreviewed",
+    "options": null,
+    "forecast": "expansion",
+    "draftCents": 1440000,
+    "receivableCents": 0,
+    "seats": 40,
+    "consent": "unresolved",
+    "letter": "preserved"
+  },
+  "invariants": {
+    "draftCents": 1440000,
+    "receivableCents": 0,
+    "seats": 40,
+    "consent": "unresolved",
+    "letter": "preserved"
+  },
+  "rules": [
+    "Request and verify all renewal-builder, capture, reminder and entitlement fields; a capture stop alone is insufficient.",
+    "Sela permits no-charge manual protection to July 8 00:00, not a permanent price guarantee; annual $9,600 and three $800 monthly bridge invoices remain separate options.",
+    "Server acceptance at BILLING-A is not human notice to updated BILLING-B. Preserve the dated assurance, old renewal practice and signed bundle.",
+    "Noor has a real signed delegation but approved and Miri’s later restriction are ambiguous. Seek focused clarification or record a reasoned unchanged-scope reading of the explicit annual instruction; never stretch it to an increase, expansion, bridge or release.",
+    "Remove the eight-seat expansion forecast; never exchange claim review for purchase or force an operational downgrade."
+  ],
+  "actions": {
+    "gate-request": {
+      "description": "Queue Sela’s no-charge manual renewal protection before Finance processing.",
+      "owner": "Lin Saye",
+      "evidence": [
+        "E09",
+        "E12",
+        "E15"
+      ],
+      "effects": {
+        "gate": "requested"
+      },
+      "args": {
+        "approval": [
+          "Sela-Core40-July8"
+        ]
+      },
+      "before": "2025-06-27T15:15:00Z"
+    },
+    "gate-verify": {
+      "description": "Verify live builder, capture, dunning and entitlement fields separately.",
+      "owner": "Jules",
+      "evidence": [
+        "E09",
+        "E12",
+        "E15",
+        "E20"
+      ],
+      "effects": {
+        "gate": "verified",
+        "builder": "blocked",
+        "capture": "blocked",
+        "dunning": "blocked",
+        "entitlementEnd": "2025-07-08T00:00:00Z"
+      },
+      "requires": {
+        "gate": "requested"
+      },
+      "after": "2025-06-27T15:15:00Z"
+    },
+    "assemble-notice": {
+      "description": "Reconcile old and current contacts, actual content and server-only acceptance.",
+      "owner": "Lin Saye",
+      "evidence": [
+        "E03",
+        "E07",
+        "E16"
+      ],
+      "effects": {
+        "notice": "assembled"
+      }
+    },
+    "review-delegation": {
+      "description": "Send narrow Miri clarification about Noor’s unchanged annual instruction; no unilateral election.",
+      "owner": "Tomas Reed",
+      "evidence": [
+        "E18",
+        "E19"
+      ],
+      "effects": {
+        "authority": "clarification-pending"
+      },
+      "args": {
+        "question": "text"
+      }
+    },
+    "prepare-options": {
+      "description": "Prepare one annual accommodation or three monthly bridge invoices as unsigned alternatives.",
+      "owner": "Sela Moss",
+      "evidence": [
+        "E12",
+        "E15"
+      ],
+      "effects": {
+        "options": "prepared"
+      },
+      "args": {
+        "scope": [
+          "Core40-only"
+        ]
+      }
+    },
+    "correct-forecast": {
+      "description": "Remove unaccepted expansion from forecast; correct categorical support claim.",
+      "owner": "Lin Saye",
+      "evidence": [
+        "E08",
+        "E11",
+        "E20"
+      ],
+      "effects": {
+        "forecast": "existing-scope-only"
+      }
+    },
+    "record-annual-instruction": {
+      "description": "Record a reasoned unchanged-scope interpretation of Noor’s explicit signed-delegation instruction, pending Finance execution; no increased price or release.",
+      "owner": "Tomas Reed",
+      "evidence": [
+        "E15",
+        "E18",
+        "E19"
+      ],
+      "args": {
+        "basis": [
+          "Noor-signed-delegation"
+        ],
+        "reason": "text"
+      },
+      "requires": {
+        "gate": "verified"
+      },
+      "effects": {
+        "authority": "reasoned-annual-instruction",
+        "annualInstruction": {
+          "scope": "Core40",
+          "cents": 960000,
+          "status": "recorded-pending-finance",
+          "waiver": false
+        }
+      }
+    }
+  }
+}
