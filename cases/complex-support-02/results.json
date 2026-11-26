@@ -1,0 +1,226 @@
+{
+  "case": "complex-support-02",
+  "source_pr": "https://github.com/feuersteiner/benchamel/pull/7",
+  "source_commit": "70c426eb3eaab2c2f367568d1dee051cf9e33163",
+  "runtime_fix_commit": "e5d566b392f254dd73b34fa3aada9627a9717355",
+  "started_at": "2026-11-26T05:25:24.668Z",
+  "ended_at": "2026-11-26T05:43:11.516Z",
+  "versions": {
+    "codex": "codex-cli 0.172.0-alpha.2",
+    "bun": "1.3.3",
+    "node": "v22.19.0"
+  },
+  "retained_final_replicates_per_arm": 1,
+  "actual_task_executions_including_archives": 12,
+  "execution_waves": {
+    "initial": {
+      "concurrency": 60
+    },
+    "jev_rerun": {
+      "concurrency": 24,
+      "notes": "20 Jev arms plus four paced Luna arms initially overlap"
+    },
+    "luna_final": {
+      "concurrency": 20,
+      "transport": "batched-independent-questions",
+      "preload_sha256": "a617e67824e4469051b3e6c0e2ae7313ef3828a0de878ff78d20dab03024be38"
+    }
+  },
+  "runs": [
+    {
+      "arm": "terra",
+      "time": 96.909947625,
+      "cost": 0.0600804,
+      "score": 100,
+      "context_length": 41437,
+      "status": "completed",
+      "exit": 0,
+      "failure_reason": null,
+      "errors": [],
+      "task_turns": 1,
+      "gate_reviews": [],
+      "transport": "none",
+      "execution_commit": "70c426eb3eaab2c2f367568d1dee051cf9e33163",
+      "judge_retries": [],
+      "judge_present": true,
+      "hard_breach": false
+    },
+    {
+      "arm": "terra-skill",
+      "time": 88.2689165,
+      "cost": 0.097258,
+      "score": 100,
+      "context_length": 43661,
+      "status": "completed",
+      "exit": 0,
+      "failure_reason": null,
+      "errors": [],
+      "task_turns": 1,
+      "gate_reviews": [],
+      "transport": "none",
+      "execution_commit": "70c426eb3eaab2c2f367568d1dee051cf9e33163",
+      "judge_retries": [],
+      "judge_present": true,
+      "hard_breach": false
+    },
+    {
+      "arm": "terra-agentests-luna",
+      "time": 302.942721916,
+      "cost": null,
+      "score": 100,
+      "context_length": null,
+      "status": "completed",
+      "exit": 0,
+      "failure_reason": null,
+      "errors": [],
+      "task_turns": 2,
+      "gate_reviews": [
+        {
+          "status": "uncertain",
+          "pass": false,
+          "findings": 2,
+          "decisions": 66
+        },
+        {
+          "status": "pass",
+          "pass": true,
+          "findings": 0,
+          "decisions": 66
+        }
+      ],
+      "transport": "batched-independent-questions",
+      "execution_commit": "e5d566b392f254dd73b34fa3aada9627a9717355",
+      "judge_retries": [],
+      "judge_present": true,
+      "hard_breach": false
+    },
+    {
+      "arm": "terra-agentests-jev",
+      "time": 169.177755459,
+      "cost": null,
+      "score": null,
+      "context_length": null,
+      "status": "failed",
+      "exit": 1,
+      "failure_reason": "runtime-turn-budget",
+      "errors": [
+        "agent exited with code 1."
+      ],
+      "task_turns": 4,
+      "gate_reviews": [
+        {
+          "status": "uncertain",
+          "pass": false,
+          "findings": 4,
+          "decisions": 66
+        },
+        {
+          "status": "uncertain",
+          "pass": false,
+          "findings": 3,
+          "decisions": 66
+        },
+        {
+          "status": "uncertain",
+          "pass": false,
+          "findings": 3,
+          "decisions": 66
+        },
+        {
+          "status": "uncertain",
+          "pass": false,
+          "findings": 2,
+          "decisions": 66
+        }
+      ],
+      "transport": "native-single-question",
+      "execution_commit": "e5d566b392f254dd73b34fa3aada9627a9717355",
+      "judge_retries": [],
+      "judge_present": false,
+      "hard_breach": false
+    },
+    {
+      "arm": "terra-agentests-luna-skill",
+      "time": 383.92579037499996,
+      "cost": null,
+      "score": null,
+      "context_length": null,
+      "status": "failed",
+      "exit": 1,
+      "failure_reason": "runtime-turn-budget",
+      "errors": [
+        "agent exited with code 1."
+      ],
+      "task_turns": 4,
+      "gate_reviews": [
+        {
+          "status": "uncertain",
+          "pass": false,
+          "findings": 1,
+          "decisions": 66
+        },
+        {
+          "status": "uncertain",
+          "pass": false,
+          "findings": 1,
+          "decisions": 66
+        },
+        {
+          "status": "uncertain",
+          "pass": false,
+          "findings": 1,
+          "decisions": 66
+        },
+        {
+          "status": "uncertain",
+          "pass": false,
+          "findings": 3,
+          "decisions": 66
+        }
+      ],
+      "transport": "batched-independent-questions",
+      "execution_commit": "e5d566b392f254dd73b34fa3aada9627a9717355",
+      "judge_retries": [],
+      "judge_present": false,
+      "hard_breach": false
+    },
+    {
+      "arm": "terra-agentests-jev-skill",
+      "time": 123.93132241699999,
+      "cost": null,
+      "score": 100,
+      "context_length": null,
+      "status": "completed",
+      "exit": 0,
+      "failure_reason": null,
+      "errors": [],
+      "task_turns": 2,
+      "gate_reviews": [
+        {
+          "status": "uncertain",
+          "pass": false,
+          "findings": 1,
+          "decisions": 66
+        },
+        {
+          "status": "pass",
+          "pass": true,
+          "findings": 0,
+          "decisions": 66
+        }
+      ],
+      "transport": "native-single-question",
+      "execution_commit": "e5d566b392f254dd73b34fa3aada9627a9717355",
+      "judge_retries": [],
+      "judge_present": true,
+      "hard_breach": false
+    }
+  ],
+  "limits": [
+    "One retained final execution per arm; infrastructure attempts are preserved, not statistical replicates.",
+    "Mean scores cover scored runs only; failed execution and unavailable scores remain explicit. Null is not zero.",
+    "Time includes runtime reviews/pacing, excludes preflight/final judging, and uses different concurrency across waves; no controlled latency ranking.",
+    "Native agentests does not expose complete gate usage; gated total cost and context length remain null.",
+    "Luna uses user-approved independent-question batching; Jev retains native single-question transport."
+  ]
+}

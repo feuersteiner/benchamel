@@ -1,0 +1,312 @@
+{
+  "state": {
+    "now": "2025-05-14T12:00:00Z",
+    "domain": {
+      "correction": true,
+      "packet": [
+        {
+          "id": "A-61",
+          "retrieval": "confirmed",
+          "contents": [
+            "session values",
+            "connector header",
+            "administrator contact"
+          ]
+        },
+        {
+          "id": "A-62",
+          "retrieval": "unknown",
+          "contents": [
+            "diagnostic"
+          ]
+        },
+        {
+          "id": "A-63",
+          "retrieval": "unknown",
+          "contents": [
+            "diagnostic"
+          ]
+        }
+      ],
+      "disclosure": "review-pending",
+      "logs": "requested",
+      "protection": "verified",
+      "options": "prepared",
+      "preservation": "June-30",
+      "subscription": "existing-term",
+      "dispatchCredential": "unchanged",
+      "productionImpact": "unresolved",
+      "reportFilter": "unknown",
+      "checkedSessions": 2,
+      "packetReady": true,
+      "optionalIndicator": "withheld"
+    },
+    "tasks": [
+      {
+        "area": "security",
+        "owner": "Dris",
+        "due": "2025-05-14T13:30:00Z",
+        "action": "Report vendor extraction, report filter and production archive coverage; reassess protection and escalate gaps."
+      },
+      {
+        "area": "privacy",
+        "owner": "Asha",
+        "due": "2025-05-14T13:10:00Z",
+        "action": "With Mira assess JOB-R17 correlation and safe alternative by 13:10; keep cleared rows available and classification checkpoint at 14:30."
+      },
+      {
+        "area": "commercial",
+        "owner": "Celia",
+        "due": "2025-05-15T16:00:00Z",
+        "action": "Seek Ben decision on C-218 and Q-411; activate only on authorized acceptance and verify entitlement, escalate mismatch."
+      },
+      {
+        "area": "support",
+        "owner": "Noor Vale",
+        "due": "2025-05-14T13:45:00Z",
+        "action": "Give Leena account update by 13:45, arrange briefing, coordinate and hand off to Eren at 15:30."
+      }
+    ],
+    "commitments": {
+      "nextUpdate": "2025-05-14T13:45:00Z",
+      "domain": {
+        "correction": true,
+        "packet": [
+          {
+            "id": "A-61",
+            "retrieval": "confirmed",
+            "contents": [
+              "session values",
+              "connector header",
+              "administrator contact"
+            ]
+          },
+          {
+            "id": "A-62",
+            "retrieval": "unknown",
+            "contents": [
+              "diagnostic"
+            ]
+          },
+          {
+            "id": "A-63",
+            "retrieval": "unknown",
+            "contents": [
+              "diagnostic"
+            ]
+          }
+        ],
+        "disclosure": "review-pending",
+        "logs": "requested",
+        "protection": "verified",
+        "options": "prepared",
+        "preservation": "June-30",
+        "subscription": "existing-term",
+        "dispatchCredential": "unchanged",
+        "productionImpact": "unresolved",
+        "reportFilter": "unknown",
+        "checkedSessions": 2,
+        "packetReady": true,
+        "optionalIndicator": "withheld"
+      }
+    },
+    "handoff": {
+      "to": "Eren Hale",
+      "note": "Eren Hale: JOB-R17 is withheld from Alder and remains in the vault pending Mira and Asha review of cross-account correlation risk; no approval to disclose exists. Mira expects a written view by 13:10; the three cleared attachment rows and plain-language report description are ready now. Noor owns through 16:00, handoff at 15:30, update by 13:45 even if logs fail. Track Dris checkpoint, Ben decision, entitlement verification and June 30 hold; use IR-5.3.",
+      "domain": {
+        "correction": true,
+        "packet": [
+          {
+            "id": "A-61",
+            "retrieval": "confirmed",
+            "contents": [
+              "session values",
+              "connector header",
+              "administrator contact"
+            ]
+          },
+          {
+            "id": "A-62",
+            "retrieval": "unknown",
+            "contents": [
+              "diagnostic"
+            ]
+          },
+          {
+            "id": "A-63",
+            "retrieval": "unknown",
+            "contents": [
+              "diagnostic"
+            ]
+          }
+        ],
+        "disclosure": "review-pending",
+        "logs": "requested",
+        "protection": "verified",
+        "options": "prepared",
+        "preservation": "June-30",
+        "subscription": "existing-term",
+        "dispatchCredential": "unchanged",
+        "productionImpact": "unresolved",
+        "reportFilter": "unknown",
+        "checkedSessions": 2,
+        "packetReady": true,
+        "optionalIndicator": "withheld"
+      },
+      "tasks": [
+        {
+          "area": "security",
+          "owner": "Dris",
+          "due": "2025-05-14T13:30:00Z",
+          "action": "Report vendor extraction, report filter and production archive coverage; reassess protection and escalate gaps."
+        },
+        {
+          "area": "privacy",
+          "owner": "Asha",
+          "due": "2025-05-14T13:10:00Z",
+          "action": "With Mira assess JOB-R17 correlation and safe alternative by 13:10; keep cleared rows available and classification checkpoint at 14:30."
+        },
+        {
+          "area": "commercial",
+          "owner": "Celia",
+          "due": "2025-05-15T16:00:00Z",
+          "action": "Seek Ben decision on C-218 and Q-411; activate only on authorized acceptance and verify entitlement, escalate mismatch."
+        },
+        {
+          "area": "support",
+          "owner": "Noor Vale",
+          "due": "2025-05-14T13:45:00Z",
+          "action": "Give Leena account update by 13:45, arrange briefing, coordinate and hand off to Eren at 15:30."
+        }
+      ]
+    }
+  },
+  "audit": [
+    {
+      "seq": 1,
+      "command": "correct-assurance",
+      "args": {},
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 2,
+      "command": "verify-protection",
+      "args": {},
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 3,
+      "command": "indicator-review",
+      "args": {
+        "question": "May JOB-R17 be shared with Alder for correlation given potential cross-account association, and if not what safe alternative is authorized?"
+      },
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 4,
+      "command": "prepare-reviewed-schedule",
+      "args": {
+        "scope": "attachment-rows"
+      },
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 5,
+      "command": "request-logs",
+      "args": {
+        "feeds": "attachments,report-filter,production-archive"
+      },
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 6,
+      "command": "prepare-choices",
+      "args": {
+        "signatory": "Ben Orrell"
+      },
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 7,
+      "command": "task",
+      "args": {
+        "area": "security",
+        "owner": "Dris",
+        "due": "2025-05-14T13:30:00Z",
+        "action": "Report vendor extraction, report filter and production archive coverage; reassess protection and escalate gaps."
+      },
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 8,
+      "command": "task",
+      "args": {
+        "area": "privacy",
+        "owner": "Asha",
+        "due": "2025-05-14T13:10:00Z",
+        "action": "With Mira assess JOB-R17 correlation and safe alternative by 13:10; keep cleared rows available and classification checkpoint at 14:30."
+      },
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 9,
+      "command": "task",
+      "args": {
+        "area": "commercial",
+        "owner": "Celia",
+        "due": "2025-05-15T16:00:00Z",
+        "action": "Seek Ben decision on C-218 and Q-411; activate only on authorized acceptance and verify entitlement, escalate mismatch."
+      },
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 10,
+      "command": "task",
+      "args": {
+        "area": "support",
+        "owner": "Noor Vale",
+        "due": "2025-05-14T13:45:00Z",
+        "action": "Give Leena account update by 13:45, arrange briefing, coordinate and hand off to Eren at 15:30."
+      },
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 11,
+      "command": "commitments",
+      "args": {
+        "next-update": "2025-05-14T13:45:00Z",
+        "snapshot": "{\"correction\":true,\"packet\":[{\"id\":\"A-61\",\"retrieval\":\"confirmed\",\"contents\":[\"session values\",\"connector header\",\"administrator contact\"]},{\"id\":\"A-62\",\"retrieval\":\"unknown\",\"contents\":[\"diagnostic\"]},{\"id\":\"A-63\",\"retrieval\":\"unknown\",\"contents\":[\"diagnostic\"]}],\"disclosure\":\"review-pending\",\"logs\":\"requested\",\"protection\":\"verified\",\"options\":\"prepared\",\"preservation\":\"June-30\",\"subscription\":\"existing-term\",\"dispatchCredential\":\"unchanged\",\"productionImpact\":\"unresolved\",\"reportFilter\":\"unknown\",\"checkedSessions\":2,\"packetReady\":true,\"optionalIndicator\":\"withheld\"}"
+      },
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 12,
+      "command": "handoff",
+      "args": {
+        "note": "Eren Hale takes the thread at 15:30; Noor owns through 16:00. Update by 13:45 even if logs fail; track Mira and Asha review, Dris checkpoint, Ben decision, entitlement verification and June 30 hold. Use IR-5.3, not archived IR-4.1."
+      },
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 13,
+      "command": "handoff",
+      "args": {
+        "note": "Eren Hale: JOB-R17 is withheld from Alder and remains in the vault pending Mira and Asha review of cross-account correlation risk; no approval to disclose exists. Mira expects a written view by 13:10; the three cleared attachment rows and plain-language report description are ready now. Noor owns through 16:00, handoff at 15:30, update by 13:45 even if logs fail. Track Dris checkpoint, Ben decision, entitlement verification and June 30 hold; use IR-5.3."
+      },
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    }
+  ]
+}

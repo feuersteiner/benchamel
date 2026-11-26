@@ -1,0 +1,303 @@
+{
+  "state": {
+    "now": "2025-05-14T12:00:00Z",
+    "domain": {
+      "correction": true,
+      "packet": [
+        {
+          "id": "A-61",
+          "retrieval": "confirmed",
+          "contents": [
+            "session values",
+            "connector header",
+            "administrator contact"
+          ]
+        },
+        {
+          "id": "A-62",
+          "retrieval": "unknown",
+          "contents": [
+            "diagnostic"
+          ]
+        },
+        {
+          "id": "A-63",
+          "retrieval": "unknown",
+          "contents": [
+            "diagnostic"
+          ]
+        }
+      ],
+      "disclosure": "review-pending",
+      "logs": "requested",
+      "protection": "verified",
+      "options": "prepared",
+      "preservation": "June-30",
+      "subscription": "existing-term",
+      "dispatchCredential": "unchanged",
+      "productionImpact": "unresolved",
+      "reportFilter": "unknown",
+      "checkedSessions": 2,
+      "packetReady": true,
+      "optionalIndicator": "withheld"
+    },
+    "tasks": [
+      {
+        "area": "security",
+        "owner": "Dris",
+        "due": "2025-05-14T13:30:00Z",
+        "action": "Report extraction and archive coverage, findings and remaining risks; coordinate Tessa protective checklist and 14:00 engineering handoff."
+      },
+      {
+        "area": "privacy",
+        "owner": "Asha",
+        "due": "2025-05-14T13:10:00Z",
+        "action": "Coordinate Mira focused JOB-R17 interpretation; release cleared rows separately and report classification checkpoint at 14:30."
+      },
+      {
+        "area": "commercial",
+        "owner": "Celia",
+        "due": "2025-05-15T16:00:00Z",
+        "action": "Present C-218 to Ben; activate only on authenticated acceptance and verify entitlement, or coordinate renewal or exit choice."
+      },
+      {
+        "area": "support",
+        "owner": "Noor Vale",
+        "due": "2025-05-14T13:45:00Z",
+        "action": "Deliver account update and schedule through secure route; coordinate 12:30 briefing and hand off to Eren at 15:30."
+      }
+    ],
+    "commitments": {
+      "nextUpdate": "2025-05-14T13:45:00Z",
+      "domain": {
+        "correction": true,
+        "packet": [
+          {
+            "id": "A-61",
+            "retrieval": "confirmed",
+            "contents": [
+              "session values",
+              "connector header",
+              "administrator contact"
+            ]
+          },
+          {
+            "id": "A-62",
+            "retrieval": "unknown",
+            "contents": [
+              "diagnostic"
+            ]
+          },
+          {
+            "id": "A-63",
+            "retrieval": "unknown",
+            "contents": [
+              "diagnostic"
+            ]
+          }
+        ],
+        "disclosure": "review-pending",
+        "logs": "requested",
+        "protection": "verified",
+        "options": "prepared",
+        "preservation": "June-30",
+        "subscription": "existing-term",
+        "dispatchCredential": "unchanged",
+        "productionImpact": "unresolved",
+        "reportFilter": "unknown",
+        "checkedSessions": 2,
+        "packetReady": true,
+        "optionalIndicator": "withheld"
+      }
+    },
+    "handoff": {
+      "to": "Eren Hale",
+      "note": "Eren Hale accepts support handoff at 15:30; Noor owns customer update by 13:45 and coordination until 16:00. Correction recorded; three-row packet ready with shared indicator withheld pending Mira and Asha review. Logs requested, protection verified, C-218 unsigned and existing term unchanged. Track Dris 13:30, Tessa 14:00, Asha 14:30, next customer update and any Ben decision; preserve evidence through June 30 and use IR-5.3, not the archived macro.",
+      "domain": {
+        "correction": true,
+        "packet": [
+          {
+            "id": "A-61",
+            "retrieval": "confirmed",
+            "contents": [
+              "session values",
+              "connector header",
+              "administrator contact"
+            ]
+          },
+          {
+            "id": "A-62",
+            "retrieval": "unknown",
+            "contents": [
+              "diagnostic"
+            ]
+          },
+          {
+            "id": "A-63",
+            "retrieval": "unknown",
+            "contents": [
+              "diagnostic"
+            ]
+          }
+        ],
+        "disclosure": "review-pending",
+        "logs": "requested",
+        "protection": "verified",
+        "options": "prepared",
+        "preservation": "June-30",
+        "subscription": "existing-term",
+        "dispatchCredential": "unchanged",
+        "productionImpact": "unresolved",
+        "reportFilter": "unknown",
+        "checkedSessions": 2,
+        "packetReady": true,
+        "optionalIndicator": "withheld"
+      },
+      "tasks": [
+        {
+          "area": "security",
+          "owner": "Dris",
+          "due": "2025-05-14T13:30:00Z",
+          "action": "Report extraction and archive coverage, findings and remaining risks; coordinate Tessa protective checklist and 14:00 engineering handoff."
+        },
+        {
+          "area": "privacy",
+          "owner": "Asha",
+          "due": "2025-05-14T13:10:00Z",
+          "action": "Coordinate Mira focused JOB-R17 interpretation; release cleared rows separately and report classification checkpoint at 14:30."
+        },
+        {
+          "area": "commercial",
+          "owner": "Celia",
+          "due": "2025-05-15T16:00:00Z",
+          "action": "Present C-218 to Ben; activate only on authenticated acceptance and verify entitlement, or coordinate renewal or exit choice."
+        },
+        {
+          "area": "support",
+          "owner": "Noor Vale",
+          "due": "2025-05-14T13:45:00Z",
+          "action": "Deliver account update and schedule through secure route; coordinate 12:30 briefing and hand off to Eren at 15:30."
+        }
+      ]
+    }
+  },
+  "audit": [
+    {
+      "seq": 1,
+      "command": "correct-assurance",
+      "args": {},
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 2,
+      "command": "verify-protection",
+      "args": {},
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 3,
+      "command": "indicator-review",
+      "args": {
+        "question": "Does disclosing the shared JOB-R17 reference to Alder create a prohibited cross-account association given possible correlation with other accounts, or may it be released under D-218?"
+      },
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 4,
+      "command": "prepare-reviewed-schedule",
+      "args": {
+        "scope": "attachment-rows"
+      },
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 5,
+      "command": "request-logs",
+      "args": {
+        "feeds": "attachments,report-filter,production-archive"
+      },
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 6,
+      "command": "prepare-choices",
+      "args": {
+        "signatory": "Ben Orrell"
+      },
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 7,
+      "command": "task",
+      "args": {
+        "area": "security",
+        "owner": "Dris",
+        "due": "2025-05-14T13:30:00Z",
+        "action": "Report extraction and archive coverage, findings and remaining risks; coordinate Tessa protective checklist and 14:00 engineering handoff."
+      },
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 8,
+      "command": "task",
+      "args": {
+        "area": "privacy",
+        "owner": "Asha",
+        "due": "2025-05-14T13:10:00Z",
+        "action": "Coordinate Mira focused JOB-R17 interpretation; release cleared rows separately and report classification checkpoint at 14:30."
+      },
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 9,
+      "command": "task",
+      "args": {
+        "area": "commercial",
+        "owner": "Celia",
+        "due": "2025-05-15T16:00:00Z",
+        "action": "Present C-218 to Ben; activate only on authenticated acceptance and verify entitlement, or coordinate renewal or exit choice."
+      },
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 10,
+      "command": "task",
+      "args": {
+        "area": "support",
+        "owner": "Noor Vale",
+        "due": "2025-05-14T13:45:00Z",
+        "action": "Deliver account update and schedule through secure route; coordinate 12:30 briefing and hand off to Eren at 15:30."
+      },
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 11,
+      "command": "commitments",
+      "args": {
+        "next-update": "2025-05-14T13:45:00Z",
+        "snapshot": "{\"correction\":true,\"packet\":[{\"id\":\"A-61\",\"retrieval\":\"confirmed\",\"contents\":[\"session values\",\"connector header\",\"administrator contact\"]},{\"id\":\"A-62\",\"retrieval\":\"unknown\",\"contents\":[\"diagnostic\"]},{\"id\":\"A-63\",\"retrieval\":\"unknown\",\"contents\":[\"diagnostic\"]}],\"disclosure\":\"review-pending\",\"logs\":\"requested\",\"protection\":\"verified\",\"options\":\"prepared\",\"preservation\":\"June-30\",\"subscription\":\"existing-term\",\"dispatchCredential\":\"unchanged\",\"productionImpact\":\"unresolved\",\"reportFilter\":\"unknown\",\"checkedSessions\":2,\"packetReady\":true,\"optionalIndicator\":\"withheld\"}"
+      },
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 12,
+      "command": "handoff",
+      "args": {
+        "note": "Eren Hale accepts support handoff at 15:30; Noor owns customer update by 13:45 and coordination until 16:00. Correction recorded; three-row packet ready with shared indicator withheld pending Mira and Asha review. Logs requested, protection verified, C-218 unsigned and existing term unchanged. Track Dris 13:30, Tessa 14:00, Asha 14:30, next customer update and any Ben decision; preserve evidence through June 30 and use IR-5.3, not the archived macro."
+      },
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    }
+  ]
+}

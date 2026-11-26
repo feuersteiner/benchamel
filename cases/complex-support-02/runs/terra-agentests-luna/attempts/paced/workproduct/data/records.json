@@ -1,0 +1,34 @@
+{
+  "attachments": [
+    {
+      "id": "A-61",
+      "retrieval": "confirmed",
+      "contents": [
+        "session values",
+        "connector header",
+        "administrator contact"
+      ],
+      "rawSecret": "SYNTHETIC-NOT-A-CREDENTIAL"
+    },
+    {
+      "id": "A-62",
+      "retrieval": "unknown",
+      "contents": [
+        "diagnostic"
+      ]
+    },
+    {
+      "id": "A-63",
+      "retrieval": "unknown",
+      "contents": [
+        "diagnostic"
+      ]
+    }
+  ],
+  "sessions": [
+    "revoked",
+    "revoked"
+  ],
+  "connector": "rotated",
+  "entitlementEnd": "2025-05-16T00:00:00Z"
+}

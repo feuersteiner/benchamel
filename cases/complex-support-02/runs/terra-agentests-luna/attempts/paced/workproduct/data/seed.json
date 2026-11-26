@@ -1,0 +1,22 @@
+{
+  "state": {
+    "now": "2025-05-14T12:00:00Z",
+    "domain": {
+      "correction": false,
+      "packet": null,
+      "disclosure": "unselected",
+      "logs": "unrequested",
+      "protection": "unverified",
+      "options": null,
+      "preservation": "June-30",
+      "subscription": "existing-term",
+      "dispatchCredential": "unchanged",
+      "productionImpact": "unresolved",
+      "reportFilter": "unknown"
+    },
+    "tasks": [],
+    "commitments": null,
+    "handoff": null
+  },
+  "audit": []
+}
