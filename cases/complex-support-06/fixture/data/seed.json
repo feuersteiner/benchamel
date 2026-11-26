@@ -1,0 +1,22 @@
+{
+  "state": {
+    "now": "2026-11-23T15:00:00Z",
+    "domain": {
+      "opening": "scheduled",
+      "information": "available",
+      "drafts": "unverified",
+      "temporary": "untested",
+      "claims": "uncorrected",
+      "scope": "unreviewed",
+      "invitation": false,
+      "productionForm": "blocked",
+      "customerAcceptance": null,
+      "partnerImport": "off",
+      "feeRemedy": null
+    },
+    "tasks": [],
+    "commitments": null,
+    "handoff": null
+  },
+  "audit": []
+}
