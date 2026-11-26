@@ -48,5 +48,21 @@
     "bun harness/verify.ts --case complex-support-10 --layer 3",
     "bun test harness/tests",
     "bun cases/complex-support-10/verification/native-agentests.ts"
-  ]
+  ],
+  "gate_uncertainty_fix": {
+    "policy": {
+      "fail_at_or_below": 0.2,
+      "pass_at_or_above": 0.8,
+      "intermediate": "uncertain-blocks-completion"
+    },
+    "calibration": "provisional; live eval measurements recorded separately",
+    "all_probabilities_retained": true,
+    "typecheck": "passed",
+    "layer_3_offline_verification": "passed",
+    "shared_unit_tests": {
+      "passed": 11,
+      "failed": 0
+    },
+    "gate_source_sha256": "d60bbbe7e15355d9117405d46dc1c8f7cf0c9e38dcf19e2d1b0ba3b6f10f95a3"
+  }
 }
