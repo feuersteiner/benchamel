@@ -1,0 +1,94 @@
+[
+  [
+    [
+      "extend-hold",
+      {}
+    ],
+    [
+      "elect-acquisition",
+      {
+        "approval": "PF-92",
+        "owners": "Ada,Jules"
+      }
+    ],
+    [
+      "prepare-evidence",
+      {}
+    ],
+    [
+      "rental-request",
+      {
+        "cents": "12000"
+      }
+    ],
+    [
+      "clock",
+      {
+        "to": "2026-10-20T14:00:00Z"
+      }
+    ],
+    [
+      "pickup",
+      {
+        "scope": "complete-kit-and-packaging"
+      }
+    ],
+    [
+      "submit-paired",
+      {
+        "buyer-cents": "492000",
+        "seller-cents": "452000"
+      }
+    ],
+    [
+      "clock",
+      {
+        "to": "2026-10-20T15:30:00Z"
+      }
+    ],
+    [
+      "payment-poll",
+      {}
+    ]
+  ],
+  [
+    [
+      "extend-hold",
+      {}
+    ],
+    [
+      "elect-inspection",
+      {
+        "reason": "Preserve ordinary fair adjudication while neutral custody resolves the conflicting kit records."
+      }
+    ],
+    [
+      "prepare-evidence",
+      {}
+    ],
+    [
+      "rental-request",
+      {
+        "cents": "12000"
+      }
+    ],
+    [
+      "clock",
+      {
+        "to": "2026-10-20T14:00:00Z"
+      }
+    ],
+    [
+      "pickup",
+      {
+        "scope": "complete-kit-and-packaging"
+      }
+    ],
+    [
+      "clock",
+      {
+        "to": "2026-10-20T15:30:00Z"
+      }
+    ]
+  ]
+]

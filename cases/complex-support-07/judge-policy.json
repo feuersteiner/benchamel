@@ -1,0 +1,72 @@
+[
+  {
+    "id": "hold",
+    "points": 6,
+    "any": [
+      {
+        "holdUntil": "2026-10-23T18:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "route",
+    "points": 6,
+    "any": [
+      {
+        "path": "inspection"
+      },
+      {
+        "path": "acquisition"
+      }
+    ]
+  },
+  {
+    "id": "custody",
+    "points": 6,
+    "any": [
+      {
+        "custody": "accepted"
+      },
+      {
+        "custody": "failed-safe"
+      }
+    ]
+  },
+  {
+    "id": "funding",
+    "points": 6,
+    "any": [
+      {
+        "path": "inspection",
+        "payments": "none"
+      },
+      {
+        "path": "acquisition",
+        "payments": "submitted"
+      },
+      {
+        "path": "acquisition",
+        "payments": "accepted"
+      },
+      {
+        "path": "acquisition",
+        "payments": "failed-safe"
+      },
+      {
+        "path": "acquisition",
+        "custody": "failed-safe",
+        "payments": "none"
+      }
+    ]
+  },
+  {
+    "id": "privacy",
+    "points": 6,
+    "any": [
+      {
+        "bundle": "minimized",
+        "privateRiskShared": false
+      }
+    ]
+  }
+]
