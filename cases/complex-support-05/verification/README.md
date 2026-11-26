@@ -1,1 +1,3 @@
 These are trusted deterministic state routes, outside agent inputs. They prove operational solvability and alternatives, not semantic model acceptance. All commands execute against fresh temporary copies. No score/result artifacts represent benchmark inference.
+
+Run `bun cases/complex-support-05/verification/agentests.ts` for source coverage, twelve replayed specimen packets, native eval discovery/skip, and six case-specific single-assertion failure gates across both presets. Scores are injected to exercise native orchestration; authored pass/fail labels remain unmeasured by a model. The complete case check is `bun harness/verify.ts --case complex-support-05 --layer 3`.

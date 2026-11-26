@@ -14,5 +14,46 @@
   "semantic_model_acceptance": "not-run",
   "paid_benchmark_runs": 0,
   "live_model_credentials_and_provider_network": "not-tested",
-  "eval_expectations": "authored-not-model-validated"
+  "eval_expectations": "authored-not-model-validated",
+  "native_domain_tests": {
+    "legal": 22,
+    "marketing": 17,
+    "customer-support": 21
+  },
+  "native_specimen_structure_and_runtime_replay": {
+    "status": "passed",
+    "packets": 12
+  },
+  "native_eval_discovery_with_injected_decisions": {
+    "status": "passed",
+    "folders_per_provider": 15,
+    "providers": [
+      "luna",
+      "jev"
+    ],
+    "semantic_accuracy": "not-measured"
+  },
+  "case_single_assertion_failure_gates": {
+    "status": "passed",
+    "runs": 6,
+    "all_decisions_per_run": 60,
+    "retained": [
+      "test",
+      "domain",
+      "assertion",
+      "error"
+    ]
+  },
+  "shared_runtime_patch_sha256": "0e8201ff2e0bf1f935ecaa76fcb080702c890cda59adeb0fecbd90b6eee44d93",
+  "commands_run": [
+    "bun install --frozen-lockfile",
+    "bun run check",
+    "bun harness/verify.ts --case complex-support-05 --layer 3",
+    "bun cases/complex-support-05/verification/agentests.ts"
+  ],
+  "shared_harness_tests": {
+    "passed": 10,
+    "failed": 0,
+    "expect_calls": 506
+  }
 }
