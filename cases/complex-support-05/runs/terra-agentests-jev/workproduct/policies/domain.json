@@ -1,0 +1,150 @@
+{
+  "id": "complex-support-05",
+  "now": "2025-06-12T14:00:00Z",
+  "updateBy": "2025-06-12T16:30:00Z",
+  "handoff": "Ren Ortiz",
+  "areas": {
+    "engineering": [
+      "Jules",
+      "Ivo"
+    ],
+    "partner": [
+      "Pavel"
+    ],
+    "finance": [
+      "Amira Lane"
+    ],
+    "customer": [
+      "Mira",
+      "Ren Ortiz"
+    ],
+    "support": [
+      "Mira",
+      "Ren Ortiz"
+    ]
+  },
+  "initial": {
+    "milestone": "unblocked",
+    "session": "unbooked",
+    "tests": null,
+    "classification": "none",
+    "legacyChoice": "unprepared",
+    "route": "legacy-primary",
+    "productionConsent": null,
+    "acceptance": null,
+    "refundCents": 0,
+    "preservation": "P-218"
+  },
+  "invariants": {
+    "route": "legacy-primary",
+    "productionConsent": null,
+    "acceptance": null,
+    "refundCents": 0,
+    "preservation": "P-218"
+  },
+  "rules": [
+    "Keep legacy primary and the $20,000 final milestone unissued pending end-to-end acceptance; provisioned tenant and HTTP success are not delivered operations.",
+    "Run C-19 idempotency and M9 quantity tests in staging; narrow duplicate success does not settle partial-shipment invoicing, volume or rollback.",
+    "Mode A human release still creates an automated downstream transaction. Seek Ivo/Nia classification; no live queue, pilot or full cutover is authorized.",
+    "R-218 corrective engineering is independent of Premier Care. $12,000 is an evidenced reimbursement cap, not an award; $9,600 legacy quote needs Sera procurement.",
+    "Track June 13 noon legacy procurement and 16:00 Atlas risk notice separately; support cannot grant retailer waiver or guarantee June 16 launch."
+  ],
+  "actions": {
+    "block-milestone": {
+      "description": "Confirm M3-218 remains unissued; no receivable or credit note created.",
+      "owner": "Amira Lane",
+      "evidence": [
+        "E02",
+        "E14",
+        "E16"
+      ],
+      "effects": {
+        "milestone": "blocked"
+      }
+    },
+    "book-session": {
+      "description": "Confirm staffed 15:00–17:00 joined dependency session.",
+      "owner": "Mira",
+      "evidence": [
+        "E09",
+        "E14",
+        "E20"
+      ],
+      "effects": {
+        "session": "booked"
+      },
+      "before": "2025-06-12T15:00:00Z"
+    },
+    "test-connector": {
+      "description": "Run deterministic duplicate and mapping paths using synthetic staging events.",
+      "owner": "Jules",
+      "evidence": [
+        "E08",
+        "E09",
+        "E12"
+      ],
+      "effects": {
+        "tests": "bounded-pass"
+      },
+      "args": {
+        "connector": [
+          "C-19"
+        ],
+        "mapping": [
+          "M9"
+        ]
+      },
+      "failEffects": {
+        "tests": "failed-safe"
+      }
+    },
+    "classify-queue": {
+      "description": "Refer actual Mode A call path to Ivo/Nia; keep commercial route off.",
+      "owner": "Ivo",
+      "evidence": [
+        "E07",
+        "E18"
+      ],
+      "effects": {
+        "classification": "pending"
+      },
+      "args": {
+        "question": "text"
+      }
+    },
+    "prepare-legacy": {
+      "description": "Prepare LP-81 decision packet with amount, window, payee verification and customer signatory.",
+      "owner": "Amira Lane",
+      "evidence": [
+        "E12",
+        "E19",
+        "E20"
+      ],
+      "effects": {
+        "legacyChoice": "prepared"
+      },
+      "args": {
+        "signatory": [
+          "Sera Malik"
+        ],
+        "quote": [
+          "LP-81"
+        ]
+      }
+    },
+    "preserve-test-report": {
+      "description": "Persist stage results before the 22:00 partner reset.",
+      "owner": "Pavel",
+      "evidence": [
+        "E09",
+        "E15"
+      ],
+      "effects": {
+        "reportPreserved": true
+      },
+      "requires": {
+        "tests": "bounded-pass"
+      }
+    }
+  }
+}

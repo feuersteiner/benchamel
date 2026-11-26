@@ -1,0 +1,74 @@
+{
+	"version": "1.0",
+	"licenseStatus": "Brief original factual paraphrases only. No raw source pages, code, screenshots, public customer transcripts or personal identifiers reproduced. No open transcript redistribution license asserted.",
+	"sources": [
+		{
+			"id": "S01",
+			"url": "https://learn.microsoft.com/en-us/dynamics365/guidance/implementation-guide/prepare-go-live-checklist",
+			"stableIdentifier": "microsoft-learn:prepare-go-live-checklist",
+			"publicationDate": "2024-02-01",
+			"retrievedDate": "2026-11-23",
+			"updateUncertainty": "Displayed last-updated date, not an asserted original publication date; current guidance is contextual and does not establish fictional policy.",
+			"reuseBasis": "original factual paraphrase, no transcript license asserted",
+			"quotesWords": 0,
+			"representation": {
+				"documentId": "E01",
+				"paragraphPrefix": "S01:",
+				"sha256": "bede8371a65334e8245d8c31c7461432895bdbf40b9af0a0675b4aaf74f2e5aa",
+				"hashScope": "UTF-8 bytes of this local authored paragraph only; not an original page hash"
+			},
+			"retrievalUrl": "https://learn.microsoft.com/en-us/dynamics365/guidance/implementation-guide/prepare-go-live-checklist"
+		},
+		{
+			"id": "S02",
+			"url": "https://docs.stripe.com/webhooks",
+			"stableIdentifier": "stripe-docs:webhooks",
+			"publicationDate": null,
+			"retrievedDate": "2026-11-23",
+			"updateUncertainty": "publication-date-unknown: no publication date established; living current documentation observed on retrieval, not evidence of historical 2025 feature availability.",
+			"reuseBasis": "original factual paraphrase, no transcript license asserted",
+			"quotesWords": 0,
+			"representation": {
+				"documentId": "E01",
+				"paragraphPrefix": "S02:",
+				"sha256": "8bbec7ba8766d91c29483a8eb8d7eedee895ad7691b7cffd4a85cd913c770537",
+				"hashScope": "UTF-8 bytes of this local authored paragraph only; not an original page hash"
+			},
+			"retrievalUrl": "https://docs.stripe.com/webhooks"
+		},
+		{
+			"id": "S03",
+			"url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/transactional-outbox.html",
+			"stableIdentifier": "aws-prescriptive-guidance:transactional-outbox",
+			"publicationDate": null,
+			"retrievedDate": "2026-11-23",
+			"updateUncertainty": "publication-date-unknown: no publication date established; living current technical guidance, not a historical RelayGrid architecture record.",
+			"reuseBasis": "original factual paraphrase, no transcript license asserted",
+			"quotesWords": 0,
+			"representation": {
+				"documentId": "E01",
+				"paragraphPrefix": "S03:",
+				"sha256": "7cd609ac9d9aabd6d34aced1589ebda383c05b4c50a746daffaaf45056ae2a8b",
+				"hashScope": "UTF-8 bytes of this local authored paragraph only; not an original page hash"
+			},
+			"retrievalUrl": "https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/transactional-outbox.html"
+		},
+		{
+			"id": "S04",
+			"url": "https://data.parliament.uk/DepositedPapers/Files/DEP2024-0682/Birmingham_Commissioners_first_report.pdf",
+			"stableIdentifier": "uk-parliament:DEP2024-0682:first-report",
+			"publicationDate": "2024-04-26",
+			"retrievedDate": "2026-11-23",
+			"updateUncertainty": "Date printed on Commissioners report; attributed official assessment of a real public implementation, not independent allocation of fictional vendor fault.",
+			"reuseBasis": "original factual paraphrase, no transcript license asserted",
+			"quotesWords": 0,
+			"representation": {
+				"documentId": "E01",
+				"paragraphPrefix": "S04:",
+				"sha256": "4db5513568020b147505b19ae885602d15a0714c4b9eae16f64a20ccdd4271cf",
+				"hashScope": "UTF-8 bytes of this local authored paragraph only; not an original page hash"
+			},
+			"retrievalUrl": "https://data.parliament.uk/DepositedPapers/Files/DEP2024-0682/Birmingham_Commissioners_first_report.pdf"
+		}
+	]
+}

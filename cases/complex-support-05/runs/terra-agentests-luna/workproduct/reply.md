@@ -1,0 +1,15 @@
+Dear Sera,
+
+The implementation is not ready for the June 16 Atlas workflow, and a successful launch cannot yet be promised. The legacy feed remains primary as you instructed; the new connector and queue are not authorized for commercial orders. I am sorry for the disruption and for Alec's earlier “launch ready in principle” message: it overstated what had been demonstrated. RelayGrid will coordinate the joined recovery and correct its connector defect without requiring a Premier Care purchase.
+
+Our staging investigation reproduced a RelayGrid retry defect that created duplicate warehouse reservations after an acknowledgment was lost. A new isolated synthetic test of C-19 and M9 produced 120 reservations from 240 repeated events, with 4,320 mapped units. That is a bounded result, not acceptance: your team still needs to confirm M9 business quantities, and partial-shipment invoicing, representative volume, outage recovery and the complete order-to-invoice reconciliation remain open. A received message does not by itself mean inventory was reserved or an invoice created. We will work with Northstar and your team on the joined evidence; the effect of the late classification file on the schedule remains disputed.
+
+The $20,000 final milestone is blocked and has not been issued or collected. It is due only after signed acceptance; this is not a refund. Your paid platform and earlier milestone amounts remain separate. Neither a pilot nor the legacy decision constitutes acceptance or releases any claim.
+
+The 15:00–17:00 UTC session is booked to review the evidence, dependencies and next actions. A limited pilot is only a proposal: at most 20 orders per day at one warehouse, with operator checks, reconciliation and a stop procedure. It would not cover the full Atlas workload. The current queue would create a new automated reservation after a human click, so its authority classification is pending. Any commercial pilot requires the applicable internal approvals, your written scope consent, credential rotation and safe diversion of selected orders from the legacy feed. No commercial start is promised.
+
+For continuity, the existing provider's $9,600 quote covers June 16–25 and expires June 13 at 12:00 UTC. Please decide whether Vela wants that extension. RelayGrid has approved reimbursement of verified actual extension cost up to $12,000, subject to your choice and Finance verification; no payment has been made, and bank receipt before your payment cannot be promised. The extension preserves the existing feed but does not secure Atlas's acceptance. Atlas risk notice is separately due June 13 at 16:00 UTC; Atlas alone can grant a waiver. Please share any response from Atlas when available. We can help prepare the supplier facts for your notice.
+
+Mira remains your coordinating owner and will provide a controlled update by 16:30 UTC today, even if testing is incomplete. Ren Ortiz is the deputy if Mira is unavailable. The team will seek your confirmation of M9 quantities and discuss the operational choices without asking you to resend the order, quote or prior test evidence.
+
+Mira

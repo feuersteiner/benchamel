@@ -1,0 +1,17 @@
+Dear Sera,
+
+RelayGrid is responsible for coordinating the recovery and correcting its connector defect. The earlier statement that the implementation was launch ready in principle was premature; the joined order-to-invoice workflow has not passed acceptance. We are sorry for the uncertainty this has caused your team and board. We cannot guarantee readiness for Atlas on June 16.
+
+Your legacy feed remains primary. No commercial orders have been routed through the new connector or queue under this plan. In the earlier synthetic test, a RelayGrid retry defect caused three duplicate reservations despite successful gateway acknowledgments. The latest local staging run with C-19 and M9 produced 120 reservations from 240 synthetic events, with 4,320 units mapped; this is a bounded result, not proof of production readiness. Partial-shipment invoicing, representative volume, outage recovery and full reconciliation remain open. Owen's business confirmation of M9 quantities is still needed. A received message does not by itself mean an order is reserved or invoiced.
+
+The $20,000 final implementation milestone is blocked and unissued until signed acceptance; it has not been collected or refunded. The paid platform and earlier milestones are unchanged. Contracted correction continues at no extra charge and does not depend on Premier Care or another purchase. Any wider refund or loss claim would need separate review; no release is required for the approved legacy reimbursement.
+
+The 15:00–17:00 UTC joint session is booked to agree owners, evidence and next steps. RelayGrid owns the retry correction and coordination; Northstar owns its mapping and invoice adapter, while Vela confirms business quantities and access. The effect of the late classification file on the schedule is disputed, including overlap with the warehouse sandbox outage; no final allocation has been made.
+
+For continuity, the prepared LP-81 option is $9,600 for June 16–25 and requires your choice before June 13 at 12:00 UTC. RelayGrid has approved reimbursement of verified actual extension cost up to $12,000, subject to your choice and Finance verification of the provider document, period and company payee. Finance submits a complete request in its next business-day window; bank receipt may take longer. No purchase or reimbursement has yet occurred. The extension preserves the current feed but does not provide the new Atlas acknowledgment or secure a waiver. Your Atlas risk notice is due June 13 at 16:00 UTC; Atlas decides any waiver.
+
+A limited pilot is only a proposal. One version would create reservations through the new connector after an operator clicks release; another would guide an operator through the existing warehouse screen. The first needs an authority classification and, under the current pilot approval, Ivo's evidence sign-off, Nia's exception and your written scope consent before use. Any pilot also needs selected orders diverted from legacy, rotated credentials, staffing, reconciliation and stop controls. Neither option establishes full acceptance or guarantees the June 16 requirement. Please consider whether you want the legacy extension and, separately, whether to review a bounded pilot; neither choice releases any claim.
+
+Mira remains your coordinating owner and will provide a written update by 16:30 UTC today, even if testing remains incomplete. Ren Ortiz is the deputy if Mira is unavailable.
+
+Mira

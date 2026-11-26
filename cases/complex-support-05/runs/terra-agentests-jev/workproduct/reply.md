@@ -1,0 +1,14 @@
+Dear Sera,
+
+The implementation is not ready for the June 16 workflow, and the Atlas deadline is at risk. RelayGrid is responsible for coordinating the joined recovery and correcting its connector defect. Alec's earlier “launch ready in principle” assurance was premature; the demonstration did not prove the complete order-to-invoice workflow. That assurance mattered to your planning, and I am sorry for the uncertainty and extra work this has caused.
+
+The legacy feed remains primary as you instructed. No commercial pilot or cutover is authorized, and we cannot guarantee June 16 readiness or an Atlas waiver. In staging, the retry defect produced duplicate reservations despite successful message receipts. The C-19/M9 synthetic rerun produced 120 reservations for 240 events representing 120 orders; this is a bounded result, not full acceptance. The downstream report for this run has been exported and preserved; later runs will also be exported before the nightly reset. Partial-shipment invoicing, representative volume, outage recovery, rollback rehearsal and reconciliation remain open; M9 also needs your team's business quantity confirmation. A received message does not by itself mean inventory was reserved or an invoice created.
+
+Jules will plan and conduct a restoration and rollback rehearsal with the warehouse owners and report evidence or blockers at the 16:00 checkpoint; it has not yet passed. The staffed joint session is booked for 15:00–17:00 UTC today. RelayGrid will coordinate the connector, Northstar mapping and invoice-adapter dependencies with your team and give you a written update by 16:30 UTC, even if testing remains incomplete. RelayGrid has authorized up to 60 engineering hours through June 20 for correction at no extra charge; this is not dependent on buying Premier Care. The final $20,000 milestone remains blocked and unissued until signed acceptance; it has not been collected or refunded.
+
+For continuity, the $9,600 LP-81 offer covers June 16–25 and must be ordered by you through June 13 at 12:00 UTC. RelayGrid has approved reimbursement of verified actual extension cost up to $12,000 if you choose it; Finance must verify the provider document, period and company payee before submission in its next business-day window. Funds are not yet paid and arrival before your provider payment cannot be promised. This continuation does not supply Atlas's new acknowledgment capability or secure a waiver. Please decide whether to purchase it and consider your separate Atlas risk notice due June 13 at 16:00 UTC. RelayGrid can help with supplier facts; Atlas decides any waiver.
+
+A limited pilot remains a proposal, not a replacement for full acceptance. Its actual design, staffing, controls and approvals need review with you before any live use. Your options and any separate compensation or cancellation request remain open; the extension reimbursement requires no claim release.
+
+Mira Chen
+Support lead

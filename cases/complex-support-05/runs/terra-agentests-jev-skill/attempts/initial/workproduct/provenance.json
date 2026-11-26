@@ -1,0 +1,134 @@
+{
+  "version": "1.0",
+  "source": {
+    "repository": "https://github.com/feuersteiner/agent-tests",
+    "branch": "benchmark-v2",
+    "commit": "6142590525acb698e473671f2420022f64adfa71",
+    "path": "benchmark/v2/pilot/complex-support-05"
+  },
+  "documents": [
+    {
+      "id": "E01",
+      "file": "01-public-background.md",
+      "bytes": 3413,
+      "sha256": "bc20519e778d47e1b11248fd7396bb35abc4e6e45de8233ed4310954e0278c0d"
+    },
+    {
+      "id": "E02",
+      "file": "02-order-and-signatories.md",
+      "bytes": 3278,
+      "sha256": "0d069b10b905be85ac6b5cbe58b32fa7ad9903d6888f9a478e09d8a59eef05ad"
+    },
+    {
+      "id": "E03",
+      "file": "03-customer-deadline-thread.md",
+      "bytes": 3172,
+      "sha256": "8873f02ccdf72355daf655c86f6dc67253039d265c4dae95eeca6907e39362f9"
+    },
+    {
+      "id": "E04",
+      "file": "04-signed-scope-and-responsibilities.md",
+      "bytes": 3452,
+      "sha256": "912f2d6cdc7fefa8681bc914cc173f00d1c99b1181fc92a1c3dafcfd4063fe2f"
+    },
+    {
+      "id": "E05",
+      "file": "05-current-delivery-policy.md",
+      "bytes": 3547,
+      "sha256": "2aac8f4ef4c68e4e47572eeda7491975b8010bdaee4e2d97325721b713e406e0"
+    },
+    {
+      "id": "E06",
+      "file": "06-archived-launch-playbook.md",
+      "bytes": 3219,
+      "sha256": "df3cf4fd304679d0c294507d09cc0856cb6c312a7da9b7c6848867af721bdc6e"
+    },
+    {
+      "id": "E07",
+      "file": "07-approval-and-exception-register.md",
+      "bytes": 3408,
+      "sha256": "8c7c6b52337d67876d0d1749985e27323e61d26001ab916df1cc7c48c6c9045c"
+    },
+    {
+      "id": "E08",
+      "file": "08-connector-test-findings.md",
+      "bytes": 3355,
+      "sha256": "781fd66dfbba1621192fa1b2b6dbe96c01df53a8882fcf1e2257c7f90a61c045"
+    },
+    {
+      "id": "E09",
+      "file": "09-partner-findings-and-dispute.md",
+      "bytes": 3317,
+      "sha256": "0be6bfb823b9877bcedf51771622e463435d2f8c50d3aee973f9538cc4285163"
+    },
+    {
+      "id": "E10",
+      "file": "10-customer-operations-and-workload.md",
+      "bytes": 3177,
+      "sha256": "e8fb7de01a3452e269ae1cf11771e3110d9c58c4ae5605e845fa0aef8095f269"
+    },
+    {
+      "id": "E11",
+      "file": "11-sales-promises-and-forecast.md",
+      "bytes": 3341,
+      "sha256": "f5c1f0e9121aab8874c83cece76202da56dd141f425bb3eab4a37482230c523b"
+    },
+    {
+      "id": "E12",
+      "file": "12-recovery-runbook-and-route-controls.md",
+      "bytes": 3370,
+      "sha256": "a3d2f9369d5356e27d202b1a5f816bfe5b0f3b5412c1eadb378d6be29bf7b43c"
+    },
+    {
+      "id": "E13",
+      "file": "13-brand-and-accountability-guidance.md",
+      "bytes": 3308,
+      "sha256": "48db838f52d6a8444a43c6663c6c6f299d69cb7f117c66b0bdfef059f71df480"
+    },
+    {
+      "id": "E14",
+      "file": "14-case-ownership-and-staffing.md",
+      "bytes": 3284,
+      "sha256": "65932600ed02fd09f25253253a1e387f0bf0df2584e82d043c357f1d24393aed"
+    },
+    {
+      "id": "E15",
+      "file": "15-access-and-data-handling.md",
+      "bytes": 3279,
+      "sha256": "740ef3160fdeaf4298b344629182f18bc59b1ac7129fa4dae27b52a1dd67c9ca"
+    },
+    {
+      "id": "E16",
+      "file": "16-counsel-scope-note.md",
+      "bytes": 3435,
+      "sha256": "b11ada5b063f9b5f416a2def7e6d0b5dc949fd5aae9b12ada57aa0b6b557ad49"
+    },
+    {
+      "id": "E17",
+      "file": "17-chronology-and-notice-register.md",
+      "bytes": 3018,
+      "sha256": "d3a4aacf9d065a9e1687cc0a32a9a9cb775abf56e6a76332c0e32d90f28c06d8"
+    },
+    {
+      "id": "E18",
+      "file": "18-queue-design-and-exception-question.md",
+      "bytes": 3330,
+      "sha256": "918bd8750fa69f59e181cf2806d18ac38f4e75033907e7a6198e3f91ba0da094"
+    },
+    {
+      "id": "E19",
+      "file": "19-finance-and-procurement-state.md",
+      "bytes": 3132,
+      "sha256": "d61d604abfea8e494b85aaaa79c18ae0b17e991c414adc973100a7efced42b6e"
+    },
+    {
+      "id": "E20",
+      "file": "20-handoff-and-open-register.md",
+      "bytes": 3203,
+      "sha256": "f1eb152355f074bd704991f561d65f6d2a23e1e2a952b66beec111d115d55b92"
+    }
+  ],
+  "copied": "Twenty documents and sources.json copied byte-for-byte. No candidates, reviewer expectations or summary are supplied.",
+  "boundary": "Primary sources are attributed inspiration; business records, runnable integrations and simulated responses are synthetic reconstruction. Current documentation is not backdated contract authority.",
+  "sourcesFileSha256": "c681666fe3d52fb1d1dc994efc086fd0562345b45fbe29978ec5639ad361f5cc"
+}

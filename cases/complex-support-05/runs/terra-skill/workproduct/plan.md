@@ -1,0 +1,21 @@
+# Case 218 — internal plan, 12 June 2025 14:00 UTC
+
+## Actual state and receipts
+
+- CLI receipts 1–6 confirm milestone block, 15:00–17:00 session, C-19/M9 staging test, Mode A classification referral, LP-81 packet and report preservation. Status records bounded pass: 240 synthetic events, 120 reservations, 4,320 units; partial shipment and representative volume not validated, commercial false. P-218 remains preserved; the new report is preserved before the 22:00 reset. The test does not establish M9 business meaning, partial-shipment invoicing, double-click behavior, recovery or rollback.
+- Legacy is primary; production consent and acceptance are null, refund is zero. Classification is pending; packet prepared but not accepted or reimbursed. No commercial queue, pilot or cutover. M3-218 is blocked before issue, not a credit. The 15:00 session is booked, not completed.
+- Receipts 7–12 assign Jules, Pavel, Amira, Mira, Ren and Ivo. Receipt 13 records the exact current domain snapshot and 16:30 update; receipt 14 hands off to Ren. Refresh commitments and handoff after any later state change.
+
+## Authority and evidence ledger
+
+- E02/E04/E05/E19: signed end-to-end acceptance gates the final $20,000; tenant, transport success, forecast and archived E06 playbook do not establish acceptance. No receivable or refund exists for M3.
+- E07/E08/E12/E18: staging is permitted. Mode A human release creates a new automated reservation; Ivo and Nia must classify the actual path and clause at 15:00. Keep route off while pending. R-218 pilot preparation is not execution: current evidence signed by Ivo, Nia's operational exception and Sera's written scope consent are required, along with one warehouse, at most 20 orders/day, no unattended retry or automatic invoice release, named operator, two-hour reconciliation, kill switch and staffing. Divert selected orders from legacy and rotate the production credential before any authorized pilot. Mode B manual entry would not prove automated acceptance.
+- E07/E19: Nia approved up to 60 engineering hours through June 20 for contracted correction and reimbursement of actual legacy extension up to ten days and $12,000, subject to Sera's choice and Finance verification. LP-81 is $9,600 for June 16–25, not an award or settlement. No Premier Care purchase, release or acceptance is required. Larger relief, cancellation, platform refund or damages require separate authority and counsel; do not promise them.
+- E04/E09/E16/E17: RelayGrid owns retry correction and coordination; Northstar owns transformation and invoice adapter; Vela owns master data and access. Late file is evidenced but critical-path impact and notice are disputed, with June 4–5 sandbox outage overlapping. Preserve the dispute without attributing all delay or conceding damages. Correct the sales readiness assurance; $45,000 daily gross sales is not proven loss.
+
+## Next actions and handoff
+
+- Ivo with Nia, 15:00 June 12: classify Mode A and identify authority; no live use pending decision. Jules, 16:00: investigate retry, test call path, double release and reconciliation in staging; obtain Owen's M9 business confirmation and plan representative-volume, outage and rollback evidence. Pavel, 16:00: confirm transformation and partial-shipment adapter availability and document dependencies; preserve sanitized exports. Do not ask again for T-41, the order or quote.
+- Amira, 09:00 June 13: retain invoice block and, only if Sera chooses LP-81, verify signed quote or invoice, covered period and company payee before the next complete-request business-day processing window. Sera's procurement deadline is June 13 12:00 UTC. Escalate cash-flow requests to Nia; no direct supplier payment is authorized.
+- Mira owns the customer update by 16:30 June 12. Track Vela's separate Atlas risk notice due June 13 16:00 and the June 16 08:00 requirement; no waiver is recorded. Do not contact Atlas or promise launch. Owen's credential rotation is booked for June 13 08:30, not completed.
+- Ren Ortiz is named deputy. If Mira misses the checkpoint, Ren escalates to Nia, tells Sera before 17:00 and gives a revised update owner and time. Keep engineering, sales correction, cost and acceptance work open; no resolution or claim release is implied.
