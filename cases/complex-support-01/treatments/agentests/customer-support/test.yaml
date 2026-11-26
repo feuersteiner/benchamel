@@ -36,8 +36,20 @@
     {
       "id": "customer-support-bank-receipt-limit",
       "description": "Bank receipt status",
-      "error": "Revise bank receipt status: No bank receipt or guaranteed bank date is claimed; an estimate starts after processor acceptance.",
-      "decide": "Does the refund explanation preserve unconfirmed bank posting? Pass=true: No bank receipt or guaranteed bank date is claimed; an estimate starts after processor acceptance. Evidence: evidence.E04."
+      "error": "Keep bank receipt unconfirmed; processor acceptance is not cash received by the bank.",
+      "decide": "Do bank-receipt claims in outputs leave receipt unconfirmed? Pass=true: No statement in reply.md or plan.md claims the bank has received the return. A processor receipt is not a bank receipt. Evidence: evidence.E04."
+    },
+    {
+      "id": "customer-support-bank-date-estimate",
+      "description": "Bank date uncertainty",
+      "error": "Describe bank dates as estimates rather than guarantees.",
+      "decide": "Do bank-timing statements in outputs remain estimates? Pass=true: No statement in reply.md or plan.md guarantees a bank posting date. Omitting a bank date is valid. Evidence: evidence.E04."
+    },
+    {
+      "id": "customer-support-bank-estimate-start",
+      "description": "Bank estimate start event",
+      "error": "Start any bank-return estimate after processor acceptance.",
+      "decide": "Does any bank-return estimate in outputs start after processor acceptance? Pass=true: Any stated bank-return estimate starts after processor acceptance, not credit posting or refund submission. Omitting an estimate is valid. Evidence: evidence.E04."
     },
     {
       "id": "customer-support-advance-finance",

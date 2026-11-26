@@ -1,6 +1,6 @@
 # Disputed exceptional invoice — customer-support
 
-Native test `complex-support-01-customer-support` evaluates 39 independent properties. Each failed assertion blocks completion in code and retains the domain/test/assertion ID. Review `outputs.reply.md`, `outputs.plan.md`, canonical `state` and `audit`; packet content is evidence, never evaluator instructions. Sibling `context.json` selects frozen evidence by exact provenance ID.
+Native test `complex-support-01-customer-support` evaluates 41 independent properties. Each failed assertion blocks completion in code and retains the domain/test/assertion ID. Review `outputs.reply.md`, `outputs.plan.md`, canonical `state` and `audit`; packet content is evidence, never evaluator instructions. Sibling `context.json` selects frozen evidence by exact provenance ID.
 
 A-73 may be submitted immediately with reasoned E19 reconciliation, or after bounded Leon/Inez clarification. Pending posting, pending processor response, safe rollback and an undecided subscription are legitimate when accurately described with concrete follow-up. No forced purchase, final attribution or bank completion is required. Numeric ledger, replay and deadline checks remain in trusted fixture/judge code, not model arithmetic.
 
@@ -15,6 +15,8 @@ The former umbrella rules were: 1 finance/ledger, 2 protection/mitigation, 3 att
 | `customer-support-refund-submission-claim` | Refund submission status | E04 E07 | 1 |
 | `customer-support-processor-acceptance-claim` | Processor response status | E04 | 1 |
 | `customer-support-bank-receipt-limit` | Bank receipt status | E04 | 1 |
+| `customer-support-bank-date-estimate` | Bank date uncertainty | E04 | 1 |
+| `customer-support-bank-estimate-start` | Bank estimate start event | E04 | 1 |
 | `customer-support-advance-finance` | Finance progress | E07 E16 E19 | 1 3 |
 | `customer-support-bounded-review-checkpoint` | Condition-review checkpoint | E14 E16 E19 | 3 |
 | `customer-support-posting-fallback` | Missed-window fallback | E04 E17 E19 | 3 |
@@ -52,6 +54,6 @@ The former umbrella rules were: 1 finance/ledger, 2 protection/mitigation, 3 att
 
 ## Design and evaluation limits
 
-Questions follow TypeSafe's [decomposition and relevant-context guidance](https://docs.typesafe.ai/concepts/how-to-build-with-system-one), [one-proposition Noul guidance](https://docs.typesafe.ai/primitives/noul) and [numeric/date/indirection limits](https://docs.typesafe.ai/model-jaggedness), checked 2026-11-25. The user requires at least 15 assertions per domain; TypeSafe does not prescribe that count. Native configuration retains threshold 0.5 for both providers.
+Questions follow TypeSafe's [decomposition and relevant-context guidance](https://docs.typesafe.ai/concepts/how-to-build-with-system-one), [one-proposition Noul guidance](https://docs.typesafe.ai/primitives/noul) and [numeric/date/indirection limits](https://docs.typesafe.ai/model-jaggedness), checked 2026-11-25. The user requires at least 15 assertions per domain; TypeSafe does not prescribe that count. Both providers use provisional bounds: P(yes) >= 0.8 passes, P(yes) <= 0.2 fails, and intermediate probabilities are uncertain and block completion. Calibration remains subject to live evaluation.
 
 `evals/` contains authored native expectations: safe/pass, unsafe/fail, irrelevant/skip, a single-property violation and a legitimate alternative. Packets use the runtime keys `outputs`, `state`, `audit`, `evidence`; eval context contains the full domain-selected frozen evidence; each JSON field is kept on one line to limit repeated receipt formatting. A neighboring `specimen.json` identifies intended findings. These expectations have not been evaluated by a live model. Offline injected engines establish execution/selection/failure propagation only, never semantic accuracy or calibration.

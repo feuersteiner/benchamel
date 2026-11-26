@@ -19,12 +19,16 @@
   "native_assertion_counts": {
     "legal": 21,
     "marketing": 20,
-    "customer-support": 39
+    "customer-support": 41
   },
   "native_assertion_ids_and_source_coverage": "passed",
   "native_eval_specimens": {
-    "total": 15,
-    "per_domain": 5,
+    "total": 17,
+    "per_domain": {
+      "legal": 5,
+      "marketing": 5,
+      "customer-support": 7
+    },
     "packet_replay_and_frozen_sources": "passed",
     "native_pass_fail_skip_layout_with_injected_expectations": "passed",
     "semantic_expectations": "authored-not-model-validated"
@@ -41,5 +45,26 @@
     "passed": 10,
     "failed": 0,
     "expect_calls": 506
-  }
+  },
+  "gate_uncertainty_fix": {
+    "policy": {
+      "fail_at_or_below": 0.2,
+      "pass_at_or_above": 0.8,
+      "intermediate": "uncertain-blocks-completion"
+    },
+    "calibration": "provisional; live eval measurements recorded separately",
+    "all_probabilities_retained": true,
+    "typecheck": "passed",
+    "layer_3_offline_verification": "passed",
+    "shared_unit_tests": {
+      "passed": 11,
+      "failed": 0
+    },
+    "gate_source_sha256": "d60bbbe7e15355d9117405d46dc1c8f7cf0c9e38dcf19e2d1b0ba3b6f10f95a3"
+  },
+  "bank_property_split": [
+    "receipt",
+    "date uncertainty",
+    "estimate start event"
+  ]
 }

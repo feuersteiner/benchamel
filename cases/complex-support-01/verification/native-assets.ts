@@ -19,7 +19,7 @@ export async function verifyNativeAssets(root:string) {
       for(const [,id] of question.matchAll(/evidence\.(E\d\d)/g))assert(item.evidence!.includes(id!),'Question source missing from domain manifest');
     }
     const folders=(await readdir(join(item.source,'evals'))).sort();
-    assert.deepEqual(folders,['bounded-review','irrelevant','safe','single-property','unsafe']);
+    assert.deepEqual(folders,item.domain==='customer-support'?['bank-estimate-start','bank-receipt','bounded-review','irrelevant','safe','single-property','unsafe']:['bounded-review','irrelevant','safe','single-property','unsafe']);
     for(const folder of folders) {
       evalCount++;
       const path=join(item.source,'evals',folder),expected=parseEval(await readFile(join(path,'eval.yaml'),'utf8')).expect;
@@ -39,12 +39,12 @@ export async function verifyNativeAssets(root:string) {
       assert.equal(new Set(failed).size,failed.length);
       for(const id of failed)assert(item.test.assert.some(a=>a.id===id));
       assert.equal(expected,failed.length?'fail':'pass');
-      if(folder==='single-property')assert.equal(failed.length,1);
+      if(['single-property','bank-receipt','bank-estimate-start'].includes(folder))assert.equal(failed.length,1);
       if(folder==='bounded-review'){assert.equal(packet.state.finance.status,'requested');assert.equal(packet.state.finance.request.postAt,'2024-03-04T10:00:00Z');}
       authored.set(bytes,{domain:item.domain,failed});
     }
   }
-  assert.equal(evalCount,15);
+  assert.equal(evalCount,17);
   const temp=await mkdtemp(join(tmpdir(),'benchamel-case01-native-assets-')),previous=process.cwd();
   try {
     await installDomainSuite(suite,temp);
@@ -65,8 +65,8 @@ export async function verifyNativeAssets(root:string) {
       process.chdir(temp);
       const results=await new InjectedEvals().eval();
       process.chdir(previous);
-      assert.equal(results.length,3);assert.equal(calls,total*4);
-      assert.equal(results.flatMap(r=>r.evals).length,15);
+      assert.equal(results.length,3);assert.equal(calls,total*4+suite.find(s=>s.domain==='customer-support')!.test.assert.length*2);
+      assert.equal(results.flatMap(r=>r.evals).length,17);
       for(const result of results)for(const evaluation of result.evals)assert.equal(evaluation.matches,true);
     }
     const workspace=join(temp,'workspace');await cp(join(root,'fixture'),workspace,{recursive:true});
