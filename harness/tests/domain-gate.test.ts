@@ -32,23 +32,24 @@ test('native domain suites run every assertion, filter evidence, retain failures
   try {
     const suite=await loadDomainSuite(root),installed=join(parent,'native');await installDomainSuite(suite,installed);
     for(const decision of ['luna','jev'] as const) {
+      const reviewWorkspace=join(parent,'review-'+decision);await cp(workspace,reviewWorkspace,{recursive:true});
       await writeFile(join(installed,'agentests.config.yaml'),JSON.stringify(config(decision)));
       const cli=Bun.spawn(['node',join(import.meta.dir,'../../node_modules/agentests/dist/cli/index.js'),'validate'],{cwd:installed,stdout:'pipe',stderr:'pipe'});
       const [code,out,err]=await Promise.all([cli.exited,new Response(cli.stdout).text(),new Response(cli.stderr).text()]);expect(code,out+err).toBe(0);
       const calls=new Map<string,Set<string>>();
-      const pass=await gate(root,workspace,decision,({domain,assertion,packet})=>{
+      const pass=await gate(root,reviewWorkspace,decision,({domain,assertion,packet})=>{
         const index=domains.indexOf(domain);expect(packet.evidence).toEqual({[`E0${index+1}`]:`Frozen ${domain} source`});
         expect(packet.outputs['reply.md']).toBe('Synthetic offline reply.md');expect(packet.state).toEqual({domain:{status:'pending-review'},tasks:[]});expect(packet.audit).toEqual([{command:'request-review',outcome:'confirmed'}]);
         if(!calls.has(domain))calls.set(domain,new Set());calls.get(domain)!.add(assertion);return 0.8;
       });
       expect(pass.pass).toBe(true);expect(pass.offlineDecisionCalls).toBe(45);expect(pass.findings).toEqual([]);expect([...calls.values()].map(ids=>ids.size)).toEqual([15,15,15]);
-      const fail=await gate(root,workspace,decision,0);expect(fail.pass).toBe(false);expect(fail.findings).toHaveLength(45);expect(fail.offlineDecisionCalls).toBe(45);
+      const fail=await gate(root,reviewWorkspace,decision,0);expect(fail.pass).toBe(false);expect(fail.findings).toHaveLength(45);expect(fail.offlineDecisionCalls).toBe(45);
       for(const item of suite) {
-        const selective=await gate(root,workspace,decision,input=>input.domain===item.domain?0:1);
+        const selective=await gate(root,reviewWorkspace,decision,input=>input.domain===item.domain?0:1);
         expect(selective.pass).toBe(false);expect(selective.offlineDecisionCalls).toBe(45);
         expect(selective.findings).toEqual(item.test.assert.map(a=>({test:item.test.id,domain:item.domain,assertion:a.id,error:a.error})));
       }
-      const single=await gate(root,workspace,decision,input=>input.assertion==='legal-property-1'?0:1);expect(single.findings).toHaveLength(1);expect(single.pass).toBe(false);
+      const single=await gate(root,reviewWorkspace,decision,input=>input.assertion==='legal-property-1'?0:1);expect(single.findings).toHaveLength(1);expect(single.pass).toBe(false);
       const prompts:string[]=[],threads:(string|undefined)[]=[];let checks=0;
       await revisionLoop(async(prompt,thread)=>{prompts.push(prompt);threads.push(thread);return {thread:'same-offline-session',code:0};},async()=>++checks===1?fail:pass,'Offline draft');
       expect(prompts).toHaveLength(2);expect(prompts[1]).toContain(JSON.stringify(fail.findings));expect(threads[1]).toBe('same-offline-session');
@@ -128,15 +129,25 @@ test('decision bounds retain probabilities and block uncertainty for both provid
   const {parent,root,workspace}=await specimen();
   try {
     for(const provider of ['luna','jev'] as const) {
+      const reviewWorkspace=join(parent,'review-'+provider);await cp(workspace,reviewWorkspace,{recursive:true});
       expect(config(provider).assert.threshold).toBe(decisionPolicy.passAtOrAbove);
-      const result=await gate(root,workspace,provider,({assertion})=>assertion==='legal-property-1'?0.5:0.8);
+      const result=await gate(root,reviewWorkspace,provider,({assertion})=>assertion==='legal-property-1'?0.5:0.8);
       expect(result.pass).toBe(false);expect(result.status).toBe('uncertain');
       expect(result.decisions).toHaveLength(45);expect(result.findings).toHaveLength(1);
       expect(result.decisions[0]).toEqual({test:'case-unit-legal',domain:'legal',assertion:'legal-property-1',probability:0.5,status:'uncertain'});
       expect(result.findings[0]!.error).toContain('Uncertain decision (P(yes)=0.5)');
-      const failed=await gate(root,workspace,provider,0.2);
+      const failed=await gate(root,reviewWorkspace,provider,0.2);
       expect(failed.pass).toBe(false);expect(failed.status).toBe('fail');expect(failed.findings).toHaveLength(45);
       expect(failed.decisions.every(d=>d.probability===0.2&&d.status==='fail')).toBe(true);
     }
   }finally {await rm(parent,{recursive:true,force:true});}
+});
+
+test('installed fixture Tests cannot be deleted and silently reinstalled',async()=>{
+  const {parent,root,workspace}=await specimen();
+  try {
+    await gate(root,workspace,'luna',1);
+    await rm(join(workspace,'.agents/tests'),{recursive:true});
+    await expect(gate(root,workspace,'luna',1)).rejects.toThrow('Prepared Test missing');
+  }finally{await rm(parent,{recursive:true,force:true});}
 });

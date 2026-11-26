@@ -1,0 +1,17 @@
+{
+  "case": "complex-support-03",
+  "arm": "terra-agentests-jev",
+  "pid": 45613,
+  "startedAt": "2026-11-26T05:25:24.675Z",
+  "endedAt": "2026-11-26T05:28:11.605Z",
+  "status": "failed",
+  "exit": 1,
+  "source_commit": "5b3bcd969d5bfd4082946e111f6d493bf7a882fd",
+  "versions": {
+    "codex": "codex-cli 0.172.0-alpha.2",
+    "bun": "1.3.3",
+    "node": "v22.19.0"
+  },
+  "transport": "native-single-question",
+  "execution_wave": "initial-60-way"
+}
