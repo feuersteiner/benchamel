@@ -1,0 +1,160 @@
+{
+  "id": "complex-support-02",
+  "now": "2025-05-14T12:00:00Z",
+  "updateBy": "2025-05-14T13:45:00Z",
+  "handoff": "Eren Hale",
+  "areas": {
+    "security": [
+      "Dris",
+      "Priam"
+    ],
+    "privacy": [
+      "Asha",
+      "Mira"
+    ],
+    "commercial": [
+      "Celia"
+    ],
+    "support": [
+      "Noor Vale",
+      "Eren Hale"
+    ]
+  },
+  "initial": {
+    "correction": false,
+    "packet": null,
+    "disclosure": "unselected",
+    "logs": "unrequested",
+    "protection": "unverified",
+    "options": null,
+    "preservation": "June-30",
+    "subscription": "existing-term",
+    "dispatchCredential": "unchanged",
+    "productionImpact": "unresolved",
+    "reportFilter": "unknown"
+  },
+  "invariants": {
+    "preservation": "June-30",
+    "subscription": "existing-term",
+    "dispatchCredential": "unchanged",
+    "productionImpact": "unresolved",
+    "reportFilter": "unknown"
+  },
+  "rules": [
+    "Correct the May 13 no-exposure/no-action assurance now; A-61 retrieval is confirmed but A-62/A-63 retrieval and earlier production impact remain unknown.",
+    "Release the cleared three-row attachment schedule without secrets. Omit JOB-R17 or seek a bounded correlation review; do not let that optional field block cleared facts.",
+    "Verify the two sessions and one connector secret already revoked/rotated; no blanket dispatch rotation is authorized.",
+    "C-218 is a fourteen-day no-charge offer requiring Ben Orrell acceptance by May 15 18:00, ending May 30 00:00; no extension or annual renewal is active.",
+    "Correct universal sanitization and completed-report claims. Incident cooperation, export and preservation are independent of purchase."
+  ],
+  "actions": {
+    "correct-assurance": {
+      "description": "Append current scoped correction to authenticated incident thread; no final report claim.",
+      "owner": "Noor Vale",
+      "evidence": [
+        "E03",
+        "E05",
+        "E11"
+      ],
+      "effects": {
+        "correction": true
+      }
+    },
+    "verify-protection": {
+      "description": "Check existing targeted revocation receipts; preserve dispatch integration.",
+      "owner": "Dris",
+      "evidence": [
+        "E10",
+        "E19"
+      ],
+      "effects": {
+        "protection": "verified"
+      }
+    },
+    "prepare-schedule": {
+      "description": "Build a minimized three-attachment schedule; optional job reference excluded.",
+      "owner": "Asha",
+      "evidence": [
+        "E12",
+        "E16",
+        "E18"
+      ],
+      "effects": {
+        "disclosure": "minimized"
+      },
+      "args": {
+        "scope": [
+          "attachment-rows"
+        ]
+      }
+    },
+    "indicator-review": {
+      "description": "Refer JOB-R17 correlation question for Mira/Legal; cleared fields remain separable.",
+      "owner": "Mira",
+      "evidence": [
+        "E16",
+        "E18"
+      ],
+      "effects": {
+        "disclosure": "review-pending"
+      },
+      "args": {
+        "question": "text"
+      },
+      "before": "2025-05-14T12:20:00Z"
+    },
+    "prepare-reviewed-schedule": {
+      "description": "Prepare cleared fields while optional JOB-R17 remains withheld pending interpretation.",
+      "owner": "Asha",
+      "evidence": [
+        "E16",
+        "E18"
+      ],
+      "effects": {
+        "disclosure": "review-pending"
+      },
+      "requires": {
+        "disclosure": "review-pending"
+      },
+      "args": {
+        "scope": [
+          "attachment-rows"
+        ]
+      }
+    },
+    "request-logs": {
+      "description": "Request separate attachment/report and pre-18:00 production feeds; no negative coverage inference.",
+      "owner": "Priam",
+      "evidence": [
+        "E04",
+        "E08",
+        "E19"
+      ],
+      "effects": {
+        "logs": "requested"
+      },
+      "args": {
+        "feeds": [
+          "attachments,report-filter,production-archive"
+        ]
+      }
+    },
+    "prepare-choices": {
+      "description": "Prepare unsigned C-218 and independent renewal/exit limits, no entitlement change.",
+      "owner": "Celia",
+      "evidence": [
+        "E07",
+        "E14",
+        "E15"
+      ],
+      "effects": {
+        "options": "prepared"
+      },
+      "args": {
+        "signatory": [
+          "Ben Orrell"
+        ]
+      }
+    }
+  }
+}

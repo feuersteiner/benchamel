@@ -59,14 +59,19 @@ async function verifySpecimens(root:string) {
     await writeFile(join(temp,'state/runtime.json'),JSON.stringify({state:specimen!.state,audit:specimen!.audit}));
     for(const [file,text] of Object.entries(specimen!.outputs))await writeFile(join(temp,file),text);
     const total=suite.reduce((n,item)=>n+item.test.assert.length,0);
-    for(const decision of ['luna','jev'] as const)for(const item of suite) {
+    for(const decision of ['luna','jev'] as const) {
+      const reviewWorkspace=await mkdtemp(join(tmpdir(),'case02-review-'));
+      try {await cp(temp,reviewWorkspace,{recursive:true});for(const item of suite) {
       const target=item.test.assert[0]!;
-      const result=await gate(root,temp,decision,input=>{
-        assert.deepEqual(Object.keys(input.packet.evidence).sort(),[...suite.find(s=>s.domain===input.domain)!.evidence!].sort());
+      const result=await gate(root,reviewWorkspace,decision,input=>{
+        const selected=suite.find(s=>s.domain===input.domain)!;const assertion=selected.test.assert.find(a=>a.id===input.assertion)!;const ids=[...new Set([assertion.decide!].flat()[0]!.match(/\bE\d{2}\b/g)??[])];
+        assert.deepEqual(Object.keys(input.packet.evidence).sort(),(ids.length?ids:[...selected.evidence!]).sort());
         return input.assertion===target.id?0:1;
       });
       assert.equal(result.offlineDecisionCalls,total);assert.equal(result.pass,false);
       assert.deepEqual(result.findings,[{test:item.test.id,domain:item.domain,assertion:target.id,error:target.error}]);
+    }
+      }finally{await rm(reviewWorkspace,{recursive:true,force:true});}
     }
   }finally {await rm(temp,{recursive:true,force:true});}
   console.log(JSON.stringify({case:'complex-support-02',authoredSpecimens:15,packetReplay:'passed',singleAssertionFailureBothPresets:'passed',semanticValidation:'not-run'}));

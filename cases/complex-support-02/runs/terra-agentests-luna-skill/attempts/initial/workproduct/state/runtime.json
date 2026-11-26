@@ -1,0 +1,303 @@
+{
+  "state": {
+    "now": "2025-05-14T12:00:00Z",
+    "domain": {
+      "correction": true,
+      "packet": [
+        {
+          "id": "A-61",
+          "retrieval": "confirmed",
+          "contents": [
+            "session values",
+            "connector header",
+            "administrator contact"
+          ]
+        },
+        {
+          "id": "A-62",
+          "retrieval": "unknown",
+          "contents": [
+            "diagnostic"
+          ]
+        },
+        {
+          "id": "A-63",
+          "retrieval": "unknown",
+          "contents": [
+            "diagnostic"
+          ]
+        }
+      ],
+      "disclosure": "review-pending",
+      "logs": "requested",
+      "protection": "verified",
+      "options": "prepared",
+      "preservation": "June-30",
+      "subscription": "existing-term",
+      "dispatchCredential": "unchanged",
+      "productionImpact": "unresolved",
+      "reportFilter": "unknown",
+      "checkedSessions": 2,
+      "packetReady": true,
+      "optionalIndicator": "withheld"
+    },
+    "tasks": [
+      {
+        "area": "security",
+        "owner": "Dris",
+        "due": "2025-05-14T13:30:00Z",
+        "action": "Report actual extraction and archive coverage, assess production impact and targeted protection; escalate new exposure."
+      },
+      {
+        "area": "privacy",
+        "owner": "Asha",
+        "due": "2025-05-14T14:30:00Z",
+        "action": "Review classification and notification with Legal; coordinate Mira field-specific indicator interpretation by 13:10 while cleared schedule proceeds."
+      },
+      {
+        "area": "commercial",
+        "owner": "Celia",
+        "due": "2025-05-15T16:00:00Z",
+        "action": "Offer C-218 to Ben; activate and verify entitlement only after authenticated acceptance; monitor renewal and exit decisions."
+      },
+      {
+        "area": "support",
+        "owner": "Noor Vale",
+        "due": "2025-05-14T13:45:00Z",
+        "action": "Deliver account update and cleared schedule via secure route, coordinate briefing and transfer to Eren at 15:30."
+      }
+    ],
+    "commitments": {
+      "nextUpdate": "2025-05-14T13:45:00Z",
+      "domain": {
+        "correction": true,
+        "packet": [
+          {
+            "id": "A-61",
+            "retrieval": "confirmed",
+            "contents": [
+              "session values",
+              "connector header",
+              "administrator contact"
+            ]
+          },
+          {
+            "id": "A-62",
+            "retrieval": "unknown",
+            "contents": [
+              "diagnostic"
+            ]
+          },
+          {
+            "id": "A-63",
+            "retrieval": "unknown",
+            "contents": [
+              "diagnostic"
+            ]
+          }
+        ],
+        "disclosure": "review-pending",
+        "logs": "requested",
+        "protection": "verified",
+        "options": "prepared",
+        "preservation": "June-30",
+        "subscription": "existing-term",
+        "dispatchCredential": "unchanged",
+        "productionImpact": "unresolved",
+        "reportFilter": "unknown",
+        "checkedSessions": 2,
+        "packetReady": true,
+        "optionalIndicator": "withheld"
+      }
+    },
+    "handoff": {
+      "to": "Eren Hale",
+      "note": "Eren Hale takes support handoff at 15:30; Noor owns update by 13:45. Track Dris 13:30, Asha 14:30, Mira indicator view by 13:10, pending logs, unsigned C-218 and unchanged entitlement; refresh after transitions.",
+      "domain": {
+        "correction": true,
+        "packet": [
+          {
+            "id": "A-61",
+            "retrieval": "confirmed",
+            "contents": [
+              "session values",
+              "connector header",
+              "administrator contact"
+            ]
+          },
+          {
+            "id": "A-62",
+            "retrieval": "unknown",
+            "contents": [
+              "diagnostic"
+            ]
+          },
+          {
+            "id": "A-63",
+            "retrieval": "unknown",
+            "contents": [
+              "diagnostic"
+            ]
+          }
+        ],
+        "disclosure": "review-pending",
+        "logs": "requested",
+        "protection": "verified",
+        "options": "prepared",
+        "preservation": "June-30",
+        "subscription": "existing-term",
+        "dispatchCredential": "unchanged",
+        "productionImpact": "unresolved",
+        "reportFilter": "unknown",
+        "checkedSessions": 2,
+        "packetReady": true,
+        "optionalIndicator": "withheld"
+      },
+      "tasks": [
+        {
+          "area": "security",
+          "owner": "Dris",
+          "due": "2025-05-14T13:30:00Z",
+          "action": "Report actual extraction and archive coverage, assess production impact and targeted protection; escalate new exposure."
+        },
+        {
+          "area": "privacy",
+          "owner": "Asha",
+          "due": "2025-05-14T14:30:00Z",
+          "action": "Review classification and notification with Legal; coordinate Mira field-specific indicator interpretation by 13:10 while cleared schedule proceeds."
+        },
+        {
+          "area": "commercial",
+          "owner": "Celia",
+          "due": "2025-05-15T16:00:00Z",
+          "action": "Offer C-218 to Ben; activate and verify entitlement only after authenticated acceptance; monitor renewal and exit decisions."
+        },
+        {
+          "area": "support",
+          "owner": "Noor Vale",
+          "due": "2025-05-14T13:45:00Z",
+          "action": "Deliver account update and cleared schedule via secure route, coordinate briefing and transfer to Eren at 15:30."
+        }
+      ]
+    }
+  },
+  "audit": [
+    {
+      "seq": 1,
+      "command": "correct-assurance",
+      "args": {},
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 2,
+      "command": "verify-protection",
+      "args": {},
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 3,
+      "command": "indicator-review",
+      "args": {
+        "question": "May JOB-R17 be disclosed to Alder given possible cross-account correlation, or should an account-specific label be used?"
+      },
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 4,
+      "command": "prepare-reviewed-schedule",
+      "args": {
+        "scope": "attachment-rows"
+      },
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 5,
+      "command": "request-logs",
+      "args": {
+        "feeds": "attachments,report-filter,production-archive"
+      },
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 6,
+      "command": "prepare-choices",
+      "args": {
+        "signatory": "Ben Orrell"
+      },
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 7,
+      "command": "task",
+      "args": {
+        "area": "security",
+        "owner": "Dris",
+        "due": "2025-05-14T13:30:00Z",
+        "action": "Report actual extraction and archive coverage, assess production impact and targeted protection; escalate new exposure."
+      },
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 8,
+      "command": "task",
+      "args": {
+        "area": "privacy",
+        "owner": "Asha",
+        "due": "2025-05-14T14:30:00Z",
+        "action": "Review classification and notification with Legal; coordinate Mira field-specific indicator interpretation by 13:10 while cleared schedule proceeds."
+      },
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 9,
+      "command": "task",
+      "args": {
+        "area": "commercial",
+        "owner": "Celia",
+        "due": "2025-05-15T16:00:00Z",
+        "action": "Offer C-218 to Ben; activate and verify entitlement only after authenticated acceptance; monitor renewal and exit decisions."
+      },
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 10,
+      "command": "task",
+      "args": {
+        "area": "support",
+        "owner": "Noor Vale",
+        "due": "2025-05-14T13:45:00Z",
+        "action": "Deliver account update and cleared schedule via secure route, coordinate briefing and transfer to Eren at 15:30."
+      },
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 11,
+      "command": "commitments",
+      "args": {
+        "next-update": "2025-05-14T13:45:00Z",
+        "snapshot": "{\"correction\":true,\"packet\":[{\"id\":\"A-61\",\"retrieval\":\"confirmed\",\"contents\":[\"session values\",\"connector header\",\"administrator contact\"]},{\"id\":\"A-62\",\"retrieval\":\"unknown\",\"contents\":[\"diagnostic\"]},{\"id\":\"A-63\",\"retrieval\":\"unknown\",\"contents\":[\"diagnostic\"]}],\"disclosure\":\"review-pending\",\"logs\":\"requested\",\"protection\":\"verified\",\"options\":\"prepared\",\"preservation\":\"June-30\",\"subscription\":\"existing-term\",\"dispatchCredential\":\"unchanged\",\"productionImpact\":\"unresolved\",\"reportFilter\":\"unknown\",\"checkedSessions\":2,\"packetReady\":true,\"optionalIndicator\":\"withheld\"}"
+      },
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 12,
+      "command": "handoff",
+      "args": {
+        "note": "Eren Hale takes support handoff at 15:30; Noor owns update by 13:45. Track Dris 13:30, Asha 14:30, Mira indicator view by 13:10, pending logs, unsigned C-218 and unchanged entitlement; refresh after transitions."
+      },
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    }
+  ]
+}

@@ -1,0 +1,303 @@
+{
+  "state": {
+    "now": "2025-05-14T12:00:00Z",
+    "domain": {
+      "correction": true,
+      "packet": [
+        {
+          "id": "A-61",
+          "retrieval": "confirmed",
+          "contents": [
+            "session values",
+            "connector header",
+            "administrator contact"
+          ]
+        },
+        {
+          "id": "A-62",
+          "retrieval": "unknown",
+          "contents": [
+            "diagnostic"
+          ]
+        },
+        {
+          "id": "A-63",
+          "retrieval": "unknown",
+          "contents": [
+            "diagnostic"
+          ]
+        }
+      ],
+      "disclosure": "review-pending",
+      "logs": "requested",
+      "protection": "verified",
+      "options": "prepared",
+      "preservation": "June-30",
+      "subscription": "existing-term",
+      "dispatchCredential": "unchanged",
+      "productionImpact": "unresolved",
+      "reportFilter": "unknown",
+      "checkedSessions": 2,
+      "packetReady": true,
+      "optionalIndicator": "withheld"
+    },
+    "tasks": [
+      {
+        "area": "security",
+        "owner": "Priam",
+        "due": "2025-05-14T13:30:00Z",
+        "action": "Reconcile attachment shard, report filter and restored production archive; report actual coverage and gaps to Dris."
+      },
+      {
+        "area": "privacy",
+        "owner": "Mira",
+        "due": "2025-05-14T13:10:00Z",
+        "action": "Resolve the shared identifier correlation question with Asha; withhold identifier pending decision, and release cleared rows now."
+      },
+      {
+        "area": "commercial",
+        "owner": "Celia",
+        "due": "2025-05-15T16:00:00Z",
+        "action": "Provide C-218 to Ben; track authenticated acceptance and verify order and entitlement if accepted; otherwise escalate before expiry."
+      },
+      {
+        "area": "support",
+        "owner": "Eren Hale",
+        "due": "2025-05-14T15:30:00Z",
+        "action": "Accept customer-thread handoff, track next update and outstanding incident and commercial decisions."
+      }
+    ],
+    "commitments": {
+      "nextUpdate": "2025-05-14T13:45:00Z",
+      "domain": {
+        "correction": true,
+        "packet": [
+          {
+            "id": "A-61",
+            "retrieval": "confirmed",
+            "contents": [
+              "session values",
+              "connector header",
+              "administrator contact"
+            ]
+          },
+          {
+            "id": "A-62",
+            "retrieval": "unknown",
+            "contents": [
+              "diagnostic"
+            ]
+          },
+          {
+            "id": "A-63",
+            "retrieval": "unknown",
+            "contents": [
+              "diagnostic"
+            ]
+          }
+        ],
+        "disclosure": "review-pending",
+        "logs": "requested",
+        "protection": "verified",
+        "options": "prepared",
+        "preservation": "June-30",
+        "subscription": "existing-term",
+        "dispatchCredential": "unchanged",
+        "productionImpact": "unresolved",
+        "reportFilter": "unknown",
+        "checkedSessions": 2,
+        "packetReady": true,
+        "optionalIndicator": "withheld"
+      }
+    },
+    "handoff": {
+      "to": "Eren Hale",
+      "note": "Eren Hale accepts 15:30 handoff; Noor owns customer update by 13:45 and coordination until 16:00. Correction recorded, cleared packet ready; shared identifier withheld pending Mira review. Priam and Dris own outstanding logs and 13:30 checkpoint; Celia tracks Ben acceptance and entitlement. Existing term, dispatch credential and June 30 hold unchanged. Refresh the customer commitment after findings or missed checkpoints.",
+      "domain": {
+        "correction": true,
+        "packet": [
+          {
+            "id": "A-61",
+            "retrieval": "confirmed",
+            "contents": [
+              "session values",
+              "connector header",
+              "administrator contact"
+            ]
+          },
+          {
+            "id": "A-62",
+            "retrieval": "unknown",
+            "contents": [
+              "diagnostic"
+            ]
+          },
+          {
+            "id": "A-63",
+            "retrieval": "unknown",
+            "contents": [
+              "diagnostic"
+            ]
+          }
+        ],
+        "disclosure": "review-pending",
+        "logs": "requested",
+        "protection": "verified",
+        "options": "prepared",
+        "preservation": "June-30",
+        "subscription": "existing-term",
+        "dispatchCredential": "unchanged",
+        "productionImpact": "unresolved",
+        "reportFilter": "unknown",
+        "checkedSessions": 2,
+        "packetReady": true,
+        "optionalIndicator": "withheld"
+      },
+      "tasks": [
+        {
+          "area": "security",
+          "owner": "Priam",
+          "due": "2025-05-14T13:30:00Z",
+          "action": "Reconcile attachment shard, report filter and restored production archive; report actual coverage and gaps to Dris."
+        },
+        {
+          "area": "privacy",
+          "owner": "Mira",
+          "due": "2025-05-14T13:10:00Z",
+          "action": "Resolve the shared identifier correlation question with Asha; withhold identifier pending decision, and release cleared rows now."
+        },
+        {
+          "area": "commercial",
+          "owner": "Celia",
+          "due": "2025-05-15T16:00:00Z",
+          "action": "Provide C-218 to Ben; track authenticated acceptance and verify order and entitlement if accepted; otherwise escalate before expiry."
+        },
+        {
+          "area": "support",
+          "owner": "Eren Hale",
+          "due": "2025-05-14T15:30:00Z",
+          "action": "Accept customer-thread handoff, track next update and outstanding incident and commercial decisions."
+        }
+      ]
+    }
+  },
+  "audit": [
+    {
+      "seq": 1,
+      "command": "correct-assurance",
+      "args": {},
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 2,
+      "command": "verify-protection",
+      "args": {},
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 3,
+      "command": "indicator-review",
+      "args": {
+        "question": "May the shared JOB-R17 reference be disclosed to Alder for correlation without associating another account, given the coordination-group context?"
+      },
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 4,
+      "command": "prepare-reviewed-schedule",
+      "args": {
+        "scope": "attachment-rows"
+      },
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 5,
+      "command": "request-logs",
+      "args": {
+        "feeds": "attachments,report-filter,production-archive"
+      },
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 6,
+      "command": "prepare-choices",
+      "args": {
+        "signatory": "Ben Orrell"
+      },
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 7,
+      "command": "task",
+      "args": {
+        "area": "security",
+        "owner": "Priam",
+        "due": "2025-05-14T13:30:00Z",
+        "action": "Reconcile attachment shard, report filter and restored production archive; report actual coverage and gaps to Dris."
+      },
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 8,
+      "command": "task",
+      "args": {
+        "area": "privacy",
+        "owner": "Mira",
+        "due": "2025-05-14T13:10:00Z",
+        "action": "Resolve the shared identifier correlation question with Asha; withhold identifier pending decision, and release cleared rows now."
+      },
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 9,
+      "command": "task",
+      "args": {
+        "area": "commercial",
+        "owner": "Celia",
+        "due": "2025-05-15T16:00:00Z",
+        "action": "Provide C-218 to Ben; track authenticated acceptance and verify order and entitlement if accepted; otherwise escalate before expiry."
+      },
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 10,
+      "command": "task",
+      "args": {
+        "area": "support",
+        "owner": "Eren Hale",
+        "due": "2025-05-14T15:30:00Z",
+        "action": "Accept customer-thread handoff, track next update and outstanding incident and commercial decisions."
+      },
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 11,
+      "command": "commitments",
+      "args": {
+        "next-update": "2025-05-14T13:45:00Z",
+        "snapshot": "{\"correction\":true,\"packet\":[{\"id\":\"A-61\",\"retrieval\":\"confirmed\",\"contents\":[\"session values\",\"connector header\",\"administrator contact\"]},{\"id\":\"A-62\",\"retrieval\":\"unknown\",\"contents\":[\"diagnostic\"]},{\"id\":\"A-63\",\"retrieval\":\"unknown\",\"contents\":[\"diagnostic\"]}],\"disclosure\":\"review-pending\",\"logs\":\"requested\",\"protection\":\"verified\",\"options\":\"prepared\",\"preservation\":\"June-30\",\"subscription\":\"existing-term\",\"dispatchCredential\":\"unchanged\",\"productionImpact\":\"unresolved\",\"reportFilter\":\"unknown\",\"checkedSessions\":2,\"packetReady\":true,\"optionalIndicator\":\"withheld\"}"
+      },
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 12,
+      "command": "handoff",
+      "args": {
+        "note": "Eren Hale accepts 15:30 handoff; Noor owns customer update by 13:45 and coordination until 16:00. Correction recorded, cleared packet ready; shared identifier withheld pending Mira review. Priam and Dris own outstanding logs and 13:30 checkpoint; Celia tracks Ben acceptance and entitlement. Existing term, dispatch credential and June 30 hold unchanged. Refresh the customer commitment after findings or missed checkpoints."
+      },
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    }
+  ]
+}

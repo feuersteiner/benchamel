@@ -1,0 +1,82 @@
+{
+	"version": "1.0",
+	"licenseStatus": "Primary public company accounts; no verified open transcript redistribution license. Brief original factual paraphrases only; no copied dialogue, raw pages, images, credentials or real customer identifiers.",
+	"sources": [
+		{
+			"id": "S01",
+			"title": "Unauthorized Access to Okta Support Case Management System: Root Cause and Remediation",
+			"url": "https://sec.okta.com/articles/2023/11/unauthorized-access-oktas-support-case-management-system-root-cause/",
+			"stableIdentifier": "okta:2023-11-03:support-system-rca",
+			"publicationDate": "2023-11-03",
+			"retrievedDate": "2026-11-23",
+			"updateUncertainty": "Provider retrospective; later scope updates exist. Live page was verified on retrieval, not archived as immutable historical bytes.",
+			"attributedClaimScope": "Company-reported file access, session hijacking, distinct log event families and late-arriving evidence; not independent certification.",
+			"reuseBasis": "original factual paraphrase, no transcript license asserted",
+			"quotesWords": 0,
+			"representation": {
+				"documentId": "E01",
+				"paragraphPrefix": "S01:",
+				"sha256": "06fdf2c05ec5df2ab9db46af8cee0c1ca11fd43e919481fb04cc0d91f39f644c",
+				"hashScope": "UTF-8 bytes of this local authored paragraph only; not an original page hash"
+			},
+			"retrievalUrl": "https://sec.okta.com/articles/2023/11/unauthorized-access-oktas-support-case-management-system-root-cause/"
+		},
+		{
+			"id": "S02",
+			"title": "October Customer Support Security Incident: Update and Recommended Actions",
+			"url": "https://sec.okta.com/october-security-incident-recommended-actions",
+			"stableIdentifier": "okta:2023-11-29:recommended-actions",
+			"publicationDate": "2023-11-29",
+			"retrievedDate": "2026-11-23",
+			"updateUncertainty": "Later provider scope revision, not evidence that the broader finding was known in early October. Short URL redirects to the articles path.",
+			"attributedClaimScope": "Company-reported unfiltered contact report, reassessment of scope and phishing risk; no claim that all report users had credentials stolen.",
+			"reuseBasis": "original factual paraphrase, no transcript license asserted",
+			"quotesWords": 0,
+			"representation": {
+				"documentId": "E01",
+				"paragraphPrefix": "S02:",
+				"sha256": "5a10622903eba2181f1bdb7407503351e021d5c1bf8e710e28c933b15d49457a",
+				"hashScope": "UTF-8 bytes of this local authored paragraph only; not an original page hash"
+			},
+			"retrievalUrl": "https://sec.okta.com/articles/october-security-incident-recommended-actions/"
+		},
+		{
+			"id": "S03",
+			"title": "BeyondTrust Discovers Breach of Okta Support Unit",
+			"url": "https://www.beyondtrust.com/blog/entry/okta-support-unit-breach",
+			"stableIdentifier": "beyondtrust:2023-10-20:okta-support-unit-breach",
+			"publicationDate": "2023-10-20",
+			"retrievedDate": "2026-11-23",
+			"updateUncertainty": "Original publication established by the October 20 timeline entry. Retrieved page includes a December 1, 2023 edit explicitly distinguished in the local paraphrase. No frozen original version was obtained.",
+			"attributedClaimScope": "Affected company account of its own detection, escalation, supplied-log discrepancies and claimed absence of customer exposure; not automatic verification of all vendor actions.",
+			"reuseBasis": "original factual paraphrase, no transcript license asserted",
+			"quotesWords": 0,
+			"representation": {
+				"documentId": "E01",
+				"paragraphPrefix": "S03:",
+				"sha256": "9c6af7454db9be3190fd4599b902cbd22710067279218c90bd0b421739a36caa",
+				"hashScope": "UTF-8 bytes of this local authored paragraph only; not an original page hash"
+			},
+			"retrievalUrl": "https://www.beyondtrust.com/blog/entry/okta-support-unit-breach"
+		},
+		{
+			"id": "S04",
+			"title": "How Cloudflare mitigated yet another Okta compromise",
+			"url": "https://blog.cloudflare.com/how-cloudflare-mitigated-yet-another-okta-compromise/",
+			"stableIdentifier": "cloudflare:2023-10-20:okta-compromise",
+			"publicationDate": "2023-10-20",
+			"retrievedDate": "2026-11-23",
+			"updateUncertainty": "Company incident account displayed October 20, 2023; no immutable archive of every later page update was obtained. Findings are scoped to the reported event and company environment.",
+			"attributedClaimScope": "Cloudflare reports internal detection before notification, access involving its Okta instance and no impact to its own customer systems or information; not a conclusion for unrelated tenants.",
+			"reuseBasis": "original factual paraphrase, no transcript license asserted",
+			"quotesWords": 0,
+			"representation": {
+				"documentId": "E01",
+				"paragraphPrefix": "S04:",
+				"sha256": "76bae14410ca938a27bb861afe0eb99f5ecb2269a6ffbe470b61f2f6bf602d56",
+				"hashScope": "UTF-8 bytes of this local authored paragraph only; not an original page hash"
+			},
+			"retrievalUrl": "https://blog.cloudflare.com/how-cloudflare-mitigated-yet-another-okta-compromise/"
+		}
+	]
+}

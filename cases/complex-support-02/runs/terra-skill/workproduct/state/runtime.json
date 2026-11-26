@@ -1,0 +1,294 @@
+{
+  "state": {
+    "now": "2025-05-14T12:00:00Z",
+    "domain": {
+      "correction": true,
+      "packet": [
+        {
+          "id": "A-61",
+          "retrieval": "confirmed",
+          "contents": [
+            "session values",
+            "connector header",
+            "administrator contact"
+          ]
+        },
+        {
+          "id": "A-62",
+          "retrieval": "unknown",
+          "contents": [
+            "diagnostic"
+          ]
+        },
+        {
+          "id": "A-63",
+          "retrieval": "unknown",
+          "contents": [
+            "diagnostic"
+          ]
+        }
+      ],
+      "disclosure": "minimized",
+      "logs": "requested",
+      "protection": "verified",
+      "options": "prepared",
+      "preservation": "June-30",
+      "subscription": "existing-term",
+      "dispatchCredential": "unchanged",
+      "productionImpact": "unresolved",
+      "reportFilter": "unknown",
+      "checkedSessions": 2,
+      "packetReady": true,
+      "optionalIndicator": "withheld"
+    },
+    "tasks": [
+      {
+        "area": "security",
+        "owner": "Dris",
+        "due": "2025-05-14T13:30:00Z",
+        "action": "Report actual attachment extraction, report reconstruction and production archive coverage; coordinate Tessa read-only review and protection, escalate failures."
+      },
+      {
+        "area": "privacy",
+        "owner": "Asha",
+        "due": "2025-05-14T14:30:00Z",
+        "action": "Complete classification and notification assessment with Mira; preserve originals and minimize disclosures."
+      },
+      {
+        "area": "commercial",
+        "owner": "Celia",
+        "due": "2025-05-15T16:00:00Z",
+        "action": "Obtain Ben decision on C-218; activate and verify entitlement only after authenticated acceptance; coordinate export if declined."
+      },
+      {
+        "area": "support",
+        "owner": "Noor Vale",
+        "due": "2025-05-14T13:45:00Z",
+        "action": "Provide customer update with actual checkpoint and maintain secure briefing; transfer thread to Eren at 15:30."
+      }
+    ],
+    "commitments": {
+      "nextUpdate": "2025-05-14T13:45:00Z",
+      "domain": {
+        "correction": true,
+        "packet": [
+          {
+            "id": "A-61",
+            "retrieval": "confirmed",
+            "contents": [
+              "session values",
+              "connector header",
+              "administrator contact"
+            ]
+          },
+          {
+            "id": "A-62",
+            "retrieval": "unknown",
+            "contents": [
+              "diagnostic"
+            ]
+          },
+          {
+            "id": "A-63",
+            "retrieval": "unknown",
+            "contents": [
+              "diagnostic"
+            ]
+          }
+        ],
+        "disclosure": "minimized",
+        "logs": "requested",
+        "protection": "verified",
+        "options": "prepared",
+        "preservation": "June-30",
+        "subscription": "existing-term",
+        "dispatchCredential": "unchanged",
+        "productionImpact": "unresolved",
+        "reportFilter": "unknown",
+        "checkedSessions": 2,
+        "packetReady": true,
+        "optionalIndicator": "withheld"
+      }
+    },
+    "handoff": {
+      "to": "Eren Hale",
+      "note": "Eren Hale accepts the 15:30 handoff; Noor owns the 13:45 customer update and remains on duty until 16:00. Correction confirmed; minimized packet ready, optional shared indicator withheld; logs requested, protections verified, options prepared but no acceptance or entitlement change. Track Dris 13:30, Asha 14:30, Tessa 14:00, Ben decision and Celia activation; preserve through June 30 and use IR-5.3, not obsolete IR-4.1.",
+      "domain": {
+        "correction": true,
+        "packet": [
+          {
+            "id": "A-61",
+            "retrieval": "confirmed",
+            "contents": [
+              "session values",
+              "connector header",
+              "administrator contact"
+            ]
+          },
+          {
+            "id": "A-62",
+            "retrieval": "unknown",
+            "contents": [
+              "diagnostic"
+            ]
+          },
+          {
+            "id": "A-63",
+            "retrieval": "unknown",
+            "contents": [
+              "diagnostic"
+            ]
+          }
+        ],
+        "disclosure": "minimized",
+        "logs": "requested",
+        "protection": "verified",
+        "options": "prepared",
+        "preservation": "June-30",
+        "subscription": "existing-term",
+        "dispatchCredential": "unchanged",
+        "productionImpact": "unresolved",
+        "reportFilter": "unknown",
+        "checkedSessions": 2,
+        "packetReady": true,
+        "optionalIndicator": "withheld"
+      },
+      "tasks": [
+        {
+          "area": "security",
+          "owner": "Dris",
+          "due": "2025-05-14T13:30:00Z",
+          "action": "Report actual attachment extraction, report reconstruction and production archive coverage; coordinate Tessa read-only review and protection, escalate failures."
+        },
+        {
+          "area": "privacy",
+          "owner": "Asha",
+          "due": "2025-05-14T14:30:00Z",
+          "action": "Complete classification and notification assessment with Mira; preserve originals and minimize disclosures."
+        },
+        {
+          "area": "commercial",
+          "owner": "Celia",
+          "due": "2025-05-15T16:00:00Z",
+          "action": "Obtain Ben decision on C-218; activate and verify entitlement only after authenticated acceptance; coordinate export if declined."
+        },
+        {
+          "area": "support",
+          "owner": "Noor Vale",
+          "due": "2025-05-14T13:45:00Z",
+          "action": "Provide customer update with actual checkpoint and maintain secure briefing; transfer thread to Eren at 15:30."
+        }
+      ]
+    }
+  },
+  "audit": [
+    {
+      "seq": 1,
+      "command": "correct-assurance",
+      "args": {},
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 2,
+      "command": "verify-protection",
+      "args": {},
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 3,
+      "command": "prepare-schedule",
+      "args": {
+        "scope": "attachment-rows"
+      },
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 4,
+      "command": "request-logs",
+      "args": {
+        "feeds": "attachments,report-filter,production-archive"
+      },
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 5,
+      "command": "prepare-choices",
+      "args": {
+        "signatory": "Ben Orrell"
+      },
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 6,
+      "command": "task",
+      "args": {
+        "area": "security",
+        "owner": "Dris",
+        "due": "2025-05-14T13:30:00Z",
+        "action": "Report actual attachment extraction, report reconstruction and production archive coverage; coordinate Tessa read-only review and protection, escalate failures."
+      },
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 7,
+      "command": "task",
+      "args": {
+        "area": "privacy",
+        "owner": "Asha",
+        "due": "2025-05-14T14:30:00Z",
+        "action": "Complete classification and notification assessment with Mira; preserve originals and minimize disclosures."
+      },
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 8,
+      "command": "task",
+      "args": {
+        "area": "commercial",
+        "owner": "Celia",
+        "due": "2025-05-15T16:00:00Z",
+        "action": "Obtain Ben decision on C-218; activate and verify entitlement only after authenticated acceptance; coordinate export if declined."
+      },
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 9,
+      "command": "task",
+      "args": {
+        "area": "support",
+        "owner": "Noor Vale",
+        "due": "2025-05-14T13:45:00Z",
+        "action": "Provide customer update with actual checkpoint and maintain secure briefing; transfer thread to Eren at 15:30."
+      },
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 10,
+      "command": "commitments",
+      "args": {
+        "next-update": "2025-05-14T13:45:00Z",
+        "snapshot": "{\"correction\":true,\"packet\":[{\"id\":\"A-61\",\"retrieval\":\"confirmed\",\"contents\":[\"session values\",\"connector header\",\"administrator contact\"]},{\"id\":\"A-62\",\"retrieval\":\"unknown\",\"contents\":[\"diagnostic\"]},{\"id\":\"A-63\",\"retrieval\":\"unknown\",\"contents\":[\"diagnostic\"]}],\"disclosure\":\"minimized\",\"logs\":\"requested\",\"protection\":\"verified\",\"options\":\"prepared\",\"preservation\":\"June-30\",\"subscription\":\"existing-term\",\"dispatchCredential\":\"unchanged\",\"productionImpact\":\"unresolved\",\"reportFilter\":\"unknown\",\"checkedSessions\":2,\"packetReady\":true,\"optionalIndicator\":\"withheld\"}"
+      },
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 11,
+      "command": "handoff",
+      "args": {
+        "note": "Eren Hale accepts the 15:30 handoff; Noor owns the 13:45 customer update and remains on duty until 16:00. Correction confirmed; minimized packet ready, optional shared indicator withheld; logs requested, protections verified, options prepared but no acceptance or entitlement change. Track Dris 13:30, Asha 14:30, Tessa 14:00, Ben decision and Celia activation; preserve through June 30 and use IR-5.3, not obsolete IR-4.1."
+      },
+      "at": "2025-05-14T12:00:00Z",
+      "outcome": "confirmed"
+    }
+  ]
+}
