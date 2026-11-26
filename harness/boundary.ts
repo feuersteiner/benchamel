@@ -1,6 +1,7 @@
 import { constants } from 'node:fs';
 import { lstat, open, readFile, readdir } from 'node:fs/promises';
-import { join } from 'node:path';
+import { join,basename } from 'node:path';
+import {config,domains} from './treatments/settings.ts';
 export const hash = (v:string|Uint8Array) => new Bun.CryptoHasher('sha256').update(v).digest('hex');
 export async function textFile(path:string,limit=262144):Promise<string> {
   const h=await open(path,constants.O_RDONLY|constants.O_NOFOLLOW|constants.O_NONBLOCK);
@@ -17,13 +18,14 @@ export async function inventory(root:string):Promise<string[]> {
   async function walk(rel:string) {
     for(const name of await readdir(join(root,rel))) {
       const key=rel?`${rel}/${name}`:name,st=await lstat(join(root,key));
+      if(key==='.git'){if(!st.isDirectory()||st.isSymbolicLink())throw Error('Invalid fixture Git metadata');continue;}
       if(st.isDirectory())await walk(key);else if(st.isFile())files.push(key);else throw Error(`Non-regular asset: ${key}`);
     }
   }
   await walk(''); return files.sort();
 }
 /** Compare originals and legitimate preflight assets from trusted case/harness paths. */
-export async function boundary(caseRoot:string,workspace:string) {
+export async function boundary(caseRoot:string,workspace:string,reviewRequired=false) {
   const fixture=join(caseRoot,'fixture');
   const originals=await inventory(fixture);
   for(const file of originals) {
@@ -41,6 +43,17 @@ export async function boundary(caseRoot:string,workspace:string) {
   for(const [file,original] of Object.entries(expected)) {
     if(hash(await textFile(join(workspace,file),1048576))!==hash(await readFile(original)))throw Error(`Prepared asset modified: ${file}`);
   }
-  const allowed=new Set([...originals,...Object.keys(expected),'reply.md','plan.md','judge-assessment.json']);
+  const installed=reviewRequired||files.some(file=>file.startsWith('.agents/tests/'));
+  if(installed) {
+    for(const domain of domains)for(const name of ['test.yaml','TEST.md','context.json']) {
+      const original=join(caseRoot,'treatments/agentests',domain,name);
+      if(await Bun.file(original).exists())expected[`.agents/tests/${basename(caseRoot)}-${domain}/${name}`]=original;
+    }
+    expected['.benchamel/agentests.ts']=join(import.meta.dir,'treatments/fixture-agentests.ts');
+    const actual=await textFile(join(workspace,'agentests.config.yaml'));
+    if(!(['luna','jev'] as const).some(provider=>actual===JSON.stringify(config(provider))))throw Error('Prepared review config modified');
+    for(const [file,original] of Object.entries(expected))if(hash(await textFile(join(workspace,file),1048576))!==hash(await readFile(original)))throw Error(`Prepared asset modified: ${file}`);
+  }
+  const allowed=new Set([...originals,...Object.keys(expected),'reply.md','plan.md','judge-assessment.json',...(installed?['agentests.config.yaml','review.md']:[])]);
   for(const file of files)if(!allowed.has(file))throw Error(`Unexpected mutation: ${file}`);
 }

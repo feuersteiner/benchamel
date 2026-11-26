@@ -56,8 +56,9 @@ try{
  for(const file of ['reply.md','plan.md'])await writeFile(join(workspace,file),packets.map((p:any)=>p.outputs[file]).join('\n\n'));
  let gateCalls=0;
  for(const decision of ['luna','jev'] as const){
+  const reviewWorkspace=join(temp,'review-'+decision);await cp(workspace,reviewWorkspace,{recursive:true});
   for(const item of suite){const target=item.test.assert[0].id;
-   const result=await gate(caseRoot,workspace,decision,({domain,assertion,packet}:any)=>{gateCalls++;const selected=suite.find((s:any)=>s.domain===domain)!;assert.deepEqual(Object.keys(packet.evidence),selected.evidence);return assertion===target?0:1;});
+   const result=await gate(caseRoot,reviewWorkspace,decision,({domain,assertion,packet}:any)=>{gateCalls++;const selected=suite.find((s:any)=>s.domain===domain)!;const a=selected.test.assert.find((a:any)=>a.id===assertion)!;const ids=[...new Set([a.decide!].flat()[0]!.match(/\bE\d{2}\b/g)??[])];assert.deepEqual(Object.keys(packet.evidence),ids.length?ids:selected.evidence);return assertion===target?0:1;});
    assert.equal(result.pass,false);assert.equal(result.offlineDecisionCalls,assertions.length);assert.deepEqual(result.findings,[{test:item.test.id,domain:item.domain,assertion:target,error:item.test.assert[0].error}]);
   }
  }
