@@ -1,0 +1,39 @@
+{
+  "case_checks": {
+    "case": "complex-support-09",
+    "steps": [
+      {
+        "check": "typecheck",
+        "exit": 0
+      },
+      {
+        "check": "offline",
+        "exit": 0
+      }
+    ]
+  },
+  "extra_native_checks": [],
+  "shared_tests": {
+    "passed": 20,
+    "failed": 0
+  },
+  "representative_cases": {
+    "native_live": "complex-support-10",
+    "grader_controls": "complex-support-05"
+  },
+  "corrected_benchmark_runs": 0,
+  "independent_artifact_error_controls": [
+    {
+      "kind": "invalid-final-candidate",
+      "status": "passed"
+    },
+    {
+      "kind": "judge-validation-error",
+      "status": "passed"
+    },
+    {
+      "kind": "preflight-error",
+      "status": "passed"
+    }
+  ]
+}
