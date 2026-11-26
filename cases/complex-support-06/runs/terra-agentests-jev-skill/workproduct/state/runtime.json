@@ -1,0 +1,596 @@
+{
+  "state": {
+    "now": "2026-11-23T15:45:00Z",
+    "domain": {
+      "opening": "stopped",
+      "information": "available",
+      "drafts": "preserved",
+      "temporary": "bounded-pass",
+      "claims": "contained",
+      "scope": "review-pending",
+      "invitation": true,
+      "productionForm": "blocked",
+      "customerAcceptance": null,
+      "partnerImport": "off",
+      "feeRemedy": null,
+      "acceptedReferences": 1,
+      "retest": {
+        "screens": [
+          {
+            "reference": "REF-A",
+            "status": "accepted",
+            "notification": "pending",
+            "retryCreatesNew": false
+          },
+          {
+            "reference": "REF-A",
+            "status": "accepted",
+            "notification": "sent",
+            "retryCreatesNew": false
+          }
+        ],
+        "environments": [
+          "Chrome142-keyboard",
+          "Firefox144-NVDA2025.3-Windows11"
+        ],
+        "universalConformance": false
+      },
+      "draftCount": 19,
+      "draftInventory": [
+        {
+          "reference": "R-00",
+          "submitted": false
+        },
+        {
+          "reference": "R-01",
+          "submitted": false
+        },
+        {
+          "reference": "R-02",
+          "submitted": false
+        },
+        {
+          "reference": "R-03",
+          "submitted": false
+        },
+        {
+          "reference": "R-04",
+          "submitted": false
+        },
+        {
+          "reference": "R-05",
+          "submitted": false
+        },
+        {
+          "reference": "R-06",
+          "submitted": false
+        },
+        {
+          "reference": "R-07",
+          "submitted": false
+        },
+        {
+          "reference": "R-08",
+          "submitted": false
+        },
+        {
+          "reference": "R-09",
+          "submitted": false
+        },
+        {
+          "reference": "R-10",
+          "submitted": false
+        },
+        {
+          "reference": "R-11",
+          "submitted": false
+        },
+        {
+          "reference": "R-12",
+          "submitted": false
+        },
+        {
+          "reference": "R-13",
+          "submitted": false
+        },
+        {
+          "reference": "R-14",
+          "submitted": false
+        },
+        {
+          "reference": "R-15",
+          "submitted": false
+        },
+        {
+          "reference": "R-16",
+          "submitted": false
+        },
+        {
+          "reference": "R-17",
+          "submitted": false
+        },
+        {
+          "reference": "R-18",
+          "submitted": false
+        }
+      ],
+      "draftSnapshotSha": "2baa9335b08395da78d5074726fc013f7e71b1da7d540177483156b32c24a97c"
+    },
+    "tasks": [
+      {
+        "area": "engineering",
+        "owner": "Farah",
+        "due": "2026-11-23T15:50:00Z",
+        "action": "Retest notification failure and duplicate retry in Simple Intake 2.3; report observed result and limits to Dan and Anya."
+      },
+      {
+        "area": "data",
+        "owner": "Mira",
+        "due": "2026-11-23T16:15:00Z",
+        "action": "Preserve nineteen drafts and submission states in protected tenant; reconcile by reference and report receipt."
+      },
+      {
+        "area": "support",
+        "owner": "Elise Ward",
+        "due": "2026-11-23T16:30:00Z",
+        "action": "Update Trust with actual state and decision owners; brief Kavi at 17:30."
+      },
+      {
+        "area": "communications",
+        "owner": "Juno",
+        "due": "2026-11-23T16:15:00Z",
+        "action": "Own correction text and assign Owen to deliver to Rivermere and Sales Operations to the other five known sent-brochure recipients; obtain delivery receipts. Ensure information-only pages explicitly say applications cannot currently be submitted, with contact route."
+      },
+      {
+        "area": "launch",
+        "owner": "Ruth Dene",
+        "due": "2026-11-30T17:00:00Z",
+        "action": "Review actual applicant reach, delays, complaints and out-of-hours access before recommending a fair submission window; Ada decides any extension after funder communication."
+      }
+    ],
+    "commitments": {
+      "nextUpdate": "2026-11-23T16:30:00Z",
+      "domain": {
+        "opening": "stopped",
+        "information": "available",
+        "drafts": "preserved",
+        "temporary": "bounded-pass",
+        "claims": "contained",
+        "scope": "review-pending",
+        "invitation": true,
+        "productionForm": "blocked",
+        "customerAcceptance": null,
+        "partnerImport": "off",
+        "feeRemedy": null,
+        "acceptedReferences": 1,
+        "retest": {
+          "screens": [
+            {
+              "reference": "REF-A",
+              "status": "accepted",
+              "notification": "pending",
+              "retryCreatesNew": false
+            },
+            {
+              "reference": "REF-A",
+              "status": "accepted",
+              "notification": "sent",
+              "retryCreatesNew": false
+            }
+          ],
+          "environments": [
+            "Chrome142-keyboard",
+            "Firefox144-NVDA2025.3-Windows11"
+          ],
+          "universalConformance": false
+        },
+        "draftCount": 19,
+        "draftInventory": [
+          {
+            "reference": "R-00",
+            "submitted": false
+          },
+          {
+            "reference": "R-01",
+            "submitted": false
+          },
+          {
+            "reference": "R-02",
+            "submitted": false
+          },
+          {
+            "reference": "R-03",
+            "submitted": false
+          },
+          {
+            "reference": "R-04",
+            "submitted": false
+          },
+          {
+            "reference": "R-05",
+            "submitted": false
+          },
+          {
+            "reference": "R-06",
+            "submitted": false
+          },
+          {
+            "reference": "R-07",
+            "submitted": false
+          },
+          {
+            "reference": "R-08",
+            "submitted": false
+          },
+          {
+            "reference": "R-09",
+            "submitted": false
+          },
+          {
+            "reference": "R-10",
+            "submitted": false
+          },
+          {
+            "reference": "R-11",
+            "submitted": false
+          },
+          {
+            "reference": "R-12",
+            "submitted": false
+          },
+          {
+            "reference": "R-13",
+            "submitted": false
+          },
+          {
+            "reference": "R-14",
+            "submitted": false
+          },
+          {
+            "reference": "R-15",
+            "submitted": false
+          },
+          {
+            "reference": "R-16",
+            "submitted": false
+          },
+          {
+            "reference": "R-17",
+            "submitted": false
+          },
+          {
+            "reference": "R-18",
+            "submitted": false
+          }
+        ],
+        "draftSnapshotSha": "2baa9335b08395da78d5074726fc013f7e71b1da7d540177483156b32c24a97c"
+      }
+    },
+    "handoff": {
+      "to": "Kavi",
+      "note": "Kavi Stone at 17:30: scheduler stopped through Nov 25 15:00; information available; production blocked. Nineteen unsubmitted drafts preserved. Simple Intake 2.3 retest bounded pass; LA-19 direct scope expires Nov 30 17:00; Ruth acceptance and Ada launch agreement absent. Anya partner scope review pending; import off. Claims contained and vendor campaign held; Juno owns correction text, Owen delivers to Rivermere and Sales Operations to five other known brochure recipients; delivery and publication pending. Information-only wording must say submissions are unavailable and give a contact route. Ruth reviews actual applicant reach, delays, complaints and out-of-hours access for a fair window; Ada decides extensions. Keep drafts and contact route, check next decision update. Dan report Nov 24 12:00; Lena and Ada commercial review Nov 24 11:00. Complaint remains open.",
+      "domain": {
+        "opening": "stopped",
+        "information": "available",
+        "drafts": "preserved",
+        "temporary": "bounded-pass",
+        "claims": "contained",
+        "scope": "review-pending",
+        "invitation": true,
+        "productionForm": "blocked",
+        "customerAcceptance": null,
+        "partnerImport": "off",
+        "feeRemedy": null,
+        "acceptedReferences": 1,
+        "retest": {
+          "screens": [
+            {
+              "reference": "REF-A",
+              "status": "accepted",
+              "notification": "pending",
+              "retryCreatesNew": false
+            },
+            {
+              "reference": "REF-A",
+              "status": "accepted",
+              "notification": "sent",
+              "retryCreatesNew": false
+            }
+          ],
+          "environments": [
+            "Chrome142-keyboard",
+            "Firefox144-NVDA2025.3-Windows11"
+          ],
+          "universalConformance": false
+        },
+        "draftCount": 19,
+        "draftInventory": [
+          {
+            "reference": "R-00",
+            "submitted": false
+          },
+          {
+            "reference": "R-01",
+            "submitted": false
+          },
+          {
+            "reference": "R-02",
+            "submitted": false
+          },
+          {
+            "reference": "R-03",
+            "submitted": false
+          },
+          {
+            "reference": "R-04",
+            "submitted": false
+          },
+          {
+            "reference": "R-05",
+            "submitted": false
+          },
+          {
+            "reference": "R-06",
+            "submitted": false
+          },
+          {
+            "reference": "R-07",
+            "submitted": false
+          },
+          {
+            "reference": "R-08",
+            "submitted": false
+          },
+          {
+            "reference": "R-09",
+            "submitted": false
+          },
+          {
+            "reference": "R-10",
+            "submitted": false
+          },
+          {
+            "reference": "R-11",
+            "submitted": false
+          },
+          {
+            "reference": "R-12",
+            "submitted": false
+          },
+          {
+            "reference": "R-13",
+            "submitted": false
+          },
+          {
+            "reference": "R-14",
+            "submitted": false
+          },
+          {
+            "reference": "R-15",
+            "submitted": false
+          },
+          {
+            "reference": "R-16",
+            "submitted": false
+          },
+          {
+            "reference": "R-17",
+            "submitted": false
+          },
+          {
+            "reference": "R-18",
+            "submitted": false
+          }
+        ],
+        "draftSnapshotSha": "2baa9335b08395da78d5074726fc013f7e71b1da7d540177483156b32c24a97c"
+      },
+      "tasks": [
+        {
+          "area": "engineering",
+          "owner": "Farah",
+          "due": "2026-11-23T15:50:00Z",
+          "action": "Retest notification failure and duplicate retry in Simple Intake 2.3; report observed result and limits to Dan and Anya."
+        },
+        {
+          "area": "data",
+          "owner": "Mira",
+          "due": "2026-11-23T16:15:00Z",
+          "action": "Preserve nineteen drafts and submission states in protected tenant; reconcile by reference and report receipt."
+        },
+        {
+          "area": "support",
+          "owner": "Elise Ward",
+          "due": "2026-11-23T16:30:00Z",
+          "action": "Update Trust with actual state and decision owners; brief Kavi at 17:30."
+        },
+        {
+          "area": "communications",
+          "owner": "Juno",
+          "due": "2026-11-23T16:15:00Z",
+          "action": "Own correction text and assign Owen to deliver to Rivermere and Sales Operations to the other five known sent-brochure recipients; obtain delivery receipts. Ensure information-only pages explicitly say applications cannot currently be submitted, with contact route."
+        },
+        {
+          "area": "launch",
+          "owner": "Ruth Dene",
+          "due": "2026-11-30T17:00:00Z",
+          "action": "Review actual applicant reach, delays, complaints and out-of-hours access before recommending a fair submission window; Ada decides any extension after funder communication."
+        }
+      ]
+    }
+  },
+  "audit": [
+    {
+      "seq": 1,
+      "command": "stop-opening",
+      "args": {
+        "scope": "transactional-only"
+      },
+      "at": "2026-11-23T15:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 2,
+      "command": "invite-session",
+      "args": {},
+      "at": "2026-11-23T15:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 3,
+      "command": "contain-claims",
+      "args": {
+        "campaign": "18:00-hold"
+      },
+      "at": "2026-11-23T15:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 4,
+      "command": "scope-review",
+      "args": {
+        "question": "Does associated intake administration within LA-19 cover new partner-origin direct registrations, with notice and overlap checks, without authorizing partner import?"
+      },
+      "at": "2026-11-23T15:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 5,
+      "command": "task",
+      "args": {
+        "area": "engineering",
+        "owner": "Farah",
+        "due": "2026-11-23T15:50:00Z",
+        "action": "Retest notification failure and duplicate retry in Simple Intake 2.3; report observed result and limits to Dan and Anya."
+      },
+      "at": "2026-11-23T15:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 6,
+      "command": "task",
+      "args": {
+        "area": "data",
+        "owner": "Mira",
+        "due": "2026-11-23T16:15:00Z",
+        "action": "Preserve nineteen drafts and submission states in protected tenant; reconcile by reference and report receipt."
+      },
+      "at": "2026-11-23T15:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 7,
+      "command": "task",
+      "args": {
+        "area": "launch",
+        "owner": "Anya",
+        "due": "2026-11-23T16:20:00Z",
+        "action": "Resolve partner-origin direct registration scope and review open launch gates; retain stop pending Ruth and Ada decisions."
+      },
+      "at": "2026-11-23T15:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 8,
+      "command": "task",
+      "args": {
+        "area": "communications",
+        "owner": "Juno",
+        "due": "2026-11-23T16:15:00Z",
+        "action": "Confirm publication and recipient corrections, preserve evidence, hold vendor campaign and prepare Trust notice without applicant details."
+      },
+      "at": "2026-11-23T15:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 9,
+      "command": "task",
+      "args": {
+        "area": "support",
+        "owner": "Elise Ward",
+        "due": "2026-11-23T16:30:00Z",
+        "action": "Update Trust with actual state and decision owners; brief Kavi at 17:30."
+      },
+      "at": "2026-11-23T15:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 10,
+      "command": "clock",
+      "args": {
+        "to": "2026-11-23T15:45:00Z"
+      },
+      "at": "2026-11-23T15:45:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 11,
+      "command": "retest-intake",
+      "args": {
+        "version": "2.3"
+      },
+      "at": "2026-11-23T15:45:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 12,
+      "command": "preserve-drafts",
+      "args": {
+        "destination": "existing-protected-tenant"
+      },
+      "at": "2026-11-23T15:45:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 13,
+      "command": "commitments",
+      "args": {
+        "next-update": "2026-11-23T16:30:00Z",
+        "snapshot": "{\"opening\":\"stopped\",\"information\":\"available\",\"drafts\":\"preserved\",\"temporary\":\"bounded-pass\",\"claims\":\"contained\",\"scope\":\"review-pending\",\"invitation\":true,\"productionForm\":\"blocked\",\"customerAcceptance\":null,\"partnerImport\":\"off\",\"feeRemedy\":null,\"acceptedReferences\":1,\"retest\":{\"screens\":[{\"reference\":\"REF-A\",\"status\":\"accepted\",\"notification\":\"pending\",\"retryCreatesNew\":false},{\"reference\":\"REF-A\",\"status\":\"accepted\",\"notification\":\"sent\",\"retryCreatesNew\":false}],\"environments\":[\"Chrome142-keyboard\",\"Firefox144-NVDA2025.3-Windows11\"],\"universalConformance\":false},\"draftCount\":19,\"draftInventory\":[{\"reference\":\"R-00\",\"submitted\":false},{\"reference\":\"R-01\",\"submitted\":false},{\"reference\":\"R-02\",\"submitted\":false},{\"reference\":\"R-03\",\"submitted\":false},{\"reference\":\"R-04\",\"submitted\":false},{\"reference\":\"R-05\",\"submitted\":false},{\"reference\":\"R-06\",\"submitted\":false},{\"reference\":\"R-07\",\"submitted\":false},{\"reference\":\"R-08\",\"submitted\":false},{\"reference\":\"R-09\",\"submitted\":false},{\"reference\":\"R-10\",\"submitted\":false},{\"reference\":\"R-11\",\"submitted\":false},{\"reference\":\"R-12\",\"submitted\":false},{\"reference\":\"R-13\",\"submitted\":false},{\"reference\":\"R-14\",\"submitted\":false},{\"reference\":\"R-15\",\"submitted\":false},{\"reference\":\"R-16\",\"submitted\":false},{\"reference\":\"R-17\",\"submitted\":false},{\"reference\":\"R-18\",\"submitted\":false}],\"draftSnapshotSha\":\"2baa9335b08395da78d5074726fc013f7e71b1da7d540177483156b32c24a97c\"}"
+      },
+      "at": "2026-11-23T15:45:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 14,
+      "command": "handoff",
+      "args": {
+        "note": "Kavi Stone at 17:30: scheduler stopped through Nov 25 15:00; information available; production blocked. Nineteen unsubmitted drafts preserved. Simple Intake 2.3 retest bounded pass; LA-19 direct scope expires Nov 30 17:00; Ruth acceptance and Ada launch agreement absent. Anya partner scope review pending; import off. Claims contained and vendor campaign held; publication and sent-recipient corrections require Juno confirmation. Keep contact route and drafts, check next decision update, and route failures and deadline questions to Ruth. Dan report Nov 24 12:00; Lena and Ada commercial review Nov 24 11:00. Complaint remains open."
+      },
+      "at": "2026-11-23T15:45:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 15,
+      "command": "task",
+      "args": {
+        "area": "communications",
+        "owner": "Juno",
+        "due": "2026-11-23T16:15:00Z",
+        "action": "Own correction text and assign Owen to deliver to Rivermere and Sales Operations to the other five known sent-brochure recipients; obtain delivery receipts. Ensure information-only pages explicitly say applications cannot currently be submitted, with contact route."
+      },
+      "at": "2026-11-23T15:45:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 16,
+      "command": "task",
+      "args": {
+        "area": "launch",
+        "owner": "Ruth Dene",
+        "due": "2026-11-30T17:00:00Z",
+        "action": "Review actual applicant reach, delays, complaints and out-of-hours access before recommending a fair submission window; Ada decides any extension after funder communication."
+      },
+      "at": "2026-11-23T15:45:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 17,
+      "command": "handoff",
+      "args": {
+        "note": "Kavi Stone at 17:30: scheduler stopped through Nov 25 15:00; information available; production blocked. Nineteen unsubmitted drafts preserved. Simple Intake 2.3 retest bounded pass; LA-19 direct scope expires Nov 30 17:00; Ruth acceptance and Ada launch agreement absent. Anya partner scope review pending; import off. Claims contained and vendor campaign held; Juno owns correction text, Owen delivers to Rivermere and Sales Operations to five other known brochure recipients; delivery and publication pending. Information-only wording must say submissions are unavailable and give a contact route. Ruth reviews actual applicant reach, delays, complaints and out-of-hours access for a fair window; Ada decides extensions. Keep drafts and contact route, check next decision update. Dan report Nov 24 12:00; Lena and Ada commercial review Nov 24 11:00. Complaint remains open."
+      },
+      "at": "2026-11-23T15:45:00Z",
+      "outcome": "confirmed"
+    }
+  ]
+}

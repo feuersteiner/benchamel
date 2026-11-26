@@ -1,0 +1,114 @@
+{
+  "drafts": [
+    {
+      "reference": "R-00",
+      "submitted": false,
+      "text": "Synthetic draft 0"
+    },
+    {
+      "reference": "R-01",
+      "submitted": false,
+      "text": "Synthetic draft 1"
+    },
+    {
+      "reference": "R-02",
+      "submitted": false,
+      "text": "Synthetic draft 2"
+    },
+    {
+      "reference": "R-03",
+      "submitted": false,
+      "text": "Synthetic draft 3"
+    },
+    {
+      "reference": "R-04",
+      "submitted": false,
+      "text": "Synthetic draft 4"
+    },
+    {
+      "reference": "R-05",
+      "submitted": false,
+      "text": "Synthetic draft 5"
+    },
+    {
+      "reference": "R-06",
+      "submitted": false,
+      "text": "Synthetic draft 6"
+    },
+    {
+      "reference": "R-07",
+      "submitted": false,
+      "text": "Synthetic draft 7"
+    },
+    {
+      "reference": "R-08",
+      "submitted": false,
+      "text": "Synthetic draft 8"
+    },
+    {
+      "reference": "R-09",
+      "submitted": false,
+      "text": "Synthetic draft 9"
+    },
+    {
+      "reference": "R-10",
+      "submitted": false,
+      "text": "Synthetic draft 10"
+    },
+    {
+      "reference": "R-11",
+      "submitted": false,
+      "text": "Synthetic draft 11"
+    },
+    {
+      "reference": "R-12",
+      "submitted": false,
+      "text": "Synthetic draft 12"
+    },
+    {
+      "reference": "R-13",
+      "submitted": false,
+      "text": "Synthetic draft 13"
+    },
+    {
+      "reference": "R-14",
+      "submitted": false,
+      "text": "Synthetic draft 14"
+    },
+    {
+      "reference": "R-15",
+      "submitted": false,
+      "text": "Synthetic draft 15"
+    },
+    {
+      "reference": "R-16",
+      "submitted": false,
+      "text": "Synthetic draft 16"
+    },
+    {
+      "reference": "R-17",
+      "submitted": false,
+      "text": "Synthetic draft 17"
+    },
+    {
+      "reference": "R-18",
+      "submitted": false,
+      "text": "Synthetic draft 18"
+    }
+  ],
+  "submissionAttempts": [
+    {
+      "key": "REF-A",
+      "notify": false
+    },
+    {
+      "key": "REF-A",
+      "notify": true
+    }
+  ],
+  "tested": [
+    "Chrome142-keyboard",
+    "Firefox144-NVDA2025.3-Windows11"
+  ],
+  "partnerPeople": 42
+}

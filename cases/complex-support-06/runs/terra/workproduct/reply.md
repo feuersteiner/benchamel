@@ -1,0 +1,15 @@
+Dear Dev, Ruth and Ada,
+
+The reported upload error and declaration barriers prevent independent completion. The earlier suggestion to rely on a helper did not address that problem or the privacy concerns; apologies. Dan Vale owns the technical repair. The production opening job is stopped through 25 November at 15:00 UTC; information pages and the contact route remain available. The main application form remains blocked. The recommendation is to keep intake stopped until the outstanding decisions are recorded, and prepare an information-only deferral notice for the Trust to review.
+
+All 19 existing drafts have been preserved in the protected tenant with their submission states; they are not submitted applications and do not automatically transfer to the temporary form. Applicants must control any transfer, declaration and submission. Simple Intake 2.3 has passed the local failed-notification and retry retest: one accepted reference remained one application when the notification was pending and then sent. Earlier end-to-end tests covered keyboard use in Chrome 142 and Firefox 144 with NVDA 2025.3 on Windows 11. These limited tests do not establish universal accessibility or acceptance of the main workflow.
+
+The temporary route uses the existing protected tenant, accepts one file at a time up to 10 MB, and has save-and-return. Staff assistance is optional, with applicant control of final confirmation; staffed hours are 08:00–18:00 UTC. A failed notification needs reference checking before retry. LA-19 permits consideration of this route for direct applicants through 30 November at 17:00, subject to its conditions. Ruth's written operational acceptance and Ada's recorded launch agreement are still absent. The 42 partner referrals were disclosed after approval; their overlap with direct accounts and inclusion in the approved population remain unresolved. No partner import is enabled. Anya has been asked to decide the scope; Ada retains the program decision.
+
+The earlier claim of WCAG 2.2 AA certification and the email describing the old scan as complete signoff were unsupported. The scan covered five routes and did not test the upload error path. The local containment receipt records removal of the badge and universal claim and a hold on the vendor's 18:00 campaign; publication of the detailed correction and notification of recipients still need confirmation. The Trust controls its own notices.
+
+A voluntary 15:40 session has been invited using fabricated files, without recording or medical proof; participation is not required to progress the complaint. A written report is available if the session does not occur. The earliest target for a testable main-form patch is 26 November, not a release or conformance promise. A broader assessment remains needed.
+
+The complaint and incident work do not depend on buying an upgrade. No fee remedy, deadline extension or change to the subscription start has been agreed. Ada and Lena can discuss commercial variation at the scheduled call. The next written update is due by 16:30 UTC today, including any decisions and remaining gaps.
+
+Elise Ward

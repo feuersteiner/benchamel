@@ -1,0 +1,22 @@
+# Case plan — 23 November, 15:45 UTC
+
+## Authority and evidence ledger
+
+- E03/E08: Dan reproduced a critical upload error and unreachable declaration in the recorded environments. The main form remains blocked. E01/E06: the five-route automated scan and old green badge do not establish complete-process accessibility. E05 supersedes the archived checklist.
+- E05/E07/E18: Elise may stop the opening for 48 hours; receipt 1 confirms transactional stop through 25 November 15:00, with information available. Anya must confirm any extension. Ada decides program opening and any deadline change; Ruth gives written temporary-service acceptance. Neither acceptance nor agreement is recorded.
+- E09/E15/E18: Mira's protected-tenant destination is authorized. Receipt 3 preserves 19 reference-only drafts, all unsubmitted; snapshot SHA `2baa9335b08395da78d5074726fc013f7e71b1da7d540177483156b32c24a97c`. Verify file associations and applicant-controlled transfer; saved work is not a submission.
+- E10 and receipt 7: 2.3 retest retained one accepted reference through notification pending and sent; retry created no new submission. This is bounded evidence, not production acceptance or universal conformance. Earlier positive tests cover Chrome 142 keyboard and Firefox 144/NVDA 2025.3 on Windows 11. Invite receipt 2 records an optional fabricated-data session, not attendance or approval.
+- E07/E16/E19: LA-19 covers direct applicants only through 30 November 17:00 subject to gates. Receipt 5 requests Anya's interpretation of new partner-origin direct registrations; partner import remains off. The 42 referrals have unknown overlap with 34 direct accounts. Preserve the list separately; obtain population decision, consent and duplicate safeguards before any expansion.
+- E11/E12/E16: receipt 4 confirms claim containment and vendor 18:00 campaign hold. A published limitation notice, URL and timestamp, replacement brochure and correction delivery to six recipients are not confirmed. Preserve originals; disclose no applicant details. Trust channels remain under Trust control.
+- E02/E14: no fee remedy is recorded. The £6,000 implementation payment is settled; £30,000 subscription invoice is scheduled 1 December, and deferral does not automatically change the service start. Lena and Ada review requests 24 November 11:00. Investigation and ordinary protection do not depend on purchase or waiver.
+
+## Actions and handoff
+
+- Farah, 16:00: supply scoped retest and any voluntary-session observations. Dan owns repair and reports 24 November 12:00; 26 November is only the earliest testable build. Regression must cover errors, duplicates, upload, declaration and receipt; broader assessment remains pending.
+- Mira, 16:15: verify associations and prepare reference-only reconciliation. No passwords, personal mailbox evidence, silent migration or staff declaration. Check reference before advising a retry.
+- Juno, 16:15: confirm notice publication and correction delivery; maintain vendor hold. Elise asks the Trust to decide its own notice and provides a draft deferral notice.
+- Anya, 16:00 review and 16:20 escalation: decide the narrow partner-origin scope question and record a safe interim state; import remains off. Ruth reviews evidence and operational limits; Ada decides opening and fair window. Keep stopped without both required customer decisions. Any deadline extension is unapproved. The contact route and information remain available.
+- Elise, by 16:30: notify Ruth of the stop and give the Trust a factual update regardless of test, upgrade or commercial outcome. Written reply is prepared, not sent. Address the limited staffing (08:00–18:00, roughly 20 assisted contacts daily), 10 MB file limit, no automatic draft import, protected larger-file request and no-penalty handling for service-attributable failure.
+- Kavi Stone receives the 17:30 handoff: actual scheduler and notice status, LA-19 scope and expiry, absent customer decisions, drafts, partner review, open complaint, contact hours and Dan's next checkpoint. If still closed, preserve drafts and contact route and communicate the next decision update. Record any later decisions and refresh the commitment snapshot and handoff after state changes.
+
+Receipts 8–15 assign the work; receipt 16 records the 16:30 commitment with the current domain snapshot, and receipt 17 records the handoff. These are local records, not external communications or proof of later outcomes.

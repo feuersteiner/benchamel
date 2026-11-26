@@ -1,0 +1,563 @@
+{
+  "state": {
+    "now": "2026-11-23T15:45:00Z",
+    "domain": {
+      "opening": "stopped",
+      "information": "available",
+      "drafts": "preserved",
+      "temporary": "bounded-pass",
+      "claims": "contained",
+      "scope": "review-pending",
+      "invitation": true,
+      "productionForm": "blocked",
+      "customerAcceptance": null,
+      "partnerImport": "off",
+      "feeRemedy": null,
+      "draftCount": 19,
+      "draftInventory": [
+        {
+          "reference": "R-00",
+          "submitted": false
+        },
+        {
+          "reference": "R-01",
+          "submitted": false
+        },
+        {
+          "reference": "R-02",
+          "submitted": false
+        },
+        {
+          "reference": "R-03",
+          "submitted": false
+        },
+        {
+          "reference": "R-04",
+          "submitted": false
+        },
+        {
+          "reference": "R-05",
+          "submitted": false
+        },
+        {
+          "reference": "R-06",
+          "submitted": false
+        },
+        {
+          "reference": "R-07",
+          "submitted": false
+        },
+        {
+          "reference": "R-08",
+          "submitted": false
+        },
+        {
+          "reference": "R-09",
+          "submitted": false
+        },
+        {
+          "reference": "R-10",
+          "submitted": false
+        },
+        {
+          "reference": "R-11",
+          "submitted": false
+        },
+        {
+          "reference": "R-12",
+          "submitted": false
+        },
+        {
+          "reference": "R-13",
+          "submitted": false
+        },
+        {
+          "reference": "R-14",
+          "submitted": false
+        },
+        {
+          "reference": "R-15",
+          "submitted": false
+        },
+        {
+          "reference": "R-16",
+          "submitted": false
+        },
+        {
+          "reference": "R-17",
+          "submitted": false
+        },
+        {
+          "reference": "R-18",
+          "submitted": false
+        }
+      ],
+      "draftSnapshotSha": "2baa9335b08395da78d5074726fc013f7e71b1da7d540177483156b32c24a97c",
+      "acceptedReferences": 1,
+      "retest": {
+        "screens": [
+          {
+            "reference": "REF-A",
+            "status": "accepted",
+            "notification": "pending",
+            "retryCreatesNew": false
+          },
+          {
+            "reference": "REF-A",
+            "status": "accepted",
+            "notification": "sent",
+            "retryCreatesNew": false
+          }
+        ],
+        "environments": [
+          "Chrome142-keyboard",
+          "Firefox144-NVDA2025.3-Windows11"
+        ],
+        "universalConformance": false
+      }
+    },
+    "tasks": [
+      {
+        "area": "engineering",
+        "owner": "Dan",
+        "due": "2026-11-24T12:00:00Z",
+        "action": "Own main-form repair and regression across upload, errors, declaration and receipt; report progress and limits. November 26 is earliest testable build target."
+      },
+      {
+        "area": "data",
+        "owner": "Mira",
+        "due": "2026-11-23T16:15:00Z",
+        "action": "Verify protected snapshot and file associations with Ruth; prepare reference-only reconciliation and applicant-controlled transfer, including duplicate checks."
+      },
+      {
+        "area": "launch",
+        "owner": "Anya",
+        "due": "2026-11-23T16:20:00Z",
+        "action": "Resolve partner-origin direct registration scope and review LA-19 gates with Ruth and Ada; maintain stop pending recorded decisions and plan extension if needed."
+      },
+      {
+        "area": "communications",
+        "owner": "Juno",
+        "due": "2026-11-23T16:15:00Z",
+        "action": "Confirm limitation notice publication and timestamp, correct brochure and known recipients, hold vendor campaign, preserve prior evidence; coordinate Trust notice."
+      },
+      {
+        "area": "support",
+        "owner": "Elise Ward",
+        "due": "2026-11-23T16:30:00Z",
+        "action": "Update Ruth and Dev with actual results, pending decisions and next checkpoint; prepare deferral notice and hand off to Kavi at 17:30."
+      }
+    ],
+    "commitments": {
+      "nextUpdate": "2026-11-23T16:30:00Z",
+      "domain": {
+        "opening": "stopped",
+        "information": "available",
+        "drafts": "preserved",
+        "temporary": "bounded-pass",
+        "claims": "contained",
+        "scope": "review-pending",
+        "invitation": true,
+        "productionForm": "blocked",
+        "customerAcceptance": null,
+        "partnerImport": "off",
+        "feeRemedy": null,
+        "draftCount": 19,
+        "draftInventory": [
+          {
+            "reference": "R-00",
+            "submitted": false
+          },
+          {
+            "reference": "R-01",
+            "submitted": false
+          },
+          {
+            "reference": "R-02",
+            "submitted": false
+          },
+          {
+            "reference": "R-03",
+            "submitted": false
+          },
+          {
+            "reference": "R-04",
+            "submitted": false
+          },
+          {
+            "reference": "R-05",
+            "submitted": false
+          },
+          {
+            "reference": "R-06",
+            "submitted": false
+          },
+          {
+            "reference": "R-07",
+            "submitted": false
+          },
+          {
+            "reference": "R-08",
+            "submitted": false
+          },
+          {
+            "reference": "R-09",
+            "submitted": false
+          },
+          {
+            "reference": "R-10",
+            "submitted": false
+          },
+          {
+            "reference": "R-11",
+            "submitted": false
+          },
+          {
+            "reference": "R-12",
+            "submitted": false
+          },
+          {
+            "reference": "R-13",
+            "submitted": false
+          },
+          {
+            "reference": "R-14",
+            "submitted": false
+          },
+          {
+            "reference": "R-15",
+            "submitted": false
+          },
+          {
+            "reference": "R-16",
+            "submitted": false
+          },
+          {
+            "reference": "R-17",
+            "submitted": false
+          },
+          {
+            "reference": "R-18",
+            "submitted": false
+          }
+        ],
+        "draftSnapshotSha": "2baa9335b08395da78d5074726fc013f7e71b1da7d540177483156b32c24a97c",
+        "acceptedReferences": 1,
+        "retest": {
+          "screens": [
+            {
+              "reference": "REF-A",
+              "status": "accepted",
+              "notification": "pending",
+              "retryCreatesNew": false
+            },
+            {
+              "reference": "REF-A",
+              "status": "accepted",
+              "notification": "sent",
+              "retryCreatesNew": false
+            }
+          ],
+          "environments": [
+            "Chrome142-keyboard",
+            "Firefox144-NVDA2025.3-Windows11"
+          ],
+          "universalConformance": false
+        }
+      }
+    },
+    "handoff": {
+      "to": "Kavi",
+      "note": "Kavi Stone at 17:30: opening stopped through Nov 25 15:00; information available, main form blocked, 19 drafts preserved. Simple Intake retest bounded pass; Ruth acceptance and Ada launch decision pending, partner scope review pending and import off. Confirm public correction and Trust notice, preserve contact route and drafts, track user requests and next update. Support 08:00-18:00; monitor outages outside hours. Dan report Nov 24 12:00. Complaint and commercial review remain open.",
+      "domain": {
+        "opening": "stopped",
+        "information": "available",
+        "drafts": "preserved",
+        "temporary": "bounded-pass",
+        "claims": "contained",
+        "scope": "review-pending",
+        "invitation": true,
+        "productionForm": "blocked",
+        "customerAcceptance": null,
+        "partnerImport": "off",
+        "feeRemedy": null,
+        "draftCount": 19,
+        "draftInventory": [
+          {
+            "reference": "R-00",
+            "submitted": false
+          },
+          {
+            "reference": "R-01",
+            "submitted": false
+          },
+          {
+            "reference": "R-02",
+            "submitted": false
+          },
+          {
+            "reference": "R-03",
+            "submitted": false
+          },
+          {
+            "reference": "R-04",
+            "submitted": false
+          },
+          {
+            "reference": "R-05",
+            "submitted": false
+          },
+          {
+            "reference": "R-06",
+            "submitted": false
+          },
+          {
+            "reference": "R-07",
+            "submitted": false
+          },
+          {
+            "reference": "R-08",
+            "submitted": false
+          },
+          {
+            "reference": "R-09",
+            "submitted": false
+          },
+          {
+            "reference": "R-10",
+            "submitted": false
+          },
+          {
+            "reference": "R-11",
+            "submitted": false
+          },
+          {
+            "reference": "R-12",
+            "submitted": false
+          },
+          {
+            "reference": "R-13",
+            "submitted": false
+          },
+          {
+            "reference": "R-14",
+            "submitted": false
+          },
+          {
+            "reference": "R-15",
+            "submitted": false
+          },
+          {
+            "reference": "R-16",
+            "submitted": false
+          },
+          {
+            "reference": "R-17",
+            "submitted": false
+          },
+          {
+            "reference": "R-18",
+            "submitted": false
+          }
+        ],
+        "draftSnapshotSha": "2baa9335b08395da78d5074726fc013f7e71b1da7d540177483156b32c24a97c",
+        "acceptedReferences": 1,
+        "retest": {
+          "screens": [
+            {
+              "reference": "REF-A",
+              "status": "accepted",
+              "notification": "pending",
+              "retryCreatesNew": false
+            },
+            {
+              "reference": "REF-A",
+              "status": "accepted",
+              "notification": "sent",
+              "retryCreatesNew": false
+            }
+          ],
+          "environments": [
+            "Chrome142-keyboard",
+            "Firefox144-NVDA2025.3-Windows11"
+          ],
+          "universalConformance": false
+        }
+      },
+      "tasks": [
+        {
+          "area": "engineering",
+          "owner": "Dan",
+          "due": "2026-11-24T12:00:00Z",
+          "action": "Own main-form repair and regression across upload, errors, declaration and receipt; report progress and limits. November 26 is earliest testable build target."
+        },
+        {
+          "area": "data",
+          "owner": "Mira",
+          "due": "2026-11-23T16:15:00Z",
+          "action": "Verify protected snapshot and file associations with Ruth; prepare reference-only reconciliation and applicant-controlled transfer, including duplicate checks."
+        },
+        {
+          "area": "launch",
+          "owner": "Anya",
+          "due": "2026-11-23T16:20:00Z",
+          "action": "Resolve partner-origin direct registration scope and review LA-19 gates with Ruth and Ada; maintain stop pending recorded decisions and plan extension if needed."
+        },
+        {
+          "area": "communications",
+          "owner": "Juno",
+          "due": "2026-11-23T16:15:00Z",
+          "action": "Confirm limitation notice publication and timestamp, correct brochure and known recipients, hold vendor campaign, preserve prior evidence; coordinate Trust notice."
+        },
+        {
+          "area": "support",
+          "owner": "Elise Ward",
+          "due": "2026-11-23T16:30:00Z",
+          "action": "Update Ruth and Dev with actual results, pending decisions and next checkpoint; prepare deferral notice and hand off to Kavi at 17:30."
+        }
+      ]
+    }
+  },
+  "audit": [
+    {
+      "seq": 1,
+      "command": "stop-opening",
+      "args": {
+        "scope": "transactional-only"
+      },
+      "at": "2026-11-23T15:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 2,
+      "command": "invite-session",
+      "args": {},
+      "at": "2026-11-23T15:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 3,
+      "command": "preserve-drafts",
+      "args": {
+        "destination": "existing-protected-tenant"
+      },
+      "at": "2026-11-23T15:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 4,
+      "command": "contain-claims",
+      "args": {
+        "campaign": "18:00-hold"
+      },
+      "at": "2026-11-23T15:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 5,
+      "command": "scope-review",
+      "args": {
+        "question": "Does associated intake administration cover new partner-origin individuals registering directly, and what review and population decision are required? Partner import remains excluded."
+      },
+      "at": "2026-11-23T15:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 6,
+      "command": "clock",
+      "args": {
+        "to": "2026-11-23T15:45:00Z"
+      },
+      "at": "2026-11-23T15:45:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 7,
+      "command": "retest-intake",
+      "args": {
+        "version": "2.3"
+      },
+      "at": "2026-11-23T15:45:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 8,
+      "command": "task",
+      "args": {
+        "area": "engineering",
+        "owner": "Dan",
+        "due": "2026-11-24T12:00:00Z",
+        "action": "Own main-form repair and regression across upload, errors, declaration and receipt; report progress and limits. November 26 is earliest testable build target."
+      },
+      "at": "2026-11-23T15:45:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 9,
+      "command": "task",
+      "args": {
+        "area": "data",
+        "owner": "Mira",
+        "due": "2026-11-23T16:15:00Z",
+        "action": "Verify protected snapshot and file associations with Ruth; prepare reference-only reconciliation and applicant-controlled transfer, including duplicate checks."
+      },
+      "at": "2026-11-23T15:45:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 10,
+      "command": "task",
+      "args": {
+        "area": "launch",
+        "owner": "Anya",
+        "due": "2026-11-23T16:20:00Z",
+        "action": "Resolve partner-origin direct registration scope and review LA-19 gates with Ruth and Ada; maintain stop pending recorded decisions and plan extension if needed."
+      },
+      "at": "2026-11-23T15:45:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 11,
+      "command": "task",
+      "args": {
+        "area": "communications",
+        "owner": "Juno",
+        "due": "2026-11-23T16:15:00Z",
+        "action": "Confirm limitation notice publication and timestamp, correct brochure and known recipients, hold vendor campaign, preserve prior evidence; coordinate Trust notice."
+      },
+      "at": "2026-11-23T15:45:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 12,
+      "command": "task",
+      "args": {
+        "area": "support",
+        "owner": "Elise Ward",
+        "due": "2026-11-23T16:30:00Z",
+        "action": "Update Ruth and Dev with actual results, pending decisions and next checkpoint; prepare deferral notice and hand off to Kavi at 17:30."
+      },
+      "at": "2026-11-23T15:45:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 13,
+      "command": "commitments",
+      "args": {
+        "next-update": "2026-11-23T16:30:00Z",
+        "snapshot": "{\"opening\":\"stopped\",\"information\":\"available\",\"drafts\":\"preserved\",\"temporary\":\"bounded-pass\",\"claims\":\"contained\",\"scope\":\"review-pending\",\"invitation\":true,\"productionForm\":\"blocked\",\"customerAcceptance\":null,\"partnerImport\":\"off\",\"feeRemedy\":null,\"draftCount\":19,\"draftInventory\":[{\"reference\":\"R-00\",\"submitted\":false},{\"reference\":\"R-01\",\"submitted\":false},{\"reference\":\"R-02\",\"submitted\":false},{\"reference\":\"R-03\",\"submitted\":false},{\"reference\":\"R-04\",\"submitted\":false},{\"reference\":\"R-05\",\"submitted\":false},{\"reference\":\"R-06\",\"submitted\":false},{\"reference\":\"R-07\",\"submitted\":false},{\"reference\":\"R-08\",\"submitted\":false},{\"reference\":\"R-09\",\"submitted\":false},{\"reference\":\"R-10\",\"submitted\":false},{\"reference\":\"R-11\",\"submitted\":false},{\"reference\":\"R-12\",\"submitted\":false},{\"reference\":\"R-13\",\"submitted\":false},{\"reference\":\"R-14\",\"submitted\":false},{\"reference\":\"R-15\",\"submitted\":false},{\"reference\":\"R-16\",\"submitted\":false},{\"reference\":\"R-17\",\"submitted\":false},{\"reference\":\"R-18\",\"submitted\":false}],\"draftSnapshotSha\":\"2baa9335b08395da78d5074726fc013f7e71b1da7d540177483156b32c24a97c\",\"acceptedReferences\":1,\"retest\":{\"screens\":[{\"reference\":\"REF-A\",\"status\":\"accepted\",\"notification\":\"pending\",\"retryCreatesNew\":false},{\"reference\":\"REF-A\",\"status\":\"accepted\",\"notification\":\"sent\",\"retryCreatesNew\":false}],\"environments\":[\"Chrome142-keyboard\",\"Firefox144-NVDA2025.3-Windows11\"],\"universalConformance\":false}}"
+      },
+      "at": "2026-11-23T15:45:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 14,
+      "command": "handoff",
+      "args": {
+        "note": "Kavi Stone at 17:30: opening stopped through Nov 25 15:00; information available, main form blocked, 19 drafts preserved. Simple Intake retest bounded pass; Ruth acceptance and Ada launch decision pending, partner scope review pending and import off. Confirm public correction and Trust notice, preserve contact route and drafts, track user requests and next update. Support 08:00-18:00; monitor outages outside hours. Dan report Nov 24 12:00. Complaint and commercial review remain open."
+      },
+      "at": "2026-11-23T15:45:00Z",
+      "outcome": "confirmed"
+    }
+  ]
+}

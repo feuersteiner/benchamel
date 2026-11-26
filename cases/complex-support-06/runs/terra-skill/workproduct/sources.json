@@ -1,0 +1,91 @@
+{
+	"version": "1.0",
+	"licenseStatus": "Brief original factual paraphrases with attribution. No transcript, webpage, screenshot or dataset reproduced; no transcript license asserted. All business records and dialogue independently authored synthetic fiction.",
+	"sources": [
+		{
+			"id": "S01",
+			"url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/",
+			"stableIdentifier": "w3c:REC-WCAG22-20241212:5.2.3",
+			"publicationDate": "2024-12-12",
+			"retrievedDate": "2026-11-23",
+			"updateUncertainty": "Pinned W3C Recommendation dated December 12 2024; paraphrase concerns complete-process conformance, not an assessment of the fictional product.",
+			"reuseBasis": "original factual paraphrase, no transcript license asserted",
+			"quotesWords": 0,
+			"representation": {
+				"documentId": "E01",
+				"paragraphPrefix": "S01:",
+				"sha256": "dd999c744ba0f0faba8b4c02b2ef2048882b4c01bf1556de254e094ff9492f01",
+				"hashScope": "UTF-8 bytes of this local authored paragraph only; not an original page hash"
+			},
+			"retrievalUrl": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/"
+		},
+		{
+			"id": "S02",
+			"url": "https://www.w3.org/WAI/test-evaluate/preliminary/",
+			"stableIdentifier": "w3c-wai:WAI/test-evaluate/preliminary/",
+			"publicationDate": "2023-08-09",
+			"retrievedDate": "2026-11-23",
+			"updateUncertainty": "Living WAI guidance, displayed update August 9 2023; draft newer version linked, but not substituted for the retrieved resource.",
+			"reuseBasis": "original factual paraphrase, no transcript license asserted",
+			"quotesWords": 0,
+			"representation": {
+				"documentId": "E01",
+				"paragraphPrefix": "S02:",
+				"sha256": "11cd4317c2bf945e41554d04854a48e7f3f454e493c7d948b600956a038c1ace",
+				"hashScope": "UTF-8 bytes of this local authored paragraph only; not an original page hash"
+			},
+			"retrievalUrl": "https://www.w3.org/WAI/test-evaluate/preliminary/"
+		},
+		{
+			"id": "S03",
+			"url": "https://www.w3.org/WAI/planning/interim-repairs/",
+			"stableIdentifier": "w3c-wai:WAI/planning/interim-repairs/",
+			"publicationDate": "2026-08-12",
+			"retrievedDate": "2026-11-23",
+			"updateUncertainty": "Living WAI guidance, displayed update August 12 2026; not backdated to supply an earlier contract.",
+			"reuseBasis": "original factual paraphrase, no transcript license asserted",
+			"quotesWords": 0,
+			"representation": {
+				"documentId": "E01",
+				"paragraphPrefix": "S03:",
+				"sha256": "1d87c0dc87baeedf2318f8a1a61f8b78490c67ac70e69d3d478b0c058d6d172c",
+				"hashScope": "UTF-8 bytes of this local authored paragraph only; not an original page hash"
+			},
+			"retrievalUrl": "https://www.w3.org/WAI/planning/interim-repairs/"
+		},
+		{
+			"id": "S04",
+			"url": "https://www.w3.org/WAI/planning/statements/",
+			"stableIdentifier": "w3c-wai:WAI/planning/statements/",
+			"publicationDate": "2021-03-11",
+			"retrievedDate": "2026-11-23",
+			"updateUncertainty": "Living WAI guidance, displayed update March 11 2021; advice about statements, not proof of a jurisdictional obligation.",
+			"reuseBasis": "original factual paraphrase, no transcript license asserted",
+			"quotesWords": 0,
+			"representation": {
+				"documentId": "E01",
+				"paragraphPrefix": "S04:",
+				"sha256": "ab9bb3216030fcc5941bb451660f85283570b76ee01cdf974839ecadd3067fef",
+				"hashScope": "UTF-8 bytes of this local authored paragraph only; not an original page hash"
+			},
+			"retrievalUrl": "https://www.w3.org/WAI/planning/statements/"
+		},
+		{
+			"id": "S05",
+			"url": "https://www.w3.org/WAI/test-evaluate/involving-users/",
+			"stableIdentifier": "w3c-wai:WAI/test-evaluate/involving-users/",
+			"publicationDate": "2024-04-30",
+			"retrievedDate": "2026-11-23",
+			"updateUncertainty": "Living WAI guidance, displayed links update April 30 2024 and substantive update June 1 2021; small-study scope advice, not evidence about fictional users.",
+			"reuseBasis": "original factual paraphrase, no transcript license asserted",
+			"quotesWords": 0,
+			"representation": {
+				"documentId": "E01",
+				"paragraphPrefix": "S05:",
+				"sha256": "dcf345136145758f09cfc70a15198ad7927a4dd2a4f8fdd37a419e86cc767ca6",
+				"hashScope": "UTF-8 bytes of this local authored paragraph only; not an original page hash"
+			},
+			"retrievalUrl": "https://www.w3.org/WAI/test-evaluate/involving-users/"
+		}
+	]
+}
