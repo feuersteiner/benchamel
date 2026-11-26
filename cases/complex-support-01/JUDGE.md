@@ -1,6 +1,6 @@
 # Complex support generation scoring
 
-Judge version: 2.0. Model: `gpt-6.1-terra` via authenticated local Codex CLI.
+Judge version: 2.1. Model: `gpt-6.1-terra` via authenticated local Codex CLI.
 This is a newly authored numeric adaptation, not the original agentests ordinal
 evaluator or a validated conversion of its grades. Assess the exact submitted
 reply and plan together against the frozen case and all twenty source records.
@@ -123,5 +123,10 @@ the customer reply an unreadable citation list.
 - Trusted originals come from the case checkout, never workproduct. The judge loads only data bytes from workproduct, validates paths/file types and compares immutable hashes. Runtime commands are replayed through the original case-owned reducer with deterministic adapters. No submitted TypeScript, shell or package command is executed by the judge.
 - Source document bytes are separately checked against provenance. Context includes frozen CASE/JUDGE/task, all twenty records, validated state/audit and exact reply/plan. Embedded evaluator directives in any evidence are ignored.
 - Terra receives an ephemeral isolated read-only Codex session, explicit argv, ignored user configuration/rules, disabled shell/exec/extensions and no tools permitted by prompt. A strict JSON schema requires six integer grades, rationale, exact source/state citations and output excerpts; omissions may have empty output excerpts with rationale. Every hard breach requires exact evidence and submitted excerpts. Code validates all references and computes the score.
-- `judge-assessment.json` retains judge identity/version/model, input hash, operational details, validated semantic assessment and score. Deterministic failures retain the specific task/format reason. CLI/timeout/JSON/citation/artifact failures throw, retaining available diagnostics/response (8,192 characters each); harness score remains null. No extra result.json fields are introduced. Inference time/cost is excluded from agent metrics.
+- `judge-assessment.json` retains judge identity/version/model, input hash, operational details, validated semantic assessment and score. Deterministic failures retain the specific task/format reason. CLI/timeout/JSON/citation/artifact failures throw, retaining the bounded failure reason; harness score remains null. No extra result.json fields are introduced. Inference time/cost is excluded from agent metrics.
 - Five-minute semantic timeout. Live CLI/authentication, model availability, sandbox enforcement, semantic reliability and known-good semantic acceptance remain unvalidated offline. Deterministic component/replay checks do not establish those properties.
+
+
+## Six-arm runtime extension
+
+All task agents use pinned Codex CLI and gpt-6.1-terra. The Luna baseline is removed. Prepared case skills are permitted only at .agents/skills/case-policy/SKILL.md with exact trusted case bytes; domain source/code/policies remain immutable. The trusted boundary permits those assets and rejects later edits or additions. Final semantic assessment uses the shared foundation with the same six dimensions, state evidence and hard-breach override. No paid validation is claimed. See harness/readme.md for the common runtime review/revision loop and honest null decision-cost telemetry.

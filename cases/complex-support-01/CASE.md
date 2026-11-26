@@ -1,6 +1,6 @@
 # Complex support: disputed exceptional invoice
 
-Case version: 2.0. Judge version: 2.0. Adapted execution/generation benchmark.
+Case version: 2.1. Judge version: 2.1. Adapted execution/generation benchmark.
 
 At **2024-03-01 15:00 UTC**, act as HarborEdge duty support lead Niko Reed in a functioning local support-operations repository. Aster disputes a $104,500 incident invoice: $600 settled and $103,900 receivable, with a separate paid $120 base fee. Mara needs an update before 17:00. Six sites have different continuity needs. Resolve or advance the dispute with the executable workflows, then deliver `reply.md` and `plan.md` supported by actual simulated state and audit receipts.
 
@@ -27,4 +27,9 @@ Twenty public synthetic records are preserved byte-for-byte (68,686 bytes) from 
 
 The original evaluator uses six ordinal 0–3 dimensions and forbids averaging them. This case authors a separate 0–100 rule combining observable operations and semantic workproduct quality; no equivalence, calibration or original-evaluator validity is claimed. No benchmark run/result has been fabricated. Offline checks do not validate paid semantic inference, live CLI/authentication or model availability.
 
-The baseline run definition retains exactly preflight, agent and starter_prompt. Preflight executes the real offline fixture health check. Shared harness/result schemas are unchanged.
+Each run definition retains exactly preflight, agent and starter_prompt. Preflight installs legitimate frozen assets and executes the offline fixture health check. Result metrics remain time, cost, score and context_length.
+
+
+## Six-arm runtime extension
+
+All task agents use pinned Codex CLI and gpt-6.1-terra. The Luna baseline is removed. Prepared case skills are permitted only at .agents/skills/case-policy/SKILL.md with exact trusted case bytes; domain source/code/policies remain immutable. The trusted boundary permits those assets and rejects later edits or additions. Final semantic assessment uses the shared foundation with the same six dimensions, state evidence and hard-breach override. No paid validation is claimed. See harness/readme.md for the common runtime review/revision loop and honest null decision-cost telemetry.
