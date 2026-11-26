@@ -1,0 +1,94 @@
+{
+  "checked": "2026-11-25",
+  "mode": "offline-verification-and-live-agentests-evals",
+  "case": "complex-support-02",
+  "type_safety": "passed",
+  "pristine_seed_and_source_hashes": "passed",
+  "known_good_operational_routes": 2,
+  "cli_success_and_rejection": "passed",
+  "audit_replay_and_state_invariants": "passed",
+  "exact_six_run_definitions": "passed",
+  "skill_installation_prompt_inclusion_and_freeze": "passed",
+  "native_agentests_validate_luna_and_jev": "passed",
+  "agentests_selection_and_feedback_with_injected_engines": "passed",
+  "semantic_model_acceptance": "not-run",
+  "paid_benchmark_runs": 0,
+  "live_model_credentials_and_provider_network": "tested-for-native-agentests-evals",
+  "eval_expectations": "authored; live eval mismatches remain",
+  "domain_assertion_counts": {
+    "legal": 18,
+    "marketing": 21,
+    "customer-support": 27
+  },
+  "domain_assertions_total": 66,
+  "domain_context_and_source_coverage_maps": "passed",
+  "native_eval_specimens": 15,
+  "native_eval_packet_integrity_and_trusted_replay": "passed",
+  "native_eval_glob_selection_and_irrelevant_skip": "passed",
+  "single_assertion_failure_retains_domain_and_id_both_presets": "passed",
+  "shared_runtime_patch_sha256": "0e8201ff2e0bf1f935ecaa76fcb080702c890cda59adeb0fecbd90b6eee44d93",
+  "shared_runtime_files_match_published_commit": "passed",
+  "harness_unit_tests": {
+    "passed": 10,
+    "failed": 0,
+    "expect_calls": 506
+  },
+  "commands_run": [
+    "bun install --frozen-lockfile",
+    "bun run check",
+    "bun harness/verify.ts --case complex-support-02 --layer 3",
+    "git diff --check"
+  ],
+  "gate_uncertainty_fix": {
+    "policy": {
+      "fail_at_or_below": 0.2,
+      "pass_at_or_above": 0.8,
+      "intermediate": "uncertain-blocks-completion"
+    },
+    "calibration": "provisional; live eval measurements recorded separately",
+    "all_probabilities_retained": true,
+    "typecheck": "passed",
+    "layer_3_offline_verification": "passed",
+    "shared_unit_tests": {
+      "passed": 11,
+      "failed": 0
+    },
+    "gate_source_sha256": "d60bbbe7e15355d9117405d46dc1c8f7cf0c9e38dcf19e2d1b0ba3b6f10f95a3"
+  },
+  "live_agentests_evals": {
+    "evaluated_commit": "35674b596897a54a7ac5f9d05afb2c0ee74b6042",
+    "scope": "Native decision-gate evals only; benchmark task arms and final semantic judge not run.",
+    "policy_calibration": "not-established; thresholds unchanged during evals",
+    "all_authored_outcomes_match": false,
+    "providers": {
+      "jev": {
+        "model": "jev-latest",
+        "matched_eval_outcomes": 14,
+        "total_evals": 15,
+        "scored_assertions": 264,
+        "uncertain_assertions": 31,
+        "expected_fail_accepted": 1,
+        "expected_pass_blocked": 0,
+        "intended_assertion_violations_missed": 1,
+        "transport_counts": {
+          "native-single-question": 264
+        },
+        "result_sha256": "7bd479fd6a64d9e912d33dcddba3d7602d3aee5908d3fbeb6946bb5c9c0c2595"
+      },
+      "luna": {
+        "model": "gpt-6-luna",
+        "matched_eval_outcomes": 11,
+        "total_evals": 15,
+        "scored_assertions": 264,
+        "uncertain_assertions": 14,
+        "expected_fail_accepted": 3,
+        "expected_pass_blocked": 1,
+        "intended_assertion_violations_missed": 3,
+        "transport_counts": {
+          "batched-independent-questions": 264
+        },
+        "result_sha256": "8f93bede457a062b581047fa645dca59250cb8cbfc173f70c6bfa333a92c34fb"
+      }
+    }
+  }
+}

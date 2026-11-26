@@ -1,13 +1,13 @@
 import assert from 'node:assert/strict';
-import { cp, mkdtemp, readFile, rm, writeFile, symlink, mkdir } from 'node:fs/promises';
+import { cp, mkdtemp, readFile, rm, writeFile, symlink } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { initial,transition,replay,canonical,type Policy,type Runtime } from './fixture-engine.ts';
 import { inspect, judgeDomain } from './domain-judge.ts';
 import { boundary,hash } from './boundary.ts';
 import { prepare } from './treatments/prepare.ts';
-import { skillPrompt } from './treatments/agent.ts';
-import { gate,config } from './treatments/gate.ts';
+import { skillPrompt,revisionLoop } from './treatments/agent.ts';
+import { gate,config,loadDomainSuite,installDomainSuite } from './treatments/gate.ts';
 export async function commandCheck(workspace:string,command:string,args:Record<string,string>,expected?:unknown) {
   const before=await readFile(join(workspace,'state/runtime.json'),'utf8');
   const child=Bun.spawn(['bun','src/cli.ts',command,...Object.entries(args).flatMap(([k,v])=>['--'+k,v])],{cwd:workspace,stdout:'pipe',stderr:'pipe'});
@@ -39,14 +39,24 @@ export async function treatmentChecks(root:string,workspace:string,arms:string[]
   if(!arms.some(a=>a.includes('agentests')))return;
   const temp=await mkdtemp(join(tmpdir(),'benchamel-native-validate-'));
   try {
-    await mkdir(join(temp,'.agents/tests'),{recursive:true});const test=Bun.YAML.parse(await readFile(join(root,'treatments/agentests/test.yaml'),'utf8')) as {id:string;assert:unknown[]};
-    await cp(join(root,'treatments/agentests'),join(temp,'.agents/tests',test.id),{recursive:true});
+    const suite=await loadDomainSuite(root),total=suite.reduce((n,item)=>n+item.test.assert.length,0);
+    await installDomainSuite(suite,temp);
     for(const decision of ['luna','jev'] as const) {
       await writeFile(join(temp,'agentests.config.yaml'),JSON.stringify(config(decision)));
       const cli=Bun.spawn(['node',join(import.meta.dir,'../node_modules/agentests/dist/cli/index.js'),'validate'],{cwd:temp,stdout:'pipe',stderr:'pipe'});
-      const [code,,err]=await Promise.all([cli.exited,new Response(cli.stdout).text(),new Response(cli.stderr).text()]);assert.equal(code,0,err);
-      const pass=await gate(root,workspace,decision,1);assert.equal(pass.pass,true);assert.equal(pass.offlineDecisionCalls,test.assert.length);
-      const fail=await gate(root,workspace,decision,0);assert.equal(fail.pass,false);assert.equal(fail.offlineDecisionCalls,test.assert.length);assert(fail.findings.every(f=>f.error.length>20));
+      const [code,out,err]=await Promise.all([cli.exited,new Response(cli.stdout).text(),new Response(cli.stderr).text()]);assert.equal(code,0,out+err);
+      const pass=await gate(root,workspace,decision,1);assert.equal(pass.pass,true);assert.equal(pass.offlineDecisionCalls,total);assert.deepEqual(pass.findings,[]);
+      const fail=await gate(root,workspace,decision,0);assert.equal(fail.pass,false);assert.equal(fail.offlineDecisionCalls,total);assert.equal(fail.findings.length,total);
+      for(const item of suite)assert.equal(fail.findings.filter(f=>f.test===item.test.id&&f.domain===item.domain).length,item.test.assert.length);
+      for(const item of suite) {
+        const selective=await gate(root,workspace,decision,input=>input.domain===item.domain?0:1);
+        assert.equal(selective.pass,false);assert.equal(selective.offlineDecisionCalls,total);assert.equal(selective.findings.length,item.test.assert.length);
+        assert.deepEqual(selective.findings.map(f=>f.assertion),item.test.assert.map(a=>a.id));
+        assert(selective.findings.every(f=>f.test===item.test.id&&f.domain===item.domain&&f.error.trim().length>0));
+      }
+      const prompts:string[]=[];let reviews=0;
+      await revisionLoop(async prompt=>{prompts.push(prompt);return {thread:'offline-domain-revision',code:0};},async()=>++reviews===1?fail:pass,'Offline draft');
+      assert.equal(prompts.length,2);assert(prompts[1]!.includes(JSON.stringify(fail.findings)));
     }
   }finally {await rm(temp,{recursive:true,force:true});}
 }
