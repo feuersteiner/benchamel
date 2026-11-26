@@ -14,5 +14,38 @@
   "semantic_model_acceptance": "not-run",
   "paid_benchmark_runs": 0,
   "live_model_credentials_and_provider_network": "not-tested",
-  "eval_expectations": "authored-not-model-validated"
+  "eval_expectations": "authored-not-model-validated",
+  "native_domain_assertions": {
+    "legal": 38,
+    "marketing": 15,
+    "customer-support": 29
+  },
+  "native_domain_assertions_total": 82,
+  "coverage_maps_and_context_source_ids": "passed-static-validation",
+  "native_eval_specimens": 23,
+  "native_eval_selected_packet_replay": {
+    "packets": 20,
+    "result": "passed"
+  },
+  "case_single_assertion_failure_propagation": {
+    "targets": 9,
+    "presets": [
+      "luna",
+      "jev"
+    ],
+    "result": "passed-injected-engines-only"
+  },
+  "harness_tests": {
+    "passed": 10,
+    "failed": 0,
+    "expect_calls": 506
+  },
+  "shared_runtime_patch_sha256": "0e8201ff2e0bf1f935ecaa76fcb080702c890cda59adeb0fecbd90b6eee44d93",
+  "checks_run": [
+    "bun run check",
+    "bun harness/verify.ts --case complex-support-07 --layer 3",
+    "bun cases/complex-support-07/verification/agentests.ts",
+    "bun test harness/tests"
+  ],
+  "calibration_and_semantic_eval": "not-run"
 }
