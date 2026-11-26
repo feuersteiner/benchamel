@@ -14,5 +14,29 @@
   "semantic_model_acceptance": "not-run",
   "paid_benchmark_runs": 0,
   "live_model_credentials_and_provider_network": "not-tested",
-  "eval_expectations": "authored-not-model-validated"
+  "eval_expectations": "authored-not-model-validated",
+  "domain_assertion_counts": {
+    "legal": 18,
+    "marketing": 21,
+    "customer-support": 27
+  },
+  "domain_assertions_total": 66,
+  "domain_context_and_source_coverage_maps": "passed",
+  "native_eval_specimens": 15,
+  "native_eval_packet_integrity_and_trusted_replay": "passed",
+  "native_eval_glob_selection_and_irrelevant_skip": "passed",
+  "single_assertion_failure_retains_domain_and_id_both_presets": "passed",
+  "shared_runtime_patch_sha256": "0e8201ff2e0bf1f935ecaa76fcb080702c890cda59adeb0fecbd90b6eee44d93",
+  "shared_runtime_files_match_published_commit": "passed",
+  "harness_unit_tests": {
+    "passed": 10,
+    "failed": 0,
+    "expect_calls": 506
+  },
+  "commands_run": [
+    "bun install --frozen-lockfile",
+    "bun run check",
+    "bun harness/verify.ts --case complex-support-02 --layer 3",
+    "git diff --check"
+  ]
 }
