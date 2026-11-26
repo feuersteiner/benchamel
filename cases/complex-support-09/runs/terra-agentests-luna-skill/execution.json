@@ -1,0 +1,56 @@
+{
+  "case": "complex-support-09",
+  "arm": "terra-agentests-luna-skill",
+  "pid": 38076,
+  "startedAt": "2026-11-26T05:36:46.914Z",
+  "status": "completed",
+  "attempt": 2,
+  "executionCommit": "bf6ccf08701cc4c9b91740da1bd29c046cbc4b2b",
+  "transport": "batched-independent-questions",
+  "endedAt": "2026-11-26T05:44:17.282Z",
+  "exit": 0,
+  "initialExit": 1,
+  "judgeRetries": [
+    {
+      "attempt": 1,
+      "startedAt": "2026-11-26T05:43:55.508Z",
+      "endedAt": "2026-11-26T05:44:17.281Z",
+      "score": 100
+    }
+  ],
+  "source_commit": "f138325b8677c974ea608b1d891ec6c4b82b02e4",
+  "execution_commit": "bf6ccf08701cc4c9b91740da1bd29c046cbc4b2b",
+  "versions": {
+    "codex": "codex-cli 0.172.0-alpha.2",
+    "bun": "1.3.3",
+    "node": "v22.19.0"
+  },
+  "errors": [
+    "Judge citation is not an exact input excerpt."
+  ],
+  "failure_reason": null,
+  "gate_reviews": [
+    {
+      "status": "uncertain",
+      "pass": false,
+      "findings": 1,
+      "decisions": 65
+    },
+    {
+      "status": "uncertain",
+      "pass": false,
+      "findings": 2,
+      "decisions": 65
+    },
+    {
+      "status": "pass",
+      "pass": true,
+      "findings": 0,
+      "decisions": 65
+    }
+  ],
+  "task_turns": 3,
+  "retained_final_replicates": 1,
+  "initial_attempt_preserved": true,
+  "paced_attempt_preserved": false
+}

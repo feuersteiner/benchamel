@@ -1,0 +1,10 @@
+{
+  "codex": "codex-cli 0.172.0-alpha.2",
+  "model": "gpt-6.1-terra",
+  "config_override": "sandbox_mode=\"workspace-write\"",
+  "initial_file": "first\n",
+  "resumed_file": "first\nsecond\n",
+  "initial_exit": 0,
+  "resume_exit": 0,
+  "assertion": "The resumed session appended through the shell tool under workspace-write."
+}

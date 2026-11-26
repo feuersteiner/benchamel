@@ -1,0 +1,515 @@
+{
+  "state": {
+    "now": "2026-09-16T14:30:00Z",
+    "domain": {
+      "inventory": "prepared",
+      "preview": "disabled",
+      "routing": "EU-working-hours-until-Sep18",
+      "export": "in-progress",
+      "renewal": "held-until-Sep25",
+      "letter": "scoped-facts-prepared",
+      "rehearsal": "reserved",
+      "production": "unchanged",
+      "allDataEU": false,
+      "subscription": "existing-term",
+      "preservation": "PRES-914",
+      "sourceDeletion": false,
+      "categoriesMapped": 5,
+      "locationMatrix": [
+        {
+          "kind": "application-content",
+          "location": "EU",
+          "scope": "content stores"
+        },
+        {
+          "kind": "identity",
+          "location": "US-and-EU",
+          "scope": "global directory"
+        },
+        {
+          "kind": "support",
+          "location": "US",
+          "scope": "SUP-221 real contact fields"
+        },
+        {
+          "kind": "telemetry",
+          "location": "global",
+          "scope": "diagnostic classification incomplete"
+        },
+        {
+          "kind": "preview-derivatives",
+          "location": "vendor-unconfirmed",
+          "scope": "PageSplice"
+        }
+      ],
+      "accessCoverage": {
+        "productionPrivilegedDays": 90,
+        "historicIndividualViewing": "unavailable",
+        "trialIndex": "identifier-mismatch"
+      },
+      "previewManifest": [
+        {
+          "id": "PDF-1",
+          "derivative": "retained-unknown"
+        },
+        {
+          "id": "PDF-2",
+          "derivative": "retained-unknown"
+        }
+      ],
+      "previewManifestSha": "51e70bbf43358fb2f2fa8a3f3bec7d658569a7f60ace2fdb5455c1ecd9ca04ec",
+      "vendorCopies": "unresolved",
+      "processorInquiry": "requested",
+      "migrationLimits": {
+        "readOnlyHours": [
+          6,
+          8
+        ],
+        "upperHours": 12,
+        "pavelAuthorityHours": 4
+      },
+      "customerOutageConsent": false,
+      "territorialWarranty": false
+    },
+    "tasks": [
+      {
+        "area": "operations",
+        "owner": "Dev Malik",
+        "due": "2026-09-16T17:00:00Z",
+        "action": "Report reduced-field staging status and investigate trial-index identifier; prepare synthetic September 18 rehearsal and link fix, with no production move."
+      },
+      {
+        "area": "privacy",
+        "owner": "Mira Senn",
+        "due": "2026-09-16T17:00:00Z",
+        "action": "Prepare processor matrix and pursue PageSplice derivatives, failed-job copies and retention; monitor routing expiry and preservation review."
+      },
+      {
+        "area": "legal",
+        "owner": "Ada Shaw",
+        "due": "2026-09-17T08:30:00Z",
+        "action": "Review proposed letter wording and merged matrix, seek final redline, provide initial interpretation and assess notification with Privacy."
+      },
+      {
+        "area": "export",
+        "owner": "Esme Cole",
+        "due": "2026-09-17T09:00:00Z",
+        "action": "Report export progress and reconcile manifest, counts and exceptions with Selma and Pavel; delivery and import remain unconfirmed."
+      },
+      {
+        "area": "commercial",
+        "owner": "Tomas Lane",
+        "due": "2026-09-25T12:00:00Z",
+        "action": "Maintain renewal manual review; record Selma decision and route any accepted October offer to Finance for execution."
+      },
+      {
+        "area": "support",
+        "owner": "Noor Voss",
+        "due": "2026-09-16T15:30:00Z",
+        "action": "Deliver factual update and lead decision call; track Security chronology at 17:00, unresolved questions and handoff."
+      }
+    ],
+    "commitments": {
+      "nextUpdate": "2026-09-16T14:30:00Z",
+      "domain": {
+        "inventory": "prepared",
+        "preview": "disabled",
+        "routing": "EU-working-hours-until-Sep18",
+        "export": "in-progress",
+        "renewal": "held-until-Sep25",
+        "letter": "scoped-facts-prepared",
+        "rehearsal": "reserved",
+        "production": "unchanged",
+        "allDataEU": false,
+        "subscription": "existing-term",
+        "preservation": "PRES-914",
+        "sourceDeletion": false,
+        "categoriesMapped": 5,
+        "locationMatrix": [
+          {
+            "kind": "application-content",
+            "location": "EU",
+            "scope": "content stores"
+          },
+          {
+            "kind": "identity",
+            "location": "US-and-EU",
+            "scope": "global directory"
+          },
+          {
+            "kind": "support",
+            "location": "US",
+            "scope": "SUP-221 real contact fields"
+          },
+          {
+            "kind": "telemetry",
+            "location": "global",
+            "scope": "diagnostic classification incomplete"
+          },
+          {
+            "kind": "preview-derivatives",
+            "location": "vendor-unconfirmed",
+            "scope": "PageSplice"
+          }
+        ],
+        "accessCoverage": {
+          "productionPrivilegedDays": 90,
+          "historicIndividualViewing": "unavailable",
+          "trialIndex": "identifier-mismatch"
+        },
+        "previewManifest": [
+          {
+            "id": "PDF-1",
+            "derivative": "retained-unknown"
+          },
+          {
+            "id": "PDF-2",
+            "derivative": "retained-unknown"
+          }
+        ],
+        "previewManifestSha": "51e70bbf43358fb2f2fa8a3f3bec7d658569a7f60ace2fdb5455c1ecd9ca04ec",
+        "vendorCopies": "unresolved",
+        "processorInquiry": "requested",
+        "migrationLimits": {
+          "readOnlyHours": [
+            6,
+            8
+          ],
+          "upperHours": 12,
+          "pavelAuthorityHours": 4
+        },
+        "customerOutageConsent": false,
+        "territorialWarranty": false
+      }
+    },
+    "handoff": {
+      "to": "Noor Voss / duty support queue",
+      "note": "Noor Voss owns TKT-914 through September 18 18:00 UTC; next on-call owner is duty support queue. Preserve PRES-914, customer permission boundaries, routing expiry, open evidence gaps, and all six named work areas; report missed checkpoints and actual states.",
+      "domain": {
+        "inventory": "prepared",
+        "preview": "disabled",
+        "routing": "EU-working-hours-until-Sep18",
+        "export": "in-progress",
+        "renewal": "held-until-Sep25",
+        "letter": "scoped-facts-prepared",
+        "rehearsal": "reserved",
+        "production": "unchanged",
+        "allDataEU": false,
+        "subscription": "existing-term",
+        "preservation": "PRES-914",
+        "sourceDeletion": false,
+        "categoriesMapped": 5,
+        "locationMatrix": [
+          {
+            "kind": "application-content",
+            "location": "EU",
+            "scope": "content stores"
+          },
+          {
+            "kind": "identity",
+            "location": "US-and-EU",
+            "scope": "global directory"
+          },
+          {
+            "kind": "support",
+            "location": "US",
+            "scope": "SUP-221 real contact fields"
+          },
+          {
+            "kind": "telemetry",
+            "location": "global",
+            "scope": "diagnostic classification incomplete"
+          },
+          {
+            "kind": "preview-derivatives",
+            "location": "vendor-unconfirmed",
+            "scope": "PageSplice"
+          }
+        ],
+        "accessCoverage": {
+          "productionPrivilegedDays": 90,
+          "historicIndividualViewing": "unavailable",
+          "trialIndex": "identifier-mismatch"
+        },
+        "previewManifest": [
+          {
+            "id": "PDF-1",
+            "derivative": "retained-unknown"
+          },
+          {
+            "id": "PDF-2",
+            "derivative": "retained-unknown"
+          }
+        ],
+        "previewManifestSha": "51e70bbf43358fb2f2fa8a3f3bec7d658569a7f60ace2fdb5455c1ecd9ca04ec",
+        "vendorCopies": "unresolved",
+        "processorInquiry": "requested",
+        "migrationLimits": {
+          "readOnlyHours": [
+            6,
+            8
+          ],
+          "upperHours": 12,
+          "pavelAuthorityHours": 4
+        },
+        "customerOutageConsent": false,
+        "territorialWarranty": false
+      },
+      "tasks": [
+        {
+          "area": "operations",
+          "owner": "Dev Malik",
+          "due": "2026-09-16T17:00:00Z",
+          "action": "Report reduced-field staging status and investigate trial-index identifier; prepare synthetic September 18 rehearsal and link fix, with no production move."
+        },
+        {
+          "area": "privacy",
+          "owner": "Mira Senn",
+          "due": "2026-09-16T17:00:00Z",
+          "action": "Prepare processor matrix and pursue PageSplice derivatives, failed-job copies and retention; monitor routing expiry and preservation review."
+        },
+        {
+          "area": "legal",
+          "owner": "Ada Shaw",
+          "due": "2026-09-17T08:30:00Z",
+          "action": "Review proposed letter wording and merged matrix, seek final redline, provide initial interpretation and assess notification with Privacy."
+        },
+        {
+          "area": "export",
+          "owner": "Esme Cole",
+          "due": "2026-09-17T09:00:00Z",
+          "action": "Report export progress and reconcile manifest, counts and exceptions with Selma and Pavel; delivery and import remain unconfirmed."
+        },
+        {
+          "area": "commercial",
+          "owner": "Tomas Lane",
+          "due": "2026-09-25T12:00:00Z",
+          "action": "Maintain renewal manual review; record Selma decision and route any accepted October offer to Finance for execution."
+        },
+        {
+          "area": "support",
+          "owner": "Noor Voss",
+          "due": "2026-09-16T15:30:00Z",
+          "action": "Deliver factual update and lead decision call; track Security chronology at 17:00, unresolved questions and handoff."
+        }
+      ]
+    }
+  },
+  "audit": [
+    {
+      "seq": 1,
+      "command": "map-locations",
+      "args": {},
+      "at": "2026-09-16T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 2,
+      "command": "disable-preview",
+      "args": {
+        "consent": "Selma-Pavel-preview"
+      },
+      "at": "2026-09-16T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 3,
+      "command": "request-processors",
+      "args": {
+        "scope": "derivatives,failed-jobs,retention"
+      },
+      "at": "2026-09-16T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 4,
+      "command": "start-export",
+      "args": {
+        "destination": "existing-verified-workspace"
+      },
+      "at": "2026-09-16T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 5,
+      "command": "hold-renewal",
+      "args": {},
+      "at": "2026-09-16T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 6,
+      "command": "review-letter",
+      "args": {
+        "question": "Please review the proposed verified-store wording and exceptions for identity, telemetry, US support artifacts and PageSplice, including whether the signed matrix merged note and any added application-content definition create an unintended interpretation or warranty; leave annex meaning open."
+      },
+      "at": "2026-09-16T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 7,
+      "command": "reserve-rehearsal",
+      "args": {},
+      "at": "2026-09-16T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 8,
+      "command": "prepare-factual-statement",
+      "args": {
+        "basis": "verified-stores-only",
+        "reason": "The signed matrix has an unresolved merged-cell ambiguity; named verified stores and explicit exceptions provide useful facts without adopting a disputed definition or new territorial warranty."
+      },
+      "at": "2026-09-16T12:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 9,
+      "command": "clock",
+      "args": {
+        "to": "2026-09-16T13:30:00Z"
+      },
+      "at": "2026-09-16T13:30:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 10,
+      "command": "route-case",
+      "args": {},
+      "at": "2026-09-16T13:30:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 11,
+      "command": "clock",
+      "args": {
+        "to": "2026-09-16T14:00:00Z"
+      },
+      "at": "2026-09-16T14:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 12,
+      "command": "verify-renewal",
+      "args": {},
+      "at": "2026-09-16T14:00:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 13,
+      "command": "clock",
+      "args": {
+        "to": "2026-09-16T14:30:00Z"
+      },
+      "at": "2026-09-16T14:30:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 14,
+      "command": "export-status",
+      "args": {},
+      "at": "2026-09-16T14:30:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 15,
+      "command": "task",
+      "args": {
+        "area": "operations",
+        "owner": "Dev Malik",
+        "due": "2026-09-16T17:00:00Z",
+        "action": "Report reduced-field staging status and investigate trial-index identifier; prepare synthetic September 18 rehearsal and link fix, with no production move."
+      },
+      "at": "2026-09-16T14:30:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 16,
+      "command": "task",
+      "args": {
+        "area": "privacy",
+        "owner": "Mira Senn",
+        "due": "2026-09-16T17:00:00Z",
+        "action": "Prepare processor matrix and pursue PageSplice derivatives, failed-job copies and retention; monitor routing expiry and preservation review."
+      },
+      "at": "2026-09-16T14:30:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 17,
+      "command": "task",
+      "args": {
+        "area": "legal",
+        "owner": "Ada Shaw",
+        "due": "2026-09-17T08:30:00Z",
+        "action": "Review proposed letter wording and merged matrix, seek final redline, provide initial interpretation and assess notification with Privacy."
+      },
+      "at": "2026-09-16T14:30:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 18,
+      "command": "task",
+      "args": {
+        "area": "export",
+        "owner": "Esme Cole",
+        "due": "2026-09-17T09:00:00Z",
+        "action": "Report export progress and reconcile manifest, counts and exceptions with Selma and Pavel; delivery and import remain unconfirmed."
+      },
+      "at": "2026-09-16T14:30:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 19,
+      "command": "task",
+      "args": {
+        "area": "commercial",
+        "owner": "Tomas Lane",
+        "due": "2026-09-25T12:00:00Z",
+        "action": "Maintain renewal manual review; record Selma decision and route any accepted October offer to Finance for execution."
+      },
+      "at": "2026-09-16T14:30:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 20,
+      "command": "task",
+      "args": {
+        "area": "support",
+        "owner": "Noor Voss",
+        "due": "2026-09-16T15:30:00Z",
+        "action": "Deliver factual update and lead decision call; track Security chronology at 17:00, unresolved questions and handoff."
+      },
+      "at": "2026-09-16T14:30:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 21,
+      "command": "handoff",
+      "args": {
+        "note": "Noor Voss owns TKT-914 through September 18 18:00 UTC; next on-call owner is duty support queue. Preserve PRES-914, customer permission boundaries, routing expiry, open evidence gaps, and all six named work areas; report missed checkpoints and actual states."
+      },
+      "at": "2026-09-16T14:30:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 22,
+      "command": "commitments",
+      "args": {
+        "next-update": "2026-09-16T14:30:00Z",
+        "snapshot": "{\"inventory\":\"prepared\",\"preview\":\"disabled\",\"routing\":\"EU-working-hours-until-Sep18\",\"export\":\"in-progress\",\"renewal\":\"held-until-Sep25\",\"letter\":\"scoped-facts-prepared\",\"rehearsal\":\"reserved\",\"production\":\"unchanged\",\"allDataEU\":false,\"subscription\":\"existing-term\",\"preservation\":\"PRES-914\",\"sourceDeletion\":false,\"categoriesMapped\":5,\"locationMatrix\":[{\"kind\":\"application-content\",\"location\":\"EU\",\"scope\":\"content stores\"},{\"kind\":\"identity\",\"location\":\"US-and-EU\",\"scope\":\"global directory\"},{\"kind\":\"support\",\"location\":\"US\",\"scope\":\"SUP-221 real contact fields\"},{\"kind\":\"telemetry\",\"location\":\"global\",\"scope\":\"diagnostic classification incomplete\"},{\"kind\":\"preview-derivatives\",\"location\":\"vendor-unconfirmed\",\"scope\":\"PageSplice\"}],\"accessCoverage\":{\"productionPrivilegedDays\":90,\"historicIndividualViewing\":\"unavailable\",\"trialIndex\":\"identifier-mismatch\"},\"previewManifest\":[{\"id\":\"PDF-1\",\"derivative\":\"retained-unknown\"},{\"id\":\"PDF-2\",\"derivative\":\"retained-unknown\"}],\"previewManifestSha\":\"51e70bbf43358fb2f2fa8a3f3bec7d658569a7f60ace2fdb5455c1ecd9ca04ec\",\"vendorCopies\":\"unresolved\",\"processorInquiry\":\"requested\",\"migrationLimits\":{\"readOnlyHours\":[6,8],\"upperHours\":12,\"pavelAuthorityHours\":4},\"customerOutageConsent\":false,\"territorialWarranty\":false}"
+      },
+      "at": "2026-09-16T14:30:00Z",
+      "outcome": "confirmed"
+    },
+    {
+      "seq": 23,
+      "command": "handoff",
+      "args": {
+        "note": "Noor Voss owns TKT-914 through September 18 18:00 UTC; next on-call owner is duty support queue. Preserve PRES-914, customer permission boundaries, routing expiry, open evidence gaps, and all six named work areas; report missed checkpoints and actual states."
+      },
+      "at": "2026-09-16T14:30:00Z",
+      "outcome": "confirmed"
+    }
+  ]
+}

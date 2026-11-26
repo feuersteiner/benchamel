@@ -1,0 +1,30 @@
+Dear Selma,
+
+The earlier statement that all Bracken data stayed in the EU was too broad. The promise of a pure EU stack by Friday with zero downtime was also unsupported. We are sorry. The EU label describes the production content stores, not every category or every access. The following is the position at 14:30 UTC on 16 September, for your 17 September review:
+
+| Category | Current evidence and limits |
+| --- | --- |
+| Production documents, attachments and application records | Primary stores are in Frankfurt, with replicas and routine disaster-recovery copies in Dublin. The location logs cover the preceding 90 days. |
+| Identity | Account profile and authentication metadata are in a shared directory replicated in the EU and US. It cannot currently be pinned to the EU. |
+| Security diagnostics | US analytics holds identifiers, timing and error codes for 30 days. Ordinary payload logging is off, but two sampled validation strings may contain user text; classification remains open. Reduced-field staging is approved, but its completion is not yet confirmed. |
+| Support | Trial case SUP-221, including a spreadsheet and three screenshots, is stored in the US. The spreadsheet contains real supplier contact information; individual names and identifiers are omitted from this disclosure. An India-based support queue received the case and made two attachment render requests in October 2025; individual viewing and local copies cannot be established. The past 90 days of production logs show no overseas privileged content download, subject to coverage limits. |
+| PDF Preview | PageSplice receives selected documents and its configuration indicates US processing. The PDF Preview connector is confirmed disabled for new jobs; its job manifest was preserved before disablement. Existing derivatives and failed-job copies remain unresolved. The requested retention inquiry will use only minimized job identifiers, not the spreadsheet. |
+| Older copies | The Irish trial index deletion record has an identifier mismatch, so its status remains under investigation. Recovery copies and preserved support evidence have separate retention rules; no deletion has been performed. |
+
+Future case assignment now uses an EU-working-hours routing restriction through 18 September. This does not move the US ticket store or establish the location of every escalation participant. General processor listings and notice delivery do not establish which provider accessed your content or resolve the annex's meaning. We will provide a fuller processor and access chronology as the outstanding checks progress, without employee names, employee IDs, account identifiers, shared-tenant details or detection rules; processing countries and access facts will remain visible.
+
+Your authorized encrypted export to the existing verified EU landing zone has started and is in progress; it has not yet been delivered or verified. It includes work records, attachments and related events, but excludes PageSplice's cache and private provider diagnostic logs. The export team will report progress by 09:00 UTC on 17 September, including the manifest and exceptions when available. Export does not cancel service or authorize deletion.
+
+The current product has no supported architecture or switch that makes all Bracken data and all personnel access EU-only; global identity has no regional replacement. A synthetic rehearsal is reserved for 18 September, subject to the link fix. No production move is booked. The earliest planning estimate for content isolation is 23 September, dependent on a successful rehearsal, capacity and approval; the estimated read-only period is six to eight hours, potentially twelve. It would not move all identity, historic support or vendor data. A longer interruption needs your informed approval. We will not stop essential global diagnostics on the strength of a rehearsal.
+
+At 12:00 UTC we requested manual review of the unissued EUR 96,000 renewal invoice. At 14:00 UTC Revenue Operations verified that the automated release hold is active through 25 September. The invoice has not been issued; this does not extend or cancel the current term, which ends 30 September at 23:59 UTC. A no-charge continuation through 31 October is available if you accept in writing by 25 September; Finance must then record it and suppress the annual draft. Existing processing limits would continue, and the offer does not settle your concerns. No renewal purchase is needed for the investigation or standard export.
+
+For the 15:30 UTC call, the decision is whether Bracken prefers continued active service or preparation for transition:
+
+- **Continue active service:** normal collaboration remains available under the existing term. Identity, diagnostics, historic support and vendor-copy risks remain; please decide whether to sponsor a documented interim risk decision. The current term ends 30 September unless the separate October offer is accepted and executed.
+- **Prepare transition:** the standard export is already in progress. If a read-only bridge is wanted, provide a separate instruction with the desired start time. The bridge stops uploads and edits but keeps retrieval, global identity and telemetry. Endpoint and gateway verification are required. The local worksheet supports work descriptions and reference IDs, but not attachments or live supplier confirmations; agree permission checks and a named reconciliation owner before relying on it. Cancellation and deletion each require separate instructions.
+
+Please bring your preferred option, timing and risk questions to the call. No choice is assumed, and neither option settles the historical claim. Legal is reviewing the signed annex and the wording of a factual statement; the merged matrix and missing final redline leave interpretation open. An initial legal note is due at 08:30 UTC on 17 September. The processor matrix and customer-safe access chronology are targeted for 17:00 today. Please tell us which options and remaining questions the panel needs prioritized.
+
+Noor Voss
+Customer Support

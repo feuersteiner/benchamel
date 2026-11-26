@@ -1,0 +1,47 @@
+{
+  "categories": [
+    {
+      "kind": "application-content",
+      "location": "EU",
+      "scope": "content stores"
+    },
+    {
+      "kind": "identity",
+      "location": "US-and-EU",
+      "scope": "global directory"
+    },
+    {
+      "kind": "support",
+      "location": "US",
+      "scope": "SUP-221 real contact fields"
+    },
+    {
+      "kind": "telemetry",
+      "location": "global",
+      "scope": "diagnostic classification incomplete"
+    },
+    {
+      "kind": "preview-derivatives",
+      "location": "vendor-unconfirmed",
+      "scope": "PageSplice"
+    }
+  ],
+  "previewJobs": [
+    {
+      "id": "PDF-1",
+      "derivative": "retained-unknown"
+    },
+    {
+      "id": "PDF-2",
+      "derivative": "retained-unknown"
+    }
+  ],
+  "migration": {
+    "readOnlyHours": [
+      6,
+      8
+    ],
+    "upperHours": 12,
+    "pavelAuthorityHours": 4
+  }
+}

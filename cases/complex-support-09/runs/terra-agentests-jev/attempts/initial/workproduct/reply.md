@@ -1,0 +1,27 @@
+Subject: Bracken residency review — factual update, 16 September 2026, 14:30 UTC
+
+Dear Selma,
+
+The earlier assurance that all Bracken data stayed in the EU was too broad, as was the later promise of a pure EU stack by Friday with zero downtime. Both were wrong to present as established. The questionnaire sent to Bracken also omitted its exception tab. Sorry for the uncertainty this has caused. The EU Content Region label covers specified content stores, not every category or access path. This update is for your 17 September review; it is not a new territorial warranty or a conclusion about the annex, which remains under legal review.
+
+| Category | Current evidence and limits |
+| --- | --- |
+| Application content | The production database and object store are in Frankfurt, with replicas and routine disaster-recovery copies in Dublin. Location logs cover the preceding 90 days. |
+| Identity | The shared directory, including names, roles and device identifiers, has EU and US replicas. It cannot currently be pinned to the EU. |
+| Security telemetry | Security events are processed in US analytics for 30 days. A validation error can contain user-entered text; two strings were found and classification is pending. Reduced-field staging was due at 14:00; confirmation is outstanding. It would reduce exposure, not move all telemetry. |
+| Support | Trial case SUP-221 retains a spreadsheet and three captures in a US ticket store under preservation. The spreadsheet includes real supplier contact names and roles. An India-based support queue received the case in October 2025 and its service identity made two render requests. Individual viewing and local copying cannot be determined from retained records. Production logs show no overseas privileged content download in the last 90 days, with exclusions for certain automated and customer-user actions; they cannot establish all historic access. |
+| PDF Preview | PageSplice received selected documents for previews; its configuration displays US processing and a seven-day derivative cache. The manifest was saved and new jobs are disabled. Old derivatives and failed-job copies remain unresolved; an inquiry has been requested. |
+| Older copies | A trial-index deletion certificate has a mismatched identifier, so deletion is unverified. No matching US trial index was found. Preserved evidence and immutable recovery copies have separate retention rules. |
+
+NorthQuay hosts regional content in Germany and Ireland; CedarKey provides identity in the EU and US; BeaconSpan provides support from Ireland, Canada and India; SignalArc handles US security telemetry. Listing a provider does not prove it accessed your content. SignalArc notice was sent and accepted by the receiving server; that does not establish a person read it or resolve the annex question. Privacy is preparing an account-specific processor and retention matrix. PageSplice's report normally takes two business days and may arrive after your panel.
+
+The case now has EU-working-hours routing through 18 September for future assignments. This does not move the US ticket store or establish past access locations. The standard encrypted export to your existing verified EU landing zone has started and is in progress, not delivered. It includes work orders, attachments and related records, but excludes PageSplice's cache and private provider diagnostic logs. Esme will report progress by 17 September at 09:00; manifest and counts need reconciliation and receipt and import remain separate steps. No source deletion has been performed.
+
+Production remains active and unchanged. A synthetic rehearsal is reserved for 18 September, subject to readiness; it is not a production booking. The earliest content-isolation planning estimate is 23 September after a successful rehearsal and approvals. Expected read-only time is six to eight hours, potentially twelve; this exceeds Pavel's four-hour authority and requires your informed approval. Isolation would not regionalize global identity, historic support material or vendor copies. The current product cannot provide an all-data, all-personnel EU-only service.
+
+The unissued EUR 96,000 annual renewal is under manual review through 25 September. This does not cancel the existing term or extend service beyond 30 September. A no-charge October continuation is available if you accept in writing by 25 September; Finance must then record it and suppress the draft renewal. It retains current processing limits and does not settle your concerns. Alternatively, you can instruct cancellation of the unissued renewal and consider transition; the standard export remains available independently. No renewal, release or purchase is required for the evidence or approved assistance. Claims for reimbursement remain open for Finance and Legal review.
+
+At our 15:30 UTC call, please consider whether to continue under a documented interim risk decision or plan transition, and whether you want the October offer. A read-only transition needs a separate instruction and endpoint checks. No decision is assumed. Ada's 14:00 wording review is still pending; an initial legal note is scheduled for 17 September at 08:30. Privacy and Security will provide further scoped evidence, including a chronology targeted for 17:00 today. Questions and missing evidence remain open regardless of your commercial choice.
+
+Noor Voss
+Customer Support

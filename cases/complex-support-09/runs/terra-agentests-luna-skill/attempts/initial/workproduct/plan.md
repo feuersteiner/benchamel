@@ -1,0 +1,25 @@
+# TKT-914 internal plan — 16 September 2026, 14:30 UTC
+
+## State and receipt ledger
+
+- CLI receipts 1–7: category map prepared; preview disabled after preservation of PDF-1/PDF-2 manifest (SHA-256 51e70bbf43358fb2f2fa8a3f3bec7d658569a7f60ace2fdb5455c1ecd9ca04ec); processor inquiry requested; export started; renewal review requested; synthetic rehearsal reserved; precise letter review requested. The manifest is not proof of vendor deletion.
+- Receipt 9: EU working-hours future-case routing until Sep 18. Receipt 11: renewal held until Sep 25. Receipt 13: export in progress, not complete or delivered. Receipts 14–19 assign all six policy work areas. Receipt 21 snapshots current domain for the 14:30 update; receipt 22 records handoff. Production unchanged, existing term, PRES-914 intact, no source deletion or outage consent. The rejected 15:30 commitments attempt was atomic; the accepted commitment is 14:30.
+- The 14:00 Dev staging and Ada wording checkpoints lack actual completion receipts. Chase and report the dependency; do not invent a result. Ada's review remains pending. No customer message has been sent: reply.md is a draft.
+
+## Authority and evidence ledger
+
+- Selma authorized manifest-first connector disabling, standard export to the existing verified EU destination, and synthetic rehearsal (E03). Pavel can manage the connector and approve at most four hours, not waive territorial terms or authorize the proposed six-to-eight-hour interruption (E02, E11). No production move, deletion, transition mode or term change was authorized.
+- E06–E08 and E15 support the category and access matrix in reply.md. The historic spreadsheet contains real contact fields; individual historic viewing, local copies, vendor retention, two telemetry strings and the mismatched trial-index deletion remain unresolved. Production access coverage is bounded to 90 days and excludes some activities. SignalArc notice server acceptance is not proof of human review or annex consent.
+- A-914 permits bounded factual evidence, EUR 12,000 in labor, and a conditional October offer, not a new warranty, cash compensation or deletion (E13, E17). The signed matrix merges the regional note across content and diagnostics whereas the draft did not; adding a definition of service data risks deciding disputed scope. Ada must review the exact proposed wording and exception table, including whether it creates a definition or warranty; seek final redline. Safe interim is the dated verified facts and exceptions in reply.md, without interpreting the annex or asserting compliance. Initial note due Sep 17 08:30; final determination is not promised.
+- No supported all-data EU-only switch exists. A rehearsal does not authorize stopping global diagnostics. Content isolation requires Dev's technical go/no-go, tested link fix, capacity, rollback, and Selma's informed written consent; Sep 23 is only a conditional forecast. Retain source, backup, evidence and vendor-copy distinctions (E11–E12).
+
+## Owners and decisions
+
+- Noor Voss: issue the 14:30 draft through the authorized customer channel when available; lead the 15:30 decision discussion. Explain continued service with residual risks, optional October offer, or transition/export; do not condition ordinary protections on a purchase or release. Selma decides; Hana advises, Pavel coordinates endpoints.
+- Dev Malik: immediately report overdue 14:00 reduced-field staging checkpoint; by 17:00 investigate index identifier and report; prepare Sep 18 09:00 synthetic rehearsal and Sep 18 14:00 collector assessment. No global diagnostic shutdown. If rehearsal fails, revise estimate and keep current protections.
+- Mira Senn: by 17:00 provide processor matrix and seek PageSplice account report on derivatives, failed jobs and retention; review routing before Sep 18 expiry, retention and notification obligations with Security. Mei Laurent's safe chronology is due 17:00 and coverage refinement Sep 18 12:00. Keep PRES-914 and minimize any vendor identifiers.
+- Ada Shaw: clarify letter scope and merged matrix/added definition; obtain redline if available, and provide initial note Sep 17 08:30. Track missing evidence without declaring the dispute resolved.
+- Esme Cole: report export progress Sep 17 09:00; reconcile counts, checksum, schema and exceptions, then obtain customer receipt and later import confirmation separately. If failure occurs, report and seek Selma's consent before a restricted-subset export. No external cache included.
+- Tomas Lane: monitor confirmed manual review through Sep 25. If Selma accepts the free October offer by then, Finance must record it and suppress the renewal; otherwise no extension exists. Cancellation requires Selma's instruction. Claims or reimbursement go to Finance and Legal, with no promised payout.
+
+Noor owns the case through Sep 18 18:00 UTC; the named next on-call handoff is the duty support queue. Carry the permissions, evidence gaps, deadlines and current snapshot into that handoff. Refresh commitments and handoff after any further domain transition.

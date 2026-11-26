@@ -1,0 +1,11 @@
+{
+  "typecheck": {
+    "case": "complex-support-09",
+    "typecheck_exit": 0
+  },
+  "retained_artifact_audit": {
+    "runs": 6,
+    "errors": []
+  },
+  "credential_scan": "no benchmark credential values found"
+}

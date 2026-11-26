@@ -1,0 +1,91 @@
+{
+	"version": "1.0",
+	"licenseStatus": "Public documentation; no verified transcript redistribution license asserted. Only brief original factual paraphrases and independently authored fictional account records; no raw pages, screenshots or real customer identifiers.",
+	"sources": [
+		{
+			"id": "S01",
+			"url": "https://support.atlassian.com/security-and-access-policies/docs/understand-data-residency/",
+			"stableIdentifier": "atlassian-support:understand-data-residency",
+			"publicationDate": null,
+			"retrievedDate": "2026-11-23",
+			"updateUncertainty": "publication-date-unknown; mutable current documentation retrieved after fictional cutoff, with no historical version asserted.",
+			"reuseBasis": "original factual paraphrase, no transcript license asserted",
+			"quotesWords": 0,
+			"representation": {
+				"documentId": "E01",
+				"paragraphPrefix": "S01:",
+				"sha256": "78b8c92f54d9d5d95d20dcd08254500c5290e017e422bc033e34948f888c8f36",
+				"hashScope": "UTF-8 bytes of the complete local authored S-prefixed paragraph, excluding surrounding blank lines and trailing newline; not an original page hash"
+			},
+			"retrievalUrl": "https://support.atlassian.com/security-and-access-policies/docs/understand-data-residency/"
+		},
+		{
+			"id": "S02",
+			"url": "https://support.atlassian.com/security-and-access-policies/docs/move-data-to-another-location/",
+			"stableIdentifier": "atlassian-support:move-data-to-another-location",
+			"publicationDate": null,
+			"retrievedDate": "2026-11-23",
+			"updateUncertainty": "publication-date-unknown; mutable current documentation retrieved after fictional cutoff, with no historical version asserted.",
+			"reuseBasis": "original factual paraphrase, no transcript license asserted",
+			"quotesWords": 0,
+			"representation": {
+				"documentId": "E01",
+				"paragraphPrefix": "S02:",
+				"sha256": "640de526927f6658b519fc76848a5166a3009f8756b697459d47115adcc18054",
+				"hashScope": "UTF-8 bytes of the complete local authored S-prefixed paragraph, excluding surrounding blank lines and trailing newline; not an original page hash"
+			},
+			"retrievalUrl": "https://support.atlassian.com/security-and-access-policies/docs/move-data-to-another-location/"
+		},
+		{
+			"id": "S03",
+			"url": "https://slack.com/help/articles/360035633934-Data-residency-for-Slack",
+			"stableIdentifier": "slack-help:360035633934",
+			"publicationDate": null,
+			"retrievedDate": "2026-11-23",
+			"updateUncertainty": "publication-date-unknown; mutable current documentation retrieved after fictional cutoff, with no historical version asserted.",
+			"reuseBasis": "original factual paraphrase, no transcript license asserted",
+			"quotesWords": 0,
+			"representation": {
+				"documentId": "E01",
+				"paragraphPrefix": "S03:",
+				"sha256": "66c43bbfdc65482647a71cc4e3d44bd62f5a23e96df57475569957e173cd8236",
+				"hashScope": "UTF-8 bytes of the complete local authored S-prefixed paragraph, excluding surrounding blank lines and trailing newline; not an original page hash"
+			},
+			"retrievalUrl": "https://slack.com/help/articles/360035633934-Data-residency-for-Slack"
+		},
+		{
+			"id": "S04",
+			"url": "https://learn.microsoft.com/en-us/privacy/eudb/eu-data-boundary-transfers-for-all-services",
+			"stableIdentifier": "microsoft-learn:privacy/eudb/eu-data-boundary-transfers-for-all-services",
+			"publicationDate": "2026-11-10",
+			"retrievedDate": "2026-11-23",
+			"updateUncertainty": "Displayed update November 10, 2026; mutable current documentation after fictional cutoff; earlier text unverified.",
+			"reuseBasis": "original factual paraphrase, no transcript license asserted",
+			"quotesWords": 0,
+			"representation": {
+				"documentId": "E01",
+				"paragraphPrefix": "S04:",
+				"sha256": "27eee5d9c74c71170e57e05a1c232f9c37b9a408d18792da4e2e3444edee4952",
+				"hashScope": "UTF-8 bytes of the complete local authored S-prefixed paragraph, excluding surrounding blank lines and trailing newline; not an original page hash"
+			},
+			"retrievalUrl": "https://learn.microsoft.com/en-us/privacy/eudb/eu-data-boundary-transfers-for-all-services"
+		},
+		{
+			"id": "S05",
+			"url": "https://www.atlassian.com/legal/sub-processors",
+			"stableIdentifier": "atlassian-legal:sub-processors",
+			"publicationDate": null,
+			"retrievedDate": "2026-11-23",
+			"updateUncertainty": "publication-date-unknown; retrieved list is marked Effective Starting December 19, 2026, after retrieval and fictional cutoff. Its future-effective relationships do not establish earlier arrangements; mutable posted documentation, no historical version asserted.",
+			"reuseBasis": "original factual paraphrase, no transcript license asserted",
+			"quotesWords": 0,
+			"representation": {
+				"documentId": "E01",
+				"paragraphPrefix": "S05:",
+				"sha256": "ea3ffcdf770b4686a2cdb39a0b13bbcf900ecff60291300cd69d0a2eef944903",
+				"hashScope": "UTF-8 bytes of the complete local authored S-prefixed paragraph, excluding surrounding blank lines and trailing newline; not an original page hash"
+			},
+			"retrievalUrl": "https://www.atlassian.com/legal/sub-processors"
+		}
+	]
+}
