@@ -1,6 +1,6 @@
 {
-  "checked": "2026-11-25",
-  "mode": "offline-verification-and-live-agentests-evals",
+  "checked": "2026-11-26",
+  "mode": "offline-verification-live-agentests-evals-and-live-benchmark",
   "case": "complex-support-09",
   "type_safety": "passed",
   "pristine_seed_and_source_hashes": "passed",
@@ -11,8 +11,8 @@
   "skill_installation_prompt_inclusion_and_freeze": "passed",
   "native_agentests_validate_luna_and_jev": "passed",
   "agentests_selection_and_feedback_with_injected_engines": "passed",
-  "semantic_model_acceptance": "not-run",
-  "paid_benchmark_runs": 0,
+  "semantic_model_acceptance": "live-final-assessments-recorded-with-explicit-failures",
+  "paid_benchmark_runs": 10,
   "live_model_credentials_and_provider_network": "tested-for-native-agentests-evals",
   "eval_expectations": "authored; live eval mismatches remain",
   "native_domain_assertions": {
@@ -92,5 +92,13 @@
         "result_sha256": "b7be201e244b27ac29f80c2887219ce28af092a43fd113a2061936928f08c6ca"
       }
     }
+  },
+  "latest_benchmark": {
+    "report": "../results.json",
+    "execution_manifest": "benchmark-20261126/execution-manifest.json",
+    "retained_configurations": 6,
+    "completed": 5,
+    "scored": 5,
+    "completed_at_utc": "2026-11-26T05:44:17.282Z"
   }
 }

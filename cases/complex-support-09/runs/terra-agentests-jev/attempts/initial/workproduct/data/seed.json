@@ -1,0 +1,23 @@
+{
+  "state": {
+    "now": "2026-09-16T12:00:00Z",
+    "domain": {
+      "inventory": null,
+      "preview": "enabled",
+      "routing": "global",
+      "export": "none",
+      "renewal": "eligible",
+      "letter": "none",
+      "rehearsal": "none",
+      "production": "unchanged",
+      "allDataEU": false,
+      "subscription": "existing-term",
+      "preservation": "PRES-914",
+      "sourceDeletion": false
+    },
+    "tasks": [],
+    "commitments": null,
+    "handoff": null
+  },
+  "audit": []
+}

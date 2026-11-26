@@ -1,0 +1,25 @@
+# TKT-914 handoff — 16 September 2026, 14:30 UTC
+
+Noor Voss owns the customer relationship through September 18, 18:00 UTC; next on-call handoff: Noor Voss / duty support queue. The 14:30 customer update is prepared in reply.md, not sent. The next customer decision call is 15:30; the panel is September 17 at 10:00. Maintain a useful update if a checkpoint slips.
+
+## Confirmed local receipts
+
+- 1: category map prepared, five categories; 2: preview manifest preserved and new jobs disabled (manifest SHA 51e70bbf43358fb2f2fa8a3f3bec7d658569a7f60ace2fdb5455c1ecd9ca04ec); 3: processor inquiry requested. Vendor copies remain unresolved.
+- 4 and 14: export started and is in progress at 14:30, not delivered; 5 and 12: renewal manual-review hold requested and verified through September 25. No term extension.
+- 6 and 8: Ada review requested and scoped verified-store facts prepared. Review is pending; a factual statement is not legal approval of the disputed annex. 7: synthetic rehearsal reserved, not a production move. 10: EU-working-hours future-case routing active until September 18, not ticket-store relocation.
+- 15–20: six owner tasks recorded. 21: exact domain snapshot and 14:30 update commitment recorded; 22: handoff recorded. Production remains unchanged, PRES-914 remains in force, source deletion is false, all-data EU is false, and no customer outage consent or new territorial warranty exists.
+
+## Owners and next evidence
+
+- **Noor, support:** provide the prepared update and lead 15:30 decision call; obtain Mei's customer-safe chronology at 17:00 and coverage statement September 18 at 12:00. Report missed checkpoints and maintain named handoff. No external contact has been made by this local exercise.
+- **Dev Malik, operations:** report the overdue 14:00 reduced-field staging result; discover the trial-index identity mismatch by 17:00. Prepare September 18 09:00 synthetic rehearsal subject to link fix, and collector assessment at 14:00. Failed rehearsal means no cutover; revise forecast. Keep global security monitoring until approved and validated replacement.
+- **Mira Senn, privacy:** compile processor/location/retention matrix by 17:00, follow up PageSplice's derivatives, failed jobs and retention, assess notification duties with counsel, and manage routing expiry on September 18. Vendor report is estimated within two business days, not guaranteed before the panel. Preserve evidence; do not send the full spreadsheet.
+- **Ada Shaw, legal:** report the overdue 14:00 wording review and deliver the initial interpretation note September 17 at 08:30. Obtain final redline if available; signed merged-cell meaning remains uncertain. Review proposed wording without redefining service data or promising territorial compliance. No conclusion on breach, waiver or damages is established.
+- **Esme Cole, export:** report progress by September 17 09:00; verify manifest, checksum, counts, schema, exceptions and delivery acknowledgment. A full snapshot is not an import. If failure requires a restricted subset, obtain Selma's separate approval; do not describe it as a full export.
+- **Tomas Lane, commercial:** monitor the verified review hold and route Selma's decision to Finance before September 25. October continuation requires her written acceptance, Finance recording and suppression of the renewal draft. The EUR 90,000 quote expires September 18 at 18:00 and buys no residency correction; claims for reimbursement go to Finance and Legal. Approved EUR 12,000 labor is not cash compensation.
+
+## Decision boundaries and evidence gaps
+
+Selma authorized manifest-first connector disablement, export to the existing verified destination and synthetic rehearsal only. Pavel may manage the connector and approve up to four hours of tested maintenance; he cannot waive territorial terms or authorize the estimated six-to-eight-hour outage. No production migration, write freeze, cancellation, new term, source deletion or external destination is authorized. A production move requires Dev's readiness and Selma's informed written consent; runbook gates include verified mappings, endpoint checks, freeze, checksums, acceptance and rollback boundaries. The earliest September 23 date is conditional; the September 18 batch closes at 15:00.
+
+The US SUP-221 store, India queue and two render requests are established; individual viewing and local copying are unknown. Ninety-day privileged production log coverage excludes some actions; older support-view detail expired. The spreadsheet contains real contact fields. Trial-index deletion is uncertain due to the transposed identifier. PageSplice historical retention and diagnostic classification remain unresolved. The signed matrix ambiguity and missing redline prevent a legal conclusion. Preserve these limits with new evidence and its discovery time. Do not equate an export, hold, routing tag, rehearsal or commercial choice with resolution of the claim. Preserve live stores, evidence archives, vendor copies and immutable recovery sets separately; recovery sets normally expire after 35 days subject to preservation.

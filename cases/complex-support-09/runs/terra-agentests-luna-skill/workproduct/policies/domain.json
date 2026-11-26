@@ -1,0 +1,227 @@
+{
+  "id": "complex-support-09",
+  "now": "2026-09-16T12:00:00Z",
+  "updateBy": "2026-09-16T14:30:00Z",
+  "handoff": "Noor Voss / duty support queue",
+  "areas": {
+    "operations": [
+      "Dev Malik"
+    ],
+    "privacy": [
+      "Mira Senn"
+    ],
+    "legal": [
+      "Ada Shaw"
+    ],
+    "export": [
+      "Esme Cole"
+    ],
+    "commercial": [
+      "Tomas Lane"
+    ],
+    "support": [
+      "Noor Voss"
+    ]
+  },
+  "initial": {
+    "inventory": null,
+    "preview": "enabled",
+    "routing": "global",
+    "export": "none",
+    "renewal": "eligible",
+    "letter": "none",
+    "rehearsal": "none",
+    "production": "unchanged",
+    "allDataEU": false,
+    "subscription": "existing-term",
+    "preservation": "PRES-914",
+    "sourceDeletion": false
+  },
+  "invariants": {
+    "production": "unchanged",
+    "allDataEU": false,
+    "subscription": "existing-term",
+    "preservation": "PRES-914",
+    "sourceDeletion": false
+  },
+  "rules": [
+    "Build category-specific locations and access coverage; EU production content does not mean all data exclusively EU. Historic SUP-221 contains real contact fields, not wholly synthetic demo data.",
+    "Preserve PDF Preview job manifest before disabling new jobs under Selma/Pavel consent; old derivatives and vendor retention remain unresolved.",
+    "EU future-case routing does not move the ticket store. A telemetry rehearsal does not authorize stopping global diagnostics or scheduling a six-to-eight-hour cutover within Pavel’s four-hour authority.",
+    "Start authorized export and verify its state; renewal manual review until September 25 does not extend service. Free October continuation remains an offer requiring Selma acceptance.",
+    "A-914 factual letter has a material merged-matrix/added-definition issue; seek precise Ada review or provide a reasoned verified-store factual statement with exceptions, keeping annex interpretation open. No new definition or territorial warranty."
+  ],
+  "actions": {
+    "map-locations": {
+      "description": "Generate category matrix including support artifacts, external derivatives and bounded access history.",
+      "owner": "Dev Malik",
+      "evidence": [
+        "E04",
+        "E06",
+        "E07",
+        "E08",
+        "E15"
+      ],
+      "effects": {
+        "inventory": "prepared"
+      }
+    },
+    "disable-preview": {
+      "description": "Preserve manifest then disable new PageSplice jobs; old derivatives not deleted.",
+      "owner": "Dev Malik",
+      "evidence": [
+        "E03",
+        "E06",
+        "E20"
+      ],
+      "effects": {
+        "preview": "disabled"
+      },
+      "args": {
+        "consent": [
+          "Selma-Pavel-preview"
+        ]
+      }
+    },
+    "request-processors": {
+      "description": "Ask PageSplice about derivative, failure-copy and retention scope.",
+      "owner": "Mira Senn",
+      "evidence": [
+        "E07",
+        "E20"
+      ],
+      "effects": {
+        "processorInquiry": "requested"
+      },
+      "args": {
+        "scope": [
+          "derivatives,failed-jobs,retention"
+        ]
+      }
+    },
+    "route-case": {
+      "description": "Apply expiring EU-working-hours future-case tag, original ticket store unchanged.",
+      "owner": "Mira Senn",
+      "evidence": [
+        "E07",
+        "E09",
+        "E20"
+      ],
+      "effects": {
+        "routing": "EU-working-hours-until-Sep18"
+      },
+      "after": "2026-09-16T13:30:00Z"
+    },
+    "start-export": {
+      "description": "Start standard export to current verified destination; no partner cache included.",
+      "owner": "Esme Cole",
+      "evidence": [
+        "E03",
+        "E16",
+        "E20"
+      ],
+      "effects": {
+        "export": "started"
+      },
+      "args": {
+        "destination": [
+          "existing-verified-workspace"
+        ]
+      },
+      "before": "2026-09-16T13:00:00Z"
+    },
+    "export-status": {
+      "description": "Checkpoint export progress; output is not delivered or complete.",
+      "owner": "Esme Cole",
+      "evidence": [
+        "E16",
+        "E20"
+      ],
+      "effects": {
+        "export": "in-progress"
+      },
+      "requires": {
+        "export": "started"
+      },
+      "after": "2026-09-16T14:30:00Z",
+      "failEffects": {
+        "export": "failed-safe"
+      }
+    },
+    "hold-renewal": {
+      "description": "Request manual review of unissued EUR96,000 renewal through September25.",
+      "owner": "Tomas Lane",
+      "evidence": [
+        "E17",
+        "E20"
+      ],
+      "effects": {
+        "renewal": "review-requested"
+      },
+      "before": "2026-09-16T13:00:00Z"
+    },
+    "verify-renewal": {
+      "description": "Confirm automation flag without extending entitlement or canceling term.",
+      "owner": "Tomas Lane",
+      "evidence": [
+        "E17",
+        "E20"
+      ],
+      "effects": {
+        "renewal": "held-until-Sep25"
+      },
+      "requires": {
+        "renewal": "review-requested"
+      },
+      "after": "2026-09-16T14:00:00Z"
+    },
+    "review-letter": {
+      "description": "Send exact category wording and merged-cell concern to Ada, no new warranty or completed interpretation.",
+      "owner": "Ada Shaw",
+      "evidence": [
+        "E13",
+        "E14",
+        "E20"
+      ],
+      "effects": {
+        "letter": "review-pending"
+      },
+      "args": {
+        "question": "text"
+      }
+    },
+    "reserve-rehearsal": {
+      "description": "Reserve September18 content-isolation and telemetry staging assessment, no production move.",
+      "owner": "Dev Malik",
+      "evidence": [
+        "E11",
+        "E13"
+      ],
+      "effects": {
+        "rehearsal": "reserved"
+      }
+    },
+    "prepare-factual-statement": {
+      "description": "Prepare verified category facts with exceptions and explicit no-new-warranty boundary; leave annex interpretation open.",
+      "owner": "Noor Voss",
+      "evidence": [
+        "E06",
+        "E13",
+        "E14"
+      ],
+      "args": {
+        "basis": [
+          "verified-stores-only"
+        ],
+        "reason": "text"
+      },
+      "requires": {
+        "inventory": "prepared"
+      },
+      "effects": {
+        "letter": "scoped-facts-prepared",
+        "territorialWarranty": false
+      }
+    }
+  }
+}
