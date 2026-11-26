@@ -14,5 +14,39 @@
   "semantic_model_acceptance": "not-run",
   "paid_benchmark_runs": 0,
   "live_model_credentials_and_provider_network": "not-tested",
-  "eval_expectations": "authored-not-model-validated"
+  "eval_expectations": "authored-not-model-validated",
+  "three_native_domain_tests": {
+    "legal": 25,
+    "marketing": 19,
+    "customer-support": 20
+  },
+  "assertion_ids_and_questions_unique": "passed",
+  "source_coverage_maps_and_context_manifests": "passed",
+  "umbrella_test_removed": "passed",
+  "eval_specimen_state_replay_and_exact_source_excerpts": "passed",
+  "native_evals_with_injected_expectations": {
+    "provider_presets": 2,
+    "specimen_results": 30,
+    "decision_calls": 512,
+    "meaning": "native selection and result plumbing only; not semantic validation"
+  },
+  "single_assertion_failure_propagation": {
+    "provider_presets": 2,
+    "domains": 3,
+    "decision_calls": 384,
+    "test_domain_assertion_ids_retained": true
+  },
+  "shared_runtime_patch_sha256": "0e8201ff2e0bf1f935ecaa76fcb080702c890cda59adeb0fecbd90b6eee44d93",
+  "runtime_unit_tests": {
+    "passed": 10,
+    "failed": 0,
+    "expect_calls": 506
+  },
+  "commands_run": [
+    "bun install --frozen-lockfile",
+    "bun run check",
+    "bun harness/verify.ts --case complex-support-10 --layer 3",
+    "bun test harness/tests",
+    "bun cases/complex-support-10/verification/native-agentests.ts"
+  ]
 }
