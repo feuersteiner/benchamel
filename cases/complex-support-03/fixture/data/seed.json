@@ -1,0 +1,21 @@
+{
+  "state": {
+    "now": "2025-05-14T12:00:00Z",
+    "domain": {
+      "source": null,
+      "route": "unselected",
+      "discrepancy": null,
+      "refund": "none",
+      "costReview": "none",
+      "preservation": "PR-619",
+      "production": "fenced",
+      "queues": "paused",
+      "latestRecovery": "unresolved",
+      "annual": "locked"
+    },
+    "tasks": [],
+    "commitments": null,
+    "handoff": null
+  },
+  "audit": []
+}

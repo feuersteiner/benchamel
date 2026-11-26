@@ -1,0 +1,57 @@
+[
+  {
+    "id": "source",
+    "points": 6,
+    "any": [
+      {
+        "source": "inventoried"
+      }
+    ]
+  },
+  {
+    "id": "recovery-route",
+    "points": 6,
+    "any": [
+      {
+        "route": "baseline-allocated"
+      },
+      {
+        "route": "chain-focused"
+      },
+      {
+        "route": "baseline-assessed"
+      },
+      {
+        "route": "baseline-blocked"
+      }
+    ]
+  },
+  {
+    "id": "discrepancy",
+    "points": 6,
+    "any": [
+      {
+        "discrepancy": "prepared",
+        "journalReconciled": true
+      }
+    ]
+  },
+  {
+    "id": "refund",
+    "points": 6,
+    "any": [
+      {
+        "refund": "requested"
+      }
+    ]
+  },
+  {
+    "id": "cost-classification",
+    "points": 6,
+    "any": [
+      {
+        "costReview": "requested"
+      }
+    ]
+  }
+]

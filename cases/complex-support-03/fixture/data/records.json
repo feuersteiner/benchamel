@@ -1,0 +1,391 @@
+{
+  "backup": {
+    "id": "N-011",
+    "at": "2025-05-14T01:00:00Z",
+    "references": 96420,
+    "resolved": 96372,
+    "unresolved": 48
+  },
+  "replica": {
+    "at": "2025-05-14T06:43:00Z",
+    "cleanupPresent": true
+  },
+  "journal": [
+    {
+      "id": 1,
+      "kind": "revision",
+      "negative": false
+    },
+    {
+      "id": 2,
+      "kind": "revision",
+      "negative": false
+    },
+    {
+      "id": 3,
+      "kind": "revision",
+      "negative": false
+    },
+    {
+      "id": 4,
+      "kind": "revision",
+      "negative": false
+    },
+    {
+      "id": 5,
+      "kind": "revision",
+      "negative": false
+    },
+    {
+      "id": 6,
+      "kind": "revision",
+      "negative": false
+    },
+    {
+      "id": 7,
+      "kind": "revision",
+      "negative": false
+    },
+    {
+      "id": 8,
+      "kind": "revision",
+      "negative": false
+    },
+    {
+      "id": 9,
+      "kind": "revision",
+      "negative": false
+    },
+    {
+      "id": 10,
+      "kind": "revision",
+      "negative": false
+    },
+    {
+      "id": 11,
+      "kind": "revision",
+      "negative": false
+    },
+    {
+      "id": 12,
+      "kind": "revision",
+      "negative": false
+    },
+    {
+      "id": 13,
+      "kind": "revision",
+      "negative": false
+    },
+    {
+      "id": 14,
+      "kind": "revision",
+      "negative": false
+    },
+    {
+      "id": 15,
+      "kind": "revision",
+      "negative": false
+    },
+    {
+      "id": 16,
+      "kind": "revision",
+      "negative": false
+    },
+    {
+      "id": 17,
+      "kind": "revision",
+      "negative": false
+    },
+    {
+      "id": 18,
+      "kind": "revision",
+      "negative": false
+    },
+    {
+      "id": 19,
+      "kind": "revision",
+      "negative": false
+    },
+    {
+      "id": 20,
+      "kind": "revision",
+      "negative": false
+    },
+    {
+      "id": 21,
+      "kind": "revision",
+      "negative": false
+    },
+    {
+      "id": 22,
+      "kind": "approval",
+      "negative": true
+    },
+    {
+      "id": 23,
+      "kind": "approval",
+      "negative": true
+    },
+    {
+      "id": 24,
+      "kind": "approval",
+      "negative": true
+    },
+    {
+      "id": 25,
+      "kind": "approval",
+      "negative": true
+    },
+    {
+      "id": 26,
+      "kind": "approval",
+      "negative": true
+    },
+    {
+      "id": 27,
+      "kind": "approval",
+      "negative": true
+    },
+    {
+      "id": 28,
+      "kind": "approval",
+      "negative": true
+    },
+    {
+      "id": 29,
+      "kind": "approval",
+      "negative": false
+    },
+    {
+      "id": 30,
+      "kind": "approval",
+      "negative": false
+    },
+    {
+      "id": 31,
+      "kind": "approval",
+      "negative": false
+    },
+    {
+      "id": 32,
+      "kind": "approval",
+      "negative": false
+    },
+    {
+      "id": 33,
+      "kind": "approval",
+      "negative": false
+    },
+    {
+      "id": 34,
+      "kind": "approval",
+      "negative": false
+    },
+    {
+      "id": 35,
+      "kind": "approval",
+      "negative": false
+    },
+    {
+      "id": 36,
+      "kind": "approval",
+      "negative": false
+    },
+    {
+      "id": 37,
+      "kind": "approval",
+      "negative": false
+    },
+    {
+      "id": 38,
+      "kind": "approval",
+      "negative": false
+    },
+    {
+      "id": 39,
+      "kind": "approval",
+      "negative": false
+    },
+    {
+      "id": 40,
+      "kind": "approval",
+      "negative": false
+    },
+    {
+      "id": 41,
+      "kind": "approval",
+      "negative": false
+    },
+    {
+      "id": 42,
+      "kind": "approval",
+      "negative": false
+    },
+    {
+      "id": 43,
+      "kind": "approval",
+      "negative": false
+    },
+    {
+      "id": 44,
+      "kind": "approval",
+      "negative": false
+    },
+    {
+      "id": 45,
+      "kind": "approval",
+      "negative": false
+    },
+    {
+      "id": 46,
+      "kind": "approval",
+      "negative": false
+    },
+    {
+      "id": 47,
+      "kind": "approval",
+      "negative": false
+    },
+    {
+      "id": 48,
+      "kind": "approval",
+      "negative": false
+    },
+    {
+      "id": 49,
+      "kind": "approval",
+      "negative": false
+    },
+    {
+      "id": 50,
+      "kind": "approval",
+      "negative": false
+    },
+    {
+      "id": 51,
+      "kind": "approval",
+      "negative": false
+    },
+    {
+      "id": 52,
+      "kind": "approval",
+      "negative": false
+    },
+    {
+      "id": 53,
+      "kind": "comment",
+      "negative": false
+    },
+    {
+      "id": 54,
+      "kind": "comment",
+      "negative": false
+    },
+    {
+      "id": 55,
+      "kind": "comment",
+      "negative": false
+    },
+    {
+      "id": 56,
+      "kind": "comment",
+      "negative": false
+    },
+    {
+      "id": 57,
+      "kind": "comment",
+      "negative": false
+    },
+    {
+      "id": 58,
+      "kind": "comment",
+      "negative": false
+    },
+    {
+      "id": 59,
+      "kind": "comment",
+      "negative": false
+    },
+    {
+      "id": 60,
+      "kind": "comment",
+      "negative": false
+    },
+    {
+      "id": 61,
+      "kind": "comment",
+      "negative": false
+    },
+    {
+      "id": 62,
+      "kind": "comment",
+      "negative": false
+    },
+    {
+      "id": 63,
+      "kind": "comment",
+      "negative": false
+    },
+    {
+      "id": 64,
+      "kind": "comment",
+      "negative": false
+    },
+    {
+      "id": 65,
+      "kind": "comment",
+      "negative": false
+    },
+    {
+      "id": 66,
+      "kind": "comment",
+      "negative": false
+    },
+    {
+      "id": 67,
+      "kind": "comment",
+      "negative": false
+    },
+    {
+      "id": 68,
+      "kind": "comment",
+      "negative": false
+    },
+    {
+      "id": 69,
+      "kind": "comment",
+      "negative": false
+    },
+    {
+      "id": 70,
+      "kind": "comment",
+      "negative": false
+    },
+    {
+      "id": 71,
+      "kind": "comment",
+      "negative": false
+    },
+    {
+      "id": 72,
+      "kind": "comment",
+      "negative": false
+    },
+    {
+      "id": 73,
+      "kind": "comment",
+      "negative": false
+    },
+    {
+      "id": 74,
+      "kind": "comment",
+      "negative": false
+    }
+  ],
+  "tender": {
+    "indexed": 612,
+    "matched": 601,
+    "unknownParents": 7,
+    "latestRevisionAbsent": 11
+  }
+}

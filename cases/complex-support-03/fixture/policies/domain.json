@@ -1,0 +1,171 @@
+{
+  "id": "complex-support-03",
+  "now": "2025-05-14T12:00:00Z",
+  "updateBy": "2025-05-14T13:00:00Z",
+  "handoff": "Dana Vale",
+  "areas": {
+    "recovery": [
+      "Drina Cole",
+      "Jules Marin",
+      "Noor Ives"
+    ],
+    "finance": [
+      "Dev Malik",
+      "Nessa"
+    ],
+    "customer": [
+      "Ellis Rowan"
+    ],
+    "support": [
+      "Ellis Rowan",
+      "Dana Vale"
+    ]
+  },
+  "initial": {
+    "source": null,
+    "route": "unselected",
+    "discrepancy": null,
+    "refund": "none",
+    "costReview": "none",
+    "preservation": "PR-619",
+    "production": "fenced",
+    "queues": "paused",
+    "latestRecovery": "unresolved",
+    "annual": "locked"
+  },
+  "invariants": {
+    "preservation": "PR-619",
+    "production": "fenced",
+    "queues": "paused",
+    "latestRecovery": "unresolved",
+    "annual": "locked"
+  },
+  "rules": [
+    "Preserve PR-619 and paused queues; never overwrite production, replay external invitations or call N-011 a current complete recovery.",
+    "Distinguish 74 accepted writes from recovered writes; reconcile all 31 approval transitions including seven changes/withdrawals and two unknown file digests.",
+    "Choose a bounded baseline extract or focused latest-chain work; maintain the customer manual comparison and 12:45 discrepancy checkpoint on either route.",
+    "A May $2,400 refund can be requested independently. The $2,750 supplier scope is ambiguous and not incurred/approved; seek Nessa classification before any commitment.",
+    "Correct two-hour/all-data/15:00 assurances; the 13:00 board update is controlled, recovery and tender acceptance are not."
+  ],
+  "actions": {
+    "inspect-backups": {
+      "description": "Compare backup timestamps, missing segments and dirty replica without repairing production.",
+      "owner": "Jules Marin",
+      "evidence": [
+        "E07",
+        "E19"
+      ],
+      "effects": {
+        "source": "inventoried"
+      }
+    },
+    "allocate-baseline": {
+      "description": "Allocate isolated export worker; record 45–75 minute full-reconciliation tradeoff.",
+      "owner": "Drina Cole",
+      "evidence": [
+        "E08",
+        "E10",
+        "E20"
+      ],
+      "effects": {
+        "route": "baseline-allocated"
+      },
+      "requires": {
+        "source": "inventoried"
+      },
+      "args": {
+        "consent": [
+          "Owen-Sera-read-only"
+        ]
+      },
+      "before": "2025-05-14T12:15:00Z"
+    },
+    "focus-chain": {
+      "description": "Keep latest-chain investigation staffed; no segment or final recovery finding invented.",
+      "owner": "Jules Marin",
+      "evidence": [
+        "E07",
+        "E08",
+        "E20"
+      ],
+      "effects": {
+        "route": "chain-focused"
+      },
+      "requires": {
+        "source": "inventoried"
+      },
+      "args": {
+        "reason": "text"
+      },
+      "before": "2025-05-14T12:15:00Z"
+    },
+    "prepare-discrepancy": {
+      "description": "Generate receipt-derived transition list and exclusions for Owen; no raw logs or active links.",
+      "owner": "Noor Ives",
+      "evidence": [
+        "E09",
+        "E10",
+        "E16",
+        "E19"
+      ],
+      "effects": {
+        "discrepancy": "prepared"
+      }
+    },
+    "refund-request": {
+      "description": "Queue the approved May subscription refund to original method; no bank receipt.",
+      "owner": "Dev Malik",
+      "evidence": [
+        "E12",
+        "E14"
+      ],
+      "effects": {
+        "refund": "requested"
+      },
+      "args": {
+        "amount": [
+          "240000"
+        ],
+        "method": [
+          "original"
+        ]
+      },
+      "before": "2025-05-14T15:00:00Z"
+    },
+    "classify-supplier": {
+      "description": "Ask Nessa about Reed fixed-price reconstruction scope and incurred-cost condition; reserve no spend.",
+      "owner": "Nessa",
+      "evidence": [
+        "E12",
+        "E18",
+        "E20"
+      ],
+      "effects": {
+        "costReview": "requested"
+      },
+      "args": {
+        "question": "text"
+      },
+      "before": "2025-05-14T12:20:00Z"
+    },
+    "baseline-assess": {
+      "description": "Checkpoint baseline feasibility; source labels and gaps persist, not customer delivery.",
+      "owner": "Noor Ives",
+      "evidence": [
+        "E08",
+        "E19",
+        "E20"
+      ],
+      "effects": {
+        "route": "baseline-assessed"
+      },
+      "requires": {
+        "route": "baseline-allocated"
+      },
+      "after": "2025-05-14T13:15:00Z",
+      "failEffects": {
+        "route": "baseline-blocked"
+      }
+    }
+  }
+}
