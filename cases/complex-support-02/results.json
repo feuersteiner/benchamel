@@ -222,5 +222,11 @@
     "Time includes runtime reviews/pacing, excludes preflight/final judging, and uses different concurrency across waves; no controlled latency ranking.",
     "Native agentests does not expose complete gate usage; gated total cost and context length remain null.",
     "Luna uses user-approved independent-question batching; Jev retains native single-question transport."
-  ]
+  ],
+  "comparison_status": {
+    "status": "invalid-for-quality-ranking",
+    "corrected_benchmark_runs": 0,
+    "reason": "Unrequested turn/time caps, oversized review context, skipped grading of blocked candidates, and no paired first-pass/final assessment.",
+    "repair": "verification/post-run-repair/status.json"
+  }
 }

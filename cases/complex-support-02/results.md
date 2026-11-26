@@ -1,5 +1,7 @@
 # complex-support-02 benchmark results
 
+**Historical invocation — not valid for a quality ranking.** These captures used an unrequested four-turn/time cap, oversized review context and no grading for blocked work. The runtime below has been repaired; a corrected full benchmark has not been run. Initial-to-final optimization effects were not measured in this invocation.
+
 Source: [70c426eb](https://github.com/feuersteiner/benchamel/commit/70c426eb3eaab2c2f367568d1dee051cf9e33163). Six configurations, one retained final execution each; 12 task executions including preserved infrastructure attempts.
 
 Runtime: codex-cli 0.172.0-alpha.2, Bun 1.3.3, Node v22.19.0.

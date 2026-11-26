@@ -2,24 +2,18 @@ import { cp, mkdtemp, readFile, readdir, rm, writeFile } from 'node:fs/promises'
 import { tmpdir } from 'node:os';
 import { basename, join } from 'node:path';
 import { Agentests, parseTest } from 'agentests';
+import { installFixtureReview } from './prepare.ts';
+import { assertionPacket,compactState } from './context.ts';
+import { withBatchedDecisions,type TransportReceipt } from './batching.ts';
 import type { AgentTestDefinition, AgentTestResult } from 'agentests/types';
-import { textFile } from '../boundary.ts';
-// Provisional operating bounds; live evals must measure their error tradeoff.
-export const decisionPolicy={failAtOrBelow:0.2,passAtOrAbove:0.8} as const;
-export function decisionStatus(probability:number):'pass'|'fail'|'uncertain' {
-  if(!Number.isFinite(probability)||probability<0||probability>1)throw Error('Invalid decision result');
-  return probability>=decisionPolicy.passAtOrAbove?'pass':probability<=decisionPolicy.failAtOrBelow?'fail':'uncertain';
-}
+import { hash,textFile } from '../boundary.ts';
+import { config, decisionPolicy, decisionStatus, domains, type Domain } from './settings.ts';
+export { config, decisionPolicy, domains };
+export type { Domain };
+export { decisionStatus } from './settings.ts';
 export type DecisionReceipt={test:string;domain:Domain;assertion:string;probability:number;status:ReturnType<typeof decisionStatus>};
-// Native agentests config schema, inspected in v1.0.1. No reasoning assertions are used.
-export function config(decision:'luna'|'jev') {
-  return {decision: decision==='luna'?{api:'openai' as const,url:'https://api.openai.com/v1',model:'gpt-6-luna',apiKeyEnv:'OPENAI_API_KEY'}:{api:'jev' as const,url:'https://api.typesafe.ai/v1',model:'jev-latest',apiKeyEnv:'TYPESAFE_AI_API_KEY'},
-    reasoning:{api:'openai' as const,url:'https://api.openai.com/v1',model:'gpt-6-sol',apiKeyEnv:'OPENAI_API_KEY'},select:{threshold:decisionPolicy.passAtOrAbove},assert:{threshold:decisionPolicy.passAtOrAbove},ignore:[]};
-}
-export const domains=['legal','marketing','customer-support'] as const;
-export type Domain=typeof domains[number];
 export type DomainTest={domain:Domain;source:string;test:AgentTestDefinition;evidence?:string[]};
-export type ReviewPacket={outputs:Record<string,string>;state:unknown;audit:unknown;evidence:Record<string,string>};
+export type ReviewPacket={outputs:Record<string,string>;state:unknown;audit:unknown;evidence:Record<string,string>;representation?:{references:string;integrity:string}};
 export type OfflineDecision=(input:{test:string;domain:Domain;assertion:string;packet:ReviewPacket})=>number|Promise<number>;
 const requireThat=(ok:unknown,message:string):void=>{if(!ok)throw Error(message);};
 
@@ -87,59 +81,65 @@ export function collectFindings(suite:DomainTest[],results:AgentTestResult[],exe
 }
 export async function gate(caseRoot:string,workspace:string,decision:'luna'|'jev',offlineScore?:number|OfflineDecision) {
   let decisionCalls=0;
-  const suite=await loadDomainSuite(caseRoot);
-  const temp=await mkdtemp(join(tmpdir(),'benchamel-gate-')),previous=process.cwd();
+  const trusted=await loadDomainSuite(caseRoot);
+  await installFixtureReview(caseRoot,workspace,decision);
+  const suite=await Promise.all(trusted.map(async item=>({...item,test:parseTest(await readFile(join(workspace,'.agents/tests',item.test.id,'test.yaml'),'utf8'))})));
+  const {inspectWorkspace}=await import(join(caseRoot,'judge.ts'));
+  const state=await inspectWorkspace(workspace),outputs:Record<string,string>={},evidence:Record<string,string>={};
+  for(const file of ['reply.md','plan.md'])outputs[file]=await textFile(join(workspace,file),65536);
+  const provenance=JSON.parse(await readFile(join(caseRoot,'fixture/provenance.json'),'utf8'));
+  for(const [i,item] of provenance.documents.entries()) {
+    const id=item.id??`E${String(i+1).padStart(2,'0')}`;
+    requireThat(!Object.hasOwn(evidence,id),`Duplicate source evidence ID: ${id}`);
+    evidence[id]=await readFile(join(caseRoot,'fixture/docs/evidence',item.file),'utf8');
+  }
+  const base:ReviewPacket={outputs,state:state.state,audit:state.audit,evidence};
+  // Validate every manifest and assertion reference before any paid request.
+  const packets=suite.map(item=>{
+    reviewPacket(base,item);
+    return new Map(item.test.assert.map(a=>[a.id,assertionPacket(base,item,[a.decide!].flat()[0]!) ]));
+  });
+  const git=Bun.spawn(['git','init','--quiet',workspace],{stdout:'ignore',stderr:'pipe'});if(await git.exited!==0)throw Error('Fixture Git initialization failed');
+  const previous=process.cwd();process.chdir(workspace);
   try {
-    const {inspectWorkspace}=await import(join(caseRoot,'judge.ts'));
-    const state=await inspectWorkspace(workspace);
-    const outputs:Record<string,string>={};
-    for(const file of ['reply.md','plan.md'])outputs[file]=await textFile(join(workspace,file),65536);
-    await installDomainSuite(suite,temp);
-    const evidence:Record<string,string>={};
-    const provenance=JSON.parse(await readFile(join(caseRoot,'fixture/provenance.json'),'utf8'));
-    for(const [i,item] of provenance.documents.entries()) {
-      const id=item.id??`E${String(i+1).padStart(2,'0')}`;
-      requireThat(!Object.hasOwn(evidence,id),`Duplicate source evidence ID: ${id}`);
-      evidence[id]=await readFile(join(caseRoot,'fixture/docs/evidence',item.file),'utf8');
-    }
-    const base:ReviewPacket={outputs,state:state.state,audit:state.audit,evidence};
-    // Check all manifests before any model call, including later domains.
-    const packets=suite.map(item=>reviewPacket(base,item));
-    const git=Bun.spawn(['git','init','--quiet',temp],{stdout:'ignore',stderr:'pipe'});if(await git.exited!==0)throw Error('Gate repository initialization failed');
-    const settings=config(decision);
-    await writeFile(join(temp,'agentests.config.yaml'),JSON.stringify(settings));
-    process.chdir(temp);
-    const executed=new Map<string,Set<string>>(),results:AgentTestResult[]=[],receiptsById=new Map<string,DecisionReceipt>();
-    for(const [i,item] of suite.entries()) {
-      const packet=packets[i]!;
-      await writeFile(join(temp,'review.md'),JSON.stringify(packet,null,2));
-      const receipts=new Set<string>();executed.set(item.test.id,receipts);
-      class TrackedAgentests extends Agentests {
-        constructor() {
-          super(settings,offlineScore===undefined?process.env:{OPENAI_API_KEY:'offline-placeholder',TYPESAFE_AI_API_KEY:'offline-placeholder'});
-          const nativeDecide=this.engines.decide;
-          this.engines.decide=async(input,criteria)=>{
+  const contexts:{test:string;assertion:string;packetSha256:string;packetBytes:number;evidence:string[]}[]=[];
+  const settings=config(decision),executed=new Map<string,Set<string>>(),results:AgentTestResult[]=[],receiptsById=new Map<string,DecisionReceipt>(),transport:TransportReceipt[]=[];
+  for(const [i,item] of suite.entries()) {
+    // The selected file and native Test live in this fixture. Per-assertion context is derived below.
+    await writeFile(join(workspace,'review.md'),JSON.stringify({outputs,...compactState(base.state,base.audit)}));
+    const receipts=new Set<string>();executed.set(item.test.id,receipts);
+    const pending=new Set<Promise<number>>();
+    class FixtureAgentests extends Agentests {
+      constructor() {
+        super(settings,offlineScore===undefined?process.env:{OPENAI_API_KEY:'offline-placeholder',TYPESAFE_AI_API_KEY:'offline-placeholder'});
+        const nativeDecide=this.engines.decide;
+        this.engines.decide=(_input,criteria)=>{
+          const operation=(async()=>{
             const assertion=item.test.assert.find(a=>JSON.stringify(a.decide)===JSON.stringify(criteria));
             requireThat(assertion&&!receipts.has(assertion.id),`Unexpected or duplicate decision execution for ${item.test.id}`);
             receipts.add(assertion!.id);decisionCalls++;
-            const score=offlineScore===undefined?await nativeDecide(input,criteria):typeof offlineScore==='number'?offlineScore:await offlineScore({test:item.test.id,domain:item.domain,assertion:assertion!.id,packet:JSON.parse(input)});
+            const packet=packets[i]!.get(assertion!.id)!,encoded=JSON.stringify(packet);
+            contexts.push({test:item.test.id,assertion:assertion!.id,packetSha256:hash(encoded),packetBytes:Buffer.byteLength(encoded),evidence:Object.keys(packet.evidence)});
+            const score=offlineScore===undefined?await nativeDecide(encoded,criteria):typeof offlineScore==='number'?offlineScore:await offlineScore({test:item.test.id,domain:item.domain,assertion:assertion!.id,packet});
             requireThat(Number.isFinite(score)&&score>=0&&score<=1,`Invalid decision result for ${item.test.id}/${assertion!.id}`);
-            receiptsById.set(assertion!.id,{test:item.test.id,domain:item.domain,assertion:assertion!.id,probability:score,status:decisionStatus(score)});
-            return score;
-          };
-          this.engines.reason=async()=>{throw Error('Unexpected reasoning call');};
-        }
+            receiptsById.set(assertion!.id,{test:item.test.id,domain:item.domain,assertion:assertion!.id,probability:score,status:decisionStatus(score)});return score;
+          })();
+          pending.add(operation);operation.then(()=>pending.delete(operation),()=>pending.delete(operation));return operation;
+        };
+        this.engines.reason=async()=>{throw Error('Unexpected reasoning call');};
       }
-      const result=await new TrackedAgentests().run({kind:'all'},item.test.id);
-      requireThat(result.length===1&&result[0]!.test.id===item.test.id,`Missing native result for ${item.test.id}`);
-      results.push(...result);
     }
-    const decisions=suite.flatMap(item=>item.test.assert.map(a=>receiptsById.get(a.id)!));
-    const findings=collectFindings(suite,results,executed).map(f=>{
-      const receipt=receiptsById.get(f.assertion)!;
-      return receipt.status==='uncertain'?{...f,error:`Uncertain decision (P(yes)=${receipt.probability}); clarify the evidence or wording. ${f.error}`}:f;
-    });
-    const status=decisions.some(d=>d.status==='fail')?'fail':decisions.some(d=>d.status==='uncertain')?'uncertain':'pass';
-    return {pass:status==='pass',status,findings,decisions,policy:decisionPolicy,decision:settings.decision,usage:null,cost:null,...(offlineScore===undefined?{}:{offlineDecisionCalls:decisionCalls})};
-  }finally {process.chdir(previous);await rm(temp,{recursive:true,force:true});}
+    const client=new FixtureAgentests();
+    const run=async()=>{try {const result=await client.run({kind:'all'},item.test.id);requireThat(result.length===1&&result[0]!.test.id===item.test.id,'Unexpected native fixture result');return result[0]!;}finally{while(pending.size)await Promise.allSettled([...pending]);}};
+    const result=offlineScore===undefined?await withBatchedDecisions(run,transport):await run();
+    results.push(result);
+  }
+  const decisions=suite.flatMap(item=>item.test.assert.map(a=>receiptsById.get(a.id)!));
+  const findings=collectFindings(suite,results,executed).map(f=>{
+    const receipt=receiptsById.get(f.assertion)!;
+    return receipt.status==='uncertain'?{...f,error:`Uncertain decision (P(yes)=${receipt.probability}); clarify the evidence or wording. ${f.error}`}:f;
+  });
+  const status=decisions.some(d=>d.status==='fail')?'fail':decisions.some(d=>d.status==='uncertain')?'uncertain':'pass';
+  return {pass:status==='pass',status,findings,decisions,contexts,policy:decisionPolicy,decision:settings.decision,transport,usage:null,cost:null,...(offlineScore===undefined?{}:{offlineDecisionCalls:decisionCalls})};
+  }finally{process.chdir(previous);}
 }
