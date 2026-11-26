@@ -1,0 +1,5 @@
+preflight:
+  - "bun \"$BENCHAMEL_HARNESS/treatments/prepare.ts\" terra-agentests-jev"
+  - "bun run check"
+agent: "bun \"$BENCHAMEL_HARNESS/treatments/agent.ts\" terra-agentests-jev"
+starter_prompt: "Act as Elise Ward at 2026-11-23T15:00:00Z in this local accessibility complaint before launch repository. Read AGENTS.md, README.md, current policies, structured records and all twenty docs/evidence files. Advance the case through authorized executable workflows, then write reply.md and plan.md backed by actual state, receipts, evidence limits and a named handoff. Preserve immutable assets. Mutate only CLI runtime state and the two outputs. No external actions."
