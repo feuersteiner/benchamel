@@ -1,16 +1,3 @@
-import { run } from "./harness/run.ts";
+import { main } from "./harness/cli.ts";
 
-try {
-  const definitions: string[] = [];
-  const glob = new Bun.Glob("evals/*/runs/*/run.yaml");
-  for await (const path of glob.scan({ cwd: import.meta.dir, absolute: true, onlyFiles: true })) {
-    definitions.push(path);
-  }
-  if (definitions.length === 0) throw new Error("No run definitions found under evals/.");
-  for (const definition of definitions.sort()) {
-    await run(definition);
-  }
-} catch (error) {
-  console.error(error instanceof Error ? error.message : String(error));
-  process.exitCode = 1;
-}
+process.exitCode = await main(Bun.argv.slice(2), import.meta.dir);

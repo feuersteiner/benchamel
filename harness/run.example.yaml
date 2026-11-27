@@ -1,9 +1,0 @@
-# Each command runs in the copied workspace, in this order; use [] for no preflight.
-preflight:
-  - bun i
-  - bunx agentests init
-
-# Replace with a Codex or Claude CLI invocation accepting a final prompt argument.
-agent: codex -c
-starter_prompt: |-
-  Complete the task described in the workspace.
